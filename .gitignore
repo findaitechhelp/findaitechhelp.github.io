@@ -18,3 +18,7 @@ data/*
 .build-history/
 
 /assets/
+
+!data/place-centers.json
+
+/research/

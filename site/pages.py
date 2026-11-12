@@ -6,6 +6,8 @@ from string import Template
 from urllib.parse import urlencode
 from content import STATES, NEEDS, AUDIENCES, GUIDES, QUESTIONS
 from tools.gates import city_gate, state_gate
+from geography import city_points
+LOCATIONS={**STATES,'dc':'District of Columbia'}
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://findaitechhelp.com'
 UPDATED = '2026-11-12'
@@ -53,8 +55,8 @@ def build_plan(need,audience,site_url=SITE):
     email=link('Email this plan to myself','mailto:?'+urlencode({'subject':'My AI and tech help starting plan','body':email_body}))
     return intro(n['heading'],note,label)+render('plan',need=need,audience=audience,heading=esc(n['label']),summary=esc(n['summary']),steps=steps,questions=listing(QUESTIONS),cost=esc(n['cost']),safety=esc(n['safety']),links=links,email_link=email)
 
-def map_content(counts=None):
-    counts=counts or {}
+def map_content(counts=None,areas=None):
+    counts=counts or {};areas=areas or {}
     topo=json.loads((ROOT/'data'/'states-albers-10m.json').read_text(encoding='utf-8'))
     sx,sy=topo['transform']['scale'];tx,ty=topo['transform']['translate'];arcs=[]
     for arc in topo['arcs']:
@@ -73,9 +75,11 @@ def map_content(counts=None):
     for g in topo['objects']['states']['geometries']:
         polygons=g['arcs'] if g['type']=='MultiPolygon' else [g['arcs']]
         name=g.get('properties',{}).get('name','')
-        state=next((key for key,label in STATES.items() if label==name),None)
+        state=next((key for key,label in LOCATIONS.items() if label==name),None)
         if state:paths.append(render('map-path',d=''.join(ring(r) for poly in polygons for r in poly),state=state,label=esc(name+' — '+str(counts.get(state,0))+' local/state listings'),coverage_class=' has-listings' if counts.get(state,0) else ''))
-    return render('map',paths=''.join(paths))
+    points=city_points(areas)
+    markers=''.join(render('map-city',key=esc(key),state=areas[key]['state'],label=esc(areas[key]['name']),count=areas[key]['count'],x=point['x'],y=point['y']) for key,point in points.items())
+    return render('map',paths=''.join(paths),markers=markers)
 
 def cards_for_records(records):
     if any(r.get('paid_relationship','none')!='none' for r in records):raise ValueError('Paid relationships require an approved separate placement; unsupported in this review build.')
@@ -87,17 +91,17 @@ def location_explorer(records):
     for kind in ['providers','programs','resources']:
         for row in records[kind]:
             state=row.get('state_id') or METROS.get(row.get('metro_id'),('',))[0]
-            if state in STATES:local.append((state,row))
-    counts={state:sum(st==state for st,row in local) for state in STATES}
-    options=''.join(render('option',value=state,label=esc(name+' · '+str(counts[state])+' local/state listings')) for state,name in STATES.items())
+            if state in LOCATIONS:local.append((state,row))
+    counts={state:sum(st==state for st,row in local) for state in LOCATIONS}
+    options=''.join(render('option',value=state,label=esc(name+' · '+str(counts[state])+' local/state listings')) for state,name in LOCATIONS.items())
     local.sort(key=lambda item:(not(item[1].get('free_option') is True or item[1].get('cost','').startswith('Free')),item[1]['name'].casefold()))
     def area(st,row):
         if row.get('metro_id') in METROS:
             info=METROS[row['metro_id']];return row['metro_id'],info[1],info[2]
         if row.get('location_slug') and row.get('location_label'):
             return st+'-'+row['location_slug'],row['location_label'],'/locations/?state='+st+'#location-results'
-        return '',STATES[st],''
-    rows=''.join(render('location-record',state=st,metro=esc(area(st,row)[0]),location=esc(area(st,row)[1]),record=cards_for_records([row])) for st,row in local)
+        return '',LOCATIONS[st],''
+    rows=''.join(render('location-record',state=st,metro=esc(area(st,row)[0]),location=esc(area(st,row)[1]),search=esc(' '.join([area(st,row)[1],row['name'],row['description'],row.get('service_label',''),row.get('kind',''),row.get('category','')])),ai='true' if row.get('ai_specific') else 'false',free='true' if row.get('free_option') or row.get('cost','').startswith('Free') else 'false',record=cards_for_records([row])) for st,row in local)
     areas={}
     for st,row in local:
         key,label,url=area(st,row)
@@ -105,7 +109,7 @@ def location_explorer(records):
             areas.setdefault(key,{'state':st,'name':label,'url':url,'count':0})['count']+=1
     cities=''.join(render('city-option',metro=esc(key),state=data['state'],label=esc(data['name']),url=esc(data['url']),count=data['count']) for key,data in sorted(areas.items(),key=lambda item:item[1]['name'].casefold()))
     national=[row for row in records['programs'] if not row.get('state_id') and not row.get('metro_id') and row.get('format') in ['online','self-paced','live-online']]
-    return render('explorer',states=options,map=map_content(counts),local_records=rows,cities=cities,local_count=len(local),national_count=len(national),national_records=cards_for_records(national) if national else paragraph('No nationwide programs currently pass the publication checks.'))
+    return render('explorer',states=options,map=map_content(counts,areas),covered_states=sum(counts.get(st,0)>0 for st in STATES),city_count=len(areas),local_records=rows,cities=cities,local_count=len(local),national_count=len(national),national_records=cards_for_records(national) if national else paragraph('No nationwide programs currently pass the publication checks.'))
 
 def event_cards(events):
     return ''.join(card(e['name'],e['start']+' · '+e.get('cost','Confirm cost with organizer'),e['url'],'Upcoming class','View organizer details') for e in sorted(events,key=lambda x:x['start']))
@@ -163,7 +167,7 @@ def make_pages(today,records,learning_review=False):
         state_records.sort(key=lambda row:(not(row.get('free_option') is True or row.get('cost','').startswith('Free')),row['name'].casefold()))
         state_ready=state_gate(state_records,state_id=st,intro=PLACE_INTROS[st],today=today)
         body=intro('AI & tech help in '+STATES[st],PLACE_INTROS[st],'State guide' if state_ready else 'State directory preview')+section('Choose a starting plan',plan_cards())+section('Local research',card(name,'Local directory research.','/'+st+'/'+city+'/','Directory preview'))
-        body+=section('Published options in '+STATES[st],''.join(render('location-record',state=st,metro=esc(r.get('metro_id','')),location=esc(METROS[r['metro_id']][1] if r.get('metro_id') in METROS else r.get('location_label',STATES[st])),record=cards_for_records([r])) for r in state_records)) if state_records else paragraph('No local or statewide directory entries are published yet.')
+        body+=section('Published options in '+STATES[st],''.join(render('location-record',state=st,metro=esc(r.get('metro_id','')),search='',ai='true' if r.get('ai_specific') else 'false',free='true' if r.get('free_option') or r.get('cost','').startswith('Free') else 'false',location=esc(METROS[r['metro_id']][1] if r.get('metro_id') in METROS else r.get('location_label',STATES[st])),record=cards_for_records([r])) for r in state_records)) if state_records else paragraph('No local or statewide directory entries are published yet.')
         add('/'+st+'/','AI Classes & Training in '+STATES[st]+' — Preview','Starting plans and local directory research for '+STATES[st]+'.',body,'places',not state_ready)
     calendar=intro('Make room for something useful.','Check date, time zone, cost, eligibility, and device requirements with the organizer before signing up.','Upcoming classes')
     calendar+=event_cards(records['events']) if records['events'] else empty('No upcoming classes published yet','The class calendar is being prepared. You can choose a learning goal now.','/find/learn/','Build a learning plan')

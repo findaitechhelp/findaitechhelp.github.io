@@ -97,7 +97,8 @@ class BuildTests(unittest.TestCase):
     def test_location_map_exposes_all_50_states_without_fake_local_counts(self):
         text=(self.output/'locations'/'index.html').read_text(encoding='utf-8')
         for state in builder.STATES:self.assertIn('data-map-state="'+state+'"',text)
-        self.assertEqual(text.count('data-map-state='),50)
+        self.assertEqual(text.count('data-map-state='),51)
+        self.assertIn('data-map-state="dc"',text)
         self.assertNotIn('class="map-state has-listings"',text)
         self.assertIn('All U.S.',text)
         self.assertIn('id="location-results"',text)

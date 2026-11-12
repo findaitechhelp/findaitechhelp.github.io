@@ -49,3 +49,6 @@ Do not push internal planning, business/tax documents, unapproved candidate data
 Local Git hooks are installed through `core.hooksPath=.githooks`: pre-commit runs review checks; pre-push checks the explicitly configured public review mode, or source checks and the strict release gate for a full launch. Public approval remains a separate requirement.
 
 Public review uses `python build.py --public-review`. Six sanitized source-verification receipts are bundled in `site/verified-evidence/`; failed local checks override them. Receipts expire after seven days on subsequent builds. There is no verified automatic withdrawal of already deployed pages yet.
+
+
+City-marker coordinates are representative geographic points from the [2026 U.S. Census Gazetteer](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html), not provider addresses. State outlines are US Atlas Census-derived geometry. The mathematical Albers projection matches the [US Atlas configuration](https://github.com/topojson/us-atlas) and [D3 geographic projection parameters](https://github.com/d3/d3-geo/tree/main/src/projection); no mapping dependency is installed.
