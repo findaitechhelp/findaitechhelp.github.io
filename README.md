@@ -52,6 +52,8 @@ Public review uses `python build.py --public-review`. Sanitized source-verificat
 
 ## Cloudflare Pages review hosting
 
+The live review site is [www.findaitechhelp.com](https://www.findaitechhelp.com/), hosted by the dedicated Find AI Tech Help Cloudflare account through the Git-integrated Pages project `findaitechhelp`. The fallback address is [findaitechhelp.pages.dev](https://findaitechhelp.pages.dev/). Domain registration, authoritative DNS, and existing email forwarding remain in the owner's original domain account. The apex redirects to HTTPS www while preserving paths and query strings; www uses a DNS-only CNAME to the Pages project. No domain or email transfer is required. Review indexing and full-launch safeguards below still apply.
+
 Use the authorized dedicated Cloudflare account and the existing repository. For a Git-integrated Pages project, choose no framework, build command `python3 tools/build_cloudflare.py`, output directory `dist`, and `PYTHON_VERSION=3.13`. The repository root is this folder (the current GitHub repository has `build.py` at its root). Select only the explicitly approved deployment branch; account/domain moves and deployment remain separate owner actions.
 
 The Cloudflare build command validates the origin first, runs record validation and all unit tests, then builds and checks the exact public-review output. Any failure exits nonzero and stops deployment; it does not depend on a separate GitHub Actions run finishing first. The existing Vercel build command remains compatible.
