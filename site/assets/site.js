@@ -53,6 +53,89 @@
       }
     }
   }
+  const map = document.getElementById('location-map');
+  const stateSelect = document.getElementById('explore-state');
+  if (map && stateSelect) {
+    document.getElementById('map-controls').hidden = false;
+    document.getElementById('explore-state-control').hidden = false;
+    const explorer = map.closest('.location-explorer');
+    const rows = Array.from(document.querySelectorAll('[data-local-state]'));
+    const cities = Array.from(document.querySelectorAll('[data-city]'));
+    const names = new Map(Array.from(stateSelect.options).map(o => [o.value, o.textContent.split(' · ')[0]]));
+    const nationwide = Number(explorer.dataset.nationwide);
+    let selectedState = '', selectedCity = '';
+    let box = [0, 0, 975, 640];
+    const draw = () => map.setAttribute('viewBox', box.join(' '));
+    const fitState = state => {
+      const path = map.querySelector('[data-map-state="' + state + '"] path');
+      if (!path) { box = [0, 0, 975, 640]; draw(); return; }
+      const b = path.getBBox(), pad = Math.max(b.width, b.height) * .14;
+      box = [b.x-pad, b.y-pad, Math.max(b.width+2*pad, 20), Math.max(b.height+2*pad, 20)];
+      draw();
+    };
+    const choose = (state, city = '', updateUrl = true) => {
+      selectedState = names.has(state) ? state : '';
+      selectedCity = cities.some(c => c.dataset.city === city && c.dataset.cityState === selectedState) ? city : '';
+      stateSelect.value = selectedState;
+      let count = 0;
+      for (const row of rows) {
+        row.hidden = !!((selectedState && row.dataset.localState !== selectedState) || (selectedCity && row.dataset.localMetro !== selectedCity));
+        if (!row.hidden) count++;
+      }
+      for (const cityLink of cities) {
+        cityLink.hidden = !!(selectedState && cityLink.dataset.cityState !== selectedState);
+        if (cityLink.dataset.city === selectedCity) cityLink.setAttribute('aria-current', 'true');
+        else cityLink.removeAttribute('aria-current');
+      }
+      document.getElementById('city-choices').hidden = !cities.some(c => !c.hidden);
+      const cityLink = cities.find(c => c.dataset.city === selectedCity);
+      const name = cityLink ? cityLink.dataset.cityName : selectedState ? names.get(selectedState) : 'the United States';
+      document.getElementById('location-heading').textContent = 'Published listings in ' + name;
+      document.getElementById('location-summary').textContent = count + ' local/state listings. Free options appear first. Confirm details directly with the organization.';
+      document.getElementById('map-status').textContent = name + ': ' + count + ' local/state listings + ' + nationwide + ' nationwide online programs.';
+      document.getElementById('location-empty').hidden = count > 0;
+      for (const a of map.querySelectorAll('[data-map-state]')) a.classList.toggle('selected', a.dataset.mapState === selectedState);
+      fitState(selectedState);
+      if (updateUrl) {
+        const url = new URL(window.location.href);
+        if (selectedState) url.searchParams.set('state', selectedState); else url.searchParams.delete('state');
+        if (selectedCity) url.searchParams.set('city', selectedCity); else url.searchParams.delete('city');
+        window.history.replaceState(null, '', url.pathname + url.search);
+      }
+    };
+    stateSelect.addEventListener('change', () => choose(stateSelect.value));
+    for (const a of map.querySelectorAll('[data-map-state]')) a.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault(); choose(a.dataset.mapState);
+    });
+    for (const a of cities) a.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault(); choose(a.dataset.cityState, a.dataset.city);
+    });
+    document.getElementById('map-reset').addEventListener('click', () => choose(''));
+    const zoom = factor => {
+      const width = Math.max(15, Math.min(975, box[2] * factor));
+      const height = Math.max(15, Math.min(640, box[3] * factor));
+      box = [box[0]+(box[2]-width)/2, box[1]+(box[3]-height)/2, width, height]; draw();
+    };
+    document.getElementById('map-zoom-in').addEventListener('click', () => zoom(.7));
+    document.getElementById('map-zoom-out').addEventListener('click', () => zoom(1/.7));
+    for (const button of explorer.querySelectorAll('[data-map-pan]')) button.addEventListener('click', () => {
+      const direction = button.dataset.mapPan;
+      box[0] += (direction === 'east' ? 1 : direction === 'west' ? -1 : 0) * box[2] * .2;
+      box[1] += (direction === 'south' ? 1 : direction === 'north' ? -1 : 0) * box[3] * .2; draw();
+    });
+    const expand = document.getElementById('map-fullscreen');
+    expand.addEventListener('click', () => {
+      const expanded = explorer.classList.toggle('map-expanded');
+      expand.setAttribute('aria-expanded', String(expanded));
+      expand.textContent = expanded ? 'Close expanded map' : 'Expand map';
+    });
+    explorer.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && explorer.classList.contains('map-expanded')) { expand.click(); expand.focus(); }
+    });
+    choose(params.get('state') || '', params.get('city') || '', false);
+  }
   for (const button of document.querySelectorAll('.print-button')) {
     button.hidden = false;
     button.addEventListener('click', () => window.print());

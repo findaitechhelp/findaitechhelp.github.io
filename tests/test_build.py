@@ -93,4 +93,25 @@ class BuildTests(unittest.TestCase):
             text=file.read_text(encoding='utf-8');self.assertIn('Learning and testing preview',text)
             self.assertIn('noindex,follow',text)
 
+
+    def test_location_map_exposes_all_50_states_without_fake_local_counts(self):
+        text=(self.output/'locations'/'index.html').read_text(encoding='utf-8')
+        for state in builder.STATES:self.assertIn('data-map-state="'+state+'"',text)
+        self.assertEqual(text.count('data-map-state='),50)
+        self.assertNotIn('class="map-state has-listings"',text)
+        self.assertIn('All U.S.',text)
+        self.assertIn('id="location-results"',text)
+    def test_explorer_separates_local_resources_and_national_programs(self):
+        records={key:[] for key in ['providers','programs','events','resources']}
+        sample={'id':'synthetic-only','name':'Synthetic geography fixture','description':'Test fixture only.','url':'https://example.org/','cost':'Free','format':'in-person','audience':['individual'],'checked':'2026-11-12','kind':'library','state_id':'ca','location_label':'Synthetic test city','location_slug':'test-city'}
+        records['resources']=[sample]
+        pages=builder.make_pages(self.today,records)
+        text=pages['/locations/']['body']
+        self.assertIn('data-local-state="ca"',text)
+        self.assertIn('data-local-metro="ca-test-city"',text)
+        self.assertIn('data-city="ca-test-city"',text)
+        self.assertIn('class="map-state has-listings"',text)
+        self.assertIn('0 programs are nationwide online options',text)
+        self.assertIn('Synthetic geography fixture',text)
+
 if __name__=='__main__':unittest.main()

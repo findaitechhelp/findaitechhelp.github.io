@@ -46,7 +46,8 @@ def build_plan(need,audience,site_url=SITE):
     email=link('Email this plan to myself','mailto:?'+urlencode({'subject':'My AI and tech help starting plan','body':email_body}))
     return intro(n['heading'],note,label)+render('plan',need=need,audience=audience,heading=esc(n['label']),summary=esc(n['summary']),steps=steps,questions=listing(QUESTIONS),cost=esc(n['cost']),safety=esc(n['safety']),links=links,email_link=email)
 
-def map_content():
+def map_content(counts=None):
+    counts=counts or {}
     topo=json.loads((ROOT/'data'/'states-albers-10m.json').read_text(encoding='utf-8'))
     sx,sy=topo['transform']['scale'];tx,ty=topo['transform']['translate'];arcs=[]
     for arc in topo['arcs']:
@@ -66,12 +67,39 @@ def map_content():
         polygons=g['arcs'] if g['type']=='MultiPolygon' else [g['arcs']]
         name=g.get('properties',{}).get('name','')
         state=next((key for key,label in STATES.items() if label==name),None)
-        if state:paths.append(render('map-path',d=''.join(ring(r) for poly in polygons for r in poly),state=state,label=esc(name+' — build a starting plan')))
+        if state:paths.append(render('map-path',d=''.join(ring(r) for poly in polygons for r in poly),state=state,label=esc(name+' — '+str(counts.get(state,0))+' local/state listings'),coverage_class=' has-listings' if counts.get(state,0) else ''))
     return render('map',paths=''.join(paths))
 
 def cards_for_records(records):
     if any(r.get('paid_relationship','none')!='none' for r in records):raise ValueError('Paid relationships require an approved separate placement; unsupported in this review build.')
-    return ''.join(render('record',audience=esc(' '.join(r.get('audience',[]))),kind=esc(r.get('category',r.get('kind','Learning resource')).replace('-',' ')),name=esc(r['name']),description=esc(r['description']),cost=esc(r.get('cost','Confirm with provider')),format=esc(r.get('format','Confirm with provider')),checked=esc(r['checked']),link=link('Visit '+r['name'],r['url'],' rel="noopener"')) for r in sorted(records,key=lambda x:(not (x.get('free_option') is True or x.get('cost','').startswith('Free')),x['name'].casefold())))
+    return ''.join(render('record',audience=esc(' '.join(r.get('audience',[]))),kind=esc(r.get('service_label',r.get('category',r.get('kind','Learning resource'))).replace('-',' ')),name=esc(r['name']),description=esc(r['description']),cost=esc(r.get('cost','Confirm with provider')),format=esc(r.get('format','Confirm with provider')),checked=esc(r['checked']),link=link('Visit '+r['name'],r['url'],' rel="noopener"'),sources=' · '.join(link('Official source' if source.get('domain_class') in ['official','gov-edu'] and not source.get('independent') else 'Independent source' if source.get('independent') else 'Supporting source',source['url'],' rel="noopener"') for source in r.get('sources',[]))) for r in sorted(records,key=lambda x:(not (x.get('free_option') is True or x.get('cost','').startswith('Free')),x['name'].casefold())))
+METROS={'ny-buffalo':('ny','Buffalo, New York','/ny/buffalo/'),'tx-dallas':('tx','Dallas, Texas','/tx/dallas/')}
+
+def location_explorer(records):
+    local=[]
+    for kind in ['providers','programs','resources']:
+        for row in records[kind]:
+            state=row.get('state_id') or METROS.get(row.get('metro_id'),('',))[0]
+            if state in STATES:local.append((state,row))
+    counts={state:sum(st==state for st,row in local) for state in STATES}
+    options=''.join(render('option',value=state,label=esc(name+' · '+str(counts[state])+' local/state listings')) for state,name in STATES.items())
+    local.sort(key=lambda item:(not(item[1].get('free_option') is True or item[1].get('cost','').startswith('Free')),item[1]['name'].casefold()))
+    def area(st,row):
+        if row.get('metro_id') in METROS:
+            info=METROS[row['metro_id']];return row['metro_id'],info[1],info[2]
+        if row.get('location_slug') and row.get('location_label'):
+            return st+'-'+row['location_slug'],row['location_label'],'/locations/?state='+st+'#location-results'
+        return '',STATES[st],''
+    rows=''.join(render('location-record',state=st,metro=esc(area(st,row)[0]),location=esc(area(st,row)[1]),record=cards_for_records([row])) for st,row in local)
+    areas={}
+    for st,row in local:
+        key,label,url=area(st,row)
+        if key:
+            areas.setdefault(key,{'state':st,'name':label,'url':url,'count':0})['count']+=1
+    cities=''.join(render('city-option',metro=esc(key),state=data['state'],label=esc(data['name']),url=esc(data['url']),count=data['count']) for key,data in sorted(areas.items(),key=lambda item:item[1]['name'].casefold()))
+    national=[row for row in records['programs'] if not row.get('state_id') and not row.get('metro_id') and row.get('format') in ['online','self-paced','live-online']]
+    return render('explorer',states=options,map=map_content(counts),local_records=rows,cities=cities,local_count=len(local),national_count=len(national),national_records=cards_for_records(national) if national else paragraph('No nationwide programs currently pass the publication checks.'))
+
 def event_cards(events):
     return ''.join(card(e['name'],e['start']+' · '+e.get('cost','Confirm cost with organizer'),e['url'],'Upcoming class','View organizer details') for e in sorted(events,key=lambda x:x['start']))
 
@@ -98,14 +126,14 @@ def make_pages(today,records,learning_review=False):
     share_origin="https://findaitechhelp-preview.vercel.app" if learning_review else SITE
     pages={}
     def add(path,title,description,body,active='',noindex=False,schema=None): pages[path]=dict(title=title,description=description,body=body,active=active,noindex=noindex,schema=schema or [])
-    add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3])),'find')
+    add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3]),location_explorer=location_explorer(records)),'find')
     add('/find/','Find my help — A practical AI & tech plan','Choose who needs help, what you want to do, and your state. Get a starting plan without signing up.',intro('Let’s find your next step.','A few choices. A clearer plan. No technical vocabulary required.')+render('finder',states=state_options(),plans=plan_cards()),'find',True)
     for need in NEEDS:
         add('/find/'+need+'/',NEEDS[need]['label']+' — Choose a starting plan',NEEDS[need]['summary'],build_plan(need,'individual',share_origin)+section('Choose another situation',plan_cards(need)),'find',True)
         for audience in AUDIENCES: add('/find/'+need+'/'+audience+'/',NEEDS[need]['label']+' — '+AUDIENCES[audience][0],NEEDS[need]['summary'],build_plan(need,audience,share_origin),'find',True)
-    locations=intro('Start where you are.','Local learning, online options, or a clearer plan. Choose the route that fits you.','Near you, or anywhere')+render('locations',states=state_options(),map=map_content(),cities=city_cards())
-    add('/locations/','AI & tech help by location — Find AI Tech Help','Choose any U.S. state for a starting plan, or explore Buffalo and Dallas directory research.',locations,'places')
-    add('/states/','Browse places — Find AI Tech Help','Choose a state for a starting plan or explore local directory research.',locations,'places',True)
+    locations=intro('Explore help across the United States.','Open a state to see its published local and statewide listings. Nationwide online learning remains available wherever you live.','The location explorer')+location_explorer(records)
+    add('/locations/','Explore U.S. AI & technology help by location','An interactive state map of source-checked local and statewide options, plus nationwide learning.',locations,'places')
+    add('/states/','Browse places — Find AI Tech Help','Explore local and statewide listings and nationwide online learning.',locations,'places',True)
     programs=[r for r in records['programs'] if not r.get('state_id') and not r.get('metro_id') and r.get('format') in ['online','self-paced','live-online']]
     online=intro('Learn online. Start small.','Compare a practical class with a self-paced course. Ask what is free, what costs extra, and whether help is available when you’re stuck.','Learning, anywhere')
     online+=section('A useful way to choose',listing(['Pick one task you want to do after learning.','Ask about starting level, format, accessibility, and total cost.','Practice with made-up information and check the result yourself.']))
@@ -122,6 +150,7 @@ def make_pages(today,records,learning_review=False):
     for st,city,name,metro in [('ny','buffalo','Buffalo, NY','ny-buffalo'),('tx','dallas','Dallas, TX','tx-dallas')]:
         providers=[r for r in records['providers']+records['programs'] if r.get('metro_id')==metro];events=[r for r in records['events'] if r.get('metro_id')==metro]
         city_ready=city_gate(providers,events,intro=PLACE_INTROS[metro],today=today)
+        providers=providers+[r for r in records['resources'] if r.get('metro_id')==metro]
         add('/'+st+'/'+city+'/','AI Classes & Training in '+name+': Free + Paid ('+str(today.year)+')','Local directory research and starting plans for AI classes and tech help in '+name+'.',place_body(name,providers,events,PLACE_INTROS[metro],city_ready),'places',not city_ready)
         state_records=[r for kind in ['providers','programs','resources'] for r in records[kind] if r.get('state_id')==st]
         state_ready=state_gate(state_records,state_id=st,intro=PLACE_INTROS[st],today=today)
