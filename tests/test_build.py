@@ -77,4 +77,18 @@ class BuildTests(unittest.TestCase):
         records={key:[] for key in ['providers','programs','events','resources']}
         self.assertTrue(any('stale-output withdrawal' in s for s in builder.release_blockers(records,{})))
 
+
+    def test_learning_review_omits_sales_and_legal_drafts(self):
+        target=Path(self.temp.name)/'learning-review'
+        report=builder.build(self.today,records_dir=self.fixture_records,output=target,public_review=True)
+        self.assertEqual(report['indexable'],[])
+        self.assertEqual(check_site(target),[])
+        about=(target/'about'/'index.html').read_text(encoding='utf-8')
+        self.assertNotIn('Our own service',about)
+        self.assertNotIn('Ask Dan about training',about)
+        for route in ['privacy','terms','how-we-make-money']:self.assertFalse((target/route).exists())
+        for file in target.rglob('*.html'):
+            text=file.read_text(encoding='utf-8');self.assertIn('Learning and testing preview',text)
+            self.assertIn('noindex,follow',text)
+
 if __name__=='__main__':unittest.main()
