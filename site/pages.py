@@ -76,7 +76,9 @@ def plan_cards(need=None):
 def build_plan(need,audience,site_url=SITE):
     n=NEEDS[need]; label,note=AUDIENCES[audience]
     steps=''.join(render('step',number=f'{i:02}',heading=esc(h),text=esc(t)) for i,(h,t) in enumerate(n['steps'],1))
-    links=guide_card(n['guide'])+card('Learning online','Compare remote and self-paced learning.','/online/','Anywhere')+card('Change your plan','Choose another situation or type of help.','/find/','Your next step')
+    directory_kind={'learn':'learning','setup':'ai-consulting','repair':'computer-repair','unsure':''}[need]
+    directory_title={'learn':'Find classes and learning','setup':'Find AI setup help','repair':'Find computer repair','unsure':'Browse actual listings'}[need]
+    links=card(directory_title,'Browse published organizations, then choose your location.','/locations/'+('?kind='+directory_kind if directory_kind else ''),'The directory')+guide_card(n['guide'])+card('Change your plan','Choose another situation or type of help.','/find/?'+urlencode({'need':need,'audience':audience}),'Your next step')
     email_body='\n\n'.join([n['heading'],label,note]+[str(i)+'. '+h+': '+t for i,(h,t) in enumerate(n['steps'],1)]+QUESTIONS+[site_url+'/find/'+need+'/'+audience+'/'])
     email=link('Email this plan to myself','mailto:?'+urlencode({'subject':'My AI and tech help starting plan','body':email_body}))
     return intro(n['heading'],note,label)+render('plan',need=need,audience=audience,heading=esc(n['label']),summary=esc(n['summary']),steps=steps,questions=listing(QUESTIONS),cost=esc(n['cost']),safety=esc(n['safety']),links=links,email_link=email)
@@ -206,7 +208,7 @@ def make_pages(today,records,learning_review=False):
         n=NEEDS[g['need']];body=intro(g['title'],g['description'],g['tag'])+paragraph('Editorial draft prepared for owner review · Updated '+UPDATED)
         body+=''.join(section(h,paragraph(t)) for h,t in n['steps'])+section('Before you spend',paragraph(n['cost'])+paragraph(n['safety']))+section('Questions to ask',listing(QUESTIONS))+section('Take your next step',link('Build my starting plan','/find/'+g['need']+'/'))
         schema=[{'@context':'https://schema.org','@type':'Article','headline':g['title'],'description':g['description'],'datePublished':UPDATED,'dateModified':UPDATED,'author':{'@type':'Organization','name':'Find AI Tech Help','url':SITE+'/about/'}}]
-        add('/guides/'+slug+'/',g['title']+' — Find AI Tech Help',g['description'],body,'guides',False,schema)
+        add('/guides/'+slug+'/',g['title']+' — Find AI Tech Help',g['description'],render('guide',body=body),'guides',False,schema)
     about=intro('A clearer way to find help.','Find AI Tech Help is a project of VirtualEcommerce Inc., led by Dan Herlehy in Hamburg, New York.','About this project')
     about+=section('What we’re building',paragraph('A guide to learning AI, getting small projects set up, and finding everyday technology help. Free options come first. Listings are published only after source checks and owner approval.'))
     if not learning_review:about+=section('Our own service',paragraph('Dan offers AI training in Western New York and online workshops. This is our own service, kept separate from independent directory listings. Contact Dan to discuss fit, format, and the current price.')+link('Ask Dan about training','mailto:hello@findaitechhelp.com?subject=AI%20training%20question'))

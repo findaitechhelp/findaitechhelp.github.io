@@ -20,3 +20,20 @@
 @media(min-width:761px) and (hover:hover) and (pointer:fine){#map-touch{display:none}}
 
 main>header.hero+.location-explorer>.explorer-heading{display:none}main>aside.notice{font-size:.75rem;padding:10px 16px;margin:18px 0 0;background:#151f2d;border-color:#344353;color:#bfcbd9}main>aside.notice p{display:inline;margin:0}main>aside.notice strong{color:var(--ink);margin-right:8px}
+
+/* Final responsive and print refinements from independent review. */
+.guide>.hero{padding:12px 0 22px}.guide h1{max-width:760px}.guide>.section{margin-bottom:40px}
+@media(max-width:760px){
+.map-expanded .location-selector{display:block;order:0;padding:14px 16px;border-bottom:1px solid #344b64}
+.map-expanded .location-selector>h3,.map-expanded .location-selector>.eyebrow,.map-expanded .location-selector>.text-link,.map-expanded #city-choices{display:none}
+.map-expanded .location-selector #map-status{font-size:.75rem;margin:5px 0;padding-top:8px}
+.map-expanded .selection-actions{margin:0}.map-expanded .selection-actions .button{min-height:40px}
+.map-expanded .map-stage{order:1}.map-expanded .directory-filters{order:2}
+.map-expanded .map-note{display:block;font-size:.7rem}.map-expanded .map-toolbar .pan-button{display:none}
+.map-expanded .map-stage-heading{margin-bottom:9px}.map-expanded .map-toolbar{margin-bottom:9px}
+.map-expanded .location-selector select{margin-bottom:3px}
+}
+#directory-reset{grid-column:1;justify-self:start}#directory-clear{grid-column:2}
+@media print{main>aside.notice{background:white;color:black;border-color:#888}main>aside.notice strong,main>aside.notice p,.listing-location{color:black}.map-caption,.map-precision,.map-note a{color:black}}
+
+.location-explorer.map-expanded{margin:0}

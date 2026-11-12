@@ -44,12 +44,34 @@
     const allNames = {al:'Alabama',ak:'Alaska',az:'Arizona',ar:'Arkansas',ca:'California',co:'Colorado',ct:'Connecticut',de:'Delaware',fl:'Florida',ga:'Georgia',hi:'Hawaii',id:'Idaho',il:'Illinois',in:'Indiana',ia:'Iowa',ks:'Kansas',ky:'Kentucky',la:'Louisiana',me:'Maine',md:'Maryland',ma:'Massachusetts',mi:'Michigan',mn:'Minnesota',ms:'Mississippi',mo:'Missouri',mt:'Montana',ne:'Nebraska',nv:'Nevada',nh:'New Hampshire',nj:'New Jersey',nm:'New Mexico',ny:'New York',nc:'North Carolina',nd:'North Dakota',oh:'Ohio',ok:'Oklahoma',or:'Oregon',pa:'Pennsylvania',ri:'Rhode Island',sc:'South Carolina',sd:'South Dakota',tn:'Tennessee',tx:'Texas',ut:'Utah',vt:'Vermont',va:'Virginia',wa:'Washington',wv:'West Virginia',wi:'Wisconsin',wy:'Wyoming',dc:'District of Columbia'};
     if (allNames[stateCode]) {
       place.textContent = 'A starting plan for ' + allNames[stateCode] + '. This is general guidance, not a checked local directory.';
-      const localPath = '/locations/?state=' + encodeURIComponent(stateCode);
+      const plan = place.closest('[data-plan]');
+      const helpKind = {learn:'learning',setup:'ai-consulting',repair:'computer-repair',unsure:''}[plan?.dataset.plan] || '';
+      const localPath = '/locations/?state=' + encodeURIComponent(stateCode) + (helpKind ? '&kind=' + helpKind : '');
       if (localPath) {
         const a = document.createElement('a');
         a.href = localPath;
         a.textContent = ' Browse published listings in this state.';
         place.append(a);
+      }
+      for (const a of plan.querySelectorAll('a[href^="/locations/"],a[href^="/find/?"]')) {
+        const destination = new URL(a.href);
+        destination.searchParams.set('state', stateCode);
+        a.href = destination.pathname + destination.search;
+      }
+      const emailLink = plan.querySelector('a[href^="mailto:"]');
+      if (emailLink) {
+        const email = new URL(emailLink.href);
+        const lines = (email.searchParams.get('body') || '').split('\n');
+        const last = lines.length - 1;
+        try {
+          const savedPlan = new URL(lines[last]);
+          if (savedPlan.protocol === 'https:' && savedPlan.pathname.startsWith('/find/')) {
+            savedPlan.searchParams.set('state', stateCode);
+            lines[last] = savedPlan.href;
+            email.searchParams.set('body', lines.join('\n'));
+            emailLink.href = email.href;
+          }
+        } catch (_) { /* Keep the server-generated draft if its final line is not a URL. */ }
       }
     }
   }

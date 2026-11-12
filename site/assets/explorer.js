@@ -21,6 +21,7 @@
   const allowedKinds = new Set([...kind.options].map(o => o.value));
   search.value = (params.get('q') || '').slice(0,120);
   kind.value = allowedKinds.has(params.get('kind')) ? params.get('kind') : '';
+  for (const link of explorer.querySelectorAll('[data-js-shortcut]')) link.hidden=false;
   for (const id of ['map-controls','explore-state-control','directory-filters','map-gesture','selection-actions']) byId(id).hidden = false;
   map.classList.add('is-interactive');
   let selectedState = '', selectedCity = '', shownLimit = 12;
@@ -31,24 +32,35 @@
     box[0] = Math.max(-35, Math.min(1010-box[2], box[0]));
     box[1] = Math.max(-25, Math.min(665-box[3], box[1]));
   };
+  const markerNodes=markers.map(marker=>({marker,dot:marker.querySelector('.pin-dot'),halo:marker.querySelector('.pin-halo'),label:marker.querySelector('.city-label')}));
+  for(const item of markerNodes)item.label.textContent=item.marker.dataset.cityName.split(',')[0];
+  const labelNodes=stateLinks.map(link=>({label:link.querySelector('.state-label'),bounds:link.querySelector('path').getBBox()}));
+  let frame=0,lastUnit=0,renderedBox=[...box];
+  let viewport={width:map.getBoundingClientRect().width,height:map.getBoundingClientRect().height};
+  const unitsPerPixel=()=>Math.max(box[2]/Math.max(viewport.width,1),box[3]/Math.max(viewport.height,1));
   const draw = () => {
     constrain();
-    map.setAttribute('viewBox',box.join(' '));
-    const scale = box[2]/975;
-    for (const label of map.querySelectorAll('.state-label')) label.style.fontSize = (11*scale)+'px';
-    for (const marker of markers) {
-      marker.querySelector('.pin-dot').setAttribute('r', 3.8*scale);
-      marker.querySelector('.pin-halo').setAttribute('r', 10*scale);
-      const label = marker.querySelector('.city-label');
-      label.style.fontSize = (13*scale)+'px';
-      label.style.strokeWidth = (4*scale)+'px';
-      label.setAttribute('dx',10*scale); label.setAttribute('dy',-10*scale);
-      // Keep labels near the right edge inside the visible map.
-      const right = Number(marker.dataset.markerX) > box[0]+box[2]*.68;
-      label.setAttribute('text-anchor',right ? 'end' : 'start');
-      label.setAttribute('dx',(right ? -10 : 10)*scale);
-    }
+    if(frame)return;
+    frame=requestAnimationFrame(()=>{
+      frame=0;map.setAttribute('viewBox',box.join(' '));renderedBox=[...box];
+      const unit=unitsPerPixel();
+      if(Math.abs(unit-lastUnit)<.00001)return;
+      lastUnit=unit;
+      for(const {label,bounds} of labelNodes){
+        label.style.fontSize=(10*unit)+'px';
+        label.style.strokeWidth=(2*unit)+'px';
+        label.style.display=bounds.width/unit<21 || bounds.height/unit<13 ? 'none' : '';
+      }
+      for(const {marker,dot,halo,label} of markerNodes){
+        dot.setAttribute('r',2.8*unit);halo.setAttribute('r',10*unit);
+        label.style.fontSize=(12*unit)+'px';label.style.strokeWidth=(4*unit)+'px';
+        label.setAttribute('text-anchor','middle');label.setAttribute('dx','0');label.setAttribute('dy',-12*unit);
+      }
+    });
   };
+  if(window.ResizeObserver)new ResizeObserver(entries=>{
+    viewport={width:entries[0].contentRect.width,height:entries[0].contentRect.height};lastUnit=0;draw();
+  }).observe(map);
   const fit = (state, city) => {
     const marker = markers.find(m => m.dataset.cityMarker===city);
     if (marker) {
@@ -124,7 +136,7 @@
     const name=cityLink ? cityLink.dataset.cityName : selectedState ? names.get(selectedState) : 'the United States';
     byId('location-heading').textContent='Published listings in '+name;
     byId('location-summary').textContent=matched.length+' local/state listings. Free options appear first. Confirm details directly with the organization.';
-    byId('map-status').textContent=name+': '+matched.length+' local/state listings + '+nationwide+' nationwide online programs.';
+    byId('map-status').textContent=name+': '+matched.length+' local/state listings + '+nationwide+' nationwide online programs.'+(matched.length?'':' No local matches. Change the filters or reset all filters.');
     byId('location-empty').hidden=matched.length>0;
     byId('directory-pagination').hidden=!matched.length;
     byId('directory-more').hidden=matched.length<=shownLimit;
@@ -163,7 +175,7 @@
     search.value='';kind.value='';choose(selectedState,selectedCity);search.focus();
   });
   const reset=()=>{search.value='';kind.value='';choose('','',{move:true});};
-  byId('map-reset').addEventListener('click',reset);
+  byId('map-reset').addEventListener('click',()=>choose('','',{move:true}));
   byId('directory-reset').addEventListener('click',()=>{reset();stateSelect.focus();});
   byId('directory-more').addEventListener('click',()=>{
     const old=shownLimit;shownLimit+=12;
@@ -194,7 +206,7 @@
     fit(target.dataset.mapState || target.dataset.markerState,target.dataset.cityMarker || '');
     target.setAttribute('tabindex','0');target.focus();
   });
-  const point=(x,y)=>{const p=map.createSVGPoint();p.x=x;p.y=y;return p.matrixTransform(map.getScreenCTM().inverse());};
+  const point=(x,y)=>{const p=map.createSVGPoint();p.x=x;p.y=y;const world=p.matrixTransform(map.getScreenCTM().inverse());return {x:box[0]+(world.x-renderedBox[0])*box[2]/renderedBox[2],y:box[1]+(world.y-renderedBox[1])*box[3]/renderedBox[3]};};
   const zoom=(factor,x,y)=>{
     const anchor=Number.isFinite(x)?point(x,y):{x:box[0]+box[2]/2,y:box[1]+box[3]/2};
     const width=Math.max(80,Math.min(975,box[2]*factor));
@@ -229,6 +241,7 @@
   });
   map.addEventListener('pointermove',event=>{
     if(!pointers.has(event.pointerId))return;
+    if(event.pointerType==='mouse' && !(event.buttons&1)){endPointer(event);return;}
     const before=[...pointers.values()];const previous=pointers.get(event.pointerId);
     const dx=event.clientX-previous.x,dy=event.clientY-previous.y;
     travel+=Math.hypot(dx,dy);
@@ -239,13 +252,14 @@
     if(event.cancelable)event.preventDefault();
     const after=[...pointers.values()];
     const factor=pointers.size>1?.5:1;
-    const inverse=map.getScreenCTM().inverse();
-    box[0]-=dx*inverse.a*factor;box[1]-=dy*inverse.d*factor;draw();
+    const unit=unitsPerPixel();
+    box[0]-=dx*unit*factor;box[1]-=dy*unit*factor;
     if(after.length===2 && before.length===2){
       const oldDistance=Math.hypot(before[0].x-before[1].x,before[0].y-before[1].y);
       const newDistance=Math.hypot(after[0].x-after[1].x,after[0].y-after[1].y);
       if(oldDistance>5&&newDistance>5)zoom(oldDistance/newDistance,(after[0].x+after[1].x)/2,(after[0].y+after[1].y)/2);
-    }
+      else draw();
+    }else draw();
     hideTooltip();
   });
   const endPointer=event=>{
@@ -254,6 +268,8 @@
     if(!pointers.size)map.classList.remove('is-dragging');
   };
   map.addEventListener('pointerup',endPointer);map.addEventListener('pointercancel',endPointer);
+  window.addEventListener('pointerup',endPointer);window.addEventListener('pointercancel',endPointer);
+  window.addEventListener('blur',()=>{pointers.clear();map.classList.remove('is-dragging');});
   map.addEventListener('lostpointercapture',event=>{pointers.delete(event.pointerId);if(!pointers.size)map.classList.remove('is-dragging');});
   map.addEventListener('click',event=>{if(suppressClick){event.preventDefault();event.stopPropagation();suppressClick=false;}},true);
   const expand=byId('map-fullscreen');const obscured=[];let previousOverflow='';
