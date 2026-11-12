@@ -50,6 +50,16 @@ Local Git hooks are installed through `core.hooksPath=.githooks`: pre-commit run
 
 Public review uses `python build.py --public-review`. Sanitized source-verification receipts are bundled in `site/verified-evidence/`; failed local checks override them. Receipts expire after seven days on subsequent builds. There is no verified automatic withdrawal of already deployed pages yet.
 
+## Cloudflare Pages review hosting
+
+Use the authorized dedicated Cloudflare account and the existing repository. For a Git-integrated Pages project, choose no framework, build command `python3 build.py --public-review`, output directory `dist`, and `PYTHON_VERSION=3.13`. The repository root is this folder (the current GitHub repository has `build.py` at its root). Select only the explicitly approved deployment branch; account/domain moves and deployment remain separate owner actions.
+
+Set `PUBLIC_SITE_ORIGIN` in both production and preview build environments to the verified HTTPS origin visitors should receive in emailed plans (the assigned Pages URL, then the custom domain only after it works). It accepts a public DNS origin, with an optional root slash or port 443, and rejects credentials, other ports, paths, queries and fragments. Invalid configuration fails the build. When absent, email links keep the existing Vercel preview origin in public-review mode and `https://findaitechhelp.com` otherwise. This setting changes share links only; canonical/schema URLs, URL paths and indexing gates are preserved.
+
+The generated `dist/_headers` supplies security headers, asset caching and `X-Robots-Tag: noindex, follow` for review builds. A future authorized release omits that global noindex header while retaining each page's indexing gate. `dist/_redirects` preserves the two legacy city redirects. The root `dist/404.html` makes Pages return a genuine missing-page response instead of its SPA fallback. Do not add a catch-all rewrite to the home page. Deploy only `dist`, with no Pages Functions or Worker interception.
+
+These are local build contracts, not proof of live hosting behavior. After deployment verify the home, directory and finder return 200, both legacy paths redirect, an unknown route and omitted legal routes return 404, and review HTML/assets/404 responses carry noindex and the security headers. Verify an emailed plan uses the intended origin and all 203 currently eligible entries remain present. Cloudflare references: [build configuration](https://developers.cloudflare.com/pages/configuration/build-configuration/), [headers](https://developers.cloudflare.com/pages/configuration/headers/), and [serving pages](https://developers.cloudflare.com/pages/configuration/serving-pages/).
+
 
 City-marker coordinates are representative geographic points from the [2026 U.S. Census Gazetteer](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html), not provider addresses. State outlines are US Atlas Census-derived geometry. The mathematical Albers projection matches the [US Atlas configuration](https://github.com/topojson/us-atlas) and [D3 geographic projection parameters](https://github.com/d3/d3-geo/tree/main/src/projection); no mapping dependency is installed.
 

@@ -1,9 +1,11 @@
 """Page rendering and original editorial content assembly; no HTML literals."""
 import json
 import html
+import os
+import re
 from pathlib import Path
 from string import Template
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 from content import STATES, NEEDS, AUDIENCES, GUIDES, QUESTIONS
 from tools.gates import city_gate, state_gate
 from geography import city_points
@@ -12,6 +14,30 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://findaitechhelp.com'
 UPDATED = '2026-11-12'
 TEMPLATES = ROOT / 'site' / 'templates'
+
+def public_site_origin(learning_review=False):
+    """Resolve only share links; canonical URLs and indexing gates stay separate."""
+    value=os.environ.get('PUBLIC_SITE_ORIGIN')
+    if value is None:
+        return 'https://findaitechhelp-preview.vercel.app' if learning_review else SITE
+    error='PUBLIC_SITE_ORIGIN must be an HTTPS public DNS origin with no credentials, path, query or fragment.'
+    # Reject whitespace/control characters before urlsplit can silently strip them.
+    if not value or any(c.isspace() or ord(c)<32 for c in value):raise ValueError(error)
+    try:
+        parsed=urlsplit(value)
+        host=parsed.hostname or ''
+        port=parsed.port
+    except ValueError:
+        raise ValueError(error) from None
+    labels=host.split('.')
+    if (parsed.scheme!='https' or parsed.username is not None or parsed.password is not None
+        or port not in (None,443) or parsed.path not in ('','/') or parsed.query or parsed.fragment
+        or '?' in value or '#' in value or len(host)>253 or len(labels)<2
+        or any(not re.fullmatch(r'[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?',label) for label in labels)
+        or not re.fullmatch(r'[a-z]{2,63}',labels[-1])
+        or labels[-1] in ('localhost','local','internal','test','invalid')):
+        raise ValueError(error)
+    return 'https://'+host
 PLACE_INTROS = {
  'ny-buffalo': 'For Buffalo and Western New York, decide whether you need a class, an on-site workshop, or a small setup project. Ask whether the provider serves your location and can adapt the session to your tools.',
  'tx-dallas': 'For Dallas and the wider Dallas–Fort Worth area, confirm whether a session is online or in person and whether travel is included. Bring a clear learning goal and ask about follow-up support.',
@@ -125,7 +151,7 @@ def original_legal():
     return json.loads((ROOT/'site'/'legal-original.json').read_text(encoding='utf-8'))
 
 def make_pages(today,records,learning_review=False):
-    share_origin="https://findaitechhelp-preview.vercel.app" if learning_review else SITE
+    share_origin=public_site_origin(learning_review)
     pages={}
     def add(path,title,description,body,active='',noindex=False,schema=None): pages[path]=dict(title=title,description=description,body=body,active=active,noindex=noindex,schema=schema or [])
     add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(records),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3]),location_explorer=location_explorer(records)),'find')

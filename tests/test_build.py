@@ -2,10 +2,13 @@ import datetime as dt
 import hashlib
 import importlib.util
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
+from urllib.parse import quote
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'site'))
@@ -13,6 +16,7 @@ sys.path.insert(0,str(ROOT))
 spec=importlib.util.spec_from_file_location('review_builder',ROOT/'site'/'build.py')
 builder=importlib.util.module_from_spec(spec);spec.loader.exec_module(builder)
 from tools.check_site import check_site,Page
+from pages import public_site_origin
 
 class BuildTests(unittest.TestCase):
     @classmethod
@@ -76,6 +80,46 @@ class BuildTests(unittest.TestCase):
     def test_freshness_delivery_blocks_release_without_live_verification(self):
         records={key:[] for key in ['providers','programs','events','resources']}
         self.assertTrue(any('stale-output withdrawal' in s for s in builder.release_blockers(records,{})))
+
+    def test_cloudflare_static_host_contract(self):
+        target=Path(self.temp.name)/'cloudflare-review'
+        builder.build(self.today,records_dir=self.fixture_records,output=target,public_review=True)
+        headers=(target/'_headers').read_text()
+        for expected in ['X-Content-Type-Options: nosniff','Referrer-Policy: strict-origin-when-cross-origin',
+                         'X-Frame-Options: DENY','X-Robots-Tag: noindex, follow',
+                         'Permissions-Policy: camera=(), microphone=(), geolocation=()',
+                         '/assets/*\n  Cache-Control: public, max-age=3600']:
+            self.assertIn(expected,headers)
+        self.assertNotIn('X-Robots-Tag',builder.hosting_headers(release=True))
+        self.assertEqual((target/'_redirects').read_text(),'/buffalo-ny/ /ny/buffalo/ 301\n/dallas-tx/ /tx/dallas/ 301\n')
+        self.assertTrue((target/'404.html').is_file())
+        self.assertFalse((target/'404.html'/'index.html').exists())
+        self.assertFalse((target/'_worker.js').exists())
+        self.assertFalse((target/'functions').exists())
+        self.assertIn('Page not found',(target/'404.html').read_text(encoding='utf-8'))
+        for name in ['privacy','terms','how-we-make-money']:
+            self.assertFalse((target/name).exists())
+
+    def test_public_origin_defaults_validation_and_shared_plan(self):
+        with patch.dict(os.environ,{},clear=True):
+            self.assertEqual(public_site_origin(True),'https://findaitechhelp-preview.vercel.app')
+            self.assertEqual(public_site_origin(False),'https://findaitechhelp.com')
+        for value in ['', 'http://example.com','https://user:secret@example.com','https://example.com/path',
+                      'https://example.com?query=1','https://example.com#fragment','https://example.com?',
+                      'https://localhost','https://127.0.0.1','https://[::1]','https://site.local',
+                      'https://example.com:8443','https://bad_host.com','https://example.com\n']:
+            with self.subTest(value=value),patch.dict(os.environ,{'PUBLIC_SITE_ORIGIN':value}):
+                with self.assertRaisesRegex(ValueError,'PUBLIC_SITE_ORIGIN'):public_site_origin(True)
+        target=Path(self.temp.name)/'cloudflare-origin'
+        with patch.dict(os.environ,{'PUBLIC_SITE_ORIGIN':'https://Example.pages.dev:443/'}):
+            self.assertEqual(public_site_origin(True),'https://example.pages.dev')
+            report=builder.build(self.today,records_dir=self.fixture_records,output=target,public_review=True)
+        plan=(target/'find'/'learn'/'individual'/'index.html').read_text(encoding='utf-8')
+        self.assertIn(quote('https://example.pages.dev/find/learn/individual/',safe=''),plan)
+        self.assertNotIn('findaitechhelp-preview.vercel.app',plan)
+        self.assertIn('https://findaitechhelp.com/find/learn/individual/',plan)
+        self.assertEqual(report['indexable'],[])
+        self.assertEqual(check_site(target),[])
 
 
     def test_learning_review_omits_sales_and_legal_drafts(self):
