@@ -93,16 +93,28 @@ def map_content(counts=None,areas=None):
     def ring(indexes):
         points=[]
         for i in indexes: points.extend(arcs[i] if i>=0 else list(reversed(arcs[~i])))
-        kept=[]
-        for p in points:
-            if not kept or (p[0]-kept[-1][0])**2+(p[1]-kept[-1][1])**2>=4: kept.append(p)
-        return 'M'+'L'.join(f'{x:.1f},{y:.1f}' for x,y in kept)+'Z'
+        # Keep the supplied topology detail for state/city zoom, rather than
+        # simplifying it a second time for a national thumbnail.
+        return 'M'+'L'.join(f'{x:.2f},{y:.2f}' for x,y in points)+'Z'
     paths=[]
     for g in topo['objects']['states']['geometries']:
         polygons=g['arcs'] if g['type']=='MultiPolygon' else [g['arcs']]
         name=g.get('properties',{}).get('name','')
         state=next((key for key,label in LOCATIONS.items() if label==name),None)
-        if state:paths.append(render('map-path',d=''.join(ring(r) for poly in polygons for r in poly),state=state,label=esc(name+' — '+str(counts.get(state,0))+' local/state listings'),coverage_class=' has-listings' if counts.get(state,0) else ''))
+        if state:
+            outlines=[]
+            for poly in polygons:
+                outline=[]
+                for index in poly[0]:outline.extend(arcs[index] if index>=0 else list(reversed(arcs[~index])))
+                if outline:outlines.append(outline)
+            def signed_area(points):
+                return sum(ax*by-bx*ay for (ax,ay),(bx,by) in zip(points,points[1:]+points[:1]))
+            outline=max(outlines,key=lambda points:abs(signed_area(points)))
+            area=signed_area(outline)
+            pairs=list(zip(outline,outline[1:]+outline[:1]))
+            x=sum((ax+bx)*(ax*by-bx*ay) for (ax,ay),(bx,by) in pairs)/(3*area)
+            y=sum((ay+by)*(ax*by-bx*ay) for (ax,ay),(bx,by) in pairs)/(3*area)
+            paths.append(render('map-path',d=''.join(ring(r) for poly in polygons for r in poly),state=state,name=esc(name),abbr=state.upper(),x=round(x,2),y=round(y,2),label=esc(name+' — '+str(counts.get(state,0))+' local/state listings'),coverage_class=' has-listings' if counts.get(state,0) else ''))
     points=city_points(areas)
     markers=''.join(render('map-city',key=esc(key),state=areas[key]['state'],label=esc(areas[key]['name']),count=areas[key]['count'],x=point['x'],y=point['y']) for key,point in points.items())
     return render('map',paths=''.join(paths),markers=markers)
@@ -159,7 +171,7 @@ def make_pages(today,records,learning_review=False):
     for need in NEEDS:
         add('/find/'+need+'/',NEEDS[need]['label']+' — Choose a starting plan',NEEDS[need]['summary'],build_plan(need,'individual',share_origin)+section('Choose another situation',plan_cards(need)),'find',True)
         for audience in AUDIENCES: add('/find/'+need+'/'+audience+'/',NEEDS[need]['label']+' — '+AUDIENCES[audience][0],NEEDS[need]['summary'],build_plan(need,audience,share_origin),'find',True)
-    locations=intro('Explore help across the United States.','Open a state to see its published local and statewide listings. Nationwide online learning remains available wherever you live.','The location explorer')+location_explorer(records)
+    locations=intro('Find help. Move forward.','Browse AI classes, setup help and technology support across the U.S. Choose a location and the kind of help you need.','The location explorer')+location_explorer(records)
     add('/locations/','Explore U.S. AI & technology help by location','An interactive state map of source-checked local and statewide options, plus nationwide learning.',locations,'places')
     add('/states/','Browse places — Find AI Tech Help','Explore local and statewide listings and nationwide online learning.',locations,'places',True)
     programs=[r for r in records['programs'] if not r.get('state_id') and not r.get('metro_id') and r.get('format') in ['online','self-paced','live-online']]
