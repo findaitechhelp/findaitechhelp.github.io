@@ -1,0 +1,26 @@
+{
+  "record_id": "ma-boston-boston-public-library-computer-classes",
+  "checked": "2026-11-12",
+  "sources_sha256": "1a0d3695da5376f184abf542a0b21db5d8eee43e606322f107169177bfa86f97",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.bpl.org/computer-classes/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.bpl.org/computer-classes/",
+      "sha256": "55e8cdbbc9783ecb6c0e3ffb9f66900d29338a27bf2d1298104405c4b2663591",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://bshcinfo.org/tech-help-in-person-and-online-classes/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://bshcinfo.org/tech-help-in-person-and-online-classes/",
+      "sha256": "adb73af575af3accda9673333d66d295eb21aa9eea423ee120dae47b4b4d9d76",
+      "domain_unchanged": true
+    }
+  ]
+}

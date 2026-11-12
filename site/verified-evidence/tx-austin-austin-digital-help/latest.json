@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-austin-austin-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "5936a9e79ab1e71fed1f190afef7d39e308432e3996507f9c20a56d7233e63a8",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://library.austintexas.gov/events/computers-technology",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://library.austintexas.gov/events/computers-technology",
+      "sha256": "399c55b89638e0a5231bc63b43018672c561a4e8e3cf6eeb2288167da0a86ddf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/10/28/innovation-lab-austin-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/10/28/innovation-lab-austin-library/",
+      "sha256": "3e368968c17e51ecb30935f7b9013fde24432bf2dd5c4e97b4cdb0728e2e1ef1",
+      "domain_unchanged": true
+    }
+  ]
+}

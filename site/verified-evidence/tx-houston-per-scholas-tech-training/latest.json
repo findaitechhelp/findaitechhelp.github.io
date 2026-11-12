@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-houston-per-scholas-tech-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "6fd8721404dfaa706a8a397f355ecf8817ca44bf646af66d508b0cb4a58c7fed",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/houston/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/houston/",
+      "sha256": "fd5b643ee575ccad2662b38f7a3a90788240ee952594b911c774c5a5ea1343e8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://houston.innovationmap.com/ion-houston-per-scholas-workforce-development-2662297984.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://houston.innovationmap.com/ion-houston-per-scholas-workforce-development-2662297984.html",
+      "sha256": "d3ecd39f481d9a9a0809d9f675d44b5e3d93ec399be86f37f3e464fe73a44157",
+      "domain_unchanged": true
+    }
+  ]
+}

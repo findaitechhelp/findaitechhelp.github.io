@@ -1,0 +1,26 @@
+{
+  "record_id": "sd-sioux-falls-siouxland-libraries",
+  "checked": "2026-11-12",
+  "sources_sha256": "9f0e058417b90592dded248e6662c509a49d6f6cbee138008d24836e9bb03cf4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.siouxlandlib.org/services/technology/computers-and-more",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.siouxlandlib.org/services/technology/computers-and-more",
+      "sha256": "af51ecafc88c21206c6b640aa5855d69b1818d926f88b8a5252a58bae962bfe1",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://605magazine.com/2024/03/29/605-stops-by-siouxland-libraries/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://605magazine.com/2024/03/29/605-stops-by-siouxland-libraries/",
+      "sha256": "c019d3f98f475a28757ad83789bcbbae5a362d5f3f48781f68126a4e62ca2f97",
+      "domain_unchanged": true
+    }
+  ]
+}

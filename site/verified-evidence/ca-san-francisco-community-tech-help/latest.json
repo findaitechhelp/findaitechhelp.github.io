@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-francisco-community-tech-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "9d06572d7ca532aeea639abc346330db434bcc4d2f0be967650185f6c733f86a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://sfcommunityliving.org/programs/neighborhood-tech-connect/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://sfcommunityliving.org/programs/neighborhood-tech-connect/",
+      "sha256": "b89c39f214f6aeb2847aa54a0cfda653091c2d22e5fa6ac986df4cf9ade3dfdf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-woman-supports-elderly-and-disabled-with-housing-help-and-activities/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-woman-supports-elderly-and-disabled-with-housing-help-and-activities/",
+      "sha256": "ee028456bb88db01912f4172d44e02d3def68449f18d77e7de54f5cf901f3378",
+      "domain_unchanged": true
+    }
+  ]
+}

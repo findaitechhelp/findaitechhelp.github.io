@@ -1,0 +1,26 @@
+{
+  "record_id": "tn-nashville-nashville-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "62f00f351674b51e32127af71c24b04e5e986cccee545d1a885f4a52b886cf5d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://nashvillesoftwareschool.com/press/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://nashvillesoftwareschool.com/press/",
+      "sha256": "a022535010d61c94691096ad620cc38205649b9dcd9e37ff66879eebfaf6cffd",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.newschannel5.com/plus/plus-side-nashville/nashville-software-school",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.newschannel5.com/plus/plus-side-nashville/nashville-software-school",
+      "sha256": "9360fde51d00f4b004d913efb017e56b1b075e319f2681377919e244310267a6",
+      "domain_unchanged": true
+    }
+  ]
+}

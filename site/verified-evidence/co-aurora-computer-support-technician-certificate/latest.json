@@ -1,0 +1,26 @@
+{
+  "record_id": "co-aurora-computer-support-technician-certificate",
+  "checked": "2026-11-12",
+  "sources_sha256": "607220a731364d7ac5844105220ebdac9c3d83d7f11464ca1fb4115f6a02b680",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://ccaurora.edu/pathways/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ccaurora.edu/pathways/",
+      "sha256": "840c3e23819c725b3caab5203494c2a8d80807f66c6f5dad94ea9b3be71f6c0d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://sentinelcolorado.com/metro/betsy-oudenhoven-returning-to-cca-as-interim-president-as-search-continues-for-next-leader/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://sentinelcolorado.com/metro/betsy-oudenhoven-returning-to-cca-as-interim-president-as-search-continues-for-next-leader/",
+      "sha256": "2cab9fed7a74c376f0bfabcb70f89a313f7fe958fd6780221402d4544ea56630",
+      "domain_unchanged": true
+    }
+  ]
+}

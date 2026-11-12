@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-sacramento-sacramento-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "70b14bb43da462b0d66ffba369416167a714acfc6c003fad0767083a640fffc8",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.saclibrary.org/about-us/contact-us/frequently-asked-questions",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.saclibrary.org/about-us/contact-us/frequently-asked-questions",
+      "sha256": "fd607e5d6e95cc77d6a9bcbff0b807405d60db3efe17a3f4c20e61237ec3b264",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kcra.com/article/sacramento-martin-luther-king-jr-library-reopening/73443417",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kcra.com/article/sacramento-martin-luther-king-jr-library-reopening/73443417",
+      "sha256": "548c7ce4ebc185cabc6902e7148c22e11858a0e023832cc9d05c7b6f73707a2f",
+      "domain_unchanged": true
+    }
+  ]
+}

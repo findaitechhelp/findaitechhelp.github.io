@@ -1,0 +1,26 @@
+{
+  "record_id": "me-portland-public-library-tech",
+  "checked": "2026-11-12",
+  "sources_sha256": "e35cfd34759dd1c725711e7b0a5fa2d3b59e70330e251428233c8c7482c3981a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.portlandlibrary.org/computers-library-internet-access/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.portlandlibrary.org/computers-library-internet-access/",
+      "sha256": "b45e33109e55bffd991be661280bb97871a742e2558c9977142a653170266c45",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.pressherald.com/2025/10/17/100000-donation-will-help-digitize-portland-librarys-center-for-city-history",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.pressherald.com/2025/10/17/100000-donation-will-help-digitize-portland-librarys-center-for-city-history/",
+      "sha256": "9d7b41291b88aa41cc23ae6e8d5aef5414cb784e95e38aeac0950d5391f2548b",
+      "domain_unchanged": true
+    }
+  ]
+}

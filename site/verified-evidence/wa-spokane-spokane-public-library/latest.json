@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-spokane-spokane-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "2ce34d4cbd0b32609667ec0c5ea8807b921c122be34981ec2f051b620b49d847",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.spokanelibrary.org/tech-support/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.spokanelibrary.org/tech-support",
+      "sha256": "f76eeb3409a77f589b54be6bd4b8723c01fb2cd9224c93184b41a9cdf811c4c6",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://kxly920.com/2026/08/21/spokane-public-library-delays-service-cuts-to-support-wildfire-recovery/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://kxly920.com/2026/08/21/spokane-public-library-delays-service-cuts-to-support-wildfire-recovery/",
+      "sha256": "87d76855a84a690be7a01c29518fa2de1eadf8c704693ee8297b9777a51082cc",
+      "domain_unchanged": true
+    }
+  ]
+}

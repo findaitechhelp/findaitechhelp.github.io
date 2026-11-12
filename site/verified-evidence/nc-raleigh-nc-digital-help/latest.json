@@ -1,0 +1,26 @@
+{
+  "record_id": "nc-raleigh-nc-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "84baa3b1b2f6939a29cde37d299b0200889d99030fd6de19287383c66d96180c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lib.ncsu.edu/workshops",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lib.ncsu.edu/workshops",
+      "sha256": "b46fd0d88e3db4b9e2e75b3ad2ee23ea0d8f43b22286b3a0747fe18c874525e8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ala.org/winner/ncsu-libraries",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ala.org/winner/ncsu-libraries",
+      "sha256": "bfa28b49d4a420781e3859e6c86521c086f411670c4e69cd60df497b84f2b157",
+      "domain_unchanged": true
+    }
+  ]
+}

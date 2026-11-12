@@ -1,0 +1,26 @@
+{
+  "record_id": "pa-philadelphia-tech-impact-itworks-philadelphia",
+  "checked": "2026-11-12",
+  "sources_sha256": "17b5c56cc2202b9d371cd2382f3155d3b614d91dcd28ae612d539f5e143c16bb",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://techimpact.org/itworks",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://techimpact.org/itworks",
+      "sha256": "1641a20c2263ea3f75ed2302671ac2eb3918a736a050f3e98602c4c7ed58f2be",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://technical.ly/?p=190461",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://technical.ly/?p=190461",
+      "sha256": "babe8497052d159601ea83be299a6f7c0c42b9609396ecb28cbb1cdf9d77d3af",
+      "domain_unchanged": true
+    }
+  ]
+}

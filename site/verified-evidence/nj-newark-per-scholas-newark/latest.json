@@ -1,0 +1,26 @@
+{
+  "record_id": "nj-newark-per-scholas-newark",
+  "checked": "2026-11-12",
+  "sources_sha256": "42e448b3e61754c6f54746665c81d89f34e1c244245c7b4d76c2969babd07714",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/newark/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/newark/",
+      "sha256": "f20eda8ac54f17a9b64b889e2f9a59b5611fb78dc5f9d22e85be0c0885a708c1",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://njtechweekly.com/opening-of-per-scholas-tech-training-campus-is-latest-tech-win-for-newark/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://njtechweekly.com/opening-of-per-scholas-tech-training-campus-is-latest-tech-win-for-newark/",
+      "sha256": "f0c577bcb9bcfbafe0879fc5bf33aed18bc6357d383e3f39a8cb4686a0da0971",
+      "domain_unchanged": true
+    }
+  ]
+}

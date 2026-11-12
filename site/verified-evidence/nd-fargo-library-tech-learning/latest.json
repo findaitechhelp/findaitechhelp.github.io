@@ -1,0 +1,26 @@
+{
+  "record_id": "nd-fargo-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "2b32ca2ad4fc769983b5727b4b05b8e3a9f9f0b70b8c71b33f49054f774ab0bf",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.fargond.gov/city-government/departments/library/adults",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.fargond.gov/city-government/departments/library/adults",
+      "sha256": "2cd83ebd386e45cdf25e798f4747699c011b90e6d97ac6267be30d8153d270e1",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.valleynewslive.com/2026/08/13/fargo-public-library-host-school-supply-bingo-kids-aug-17-19/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.valleynewslive.com/2026/08/13/fargo-public-library-host-school-supply-bingo-kids-aug-17-19/",
+      "sha256": "300cbf3d75da5750835b39a4d2fa3c885108d36e7853c42f7848f081e2300657",
+      "domain_unchanged": true
+    }
+  ]
+}

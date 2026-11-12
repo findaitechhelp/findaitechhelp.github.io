@@ -1,0 +1,26 @@
+{
+  "record_id": "sc-columbia-goodwill-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "c2e1e70e1b9352e68cd43b442edfdceb1e41e83155dfa1974839f03c0e4a53c8",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.goodwillsc.org/news-events/events/techinfosessions/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.goodwillsc.org/news-events/events/techinfosessions/",
+      "sha256": "fe265d297bce3b552329274e2b99a351e850555755d89f77d4e27d84ff656716",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.southcarolinapublicradio.org/people/greenville-journal",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.southcarolinapublicradio.org/people/greenville-journal",
+      "sha256": "97b9214e010d9e53d2b5e1e4fd0854562956e91fde857009117b0f6bc2e4c47d",
+      "domain_unchanged": true
+    }
+  ]
+}

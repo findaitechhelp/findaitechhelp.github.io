@@ -1,0 +1,26 @@
+{
+  "record_id": "va-norfolk-the-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "e2a42c559f0a6c4557d5f962fb3e5ddb62564c6a0a71c02e3961155b16996c31",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://norfolkpubliclibrary.org/5891/Creative-Studios",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://norfolkpubliclibrary.org/5891/Creative-Studios",
+      "sha256": "2a033f6a629ab14484f44cfb97f43422d1dddb58993c073efcd7b5c3c01e7749",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.whro.org/arts-culture/2025-01-07/local-podcasters-break-down-the-linguistics-of-hampton-roads",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.whro.org/arts-culture/2025-01-07/local-podcasters-break-down-the-linguistics-of-hampton-roads",
+      "sha256": "704648d81ab41730c842be2b0a4cfa7a873e11cfcb5be464c03dbb8d05bc5cb4",
+      "domain_unchanged": true
+    }
+  ]
+}

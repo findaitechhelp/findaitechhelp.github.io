@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-jose-community-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "7819cada4e3edbc702f565f0f1a2a3cfc1b02f064d7263b6402756f4d9005feb",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.sjpl.org/tech-hubs/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.sjpl.org/tech-hubs/",
+      "sha256": "02cea5d4580359bcca06ce99a476ac36eab000c242275f3aba2083dd0e8a989d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.sanjoseinside.com/news/chromebooks-ipads-ready-for-checkout-at-sj-public-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.sanjoseinside.com/news/chromebooks-ipads-ready-for-checkout-at-sj-public-library/",
+      "sha256": "2e8c2e783afbcc56371b8fa5ee69a537b5c026572752bc9badb93125f095eb02",
+      "domain_unchanged": true
+    }
+  ]
+}

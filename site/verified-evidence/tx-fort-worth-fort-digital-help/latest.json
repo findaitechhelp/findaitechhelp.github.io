@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-fort-worth-fort-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "89a39c5441860f70ed8da0b88b36da0e1018c7f557c61d169159d8aee15e9a62",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.fortworthtexas.gov/departments/library/programs/6-computer-skills2",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.fortworthtexas.gov/departments/library/programs/6-computer-skills2",
+      "sha256": "9ca743956bb4c6e7a69478cbb168cc3722b10a832c7f5ae35fd8a9c05ea499a2",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cbsnews.com/texas/news/best-places-for-computer-classes-in-dfw/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cbsnews.com/texas/news/best-places-for-computer-classes-in-dfw/",
+      "sha256": "130499cc51fc676c5388c705b962ee12fedc86b3f4118f5bf3a5825a89d2aa87",
+      "domain_unchanged": true
+    }
+  ]
+}

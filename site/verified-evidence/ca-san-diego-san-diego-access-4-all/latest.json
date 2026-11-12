@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-diego-san-diego-access-4-all",
+  "checked": "2026-11-12",
+  "sources_sha256": "b778e6d8cb9137b0ad9893c3bbdb92714ff554704cebcbf88fc2069a56de26a1",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.sandiego.gov/public-library/san-diego-access-4-all",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.sandiego.gov/public-library/san-diego-access-4-all",
+      "sha256": "946a3e632d7ed9dcfc2bc84b2d8dd00d1728db42d2cdc1ce766ab4ada4bbd062",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kpbs.org/news/quality-of-life/2026/02/27/free-parking-at-7-balboa-lots-for-residents-starting-this-monday-city-says",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kpbs.org/news/quality-of-life/2026/02/27/free-parking-at-7-balboa-lots-for-residents-starting-this-monday-city-says",
+      "sha256": "4594140adaa7658aee6e6ed7bf6a97b3bb57e313fbc2a3ba5e4318103a039229",
+      "domain_unchanged": true
+    }
+  ]
+}

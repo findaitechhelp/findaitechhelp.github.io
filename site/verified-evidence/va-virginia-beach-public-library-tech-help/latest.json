@@ -1,0 +1,26 @@
+{
+  "record_id": "va-virginia-beach-public-library-tech-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "117643d54ee1496252dbc213a73f1f8f77bcc0d6fa0358ad048e371dcc455d1c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://libraries.virginiabeach.gov/research-learn/technology-education/tech-help",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://libraries.virginiabeach.gov/research-learn/technology-education/tech-help",
+      "sha256": "e641dfd1c52582431cd87435c9074847556c80a5d26a03f586544a2109183e1e",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.whro.org/2026-09-08/virginia-beach-wants-to-give-you-a-library-card-and-maybe-some-chucks",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.whro.org/2026-09-08/virginia-beach-wants-to-give-you-a-library-card-and-maybe-some-chucks",
+      "sha256": "7365187e2b93c5088fe34de36027e6c9d90094834592b18a66bbd87ba31c252b",
+      "domain_unchanged": true
+    }
+  ]
+}

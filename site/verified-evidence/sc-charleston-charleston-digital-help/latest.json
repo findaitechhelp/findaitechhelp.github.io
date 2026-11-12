@@ -1,0 +1,26 @@
+{
+  "record_id": "sc-charleston-charleston-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "77d55b3e389ca2e4739acfd04c75f168c6766c561feafb96b960f0f355167f08",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.ccpl.org/tech-team",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ccpl.org/tech-team",
+      "sha256": "262c469607f52c6f7d31cfe540f3b0b2d1a237a87d1a3d376f5d09c9f12e3ee8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.live5news.com/2024/09/25/charleston-co-public-libraries-focusing-digital-literacy-community/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.live5news.com/2024/09/25/charleston-co-public-libraries-focusing-digital-literacy-community/",
+      "sha256": "583da78a3e641b518644c4930552d754a87881c8b7b6e154d81afd0004b9501a",
+      "domain_unchanged": true
+    }
+  ]
+}

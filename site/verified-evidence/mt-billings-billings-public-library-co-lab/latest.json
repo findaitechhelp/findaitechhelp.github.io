@@ -1,0 +1,26 @@
+{
+  "record_id": "mt-billings-billings-public-library-co-lab",
+  "checked": "2026-11-12",
+  "sources_sha256": "a5c05b4f875067352ac10732f282ff8815a98c8cab0f6a2f6ed86b5f7482e2e7",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://billingslibrary.org/535/COLAB",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://billingslibrary.org/535/COLAB",
+      "sha256": "0c82b2a9726288eee9c37ff754677c91781676eac655ddd0ece6ec959a1c4c49",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ypradio.org/community/2024-10-18/billings-public-library-to-open-technology-aided-creator-space",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ypradio.org/community/2024-10-18/billings-public-library-to-open-technology-aided-creator-space",
+      "sha256": "40132d2765c03fdcbbf4e11ef13c09bc1aec68e3c36e606e1a4022270339d17f",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "mn-saint-paul-clues-digital-literacy",
+  "checked": "2026-11-12",
+  "sources_sha256": "520ccee1d8b943bf409682025b5a652a82bd67cfe597314dd800b58420fb1799",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.cluesclasses.com/computer.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cluesclasses.com/computer.html",
+      "sha256": "cd9e453356c097ffb5c520c990a47e890d6f0e88c9a9db18c4473aa3d621aac2",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.health.state.mn.us/communities/equity/networks/news.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.health.state.mn.us/communities/equity/networks/news.html",
+      "sha256": "f7716ac098ad62f51d13d8d01a5fc44903fe63fdd22f3751268f62aa3a77b2fe",
+      "domain_unchanged": true
+    }
+  ]
+}

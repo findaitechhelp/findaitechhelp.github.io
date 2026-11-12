@@ -1,0 +1,26 @@
+{
+  "record_id": "al-huntsville-huntsville-madison-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "56c56d2d3e2560780e0c7b7a481f161a8f151949fe60ab2eb3114d3f4ff4bcb0",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.hmcpl.org/node/307",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hmcpl.org/node/307",
+      "sha256": "3148b6a1e6780cd01d5adfa178fe367f776b74ab3b9fe2861f0e6c408874edd4",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.themadisonrecord.com/2021/01/02/online-classes-available-with-huntsville-madison-county-public-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.themadisonrecord.com/2021/01/02/online-classes-available-with-huntsville-madison-county-public-library/",
+      "sha256": "ac6e8049a1694f91f6c48314c48a8869f6fb2152072a29cc56db7b4ccca2c8db",
+      "domain_unchanged": true
+    }
+  ]
+}

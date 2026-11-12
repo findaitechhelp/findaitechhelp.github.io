@@ -1,0 +1,26 @@
+{
+  "record_id": "oh-columbus-connectus-digital-skills-hub",
+  "checked": "2026-11-12",
+  "sources_sha256": "29d244bfdabeb14a46e9e71b9b475f8220f21a37da45793d7602fdf3bea36280",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.connectcentralohio.com/digital-skills-hub/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.connectcentralohio.com/digital-skills-hub/",
+      "sha256": "b5105bb8199defa85193588ce0d1adf000dbaab382701cda4b79e916043b77cd",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://spectrumnews1.com/oh/columbus/news/2025/06/25/digital-skills-hub-",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumnews1.com/oh/columbus/news/2025/06/25/digital-skills-hub-",
+      "sha256": "282ab486e11432383ea5f1aa3ad35fcc4499ba2a5a7083891b1bc6533f74f97d",
+      "domain_unchanged": true
+    }
+  ]
+}

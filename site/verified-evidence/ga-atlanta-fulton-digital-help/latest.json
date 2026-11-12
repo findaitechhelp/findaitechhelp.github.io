@@ -1,0 +1,26 @@
+{
+  "record_id": "ga-atlanta-fulton-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "808fd6bfa89d7ae22c7ce29d3c02c14c552503eee49b208f538545fcb255b1e0",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://fulcolibrary.bibliocommons.com/v2/events/69a20938491b809c6f1d0031",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://fulcolibrary.bibliocommons.com/v2/events/69a20938491b809c6f1d0031",
+      "sha256": "32cbf0e5a13d9cfd295791d134d4db0ad483f4d9a8f6d40b8baebfed83de9388",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wabe.org/fulton-countys-central-library-in-downtown-offers-library-on-the-lawn/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wabe.org/fulton-countys-central-library-in-downtown-offers-library-on-the-lawn/",
+      "sha256": "6cf93c26fe664599accf9e1aa4ae5924c99044bc36d8d0c4c73c8324f5fc9614",
+      "domain_unchanged": true
+    }
+  ]
+}

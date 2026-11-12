@@ -1,0 +1,26 @@
+{
+  "record_id": "va-richmond-richmond-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "536b2d63fbdaba945eaaa74fde9f2fc5694ab74e9164d41fffb9dccf0073a39a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://rvalibrary.org/services/memory-lab/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://rvalibrary.org/services/memory-lab/",
+      "sha256": "1938428bb34624af4a2676ec7ff9c1af4121b5d1ebaf0907fb44bf2a5f8ef13d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.richmonder.org/a-fuller-picture-library-brings-preservation-tools-to-residents-filling-gaps-in-richmonds-history/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.richmonder.org/a-fuller-picture-library-brings-preservation-tools-to-residents-filling-gaps-in-richmonds-history/",
+      "sha256": "acae87c35433730fff3caafabeb73dc32b058eb4895607b4bb05eaff77ce0b26",
+      "domain_unchanged": true
+    }
+  ]
+}

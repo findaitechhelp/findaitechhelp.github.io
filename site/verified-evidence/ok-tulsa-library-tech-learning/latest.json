@@ -1,0 +1,26 @@
+{
+  "record_id": "ok-tulsa-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "9a014dadd40f95a722368f80a4c7202fe994d47e3d48129d74e7300be693061a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.tulsalibrary.org/programs-and-services/adults/skill-building",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tulsalibrary.org/programs-and-services/adults/skill-building",
+      "sha256": "d30a06095b1d097e3d116242500442e283801557d555facf24256ea1f92eb915",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.publicradiotulsa.org/local-regional/2025-04-17/tulsa-libraries-ceo-system-not-in-danger-from-federal-cuts",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.publicradiotulsa.org/local-regional/2025-04-17/tulsa-libraries-ceo-system-not-in-danger-from-federal-cuts",
+      "sha256": "a414afd8bf79fe99387f845480c548bfb87ee659216cc86cd2f35754d80e7ffd",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-seattle-seattle-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "302d8d359c0604c42baf50f3f92e51b4d910b9d061efdfbe9730c9939a1ac104",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.spl.org/programs-and-services/social-justice/digital-equity",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.spl.org/programs-and-services/social-justice/digital-equity",
+      "sha256": "f8a81b39596a06273c488a1aa523c1929d0bcdc65e5a28f194bcc9512f054b2c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kuow.org/books/2024-06-13/seattle-library-patrons-rejoice-quietly-digital-books-are-back-26c3",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kuow.org/books/2024-06-13/seattle-library-patrons-rejoice-quietly-digital-books-are-back-26c3",
+      "sha256": "975a93099eaedafe4083acd4bfcaf0d9cda21b10ae2dcb7eda0096813df9604c",
+      "domain_unchanged": true
+    }
+  ]
+}

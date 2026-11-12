@@ -1,0 +1,26 @@
+{
+  "record_id": "ne-omaha-omaha-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "f1bd918ba58af80b4a3afc28735c97ca35d6b41ccc929445db88f978ed18c150",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://omahalibrary.org/technology-services/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://omahalibrary.org/technology-services/",
+      "sha256": "cb1038439d721785a402a7eb238dbd53e4c01ad2f0aed66df11d1247c3223409",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://thereader.com/2026/04/17/its-exceeding-expectations-a-conversation-with-an-architect-and-designer-behind-omahas-new-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://thereader.com/2026/04/17/its-exceeding-expectations-a-conversation-with-an-architect-and-designer-behind-omahas-new-library/",
+      "sha256": "6d69381def2adfcf9cec1388138b43cb062412de4ed9ae6354bbc66fa52e23c6",
+      "domain_unchanged": true
+    }
+  ]
+}

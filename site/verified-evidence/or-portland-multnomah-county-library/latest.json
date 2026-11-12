@@ -1,0 +1,26 @@
+{
+  "record_id": "or-portland-multnomah-county-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "798db1eb6183541002570676b0f0b75dfe3e122967343454bd5f7bf5ce570ea4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://multcolib.org/articles/tech-help-library",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://multcolib.org/articles/tech-help-library",
+      "sha256": "5a332b800de84fd89f71146e8c7b88dcbaee9a23d86a7ca8cd1a7c9be42015fa",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wweek.com/culture/2026/02/11/our-libraries-are-stunning-again/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wweek.com/culture/2026/02/11/our-libraries-are-stunning-again/",
+      "sha256": "e37f1e4e7ed5e802f6e75caae70cd4e4768950383ba1eaee1bb2e6ca730b9dac",
+      "domain_unchanged": true
+    }
+  ]
+}

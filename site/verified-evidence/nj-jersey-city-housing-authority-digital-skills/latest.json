@@ -1,0 +1,26 @@
+{
+  "record_id": "nj-jersey-city-housing-authority-digital-skills",
+  "checked": "2026-11-12",
+  "sources_sha256": "7a824eb4609116c6d1c64aa105f37457e46fa53ae1c400fa86c4c977fd43d171",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.jerseycityha.org/digitalinclusion",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.jerseycityha.org/digitalinclusion",
+      "sha256": "7e13f17df2034ce83edd80b4e5a0a3c8e534365fbd0426143411b523b4ac0608",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://hudsoncountyview.com/jersey-city-housing-authority-residents-taking-free-digital-literacy-workshops/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://hudsoncountyview.com/jersey-city-housing-authority-residents-taking-free-digital-literacy-workshops/",
+      "sha256": "c7f072bea5c3599ce63188770512ec904366759718fafbe8278b58f21ff0fc11",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-el-paso-el-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "1482435e8cca2f38140884de0fd3e1dc5951f7f6877af93998c31d72f67ff108",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.elpasolibrary.org/attend/classes",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.elpasolibrary.org/attend/classes",
+      "sha256": "d8278da0ba51c7555b3075cf3e5ab17c38e6372dfdb7052a75d7e62d8b350c49",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/07/15/el-paso-centre-future/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/07/15/el-paso-centre-future/",
+      "sha256": "ff4ff0478d4fe2fdd56de47d9a940a3f54fdfd053fc3892036f9a1751f3c39b3",
+      "domain_unchanged": true
+    }
+  ]
+}

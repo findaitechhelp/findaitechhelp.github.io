@@ -1,0 +1,26 @@
+{
+  "record_id": "co-colorado-springs-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "1c60f3bf1bc5294494a7c443ee941d9633bc460e98ed201c6b7729ad9be0ae11",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://ppld.org/classes?keywords=computer",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ppld.org/classes?keywords=computer",
+      "sha256": "70e46470f2bc5b7b9b93c5aa363db52ea6cb46a2aef9c7e1001998e95be5aec7",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.koaa.com/news/local-news/pikes-peak-library-district-introduces-hybrid-access-model-for-three-rural-branches",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.koaa.com/news/local-news/pikes-peak-library-district-introduces-hybrid-access-model-for-three-rural-branches",
+      "sha256": "40e013daa788bc4b0fe84dd88861b189065a61471e284b715eee45a4a8646e0f",
+      "domain_unchanged": true
+    }
+  ]
+}

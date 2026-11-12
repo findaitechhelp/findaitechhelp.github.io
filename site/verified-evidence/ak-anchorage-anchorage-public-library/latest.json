@@ -1,0 +1,26 @@
+{
+  "record_id": "ak-anchorage-anchorage-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "e43c88823790dcbd8a52d19ee4ca8a7d18b12e79acd6626574ff9d6c0aa8c53c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://anchoragelibrary.org/events/classes-schedules/classes",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://anchoragelibrary.org/events/classes-schedules/classes",
+      "sha256": "0ca4be9d65da0d7f26172f59d7c9ca2241195b3247dbc6b8f8534ba8c4a7dc89",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://alaskapublic.org/the-anchorage-weekender/2026-04-09/the-anchorage-weekender-dino-day-home-improvement-workshops-and-5-other-local-events",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://alaskapublic.org/the-anchorage-weekender/2026-04-09/the-anchorage-weekender-dino-day-home-improvement-workshops-and-5-other-local-events",
+      "sha256": "269ed45e143ac81d7c512d72ce97917e231d25c7c220131249442e6464dfcc9e",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ms-jackson-jackson-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "83a20096b3015a5c8cdb876120e735daee8c00c6f7d196345acc86862b2b5ae2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.jhlibrary.org/events/list",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.jhlibrary.org/events/list",
+      "sha256": "6ec21cb16df5d7f8d4ccab6667fb759a749043d6836f1eb311fe0581a5dbb8e8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://jacksonadvocateonline.com/jackson-hinds-library-system-reclaiming-community-equity-and-opportunity-across-jackson/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://jacksonadvocateonline.com/jackson-hinds-library-system-reclaiming-community-equity-and-opportunity-across-jackson/",
+      "sha256": "a75a360f00e180b1a0623a968091373021800180531be6d56f320aad4fa6b3d6",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ky-louisville-goodwill-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "a3af5c6062008d92a98e45ff9984aaa66cda5cfe5edb23da58fe9b219c08fdb6",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://goodwillky.org/goodwill-kentucky-receives-40000-donation-from-amazon-to-support-workforce-development-initiatives/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://goodwillky.org/goodwill-kentucky-receives-40000-donation-from-amazon-to-support-workforce-development-initiatives/",
+      "sha256": "f55615275933b9a95b830df46521bf242439d9b59a3fcba1a97edf518f6408ca",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wdrbwave.com/2026/07/21/goodwill-kentucky-partners-with-aetna-better-health-new-career-skills-lab/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wdrbwave.com/2026/07/21/goodwill-kentucky-partners-with-aetna-better-health-new-career-skills-lab/",
+      "sha256": "341c6a4a1f82f9011abcb402e693882dcbbd730f6b0a6a3e5f3007ba4b4a7aae",
+      "domain_unchanged": true
+    }
+  ]
+}

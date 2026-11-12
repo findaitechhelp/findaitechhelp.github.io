@@ -1,0 +1,26 @@
+{
+  "record_id": "al-birmingham-birmingham-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "823baba17e078229f10ae185a489a7d0fd1e85b0b7fff4457a9fe0a34c46c95f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://rlccbpl.wordpress.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://rlccbpl.wordpress.com/",
+      "sha256": "1dc0f01ddbeb6b257202e5022cb929efdeec149a52412f75ff45110dc63eeab3",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.birminghamtimes.com/2017/12/inside-the-birmingham-public-library-system-cooking-classes-financial-literacy-quilting-and-more/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.birminghamtimes.com/2017/12/inside-the-birmingham-public-library-system-cooking-classes-financial-literacy-quilting-and-more/",
+      "sha256": "1cd46cbefa08acde58242ae9e34fd6bda47682ce0854d91194df61dc3d895aa4",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "fl-miami-miami-dade-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "6148f48248dc28c76d18adee9b1574529abdd40e2fb311394b24026d439e2004",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://mdpls.org/mobile-library",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mdpls.org/mobile-library",
+      "sha256": "dee9c1c524cca5ff7f5ca7aa838c0246a141998f3036327ebe211862ec09faa9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.infodocket.com/2017/06/30/public-libraries-miami-dade-public-library-converts-old-bookmobile-into-modern-technobus/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.infodocket.com/2017/06/30/public-libraries-miami-dade-public-library-converts-old-bookmobile-into-modern-technobus/",
+      "sha256": "d6d448363c61f72ff5bb466950fe3ac4a9874256d2c7aec41429ea11adbe9ba4",
+      "domain_unchanged": true
+    }
+  ]
+}

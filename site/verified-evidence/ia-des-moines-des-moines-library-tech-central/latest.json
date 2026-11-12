@@ -1,0 +1,26 @@
+{
+  "record_id": "ia-des-moines-des-moines-library-tech-central",
+  "checked": "2026-11-12",
+  "sources_sha256": "efbed7f2a6e52f58c7192cfc59ff751c8966cdd6772fc302c69d4ec0924a4f4f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.dmpl.org/tech-central",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.dmpl.org/tech-central",
+      "sha256": "2a55e4d26eb015f7ea0fb7ad44389686e701e8c9d169824dc4557312f4313807",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://librarylandproject.org/stories-blog/2021/11/1/midwest-tour-the-des-moines-central-library-des-moines-iowa",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://librarylandproject.org/stories-blog/2021/11/1/midwest-tour-the-des-moines-central-library-des-moines-iowa",
+      "sha256": "e204154bd7749e46aeed283aa3e021bfd22abde0745064cd638805869d7d1e5d",
+      "domain_unchanged": true
+    }
+  ]
+}

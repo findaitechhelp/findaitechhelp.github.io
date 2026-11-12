@@ -1,0 +1,26 @@
+{
+  "record_id": "tn-memphis-public-library-computer-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "91cd67a4a15c4098df47f3184c91790e5ddffd9e5c1bbe136d059eb900a2e92d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.memphislibrary.org/learn/computers/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.memphislibrary.org/learn/computers/",
+      "sha256": "5341b651777d43241e015872cb94bf91f91295a2c1967c2bade71349f6470d13",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.actionnews5.com/2026/10/02/connecting-901-launches-first-event-orange-mound-community-center/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.actionnews5.com/2026/10/02/connecting-901-launches-first-event-orange-mound-community-center/",
+      "sha256": "11378beb903f1f18fa78e29328b40065f2e01de333fff36845fabd5bead168e0",
+      "domain_unchanged": true
+    }
+  ]
+}

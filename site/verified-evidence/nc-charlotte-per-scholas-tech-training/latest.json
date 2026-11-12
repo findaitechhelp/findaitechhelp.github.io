@@ -1,0 +1,26 @@
+{
+  "record_id": "nc-charlotte-per-scholas-tech-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "3f3eefeac9b345be86c19db8c6b3b6af407dc803cde83786f4fcd73396ea7530",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/north-carolina/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/north-carolina/",
+      "sha256": "6d989bdd9b0a61fd154995927df40c5216512893a6ebf09bc96c5bcf13ef5cca",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wfae.org/race-equity/2022-12-09/north-carolina-program-offers-tuition-free-training-to-increase-access-and-opportunities-in-the-tech-industry",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wfae.org/race-equity/2022-12-09/north-carolina-program-offers-tuition-free-training-to-increase-access-and-opportunities-in-the-tech-industry",
+      "sha256": "1fdad3030d76db1883a39e579f35b80550169b2ead70ce3bb60774325d348ffa",
+      "domain_unchanged": true
+    }
+  ]
+}

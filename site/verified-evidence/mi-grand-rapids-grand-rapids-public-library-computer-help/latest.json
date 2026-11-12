@@ -1,0 +1,26 @@
+{
+  "record_id": "mi-grand-rapids-grand-rapids-public-library-computer-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "32e5657944380ce5eb28ff93b6116892f657849142c1ba89e611e022907f2821",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.grpl.org/computers/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.grpl.org/computers/",
+      "sha256": "b3a00f8fe0e1033df2ef122962991bed7f3a5b3e82f67483f2fb1e22694dabbf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wgvunews.org/the-shelley-irwin-show/2026-09-30/the-grand-rapids-public-library-partners-with-global-experts-to-reimagine-its-main-library",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wgvunews.org/the-shelley-irwin-show/2026-09-30/the-grand-rapids-public-library-partners-with-global-experts-to-reimagine-its-main-library",
+      "sha256": "3da4d927f7c61623f2285d4cbab13e0599c3aa66948943389de704a8747a5468",
+      "domain_unchanged": true
+    }
+  ]
+}

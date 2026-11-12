@@ -1,0 +1,26 @@
+{
+  "record_id": "ky-lexington-lexington-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "d26f384a14a8b4718957e1615e94ff8d55a0109bdfcf57f610a62098b6042fc9",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lexpublib.org/learning-spaces/northside-digital-studio",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lexpublib.org/learning-spaces/northside-digital-studio",
+      "sha256": "65ad8f3fb29ecf94209940d2297a91524a17f630458321ba7cc290a11778358a",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://spectrumnews1.com/ca/la/news/2026/01/03/lexington-experiences-deadly-start-to-new-years",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumnews1.com/ca/la/news/2026/01/03/lexington-experiences-deadly-start-to-new-years",
+      "sha256": "a596e93c68f5506df906bb337f6407f078596da3c4795780bee629a1ba9870ce",
+      "domain_unchanged": true
+    }
+  ]
+}

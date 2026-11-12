@@ -1,0 +1,26 @@
+{
+  "record_id": "nv-las-vegas-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "5056b49726d46e90e6a7905b6bc694601d9372dd00a60c21f862618b8c5f679f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://thelibrarydistrict.org/learning-tools/computer-skills/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://thelibrarydistrict.org/learning-tools/computer-skills/",
+      "sha256": "ae31b9ec3c46ac20af3fd8e578b05ef22b68ec322061cd4d4b751bc3eda8cf0e",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.knpr.org/show/knprs-state-of-nevada/2026-02-13/las-vegas-library-head-kelvin-watson-garners-librarian-of-the-year-award",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.knpr.org/show/knprs-state-of-nevada/2026-02-13/las-vegas-library-head-kelvin-watson-garners-librarian-of-the-year-award",
+      "sha256": "e86f966e45a996d89aad814610d6d15c92654725eaf346cbf39d78945db61cc3",
+      "domain_unchanged": true
+    }
+  ]
+}

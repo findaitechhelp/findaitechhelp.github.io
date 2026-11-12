@@ -1,0 +1,26 @@
+{
+  "record_id": "ri-cranston-cranston-public-library-c-lab",
+  "checked": "2026-11-12",
+  "sources_sha256": "9269b3062d10e8567a78380b404df509adec8630d226609fd2025e11ea090131",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.cranstonlibrary.org/c-lab/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cranstonlibrary.org/c-lab/",
+      "sha256": "ba04494affc65f3f0b7dd085409d4ca48bb1cbd9027b27c4dc5f235ccfd0e70b",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.rhodeislandlibraryreport.org/news-blog/all-access-accelerates-libraries-role-in-adult-ed-jobs-preparation",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.rhodeislandlibraryreport.org/news-blog/all-access-accelerates-libraries-role-in-adult-ed-jobs-preparation",
+      "sha256": "1296b41dee5b7a36e54f4e18829e1d4f998ff0d9d0fd006ff9f3ce787381fd5b",
+      "domain_unchanged": true
+    }
+  ]
+}

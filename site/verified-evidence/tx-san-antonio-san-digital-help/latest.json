@@ -1,0 +1,35 @@
+{
+  "record_id": "tx-san-antonio-san-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "08e0e395c7d94aa056a02f0e667887fbca0b7e8c15ed69172f9d97a96505a39b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.mysapl.org/learn",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://guides.mysapl.org/learn",
+      "sha256": "f094418b9dd4288648db7a603392f9be00d94ffeae905be95eee332fe6f62992",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ksat.com/news/local/2026/10/26/san-antonio-public-library-learn-program-helps-voters-residents-navigate-technology/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ksat.com/news/local/2026/10/26/san-antonio-public-library-learn-program-helps-voters-residents-navigate-technology/",
+      "sha256": "99b9db9440cb965b6872af3efaf7c2a1a32b41e1fab21213be27371165ac3bf7",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.mysapl.org/services/for-/adult-senior-services",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.mysapl.org/services/for-/adult-senior-services",
+      "sha256": "95ad482ce5d1b8fa398e555e03ad7c250bd9a34c2ff1863f77c08690ccddf0ad",
+      "domain_unchanged": true
+    }
+  ]
+}

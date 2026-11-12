@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-houston-houston-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "138c7d418637a7f3d0e0d89faaa439149b03234906d35a59608b4c80f31a5fc2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://houstonlibrary.org/home",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://houstonlibrary.org/home",
+      "sha256": "14de44ce9269c01b0ef1ddff9afa4fdb4cc880d998b2babbf3dc87d471d5be6f",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2024/07/11/houston-digital-literacy/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tsl.texas.gov/ld/librarydevelopments/2024/07/11/houston-digital-literacy/",
+      "sha256": "0a1fca202d152f0239aa0180c785410841b75de32014151485f00caa30de0fcb",
+      "domain_unchanged": true
+    }
+  ]
+}

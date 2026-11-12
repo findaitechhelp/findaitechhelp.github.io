@@ -43,5 +43,3466 @@
     "approved_by": "dan",
     "approved_on": "2026-11-12",
     "approval_fingerprint": "bd9c97af15e98a11a1b92a9aa6c27ac2dc82866c1ed535c9e3374c900cc4221d"
+  },
+  {
+    "id": "ak-anchorage-anchorage-public-library",
+    "name": "Anchorage Public Library",
+    "url": "https://anchoragelibrary.org/events/classes-schedules/classes",
+    "description": "Computer and technology help for using devices, email and common software. Check the current class calendar.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ak",
+    "location_slug": "anchorage",
+    "location_label": "Anchorage, AK",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://anchoragelibrary.org/events/classes-schedules/classes",
+        "domain_class": "official",
+        "quote": "We can help you understand and use computers, smart phones, and other technology.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://alaskapublic.org/the-anchorage-weekender/2026-04-09/the-anchorage-weekender-dino-day-home-improvement-workshops-and-5-other-local-events",
+        "domain_class": "news",
+        "quote": "At the Muldoon Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c76e4edb9bd37e8187b102be49afa2025e23718f059fe83fd29bac3a14cce28a"
+  },
+  {
+    "id": "az-phoenix-phoenix-public-library",
+    "name": "Phoenix Public Library",
+    "url": "https://calendar.phoenixpubliclibrary.org/",
+    "description": "Browse current computer and device-help programs offered through Phoenix Public Library.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "az",
+    "location_slug": "phoenix",
+    "location_label": "Phoenix, AZ",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://calendar.phoenixpubliclibrary.org/",
+        "domain_class": "official",
+        "quote": "Computer and Device Help",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kjzz.org/kjzz-news/2026-06-22/community-picks-prickly-pear-as-new-name-for-former-cesar-chavez-library-in-phoenix",
+        "domain_class": "news",
+        "quote": "Phoenix Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fd4fb718c429ce38715370a4f3e40d59a5d28ddae9b00750bb45e3568db6d196"
+  },
+  {
+    "id": "az-tucson-pima-county-public-library",
+    "name": "Pima County Public Library",
+    "url": "https://www.library.pima.gov/digital-navigators/",
+    "description": "Computer-skills classes and digital-media help; ask a branch about current sessions. The former Connect Arizona navigator program ended in 2025.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "az",
+    "location_slug": "tucson",
+    "location_label": "Tucson, AZ",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.library.pima.gov/digital-navigators/",
+        "domain_class": "official",
+        "quote": "Please call or visit your local library",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kold.com/2022/05/05/pima-county-public-libraries-see-big-jump-people-using-free-resources/?outputType=amp",
+        "domain_class": "news",
+        "quote": "Pima County Public Libraries",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Current official page explicitly discontinues the former navigator program; only classes and branch help are proposed. Independent historical report corroborates library identity."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e3ace6be0e8e8cc952b84a2b78df336faff9ac379874ce0fca3d73eb082e3bbb"
+  },
+  {
+    "id": "ca-los-angeles-los-angeles-public-library-cybernauts",
+    "name": "Los Angeles Public Library - Beginning Computer Classes",
+    "url": "https://www.lapl.org/index.php/events/beginning-computer-classes-adults",
+    "description": "Beginning computer classes at the Harbor City - Harbor Gateway branch cover email accounts and library digital resources. Check current sessions and registration.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ca",
+    "location_slug": "los-angeles",
+    "location_label": "Los Angeles, CA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.lapl.org/index.php/events/beginning-computer-classes-adults",
+        "domain_class": "official",
+        "quote": "Join us to learn essential computer skills!",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://laist.com/news/oldest-la-public-library-building-still-serving-vermont-square",
+        "domain_class": "news",
+        "quote": "Los Angeles Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f0965f2a5fc5116e190f001d4cb5f90d6cc69bc3365c5d582fc9a88e87e129c8"
+  },
+  {
+    "id": "ca-san-diego-san-diego-access-4-all",
+    "name": "San Diego Access 4 All",
+    "url": "https://www.sandiego.gov/public-library/san-diego-access-4-all",
+    "description": "Digital navigators provide basic tech support and help residents build computer skills.",
+    "cost": "Free digital navigator help",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "other",
+    "state_id": "ca",
+    "location_slug": "san-diego",
+    "location_label": "San Diego, CA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.sandiego.gov/public-library/san-diego-access-4-all",
+        "domain_class": "official",
+        "quote": "The Digital Navigator Program offers free, one-on-one assistance",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kpbs.org/news/quality-of-life/2026/02/27/free-parking-at-7-balboa-lots-for-residents-starting-this-monday-city-says",
+        "domain_class": "news",
+        "quote": "which is available at certain libraries and recreation centers",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent KPBS reporting directs readers to the city digital navigator program; official library page supplies present service details."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f0f66528154e74ca2d16ef17d3d232b50d2e50c9c24f9207e2c9ceae1dcbf606"
+  },
+  {
+    "id": "ca-oakland-oakland-public-library",
+    "name": "Oakland Public Library",
+    "url": "https://oaklandlibrary.org/help/",
+    "description": "Drop-in computer help and digital-literacy classes at library locations. Check current branch availability.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ca",
+    "location_slug": "oakland",
+    "location_label": "Oakland, CA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://oaklandlibrary.org/help/",
+        "domain_class": "official",
+        "quote": "The library also offers computer and digital literacy classes regularly.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kqed.org/news/12085382/saws-sewing-machines-and-telescopes-the-surprising-things-on-loan-from-your-library",
+        "domain_class": "news",
+        "quote": "Oakland Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1a5cd3a2b75c17a6c4910be077b50d266991099354220265e0c1d9ae7d77bbcc"
+  },
+  {
+    "id": "ca-sacramento-sacramento-public-library",
+    "name": "Sacramento Public Library",
+    "url": "https://www.saclibrary.org/about-us/contact-us/frequently-asked-questions",
+    "description": "Basic computer navigation and online-resource assistance; some branches offer one-on-one tech help.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ca",
+    "location_slug": "sacramento",
+    "location_label": "Sacramento, CA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.saclibrary.org/about-us/contact-us/frequently-asked-questions",
+        "domain_class": "official",
+        "quote": "Some libraries also offer dedicated one-on-one tech help sessions.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kcra.com/article/sacramento-martin-luther-king-jr-library-reopening/73443417",
+        "domain_class": "news",
+        "quote": "The Sacramento Public Library and the City of Sacramento",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "234952e72aca53cda13d4cd2fd87db55ae200f1b582a355588de5d4fa5b86882"
+  },
+  {
+    "id": "ca-fresno-fresno-eoc-access-to-technology",
+    "name": "Fresno EOC Access to Technology",
+    "url": "https://fresnoeoc.org/access-to-technology/",
+    "description": "Digital-literacy classes and support for using smartphones, tablets, computers and the internet.",
+    "cost": "Free digital-literacy classes and support",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "other",
+    "state_id": "ca",
+    "location_slug": "fresno",
+    "location_label": "Fresno, CA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://fresnoeoc.org/access-to-technology/",
+        "domain_class": "official",
+        "quote": "Access to Technology is a free digital literacy program",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://abc30.com/amp/post/fresno-eoc-unveils-unique-energy-project-create-sustainable/15086133/",
+        "domain_class": "news",
+        "quote": "Fresno Economic Opportunities Commission",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates the Fresno nonprofit; the current program and costs come from its official page."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5d9f0db1541cdd402e49902ffc7981e946d6b8a635e4f7145c3cef041507e6d1"
+  },
+  {
+    "id": "co-denver-denver-public-library",
+    "name": "Denver Public Library",
+    "url": "https://denverlibrary.org/tech/techhelp",
+    "description": "Drop-in help, appointments, digital navigators and classes for building everyday technology skills.",
+    "cost": "Free digital navigator help and technology classes",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "co",
+    "location_slug": "denver",
+    "location_label": "Denver, CO",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://denverlibrary.org/tech/techhelp",
+        "domain_class": "official",
+        "quote": "Digital navigators offer free, ongoing help for you to:",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.benton.org/blog/denver-public-library-people-skills-are-most-important-quality-when-choosing-digital-navigators",
+        "domain_class": "news",
+        "quote": "Denver Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c6075ee74128e6db4355daf46774f627143b7b3a7614054437a920c52ab4f94e"
+  },
+  {
+    "id": "hi-honolulu-hawaii-state-public-library-system",
+    "name": "Hawaii State Public Library System",
+    "url": "https://www.librarieshawaii.org/2026/02/25/digital-navigators-at-the-library/",
+    "description": "In-person help with everyday technology questions through the public library digital navigator program.",
+    "cost": "Free digital navigator sessions",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "hi",
+    "location_slug": "honolulu",
+    "location_label": "Honolulu, HI",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.librarieshawaii.org/2026/02/25/digital-navigators-at-the-library/",
+        "domain_class": "official",
+        "quote": "Digital Navigators are real people who can help you with technology questions in person.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.hawaiipublicradio.org/local-news/2025-10-08/one-on-one-computer-help-now-available-at-5-oahu-libraries",
+        "domain_class": "news",
+        "quote": "Residents can schedule free sessions with trained digital navigators",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Statewide library resource associated with Honolulu/Oahu; confirm participating branch and appointments. Independent HPR coverage corroborates service launch, not every current branch."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b6b5e738949c4ec22064ae8326fd82b8494b598fe02c89a7f14a07cc8003e356"
+  },
+  {
+    "id": "mt-billings-billings-public-library-co-lab",
+    "name": "Billings Public Library CO+LAB",
+    "url": "https://billingslibrary.org/535/COLAB",
+    "description": "An all-ages makerspace offering hands-on learning with creative technology and equipment. Equipment certification requirements apply.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "mt",
+    "location_slug": "billings",
+    "location_label": "Billings, MT",
+    "service_label": "Creative technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://billingslibrary.org/535/COLAB",
+        "domain_class": "official",
+        "quote": "The CO+LAB is",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.ypradio.org/community/2024-10-18/billings-public-library-to-open-technology-aided-creator-space",
+        "domain_class": "news",
+        "quote": "Billings Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "19dd4ca6f675455fee4928491ec9533463acea9ef5c67cc30db79a1a6ff8f733"
+  },
+  {
+    "id": "or-portland-multnomah-county-library",
+    "name": "Multnomah County Library",
+    "url": "https://multcolib.org/articles/tech-help-library",
+    "description": "One-on-one appointments, drop-in sessions and classes for learning computers, email, phones and e-readers.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "or",
+    "location_slug": "portland",
+    "location_label": "Portland, OR",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://multcolib.org/articles/tech-help-library",
+        "domain_class": "official",
+        "quote": "Tech help is available in English, Spanish, Vietnamese and Chinese.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.wweek.com/culture/2026/02/11/our-libraries-are-stunning-again/",
+        "domain_class": "news",
+        "quote": "Multnomah County Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "447f81b76da0e4657db844f38a2bb10b6bd4c26c39d7069ef772cbf53642f6b5"
+  },
+  {
+    "id": "ut-salt-lake-city-salt-lake-city-public-library",
+    "name": "Salt Lake City Public Library",
+    "url": "https://services.slcpl.org/digitallibrary",
+    "description": "Library-card access to software and technology training videos through its digital library.",
+    "cost": "Library card required; confirm current eligibility",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ut",
+    "location_slug": "salt-lake-city",
+    "location_label": "Salt Lake City, UT",
+    "service_label": "Software and digital-skills learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://services.slcpl.org/digitallibrary",
+        "domain_class": "official",
+        "quote": "LinkedIn Learning provides an extensive library of training videos",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.ksl.com/article/51641413/salt-lake-city-public-library-employees-raise-concerns-over-staffing-workplace-culture",
+        "domain_class": "news",
+        "quote": "Salt Lake City Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c59df81612ba983ebaa102fc631469dc2217b9fa7f317521dcc363967ba82504"
+  },
+  {
+    "id": "wa-seattle-seattle-public-library",
+    "name": "Seattle Public Library",
+    "url": "https://www.spl.org/programs-and-services/social-justice/digital-equity",
+    "description": "Digital-skills learning resources and library computer access. Check current program and library-card requirements.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "wa",
+    "location_slug": "seattle",
+    "location_label": "Seattle, WA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.spl.org/programs-and-services/social-justice/digital-equity",
+        "domain_class": "official",
+        "quote": "Test and improve your computer skills",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kuow.org/books/2024-06-13/seattle-library-patrons-rejoice-quietly-digital-books-are-back-26c3",
+        "domain_class": "news",
+        "quote": "Seattle Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "a43d35431ee071a94c013a19a0efba69974be314dbe6f8d8618037a73690dbe1"
+  },
+  {
+    "id": "wa-spokane-spokane-public-library",
+    "name": "Spokane Public Library",
+    "url": "https://www.spokanelibrary.org/tech-support/",
+    "description": "Technology support for device questions and using the library’s digital services.",
+    "cost": "Free virtual tech support",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "wa",
+    "location_slug": "spokane",
+    "location_label": "Spokane, WA",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.spokanelibrary.org/tech-support/",
+        "domain_class": "official",
+        "quote": "Our Community Technology staff is available for free virtual tech support",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://kxly920.com/2026/08/21/spokane-public-library-delays-service-cuts-to-support-wildfire-recovery/",
+        "domain_class": "news",
+        "quote": "Spokane Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent KXLY reporting notes budget pressure and possible service reductions; confirm current support availability."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fb3aac6b1736ea37ec13f3c4dc38b987a4c440c30d1041ddaef9b16fc7613c13"
+  },
+  {
+    "id": "sd-sioux-falls-siouxland-libraries",
+    "name": "Siouxland Libraries",
+    "url": "https://www.siouxlandlib.org/services/technology/computers-and-more",
+    "description": "In-person technology classes plus public computers and internet access in Sioux Falls-area branches.",
+    "cost": "Free in-person technology classes",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "sd",
+    "location_slug": "sioux-falls",
+    "location_label": "Sioux Falls, SD",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.siouxlandlib.org/services/technology/computers-and-more",
+        "domain_class": "official",
+        "quote": "Siouxland Libraries",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://605magazine.com/2024/03/29/605-stops-by-siouxland-libraries/",
+        "domain_class": "news",
+        "quote": "Siouxland Libraries",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4e12292607ce889e758371f05688f1f93c99b27518e18ddc82f686aec08c509e"
+  },
+  {
+    "id": "ne-omaha-omaha-public-library",
+    "name": "Omaha Public Library",
+    "url": "https://omahalibrary.org/technology-services/",
+    "description": "Basic computer, email, internet and library-device assistance; availability varies by service.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ne",
+    "location_slug": "omaha",
+    "location_label": "Omaha, NE",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://omahalibrary.org/technology-services/",
+        "domain_class": "official",
+        "quote": "All OPL staff may help you with the following services.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://thereader.com/2026/04/17/its-exceeding-expectations-a-conversation-with-an-architect-and-designer-behind-omahas-new-library/",
+        "domain_class": "news",
+        "quote": "tech classes for kids and adults",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Official FAQ says the library does not currently offer computer classes; this record is staff technology assistance only, not class enrollment."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1f941fc10f9db1463196c42f71e1d1e2ba9b34f9b65276e92ccfc302df81d458"
+  },
+  {
+    "id": "ks-wichita-wichita-public-library",
+    "name": "Wichita Public Library",
+    "url": "https://wichitalibrary.org/Services/Pages/Book-A-Librarian.aspx",
+    "description": "Book A Librarian support for using the library’s computers and online resources.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ks",
+    "location_slug": "wichita",
+    "location_label": "Wichita, KS",
+    "service_label": "Technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://wichitalibrary.org/Services/Pages/Book-A-Librarian.aspx",
+        "domain_class": "official",
+        "quote": "Technology Help",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "provider-published current service page"
+      },
+      {
+        "url": "https://www.kansasbigs.org/our-stories/posts/community-resource-spotlight-wichita-public-library",
+        "domain_class": "news",
+        "quote": "Book-a-Librarian",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "External Kansas Big Brothers Big Sisters editorial community-resource spotlight; no delivery/funding relationship identified. Current availability comes from official library page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "445a13a3bc3b250eaf9fd65836f108fcf47827dbb57f1f3c7fd1fafa5f654989"
+  },
+  {
+    "id": "id-boise-library-tech-learning",
+    "name": "Boise Public Library",
+    "url": "https://boisepubliclibrary.org/digital-resources/",
+    "description": "Library-card access to online learning resources, including technology courses. Confirm eligibility and access requirements.",
+    "cost": "Confirm library-card eligibility and access",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "id",
+    "location_slug": "boise",
+    "location_label": "Boise, ID",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://boisepubliclibrary.org/digital-resources/",
+        "domain_class": "official",
+        "quote": "customizable courses in technology and other fields",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.aol.com/articles/downtown-boise-library-project-supposed-100000000.html",
+        "domain_class": "news",
+        "quote": "Boise Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1830f93b56412593c1debcfc32254a613dbc3497c8b5ffcc36a7ebb077be4d88"
+  },
+  {
+    "id": "nv-las-vegas-library-tech-learning",
+    "name": "Las Vegas-Clark County Library District",
+    "url": "https://thelibrarydistrict.org/learning-tools/computer-skills/",
+    "description": "Library computer-skills learning resources. Check current course access and library-card requirements.",
+    "cost": "Confirm current availability and any fees",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "nv",
+    "location_slug": "las-vegas",
+    "location_label": "Las Vegas, NV",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://thelibrarydistrict.org/learning-tools/computer-skills/",
+        "domain_class": "official",
+        "quote": "Computer & Technology Skills Center",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.knpr.org/show/knprs-state-of-nevada/2026-02-13/las-vegas-library-head-kelvin-watson-garners-librarian-of-the-year-award",
+        "domain_class": "news",
+        "quote": "Las Vegas-Clark County Library District",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c46371272a9465bf1914db79f7a0f280069bd4f9b2fd91c7772e4a1877ce82af"
+  },
+  {
+    "id": "nv-reno-library-tech-learning",
+    "name": "Washoe County Library",
+    "url": "https://www.washoecountylibrary.us/services/",
+    "description": "Basic computer-skills classes and mobile-device help. Contact an open branch for the current schedule; branch closures and hours vary.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "nv",
+    "location_slug": "reno",
+    "location_label": "Reno, NV",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.washoecountylibrary.us/services/",
+        "domain_class": "official",
+        "quote": "the library offers basic computer skills classes and drop-in help with mobile devices.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.kunr.org/local-stories/2026-01-28/downtown-reno-library-to-close-sundays",
+        "domain_class": "news",
+        "quote": "Washoe County Library Board of Trustees",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "648bdd5f5a747f698c2c87ef06da6dfe64915f0c6c4104c2f315cae438a639ff"
+  },
+  {
+    "id": "nm-albuquerque-library-tech-learning",
+    "name": "Albuquerque Bernalillo County Public Library",
+    "url": "https://abqlibrary.org/adultlearning/classes",
+    "description": "Computer classes and one-on-one technology support. A library card and advance registration may be required.",
+    "cost": "Confirm library-card eligibility and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "nm",
+    "location_slug": "albuquerque",
+    "location_label": "Albuquerque, NM",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://abqlibrary.org/adultlearning/classes",
+        "domain_class": "official",
+        "quote": "Call your local branch to make an appointment to accommodate your schedule.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.kunm.org/local-news/2025-02-09/new-mexico-ban-book-bans-buck-national-trend",
+        "domain_class": "news",
+        "quote": "At an Albuquerque public library last month",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5ab87900671fb0c555c5e2851db427bc63c6864f5bac797556436d37eb026dea"
+  },
+  {
+    "id": "wy-cheyenne-library-tech-learning",
+    "name": "Laramie County Library System",
+    "url": "https://lclsonline.org/computers-and-technology/",
+    "description": "Library computers, creative tools and digital resources for learning and work. Contact the library for current help availability.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "wy",
+    "location_slug": "cheyenne",
+    "location_label": "Cheyenne, WY",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://lclsonline.org/computers-and-technology/",
+        "domain_class": "official",
+        "quote": "Our computers, creative tools, and digital services make it easy to learn, work, explore, and create.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.infodocket.com/2025/01/10/wyoming-laramie-county-library-system-targeted-by-ransomware-attack/",
+        "domain_class": "news",
+        "quote": "Laramie County Library System",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "94e19c9c5efe37bf004fceeb09aa2ed15815655f14ccc470baa34659aac8ee00"
+  },
+  {
+    "id": "nd-fargo-library-tech-learning",
+    "name": "Fargo Public Library",
+    "url": "https://www.fargond.gov/city-government/departments/library/adults",
+    "description": "One-on-one assistance with technology questions. Contact library staff to arrange a current appointment.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "nd",
+    "location_slug": "fargo",
+    "location_label": "Fargo, ND",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.fargond.gov/city-government/departments/library/adults",
+        "domain_class": "official",
+        "quote": "Our tech expert staff are available for one-on-one assistance with technology issues.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.valleynewslive.com/2026/08/13/fargo-public-library-host-school-supply-bingo-kids-aug-17-19/",
+        "domain_class": "news",
+        "quote": "The Fargo Public Library will host School Supply Bingo events",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3577bf11a1e86daaa114d26cd322331d812b31bbc0b4171b0ff800cf1a6d6e64"
+  },
+  {
+    "id": "ok-oklahoma-city-library-tech-learning",
+    "name": "Metropolitan Library System - Downtown Library",
+    "url": "https://www.metrolibrary.org/locations/downtown",
+    "description": "Downtown library public computers and basic computer or internet assistance. Confirm staff availability and current access requirements.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ok",
+    "location_slug": "oklahoma-city",
+    "location_label": "Oklahoma City, OK",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.metrolibrary.org/locations/downtown",
+        "domain_class": "official",
+        "quote": "Public use computers",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://freepressokc.com/downtown-library-a-diverse-busy-community-hub-for-okc/",
+        "domain_class": "news",
+        "quote": "helping people with computers and the internet",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "db616a46e76dc45ce34cfef101c9f2a7f6599de49bafd64bd020afd68bea19da"
+  },
+  {
+    "id": "ok-tulsa-library-tech-learning",
+    "name": "Tulsa City-County Library",
+    "url": "https://www.tulsalibrary.org/programs-and-services/adults/skill-building",
+    "description": "Computer-skills classes and learning resources through Tulsa libraries. Check the current class calendar and access requirements.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ok",
+    "location_slug": "tulsa",
+    "location_label": "Tulsa, OK",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.tulsalibrary.org/programs-and-services/adults/skill-building",
+        "domain_class": "official",
+        "quote": "Computer classes at Tulsa libraries",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.publicradiotulsa.org/local-regional/2025-04-17/tulsa-libraries-ceo-system-not-in-danger-from-federal-cuts",
+        "domain_class": "news",
+        "quote": "Tulsa City-County Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7a9a6455aa48cd0b2a103d2d0fb66e6b65f8abf50c3098d840839ec5b3aa88fe"
+  },
+  {
+    "id": "ar-little-rock-library-tech-learning",
+    "name": "Central Arkansas Library System",
+    "url": "https://cals.org/tech-help/",
+    "description": "Free one-on-one help using technology from Digital Literacy Guides. Confirm current branch sessions or appointments.",
+    "cost": "Free one-on-one assistance",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ar",
+    "location_slug": "little-rock",
+    "location_label": "Little Rock, AR",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://cals.org/tech-help/",
+        "domain_class": "official",
+        "quote": "Digital Literacy Guides offer friendly, free, one-on-one assistance",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.ualrpublicradio.org/local-regional-news/2025-07-29/cals-sets-september-deadline-for-main-library-reopening",
+        "domain_class": "news",
+        "quote": "Central Arkansas Library System",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "51dba44e7938490ab9513fb623dde2b7a96fdc5d9313c8130aa87d70b26ecacd"
+  },
+  {
+    "id": "la-new-orleans-library-tech-learning",
+    "name": "New Orleans Public Library",
+    "url": "https://nolalibrary.org/learn/adult-literacy/",
+    "description": "Book a Librarian connects residents with computer, smartphone and job-help resources. Contact the library to arrange assistance.",
+    "cost": "Confirm current availability and any fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "la",
+    "location_slug": "new-orleans",
+    "location_label": "New Orleans, LA",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://nolalibrary.org/learn/adult-literacy/",
+        "domain_class": "official",
+        "quote": "Need computer, smartphone, or job help?",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.wwno.org/news/2021-11-09/ahead-of-december-vote-new-orleans-library-head-says-tax-renewal-is-needed-to-maintain-budget",
+        "domain_class": "news",
+        "quote": "New Orleans Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "723fdb0354123083ea13b2da7fc975a96dd69cd4fbe1ddfa94425aa63b8fe549"
+  },
+  {
+    "id": "la-baton-rouge-library-tech-learning",
+    "name": "East Baton Rouge Parish Library",
+    "url": "https://ebrpl.libguides.com/computereducation",
+    "description": "Free computer classes from basic skills to Microsoft Office. Check the current branch calendar; on-demand learning is also available.",
+    "cost": "Free computer classes",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "la",
+    "location_slug": "baton-rouge",
+    "location_label": "Baton Rouge, LA",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://ebrpl.libguides.com/computereducation",
+        "domain_class": "official",
+        "quote": "All classes are FREE.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.wrkf.org/wrkf-news/2026-01-06/ebrmilage",
+        "domain_class": "news",
+        "quote": "East Baton Rouge Parish Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "74d415500bc6a4ce326d28897317dc4afb6d46d3454557193a0545ded6a7ecda"
+  },
+  {
+    "id": "co-colorado-springs-library-tech-learning",
+    "name": "Pikes Peak Library District",
+    "url": "https://ppld.org/classes?keywords=computer",
+    "description": "Computer-literacy classes through Pikes Peak Library District. Browse current classes and confirm registration and library-card requirements.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "co",
+    "location_slug": "colorado-springs",
+    "location_label": "Colorado Springs, CO",
+    "service_label": "Computer skills and technology learning",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://ppld.org/classes?keywords=computer",
+        "domain_class": "official",
+        "quote": "Computer Literacy Classes",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published service page"
+      },
+      {
+        "url": "https://www.koaa.com/news/local-news/pikes-peak-library-district-introduces-hybrid-access-model-for-three-rural-branches",
+        "domain_class": "news",
+        "quote": "Pikes Peak Library District",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent editorial coverage corroborates provider identity; service details come from current official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "31276ca6d63ba492046c1fb9f17f2be2f24969d76c7a124b6b2ecdf7b9e67bc8"
+  },
+  {
+    "id": "ca-san-francisco-community-tech-help",
+    "name": "Community Living Campaign - Neighborhood Tech Connect",
+    "url": "https://sfcommunityliving.org/programs/neighborhood-tech-connect/",
+    "description": "Technology classes and assistance for older adults and adults with disabilities, including computer and phone basics. Check current class schedules and eligibility.",
+    "cost": "Confirm current availability and any fees",
+    "format": "hybrid",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "other",
+    "state_id": "ca",
+    "location_slug": "san-francisco",
+    "location_label": "San Francisco, CA",
+    "service_label": "Computer skills and technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://sfcommunityliving.org/programs/neighborhood-tech-connect/",
+        "domain_class": "official",
+        "quote": "Our tech team provides training classes",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current service page"
+      },
+      {
+        "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-woman-supports-elderly-and-disabled-with-housing-help-and-activities/",
+        "domain_class": "news",
+        "quote": "Community Living Campaign",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent reporting corroborates organization identity; current service facts from official source."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4b87e88839b3a7290ed10b8d8ed5609883f63fb62691162bb59572bbe00c32e2"
+  },
+  {
+    "id": "mt-missoula-community-tech-help",
+    "name": "Missoula Public Library - Tech Times",
+    "url": "https://www.missoulapubliclibrary.org/home/services/computers-wifi/",
+    "description": "One-on-one appointments for basic technology issues and library digital services. Bring your device or use a library computer.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "mt",
+    "location_slug": "missoula",
+    "location_label": "Missoula, MT",
+    "service_label": "Computer skills and technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.missoulapubliclibrary.org/home/services/computers-wifi/",
+        "domain_class": "official",
+        "quote": "Book an appointment with our Tech Team",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current service page"
+      },
+      {
+        "url": "https://www.mtpr.org/show/front-row-center/2022-07-29/this-is-everyones-awardmissoula-public-library-wins-best-public-library-of-2022",
+        "domain_class": "news",
+        "quote": "Missoula Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent reporting corroborates organization identity; current service facts from official source."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "43b0127c5cde149b44ffeea226b31e095b08f9453d243888341549a3f8c4d944"
+  },
+  {
+    "id": "ne-lincoln-community-tech-help",
+    "name": "Lincoln City Libraries - Tech Help",
+    "url": "https://www.lincolnlibraries.org/technology-and-printing/tech-help/",
+    "description": "Technology help for computers, smartphones and tablets. Bring your own device or use a library computer; confirm current appointments.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ne",
+    "location_slug": "lincoln",
+    "location_label": "Lincoln, NE",
+    "service_label": "Computer skills and technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.lincolnlibraries.org/technology-and-printing/tech-help/",
+        "domain_class": "official",
+        "quote": "Need help with your computer, smart phone, or tablet?",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current service page"
+      },
+      {
+        "url": "https://nebraskapublicmedia.org/en/news/news-articles/free-court-database-access-expands-to-all-lincoln-libraries/",
+        "domain_class": "news",
+        "quote": "Lincoln City Libraries",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent reporting corroborates organization identity; current service facts from official source."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bc118fa8d17ce1c5b7c618fa1cf0783fa8b5d0b6456ac61e35b1b3954b507ae5"
+  },
+  {
+    "id": "ca-riverside-community-learning",
+    "name": "Riverside Public Library - Technology Assistance",
+    "url": "https://riversidecalibrary.libcal.com/",
+    "description": "Technology-assistance classes offer hands-on help with smartphones, tablets and computers. Check the current library calendar for branch, registration and session details.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ca",
+    "location_slug": "riverside",
+    "location_label": "Riverside, CA",
+    "service_label": "Computer skills and technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://riversidecalibrary.libcal.com/",
+        "domain_class": "official",
+        "quote": "Tech Assistance",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current service page"
+      },
+      {
+        "url": "https://www.kvcrnews.org/local-news/2021-04-05/riversides-new-main-library-accepting-time-capsule-items",
+        "domain_class": "news",
+        "quote": "Riverside",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent reporting; identity corroboration only unless article explicitly covers listed service."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9c5c3114f4f9d407f59e4ad74260ea4d8e90808f0ba8d43a176064228bac7383"
+  },
+  {
+    "id": "ca-long-beach-community-learning",
+    "name": "Long Beach Public Library - Computer Help",
+    "url": "https://longbeach.gov/library/learn/computers-printing/",
+    "description": "Burnett Neighborhood Library offers one-on-one basic computer and technology help. Call before visiting because availability depends on staffing.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ca",
+    "location_slug": "long-beach",
+    "location_label": "Long Beach, CA",
+    "service_label": "Computer skills and technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://longbeach.gov/library/learn/computers-printing/",
+        "domain_class": "official",
+        "quote": "Computer Help @ Burnett Library",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current service page"
+      },
+      {
+        "url": "https://lbpost.com/news/wi-fi-e-books-and-other-digital-library-services-are-back-after-november-cyberattack-long-beach-says/",
+        "domain_class": "news",
+        "quote": "Long Beach Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent reporting; identity corroboration only unless article explicitly covers listed service."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "411f90651b5efde1ba50495e89b0616a842892c2d1f7c34a51f091b922038b72"
+  },
+  {
+    "id": "ca-san-jose-community-learning",
+    "name": "San Jose Public Library - SJ Access Tech Hubs",
+    "url": "https://www.sjpl.org/tech-hubs/",
+    "description": "Free San Jose community tech hubs offer computer access, digital-skills classes and personalized help. Check the hub page for current locations and services.",
+    "cost": "Free tech hubs",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "ca",
+    "location_slug": "san-jose",
+    "location_label": "San Jose, CA",
+    "service_label": "Computer skills and technology help",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.sjpl.org/tech-hubs/",
+        "domain_class": "official",
+        "quote": "All Tech Hubs are FREE",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current service page"
+      },
+      {
+        "url": "https://www.sanjoseinside.com/news/chromebooks-ipads-ready-for-checkout-at-sj-public-library/",
+        "domain_class": "news",
+        "quote": "San Jose Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent reporting; identity corroboration only unless article explicitly covers listed service."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5de5602cca861e9d480b43e0f0083b858f4453246a592a04102ed04fa244ca80"
+  },
+  {
+    "id": "wa-seattle-library-aws-ai-training",
+    "name": "Seattle Public Library - AWS AI Career Training",
+    "url": "https://www.spl.org/programs-and-services/civics-and-social-services/job-resources/aws-career-training-programs",
+    "description": "Library-hosted AWS training includes introductory AI, generative AI, prompts and responsible use. Check the current calendar; some series recommend prior cloud knowledge.",
+    "cost": "Confirm current availability and any fees",
+    "format": "hybrid",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "wa",
+    "location_slug": "seattle",
+    "location_label": "Seattle, WA",
+    "service_label": "AI literacy and learning",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.spl.org/programs-and-services/civics-and-social-services/job-resources/aws-career-training-programs",
+        "domain_class": "official",
+        "quote": "Learn fundamental concepts and terminology related to artificial intelligence (AI)",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current learning resource or dated event"
+      },
+      {
+        "url": "https://www.kuow.org/books/2024-06-13/seattle-library-patrons-rejoice-quietly-digital-books-are-back-26c3",
+        "domain_class": "news",
+        "quote": "Seattle Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f3dc1148622658a0759544310e7d388b705bff18932337c19cb1a8efcfbc50c5"
+  },
+  {
+    "id": "co-denver-library-ai-computer-skills",
+    "name": "Denver Public Library - AI and Computer Skills Courses",
+    "url": "https://www.denverlibrary.org/computer-skills-center",
+    "description": "Library-card access to video courses covering AI basics, software and computer skills. Confirm eligibility and access with the library.",
+    "cost": "Confirm library-card eligibility and access",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "kind": "library",
+    "state_id": "co",
+    "location_slug": "denver",
+    "location_label": "Denver, CO",
+    "service_label": "AI literacy and learning",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.denverlibrary.org/computer-skills-center",
+        "domain_class": "official",
+        "quote": "AI (Artificial Intelligence) basics",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Provider-published current learning resource or dated event"
+      },
+      {
+        "url": "https://www.benton.org/blog/denver-public-library-people-skills-are-most-important-quality-when-choosing-digital-navigators",
+        "domain_class": "news",
+        "quote": "Denver Public Library",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity; current service scope comes from official page."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "a293cc52c6a837ffb829d7f37ce93e7e5b41e94e3732d21eb48f704c743bb655"
+  },
+  {
+    "id": "nj-jersey-city-housing-authority-digital-skills",
+    "name": "Jersey City Housing Authority - Digital Inclusion",
+    "state_id": "nj",
+    "location_slug": "jersey-city",
+    "location_label": "Jersey City, NJ",
+    "url": "https://www.jerseycityha.org/digitalinclusion",
+    "description": "Housing-authority residents can contact the Digital Inclusion Coordinator about digital-literacy classes and technology resources. Ask about current training availability and eligibility.",
+    "cost": "Confirm current training availability and any fees",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Digital-literacy training and technology resources for housing residents",
+    "sources": [
+      {
+        "url": "https://www.jerseycityha.org/digitalinclusion",
+        "quote": "Residents interested in learning more about digital literacy classes",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://hudsoncountyview.com/jersey-city-housing-authority-residents-taking-free-digital-literacy-workshops/",
+        "quote": "Jersey City Housing Authority residents have recently been taking free digital literacy workshops",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Bylined Hudson County View local reporting, not a program delivery partner or directory. Historical 2023 workshops corroborate provider identity/program history only."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "be0a74d5fcd75a6f66d5558f228b107c187589f07d5273f38ccdde574a6103b0"
+  },
+  {
+    "id": "az-mesa-public-technology-learning",
+    "state_id": "az",
+    "location_slug": "mesa",
+    "location_label": "Mesa, AZ",
+    "name": "Mesa Public Library - HOTspot Digital Help Desk",
+    "url": "https://www.mesalibrary.org/how-do-i/get-help-with-downloadables",
+    "description": "One-on-one help using computers, mobile devices, library downloads, software and apps. Check the current HOTspot help-desk schedule.",
+    "cost": "Confirm current availability and any fees",
+    "format": "in-person",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "service_label": "Technology learning and computer help",
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.mesalibrary.org/how-do-i/get-help-with-downloadables",
+        "quote": "At the HOTspot we provide one-on-one assistance",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Current provider service or learning-resource page"
+      },
+      {
+        "url": "https://www.kjzz.org/business/2025-01-21/mesa-public-library-to-hold-free-business-workshops",
+        "quote": "Mesa Public Library",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent bylined original local reporting corroborates provider identity/location; current service facts come from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4e6b057e91c7461416f602732ee1916e7b5e77d5d3de73537ee4a2d2ff59d698"
+  },
+  {
+    "id": "ca-bakersfield-public-technology-learning",
+    "state_id": "ca",
+    "location_slug": "bakersfield",
+    "location_label": "Bakersfield, CA",
+    "name": "Kern County Library - Technology Learning Resources",
+    "url": "https://kerncountylibrary.org/a-z-list-of-resources/",
+    "description": "Library-card access to online technology courses through Udemy, plus typing-skills practice. Bakersfield residents can confirm card eligibility and access with the library.",
+    "cost": "Confirm library-card eligibility and course access",
+    "format": "self-paced",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "service_label": "Technology learning and computer help",
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://kerncountylibrary.org/a-z-list-of-resources/",
+        "quote": "Udemy offers flexible online learning",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Current provider service or learning-resource page"
+      },
+      {
+        "url": "https://www.turnto23.com/news/local-news/kern-county-library-southwest-branch-reopens-after-maintenance-issues-fixed",
+        "quote": "BAKERSFIELD",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Independent bylined original local reporting corroborates provider identity/location; current service facts come from official page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1d42650ae1f5ec1b551098a37e67afaf9074ef0401e78cc2e5c650f3dd301e73"
+  },
+  {
+    "id": "al-birmingham-birmingham-digital-help",
+    "name": "Birmingham Public Library computer classes",
+    "url": "https://rlccbpl.wordpress.com/",
+    "state_id": "al",
+    "location_slug": "birmingham",
+    "location_label": "Birmingham, AL",
+    "description": "Library computer classes teach everyday software skills; confirm the current schedule with the library.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://rlccbpl.wordpress.com/",
+        "quote": "We offer free computer classes and computer use for the public.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Birmingham Public Library computer classes",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.birminghamtimes.com/2017/12/inside-the-birmingham-public-library-system-cooking-classes-financial-literacy-quilting-and-more/",
+        "quote": "weekly computer classes at the Central Library downtown Birmingham.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.birminghamtimes.com",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "6b97618485def3df63ee5588fec5a4764f157fc753dfd6bd8954b396257138e6"
+  },
+  {
+    "id": "al-huntsville-huntsville-madison-digital-help",
+    "name": "Huntsville-Madison County Public Library computer training",
+    "url": "https://www.hmcpl.org/node/307",
+    "state_id": "al",
+    "location_slug": "huntsville",
+    "location_label": "Huntsville, AL",
+    "description": "Computer classes and individual assistance support digital literacy and workplace skills.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.hmcpl.org/node/307",
+        "quote": "The library offers over 260 free computer classes each year",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Huntsville-Madison County Public Library computer training",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.themadisonrecord.com/2021/01/02/online-classes-available-with-huntsville-madison-county-public-library/",
+        "quote": "The library offers more than 260 free computer classes each year.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.themadisonrecord.com",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5e49d88eb6b81791a3d37d81ddc3badb59c98c4c0f70b5036a471fe1f2fc3fea"
+  },
+  {
+    "id": "ky-lexington-lexington-digital-help",
+    "name": "Lexington Public Library Northside Digital Studio",
+    "url": "https://www.lexpublib.org/learning-spaces/northside-digital-studio",
+    "state_id": "ky",
+    "location_slug": "lexington",
+    "location_label": "Lexington, KY",
+    "description": "Staff help visitors develop skills with digital-media tools, software and creative projects; confirm access and equipment requirements.",
+    "cost": "Confirm access and materials costs directly",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.lexpublib.org/learning-spaces/northside-digital-studio",
+        "quote": "The Digital Studio provides staff assistance with technology",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Lexington Public Library Northside Digital Studio",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://spectrumnews1.com/ca/la/news/2026/01/03/lexington-experiences-deadly-start-to-new-years",
+        "quote": "Northside Branch Public Library digital studio",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "spectrumnews1.com",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "0ab6d42b5a94b7e19bf080fe169dff15eaa4700ae9ef453277f880e80ae467d0"
+  },
+  {
+    "id": "wv-charleston-kanawha-digital-help",
+    "name": "Kanawha County Public Library IDEA Lab",
+    "url": "https://www.kcpls.org/idea-lab",
+    "state_id": "wv",
+    "location_slug": "charleston",
+    "location_label": "Charleston, WV",
+    "description": "A library makerspace supports learning with creative technology; a library card, waiver and some equipment training are required.",
+    "cost": "No entrance fee; some materials have charges",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.kcpls.org/idea-lab",
+        "quote": "a makerspace and creative technology center",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Kanawha County Public Library IDEA Lab",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wsaz.com/2026/04/28/idea-lab-kanawha-county-public-library/?outputType=amp",
+        "quote": "The Idea Lab at the Kanawha County Public Library is offering up a unique space to learn new skills.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.wsaz.com",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2b6c9d19590e14e182a779ca2a235c959445d3ac92c14cdc0929346e575c3519"
+  },
+  {
+    "id": "tx-el-paso-el-digital-help",
+    "name": "El Paso Public Libraries adult computer classes",
+    "url": "https://www.elpasolibrary.org/attend/classes",
+    "state_id": "tx",
+    "location_slug": "el-paso",
+    "location_label": "El Paso, TX",
+    "description": "Adult education includes free computer classes; contact a branch for the current computer-class schedule.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.elpasolibrary.org/attend/classes",
+        "quote": "El Paso Public Libraries offer free continuing adult education classes such as ESL, Citizenship, and Computers.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "El Paso Public Libraries adult computer classes",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/07/15/el-paso-centre-future/",
+        "quote": "digital literacy classes",
+        "domain_class": "gov-edu",
+        "independent": true,
+        "source_owner": "www.tsl.texas.gov",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "70ee86894aab8f98e2d40606035d8ab8a9245a9e07ee685c70cf8ed4d9192507"
+  },
+  {
+    "id": "tx-fort-worth-fort-digital-help",
+    "name": "Fort Worth Public Library computer skills",
+    "url": "https://www.fortworthtexas.gov/departments/library/programs/6-computer-skills2",
+    "state_id": "tx",
+    "location_slug": "fort-worth",
+    "location_label": "Fort Worth, TX",
+    "description": "Online learning and in-person library classes support practical computer skills.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.fortworthtexas.gov/departments/library/programs/6-computer-skills2",
+        "quote": "Your Fort Worth Public Library gives you free access to Northstar Online Learning",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Fort Worth Public Library computer skills",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.cbsnews.com/texas/news/best-places-for-computer-classes-in-dfw/",
+        "quote": "computer classes",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.cbsnews.com",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "840bb1916cdd03206ccc0c92df51b63bd1edcec1f95b7a9b8af10996af07f648"
+  },
+  {
+    "id": "tx-houston-houston-digital-help",
+    "name": "Houston Public Library adult digital skills",
+    "url": "https://houstonlibrary.org/home",
+    "state_id": "tx",
+    "location_slug": "houston",
+    "location_label": "Houston, TX",
+    "description": "Library learning options include basic computer skills and adult-learning support; confirm current branch schedules.",
+    "cost": "Free classes; confirm specific registration requirements",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://houstonlibrary.org/home",
+        "quote": "Discover free classes and support, including basic computer skills",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Houston Public Library adult digital skills",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2024/07/11/houston-digital-literacy/",
+        "quote": "help Houstonians bridge the digital divide.",
+        "domain_class": "gov-edu",
+        "independent": true,
+        "source_owner": "www.tsl.texas.gov",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f9dc83fcb80c239cf2b127bd94528e995cd069cfaa489f87476126bbbd9942fb"
+  },
+  {
+    "id": "tx-san-antonio-san-digital-help",
+    "name": "San Antonio Public Library Learn",
+    "url": "https://www.mysapl.org/learn",
+    "state_id": "tx",
+    "location_slug": "san-antonio",
+    "location_label": "San Antonio, TX",
+    "description": "Adult education offers individual support and computer training; ask a Learn location about current availability.",
+    "cost": "Confirm current costs directly",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.mysapl.org/learn",
+        "quote": "Learn",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "San Antonio Public Library Learn",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ksat.com/news/local/2026/10/26/san-antonio-public-library-learn-program-helps-voters-residents-navigate-technology/",
+        "quote": "offers individualized support and computer training.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.ksat.com",
+        "source_relationship": "Independent editorial reporting; identity/program corroboration, current details from official source",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.mysapl.org/services/for-/adult-senior-services",
+        "quote": "Learn at SAPL is an adult education program that provides individualized job support and computer training.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "San Antonio Public Library",
+        "source_relationship": "provider-published program detail",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "571a9e34e2aca4fc66b23ced5230f4c0b8b1f44ec4cab5e102865ced6019b822"
+  },
+  {
+    "id": "sc-charleston-charleston-digital-help",
+    "name": "Charleston County Public Library Tech Team",
+    "url": "https://www.ccpl.org/tech-team",
+    "state_id": "sc",
+    "location_slug": "charleston",
+    "location_label": "Charleston, SC",
+    "description": "Library technology classes range from computer basics to AI topics, with individual help appointments; confirm current branch options.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Computer and AI learning; technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.ccpl.org/tech-team",
+        "quote": "Charleston County Public Library provides free technology classes and programs.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Charleston County Public Library Tech Team",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.live5news.com/2024/09/25/charleston-co-public-libraries-focusing-digital-literacy-community/",
+        "quote": "The Charleston County Library System is focusing on digital literacy",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.live5news.com",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "d3f709fc05ffbc5df495e18c456dbffe67a82c3fe2a313e08151b84e2ba303e2"
+  },
+  {
+    "id": "va-richmond-richmond-digital-help",
+    "name": "Richmond Public Library Memory Lab",
+    "url": "https://rvalibrary.org/services/memory-lab/",
+    "state_id": "va",
+    "location_slug": "richmond",
+    "location_label": "Richmond, VA",
+    "description": "Learn to digitize personal photos and recordings through a library appointment with equipment orientation and staff guidance.",
+    "cost": "Free; bring a way to save your files",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://rvalibrary.org/services/memory-lab/",
+        "quote": "Use of the Memory Lab is free to any member of the public.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Richmond Public Library Memory Lab",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.richmonder.org/a-fuller-picture-library-brings-preservation-tools-to-residents-filling-gaps-in-richmonds-history/",
+        "quote": "The Memory Lab has tools to turn analog media into digital.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.richmonder.org",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8ed410b4346ba0a82b22e0c1476c559bf17fd08336c5e8d13a4df75cabd787d1"
+  },
+  {
+    "id": "va-norfolk-the-digital-help",
+    "name": "The Slover Creative Studios",
+    "url": "https://norfolkpubliclibrary.org/5891/Creative-Studios",
+    "state_id": "va",
+    "location_slug": "norfolk",
+    "location_label": "Norfolk, VA",
+    "description": "Staff and creative studios support learning digital media, audio recording and maker tools; review orientation and access policies.",
+    "cost": "Studio reservations free; confirm equipment and materials requirements",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://norfolkpubliclibrary.org/5891/Creative-Studios",
+        "quote": "beginners can learn the basics and advanced users are able to refine their creative skills.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "The Slover Creative Studios",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.whro.org/arts-culture/2025-01-07/local-podcasters-break-down-the-linguistics-of-hampton-roads",
+        "quote": "The women generally record at the sound studio in the Slover Library.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.whro.org",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2e0e5bf6a16bfcf6a7d6a1632cc8587877005a4ef0099adc390573b15136fde6"
+  },
+  {
+    "id": "ga-atlanta-fulton-digital-help",
+    "name": "Fulton County Library Central computer learning",
+    "url": "https://fulcolibrary.bibliocommons.com/v2/events/69a20938491b809c6f1d0031",
+    "state_id": "ga",
+    "location_slug": "atlanta",
+    "location_label": "Atlanta, GA",
+    "description": "Central Library offers beginner computer classes and requested individual help appointments; consult the current calendar.",
+    "cost": "Confirm current class costs directly",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://fulcolibrary.bibliocommons.com/v2/events/69a20938491b809c6f1d0031",
+        "quote": "Learn how to use computers at Central Library's Computer Basics Classes.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Fulton County Library Central computer learning",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wabe.org/fulton-countys-central-library-in-downtown-offers-library-on-the-lawn/",
+        "quote": "Fulton County Public Library System’s Central Library in Downtown Atlanta",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.wabe.org",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "efd415d79cf16e7b56c7514a4d1fd9caa523dd5f4f4d1a4cf49bdc67aec98568"
+  },
+  {
+    "id": "dc-washington-dc-digital-help",
+    "name": "DC Public Library computer classes",
+    "url": "https://www.dclibrary.org/using-the-library/computer-classes",
+    "state_id": "dc",
+    "location_slug": "washington",
+    "location_label": "Washington, DC",
+    "description": "Adult learning includes basic computer use, everyday software and device help; check the current class calendar.",
+    "cost": "Confirm current class costs directly",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.dclibrary.org/using-the-library/computer-classes",
+        "quote": "The Adult Learning Department at DC Public Library has countless computer classes available",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "DC Public Library computer classes",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.downtowndc.org/news/mlk-library-steps-deeper-into-digital-age/",
+        "quote": "DC Public Library is keeping up with the times",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.downtowndc.org",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fac30a7b34c6b919bfe45892d1c532fc5e2ee4cdc1ea4ea8620210702ff51263"
+  },
+  {
+    "id": "tx-dallas-dallas-digital-help",
+    "name": "Dallas Public Library Job and Tech Help",
+    "url": "https://www.dallaslibrary.org/services/job-tech-help",
+    "state_id": "tx",
+    "location_slug": "dallas",
+    "location_label": "Dallas, TX",
+    "description": "Library resources support job skills, software learning and technology help; confirm branch-specific services before visiting.",
+    "cost": "Confirm current access and class costs directly",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.dallaslibrary.org/services/job-tech-help",
+        "quote": "Job & Tech Help",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Dallas Public Library Job and Tech Help",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://dallascityhomes.org/blog/dallas-public-library",
+        "quote": "free technology and computer training is here.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "dallascityhomes.org",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c4cb9a4c268bffb7cdf07a958fd662562f5ef03ba19cf4906c31efacfceffed5"
+  },
+  {
+    "id": "fl-tampa-tampa-hillsborough-digital-help",
+    "name": "Tampa-Hillsborough County Public Library The Hive",
+    "url": "https://tbl.hcplc.org/services/hive",
+    "state_id": "fl",
+    "location_slug": "tampa",
+    "location_label": "Tampa, FL",
+    "description": "Library makerspaces provide tools and classes for learning creative technology; confirm equipment orientation and materials requirements.",
+    "cost": "Confirm current access and materials costs",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://tbl.hcplc.org/services/hive",
+        "quote": "The Hive offers innovative tools, classes and resources",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Tampa-Hillsborough County Public Library The Hive",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://americanlibrariesmagazine.org/2014/02/26/making-room-for-informal-learning/",
+        "quote": "Public Library System’s The Hive",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "americanlibrariesmagazine.org",
+        "source_relationship": "Independent editorial source corroborates identity/program; current detail from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3d34cccd8b43b6bd2626f002b5d59573515da6ef352125815c14e89d13c64b3a"
+  },
+  {
+    "id": "fl-miami-miami-dade-digital-help",
+    "name": "Miami-Dade Public Library Technobus",
+    "url": "https://mdpls.org/mobile-library",
+    "state_id": "fl",
+    "location_slug": "miami",
+    "location_label": "Miami, FL",
+    "description": "A mobile library computer lab introduces creative digital tools; confirm the current stop schedule and activities.",
+    "cost": "Confirm current activity and materials costs directly",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://mdpls.org/mobile-library",
+        "quote": "the Library's computer lab on wheels!",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Miami-Dade Public Library Technobus",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.infodocket.com/2017/06/30/public-libraries-miami-dade-public-library-converts-old-bookmobile-into-modern-technobus/",
+        "quote": "Classes are offered in digital photo editing, music production, videography and graphic design.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.infodocket.com",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1a322cde6ac71817cc90ac84f029b4c611bce6620de636d2ff139b0a7eae1341"
+  },
+  {
+    "id": "ms-jackson-jackson-digital-help",
+    "name": "Jackson Hinds Library System technology classes",
+    "url": "https://www.jhlibrary.org/events/list",
+    "state_id": "ms",
+    "location_slug": "jackson",
+    "location_label": "Jackson, MS",
+    "description": "Library programs include technology classes and digital literacy support; confirm the current branch calendar.",
+    "cost": "Confirm current class costs directly",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.jhlibrary.org/events/list",
+        "quote": "Computer Classes",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Jackson Hinds Library System technology classes",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://jacksonadvocateonline.com/jackson-hinds-library-system-reclaiming-community-equity-and-opportunity-across-jackson/",
+        "quote": "offering free technology classes",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "jacksonadvocateonline.com",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2764736f09925dc6c00cbf666ab75c9acf7b64d52b4842511a40867ba4c078af"
+  },
+  {
+    "id": "nc-raleigh-nc-digital-help",
+    "name": "NC State University Libraries technology workshops",
+    "url": "https://www.lib.ncsu.edu/workshops",
+    "state_id": "nc",
+    "location_slug": "raleigh",
+    "location_label": "Raleigh, NC",
+    "description": "University library workshops cover digital tools and research skills; confirm the specific workshop and visitor eligibility.",
+    "cost": "Confirm workshop costs and university access requirements",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.lib.ncsu.edu/workshops",
+        "quote": "Library Workshops",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "NC State University Libraries technology workshops",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ala.org/winner/ncsu-libraries",
+        "quote": "NCSU Libraries in Raleigh, North Carolina",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.ala.org",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "d6a0bd03cc904619a5f06d9c727c6384f4b9cb12a0a46ec21ea4e483d065e2a3"
+  },
+  {
+    "id": "tx-austin-austin-digital-help",
+    "name": "Austin Public Library computer learning",
+    "url": "https://library.austintexas.gov/events/computers-technology",
+    "state_id": "tx",
+    "location_slug": "austin",
+    "location_label": "Austin, TX",
+    "description": "Library computer classes and creative technology sessions support everyday and digital-media skills; check current branch availability.",
+    "cost": "Free computer training; confirm equipment and materials requirements",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://library.austintexas.gov/events/computers-technology",
+        "quote": "Drop in for free computer training at several Library locations throughout town.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Austin Public Library computer learning",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.tsl.texas.gov/ld/librarydevelopments/2025/10/28/innovation-lab-austin-library/",
+        "quote": "APL offers computer classes on Adobe Creative Suite and other digital tools.",
+        "domain_class": "gov-edu",
+        "independent": true,
+        "source_owner": "www.tsl.texas.gov",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "32a1af55009aefc243a84aa8d1a9ec6665e574c59c77ff65fc6b78a6a7b32d01"
+  },
+  {
+    "id": "tn-nashville-nashville-digital-help",
+    "name": "Nashville Software School",
+    "url": "https://nashvillesoftwareschool.com/press/",
+    "state_id": "tn",
+    "location_slug": "nashville",
+    "location_label": "Nashville, TN",
+    "description": "A nonprofit technology school offers software-development and data-skills education; compare current programs and admissions requirements.",
+    "cost": "Confirm tuition, assistance and admissions directly",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://nashvillesoftwareschool.com/press/",
+        "quote": "learn the craft of software development",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Nashville Software School",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.newschannel5.com/plus/plus-side-nashville/nashville-software-school",
+        "quote": "Nashville Software School",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.newschannel5.com",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b5a7e3796b941ec2602841a34b2628c0472a1c30ac5b16e0285c13be5ba3ef14"
+  },
+  {
+    "id": "sc-columbia-goodwill-digital-help",
+    "name": "Goodwill South Carolina Tech Academy",
+    "url": "https://www.goodwillsc.org/news-events/events/techinfosessions/",
+    "state_id": "sc",
+    "location_slug": "columbia",
+    "location_label": "Columbia, SC",
+    "description": "Technology career training includes IT and cybersecurity pathways; confirm the next Columbia cohort and eligibility.",
+    "cost": "Confirm current costs and eligibility directly",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.goodwillsc.org/news-events/events/techinfosessions/",
+        "quote": "Tech Academy",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Goodwill South Carolina Tech Academy",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.southcarolinapublicradio.org/people/greenville-journal",
+        "quote": "Goodwill to launch Tech Academy in Greenville, Columbia",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.southcarolinapublicradio.org",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "88ebb1c7815f1f8397d8e01ff4eeaa0bd4c749bb66b41107ad5caa73383c3e4f"
+  },
+  {
+    "id": "nc-charlotte-center-digital-help",
+    "name": "Center for Digital Equity technology help",
+    "url": "https://thecenterfordigitalequity.org/events/list/",
+    "state_id": "nc",
+    "location_slug": "charlotte",
+    "location_label": "Charlotte, NC",
+    "description": "Digital Navigators and learning labs support practical technology skills at Charlotte community locations; consult the current calendar.",
+    "cost": "Free technology help",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://thecenterfordigitalequity.org/events/list/",
+        "quote": "Walk in, get no-cost tech help",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Center for Digital Equity technology help",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wfae.org/race-equity/2026-08-11/charlotte-reentry-program-meant-to-help-people-returning-from-incarceration-shuts-down-after-a-year?_amp=true",
+        "quote": "the Center for Digital Equity",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.wfae.org",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b2489f67593f2c4543483eca46a97de676fd23f84e569d1b8afe54f8af7d2459"
+  },
+  {
+    "id": "fl-jacksonville-jacksonville-digital-help",
+    "name": "Jacksonville Public Library technology help",
+    "url": "https://jaxpubliclibrary.libnet.info/event/17678712",
+    "state_id": "fl",
+    "location_slug": "jacksonville",
+    "location_label": "Jacksonville, FL",
+    "description": "Library technology support provides individual help with devices and digital tasks; consult the current calendar and bring your library card.",
+    "cost": "Confirm current costs and library-card requirements",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://jaxpubliclibrary.libnet.info/event/17678712",
+        "quote": "Get one-on-one help with a technology-related question or problem.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Jacksonville Public Library technology help",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.jaxdailyrecord.com/news/2014/apr/18/learn-use-computer-and-latest-software-library/",
+        "quote": "Computer instruction at JPL is free of charge.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.jaxdailyrecord.com",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2c8b4a562d66ab07cb34b9a4d531127d4dca3294aa6fa7dbf41ef0234859afd9"
+  },
+  {
+    "id": "ky-louisville-goodwill-digital-help",
+    "name": "Goodwill Kentucky digital literacy support",
+    "url": "https://goodwillky.org/goodwill-kentucky-receives-40000-donation-from-amazon-to-support-workforce-development-initiatives/",
+    "state_id": "ky",
+    "location_slug": "louisville",
+    "location_label": "Louisville, KY",
+    "description": "Workforce services include digital-literacy support and a Louisville career-skills lab; ask about current sessions and eligibility.",
+    "cost": "Confirm current program costs and requirements",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://goodwillky.org/goodwill-kentucky-receives-40000-donation-from-amazon-to-support-workforce-development-initiatives/",
+        "quote": "digital literacy training",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Goodwill Kentucky digital literacy support",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wdrbwave.com/2026/07/21/goodwill-kentucky-partners-with-aetna-better-health-new-career-skills-lab/",
+        "quote": "Goodwill Kentucky and Aetna Better Health of Kentucky celebrated the opening of a new Career Skills Lab",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.wdrbwave.com",
+        "source_relationship": "Independent editorial reporting or original professional award report; identity/program corroboration. Current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "d2915f3958281d362d3555e2bf1079cec989709416e2a9e7686ec64936dd0b29"
+  },
+  {
+    "id": "ga-atlanta-per-scholas-tech-training",
+    "name": "Per Scholas Atlanta",
+    "url": "https://www.perscholas.org/locations/atlanta/",
+    "state_id": "ga",
+    "location_slug": "atlanta",
+    "location_label": "Atlanta, GA",
+    "description": "Career-focused technology training serves eligible Atlanta learners; confirm admissions, schedule and course format.",
+    "cost": "Free tuition for eligible learners",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Technology career training",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/atlanta/",
+        "quote": "At Per Scholas Atlanta",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Per Scholas Atlanta",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ajc.com/herstory/2026/11/her-local-nonprofit-trains-job-seekers-to-find-careers-in-tech/",
+        "quote": "tuition-free training in fields including IT support",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.ajc.com",
+        "source_relationship": "Independent original editorial reporting; current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "6687f4960b89a3b550861313ef7847bb0333601e60195d6eba990f6c9c3bf025"
+  },
+  {
+    "id": "nc-charlotte-per-scholas-tech-training",
+    "name": "Per Scholas North Carolina Charlotte",
+    "url": "https://www.perscholas.org/locations/north-carolina/",
+    "state_id": "nc",
+    "location_slug": "charlotte",
+    "location_label": "Charlotte, NC",
+    "description": "Charlotte-based technology career training is available to eligible learners; confirm the current course and full-time commitment.",
+    "cost": "Free tuition for eligible learners",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Technology career training",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/north-carolina/",
+        "quote": "Per Scholas Charlotte Location",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Per Scholas North Carolina Charlotte",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wfae.org/race-equity/2022-12-09/north-carolina-program-offers-tuition-free-training-to-increase-access-and-opportunities-in-the-tech-industry",
+        "quote": "Per Scholas in uptown Charlotte.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.wfae.org",
+        "source_relationship": "Independent original editorial reporting; current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7f8379b974679840f96d6a47efafc39f02ec597ad3c396aad6fa5a30191c3e31"
+  },
+  {
+    "id": "tx-dallas-per-scholas-tech-training",
+    "name": "Per Scholas Dallas",
+    "url": "https://www.perscholas.org/locations/dallas/",
+    "state_id": "tx",
+    "location_slug": "dallas",
+    "location_label": "Dallas, TX",
+    "description": "Technology career training supports eligible Dallas-area learners; compare current courses, admission requirements and attendance commitment.",
+    "cost": "Free tuition for eligible learners",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Technology career training",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/dallas/",
+        "quote": "At Per Scholas Dallas",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Per Scholas Dallas",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://dallasinnovates.com/dallas-fort-worth-learning-leaders-find-ways-to-enhance-education-for-the-long-haul/",
+        "quote": "Per Scholas Dallas works with nearly 1,000 learners",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "dallasinnovates.com",
+        "source_relationship": "Independent original editorial reporting; current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fcef0d424eb6827349deabb3960a702cfc6f374febcf6fca26cef37e19286f6f"
+  },
+  {
+    "id": "tx-houston-per-scholas-tech-training",
+    "name": "Per Scholas Houston",
+    "url": "https://www.perscholas.org/locations/houston/",
+    "state_id": "tx",
+    "location_slug": "houston",
+    "location_label": "Houston, TX",
+    "description": "Technology career training serves eligible Houston-area learners; confirm the current courses, eligibility and live attendance requirements.",
+    "cost": "Free tuition for eligible learners",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Technology career training",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/houston/",
+        "quote": "At Per Scholas Houston",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Per Scholas Houston",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://houston.innovationmap.com/ion-houston-per-scholas-workforce-development-2662297984.html",
+        "quote": "Houstonians can now apply to a new, tuition-free program at the Ion",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "houston.innovationmap.com",
+        "source_relationship": "Independent original editorial reporting; current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b064757fd15b33633cbac0df2dd830396415f6401b4b23dba7ea150a5dfeef25"
+  },
+  {
+    "id": "al-birmingham-ed-digital-help",
+    "name": "Ed Farm adult technology learning",
+    "url": "https://www.edfarm.org/programs/workforce",
+    "state_id": "al",
+    "location_slug": "birmingham",
+    "location_label": "Birmingham, AL",
+    "description": "Ed Farm offers adult learning in digital skills and app development for Alabama residents; confirm Birmingham cohort availability and requirements.",
+    "cost": "Free Apple Foundation program; confirm other program costs",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Technology career training",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.edfarm.org/programs/workforce",
+        "quote": "The Apple Foundation Program, powered by Ed Farm, is a free 8-week program",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Ed Farm adult technology learning",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.alreporter.com/2025/10/15/apple-alabama-power-launch-16-million-digital-education-initiative/",
+        "quote": "Apple Foundation Program, a free 8-week digital literacy program",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.alreporter.com",
+        "source_relationship": "Independent original editorial reporting; current details from official source.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4177c9a6a13bf50d4fa26f69849078740db423d4f2d6f1827b96c80267c7c985"
+  },
+  {
+    "id": "tn-memphis-public-library-computer-learning",
+    "name": "Memphis Public Libraries computer learning",
+    "url": "https://www.memphislibrary.org/learn/computers/",
+    "state_id": "tn",
+    "location_slug": "memphis",
+    "location_label": "Memphis, Tennessee",
+    "description": "Library computer classes teach everyday technology skills, with digital learning resources and branch-based help; check the current schedule.",
+    "cost": "Free computer classes",
+    "format": "varies",
+    "kind": "library",
+    "service_label": "Computer learning and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.memphislibrary.org/learn/computers/",
+        "quote": "We offer free computer classes at various times and locations throughout the Library.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Memphis Public Libraries",
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.actionnews5.com/2026/10/02/connecting-901-launches-first-event-orange-mound-community-center/",
+        "quote": "digital literacy training programs",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "Action News 5",
+        "source_relationship": "Independent original local news reporting of Memphis community technology access including library corridor.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9f8729d311dca3b4a5c55f5482e6922d6d5bccf80c517ea5588553141881d910"
+  },
+  {
+    "id": "mn-minneapolis-hennepin-computer-help",
+    "name": "Hennepin County Library computer help",
+    "url": "https://hclib.bibliocommons.com/v2/events?series=6a69350c0e562e28009d25a3",
+    "state_id": "mn",
+    "location_slug": "minneapolis",
+    "location_label": "Minneapolis, Minnesota",
+    "description": "Library drop-in computer labs at Minneapolis Central help with email, documents, online tasks, printing and scanning; confirm the current schedule.",
+    "cost": "Confirm current program costs directly",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Computer learning and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://hclib.bibliocommons.com/v2/events?series=6a69350c0e562e28009d25a3",
+        "quote": "Learn more about using email, creating documents, completing online job applications, searching the internet, printing, scanning, and more.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Hennepin County Library computer help",
+        "source_relationship": "provider-published current service page or official event series",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://ccxmedia.org/news/hennepin-county-cutting-library-hours/",
+        "quote": "The Hennepin County Library system",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "ccxmedia.org",
+        "source_relationship": "Independent original editorial reporting or state public-health editorial spotlight; corroborates organization identity, not service endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "06e219059a0f946f42c7030f1fa12a35d857ef5e1a1265de2424306e37b5b73a"
+  },
+  {
+    "id": "mn-saint-paul-clues-digital-literacy",
+    "name": "CLUES digital literacy learning",
+    "url": "https://www.cluesclasses.com/computer.html",
+    "state_id": "mn",
+    "location_slug": "saint-paul",
+    "location_label": "Saint Paul, Minnesota",
+    "description": "CLUES offers computer-learning options including basic computer use and everyday software; confirm current enrollment and language arrangements.",
+    "cost": "Free online computer classes; confirm current enrollment terms",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Computer learning and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.cluesclasses.com/computer.html",
+        "quote": "Computer Classes on Zoom",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "CLUES digital literacy learning",
+        "source_relationship": "provider-published current service page or official event series",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.health.state.mn.us/communities/equity/networks/news.html",
+        "quote": "Comunidades Latinas Unidas en Servicio (CLUES)",
+        "domain_class": "gov-edu",
+        "independent": true,
+        "source_owner": "www.health.state.mn.us",
+        "source_relationship": "Independent original editorial reporting or state public-health editorial spotlight; corroborates organization identity, not service endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bdb42b0d13c57ef58b09121049755ca6847cc7311e6a7bcb7ea4e08cdddaecf3"
+  },
+  {
+    "id": "mo-kansas-city-literacy-kc-digital-learning",
+    "name": "Literacy KC computer learning",
+    "url": "https://literacykc.org/programs/digital-literacy/",
+    "state_id": "mo",
+    "location_slug": "kansas-city",
+    "location_label": "Kansas City, MO",
+    "description": "Computer-learning classes teach email, internet use and everyday applications for adults and learners aged 16 and older; check current locations and times.",
+    "cost": "Free computer classes",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Computer learning and technology skills",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://literacykc.org/programs/digital-literacy/",
+        "quote": "Our Digital Literacy classes provide these skills and are open to the public who are 16+.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Literacy KC computer learning",
+        "source_relationship": "provider-published current service page",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.kcur.org/arts-life/2026-04-11/volunteer-kansas-city-jobs",
+        "quote": "English language learning, digital literacy programs, and more.",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "www.kcur.org",
+        "source_relationship": "Original bylined independent editorial reporting; corroborates organization and program.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "ac0d3648803999f25a5c1e60349e9d77f416372d9e0f4bc6456e378dc6369daf"
+  },
+  {
+    "id": "ri-providence-public-library-tech-learning",
+    "name": "Providence Public Library digital literacy through RI SNAP E&T",
+    "url": "https://risnapet.org/product/digital-literacy-3/",
+    "state_id": "ri",
+    "location_slug": "providence",
+    "location_label": "Providence, RI",
+    "description": "A Providence Public Library computer-skills course through Rhode Island SNAP employment and training covers everyday software and digital literacy; eligibility, intake testing and enrollment requirements apply.",
+    "cost": "Free tuition for eligible participants; confirm SNAP E&T eligibility and requirements",
+    "format": "varies",
+    "kind": "other",
+    "service_label": "Computer learning and technology skills",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://risnapet.org/product/digital-literacy-3/",
+        "quote": "Classes help adults achieve basic computer skills.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Rhode Island SNAP Employment and Training / Providence Public Library course",
+        "source_relationship": "Official program enrollment/course page names Providence Public Library as teacher and publishes curriculum, eligibility and price; not independent corroboration.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://pbn.com/banknewport-foundation-awards-10k-to-providence-public-library/",
+        "quote": "The library’s Technology Career Pathway offers courses in basic computer skills",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "pbn.com",
+        "source_relationship": "Original bylined independent editorial reporting; corroborates organization and program.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "cdd261390750673811ee2cad43a3026d91364fde965e9158f3de0bf516c3a1aa"
+  },
+  {
+    "id": "va-virginia-beach-public-library-tech-help",
+    "name": "Virginia Beach Public Library technology help",
+    "url": "https://libraries.virginiabeach.gov/research-learn/technology-education/tech-help",
+    "state_id": "va",
+    "location_slug": "virginia-beach",
+    "location_label": "Virginia Beach, Virginia",
+    "description": "Library appointments offer individual help with devices, email and everyday digital tasks. Staff do not handle viruses, performance repairs or hardware maintenance; contact a branch for current availability.",
+    "cost": "Confirm current assistance costs and library-card requirements directly",
+    "format": "in-person",
+    "kind": "library",
+    "service_label": "Technology help and computer learning",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://libraries.virginiabeach.gov/research-learn/technology-education/tech-help",
+        "quote": "VBPL provides one-on-one customized assistance to answer your questions.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Virginia Beach Public Library / City of Virginia Beach",
+        "source_relationship": "provider-published current technology-assistance service page",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.whro.org/2026-09-08/virginia-beach-wants-to-give-you-a-library-card-and-maybe-some-chucks",
+        "quote": "Virginia Beach Public Library's community celebration",
+        "domain_class": "news",
+        "independent": true,
+        "source_owner": "WHRO Public Media",
+        "source_relationship": "Original independent bylined local reporting corroborates library identity and Virginia Beach geography, not endorsement of service quality. Current technology details are from official service page.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f8581f42ef8d5c7f4a62df443c0fcc6ed9eae6d1af00fe5c18bd4a3ccc6ea11e"
+  },
+  {
+    "id": "co-aurora-computer-support-technician-certificate",
+    "name": "Community College of Aurora - Computer Support Technician Certificate",
+    "state_id": "co",
+    "location_slug": "aurora",
+    "location_label": "Aurora, CO",
+    "url": "https://ccaurora.edu/pathways/",
+    "description": "A college certificate for entry-level computer support, covering personal computers, peripherals and networking concepts. Enrollment, tuition and program requirements apply; confirm current delivery and campus details.",
+    "cost": "Tuition and college fees apply; confirm current rates and financial-aid eligibility",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "service_label": "Computer support career training",
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://ccaurora.edu/pathways/",
+        "quote": "This certificate program prepares students as entry-level computer specialists.",
+        "domain_class": "gov-edu",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_relationship": "Current accredited public community college program page; lists Aurora CentreTech campus."
+      },
+      {
+        "url": "https://sentinelcolorado.com/metro/betsy-oudenhoven-returning-to-cca-as-interim-president-as-search-continues-for-next-leader/",
+        "quote": "Community College of Aurora",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "Original independent local reporting identifies the Aurora college; program facts from current official college page."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4474555f6f1026df64529345a19ffbaeeb06e9c2455cfae3f68e889c6ee344aa"
   }
 ]

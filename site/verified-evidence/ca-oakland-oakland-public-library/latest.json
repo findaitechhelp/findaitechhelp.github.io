@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-oakland-oakland-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "1af44f08318368fb910cf24d97bee3b5901e3cb9bc28d1ea9f6d2e91ef7ff70c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://oaklandlibrary.org/help/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://oaklandlibrary.org/help/",
+      "sha256": "598d23621fc2c24e236e13b9cff21f9e00b891b33197a03c5317094b82f9e6c4",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kqed.org/news/12085382/saws-sewing-machines-and-telescopes-the-surprising-things-on-loan-from-your-library",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kqed.org/news/12085382/saws-sewing-machines-and-telescopes-the-surprising-things-on-loan-from-your-library",
+      "sha256": "3ab790c7118cd9bbb723901fe489747339520d79c3c71dfb0941905dcf2faf9d",
+      "domain_unchanged": true
+    }
+  ]
+}

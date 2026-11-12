@@ -1,0 +1,26 @@
+{
+  "record_id": "az-tucson-pima-county-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "8e05220e991a5c4b1f220b32f85bc5c2230b71c67510fa9df3cc317a8f6bbaf4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.library.pima.gov/digital-navigators/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.library.pima.gov/digital-navigators/",
+      "sha256": "2bf71778e05a4a37f63fedaeda4d3ceaac92ea16df7f27bd216b89dd2012a4e8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kold.com/2022/05/05/pima-county-public-libraries-see-big-jump-people-using-free-resources/?outputType=amp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kold.com/2022/05/05/pima-county-public-libraries-see-big-jump-people-using-free-resources/?outputType=amp",
+      "sha256": "a19347aba740230a7748db7c9ff9a5a2d618eeb79908da1ec94c466b31aaef19",
+      "domain_unchanged": true
+    }
+  ]
+}

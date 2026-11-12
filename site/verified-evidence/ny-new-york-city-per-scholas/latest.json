@@ -1,0 +1,26 @@
+{
+  "record_id": "ny-new-york-city-per-scholas",
+  "checked": "2026-11-12",
+  "sources_sha256": "9f1c8f8863b7231b086254f0e7cee9bed7a80622ba997df98bb16271472895b7",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/new-york/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/new-york/",
+      "sha256": "bbb0f656e94f9ebd150897396a0c7b5046b71cddd2e782c2befb9016bf727cc5",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cbsnews.com/news/want-to-be-middle-class-consider-a-mid-tech-job/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cbsnews.com/news/want-to-be-middle-class-consider-a-mid-tech-job/",
+      "sha256": "98bfbd95f5e8e4e9ca4d8b09e3b3f362f2a318bd1d332f3fe27fbd7613a73e8e",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "mo-kansas-city-literacy-kc-digital-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "d40e8fbbd7a17d2f9db6e8799eebc67b51a2e026a2ba1d93cee05c48047b2ce2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://literacykc.org/programs/digital-literacy/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://literacykc.org/programs/digital-literacy/",
+      "sha256": "ae776114d535c085036704113d8e53df81927c0e4405e9ef5a3f4c9521f701b3",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kcur.org/arts-life/2026-04-11/volunteer-kansas-city-jobs",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kcur.org/arts-life/2026-04-11/volunteer-kansas-city-jobs",
+      "sha256": "69e065babec4a70b1e8c1d26243614e91277c4292ac9d80c97d3fd441ecaf50a",
+      "domain_unchanged": true
+    }
+  ]
+}

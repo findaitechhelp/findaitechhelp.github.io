@@ -1,0 +1,26 @@
+{
+  "record_id": "co-denver-denver-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "5612db15f3ef06b4c314c92e36e711a3df57adb75359b38db0c511cf3b0d4db4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://denverlibrary.org/tech/techhelp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://denverlibrary.org/tech/techhelp",
+      "sha256": "aa308407da88a82fb9f7bb9975d0a4e697dcfd166547eb0533da5599385d2213",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.benton.org/blog/denver-public-library-people-skills-are-most-important-quality-when-choosing-digital-navigators",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.benton.org/blog/denver-public-library-people-skills-are-most-important-quality-when-choosing-digital-navigators",
+      "sha256": "91bb336b3cf9c0129bf6820858dc79e60d189ca62441d860570a8e4864ab58d0",
+      "domain_unchanged": true
+    }
+  ]
+}

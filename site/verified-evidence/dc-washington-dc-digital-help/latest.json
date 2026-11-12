@@ -1,0 +1,26 @@
+{
+  "record_id": "dc-washington-dc-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "89c20b2beae22dced0c7413a3775c08fdc83d1e62fa0342f50488a8c69cde210",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.dclibrary.org/using-the-library/computer-classes",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.dclibrary.org/using-the-library/computer-classes",
+      "sha256": "f9f1be7ffd64483c9aad88898bd016c8d148165b75ddd51a0bae53c00df9ff62",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.downtowndc.org/news/mlk-library-steps-deeper-into-digital-age/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.downtowndc.org/news/mlk-library-steps-deeper-into-digital-age/",
+      "sha256": "b05032591a1dbe702711f0b0d38908135a2d2eb392b75d3e5f086a3bd1d65c26",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "record_id": "nh-manchester-nh-sbdc-southern-region-business-advising",
+  "checked": "2026-11-12",
+  "sources_sha256": "7cb90b1bbd7624e66bfdf6fe23c3bc08756137085778df2bb2741751abe73995",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.nhsbdc.org/about-sbdc/locations",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.nhsbdc.org/about-sbdc/locations",
+      "sha256": "6c824bada152ee14a53378a0794e2152990471976f9d27706bdaa8f5d348e4ac",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.nhbr.com/elizabeth-gray-2024-outstanding-women-in-business-recipient/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.nhbr.com/elizabeth-gray-2024-outstanding-women-in-business-recipient/",
+      "sha256": "5ea9408dfe7e5c51862b932fc566eb43466a8ed6dffbc99805254d790db1372d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.nhsbdc.org/about-sbdc",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.nhsbdc.org/about-sbdc",
+      "sha256": "e315417eade78516f4eaa3cf1d5167889a41103ae1b5e749d46a64a3fc40c0b1",
+      "domain_unchanged": true
+    }
+  ]
+}

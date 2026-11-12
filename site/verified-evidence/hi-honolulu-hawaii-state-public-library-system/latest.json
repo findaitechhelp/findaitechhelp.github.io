@@ -1,0 +1,26 @@
+{
+  "record_id": "hi-honolulu-hawaii-state-public-library-system",
+  "checked": "2026-11-12",
+  "sources_sha256": "da957a70e9bfd2d49ff3eb58bdd6c36216f9a785b63e4dbbe08d86352a210511",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.librarieshawaii.org/2026/02/25/digital-navigators-at-the-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.librarieshawaii.org/2026/02/25/digital-navigators-at-the-library/",
+      "sha256": "f6b5d6b2e08fc146d577184a6311ff185ddaa5f18c011b75ab3aec14e718987e",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.hawaiipublicradio.org/local-news/2025-10-08/one-on-one-computer-help-now-available-at-5-oahu-libraries",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hawaiipublicradio.org/local-news/2025-10-08/one-on-one-computer-help-now-available-at-5-oahu-libraries",
+      "sha256": "90bcdd6c5ee00ab025002f88adc78d1b6b11dc6928e1b36716def29199e15d1b",
+      "domain_unchanged": true
+    }
+  ]
+}

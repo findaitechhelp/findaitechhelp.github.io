@@ -1,0 +1,26 @@
+{
+  "record_id": "wi-madison-danenet-digital-skills-and-help-clinics",
+  "checked": "2026-11-12",
+  "sources_sha256": "91b01f593855e07f1a3ca16d42fea51c88479a01a9e2de66eff49dd6773bc78b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.danenet.org/upcoming-classes/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.danenet.org/upcoming-classes/",
+      "sha256": "a051509ddec502e4b0bbcd9ca21728a8df275410f11918962439d4964bf93fa8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://news.wisc.edu/your-quick-guide-to-volunteering-this-summer/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://news.wisc.edu/your-quick-guide-to-volunteering-this-summer/",
+      "sha256": "e553d8aa617f6376e880afef01f4e59dd5fb08ac09129ab800edc0656626ca6f",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-bakersfield-public-technology-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "fc05a04669f63e46138a73c98ece631d5c3ed4ca99cc2dd6ac9becbd25ba3b23",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://kerncountylibrary.org/a-z-list-of-resources/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://kerncountylibrary.org/a-z-list-of-resources/",
+      "sha256": "e54e8dcae56f442835089799d29b6a55cff5dd3708c51a687d7c81d00bb3861f",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.turnto23.com/news/local-news/kern-county-library-southwest-branch-reopens-after-maintenance-issues-fixed",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.turnto23.com/news/local-news/kern-county-library-southwest-branch-reopens-after-maintenance-issues-fixed",
+      "sha256": "636313ce63d8b9aada501c8554fa65735185c4e343e4fc89b4d7ec9e9b8b9b78",
+      "domain_unchanged": true
+    }
+  ]
+}

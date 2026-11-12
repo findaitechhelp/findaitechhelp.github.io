@@ -1,0 +1,26 @@
+{
+  "record_id": "mn-minneapolis-hennepin-computer-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "ef17ccf128834295f0002f1a2a91b9b99fa198a545883bd27006ccd0ee37a292",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://hclib.bibliocommons.com/v2/events?series=6a69350c0e562e28009d25a3",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://hclib.bibliocommons.com/v2/events?series=6a69350c0e562e28009d25a3",
+      "sha256": "ba159924a710299534606e1cd669d64ef9be0187d39fce5bf959191b1698ce84",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://ccxmedia.org/news/hennepin-county-cutting-library-hours/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ccxmedia.org/news/hennepin-county-cutting-library-hours/",
+      "sha256": "fbfe9617d235b2178b4610bc9f19cda2760447193b0df1f25ade770a40659cc9",
+      "domain_unchanged": true
+    }
+  ]
+}

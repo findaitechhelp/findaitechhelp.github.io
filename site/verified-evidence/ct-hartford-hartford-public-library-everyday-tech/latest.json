@@ -1,0 +1,26 @@
+{
+  "record_id": "ct-hartford-hartford-public-library-everyday-tech",
+  "checked": "2026-11-12",
+  "sources_sha256": "82736ca8bc8db53c9fb69c48ddf68669363515dcf38b82b0d64b1f55b4c12ab2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://hplct.libnet.info/event/17463660",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://hplct.libnet.info/event/17463660",
+      "sha256": "01f5488b5e14e9086c9fb2faf847c068f60ed58b5b68fa34b25caf959b7cbe19",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://latinonewsnetwork.com/ctln/2022/07/05/ct-public-library-initiative-seeks-to-close-local-digital-divide/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://latinonewsnetwork.com/ctln/2022/07/05/ct-public-library-initiative-seeks-to-close-local-digital-divide/",
+      "sha256": "8763df85d01fb668a1100afa5719eb9dd43a52c6185e2bef29614a6536df2949",
+      "domain_unchanged": true
+    }
+  ]
+}

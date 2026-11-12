@@ -1,0 +1,26 @@
+{
+  "record_id": "ct-bridgeport-bridgeport-public-library-digital-navigators",
+  "checked": "2026-11-12",
+  "sources_sha256": "b05fa6967bd51721c4b8d7533e31accf3da81d31b63b693ad88debbc2ed6adb7",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://bportlibrary.libcal.com/event/16595689",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://bportlibrary.libcal.com/event/16595689",
+      "sha256": "1ca3a4138c00c4952ff0a347b2e940cb3195abbe80bf2bc74861de24cd816ee6",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://thequinnipiacpost.com/guides/free-library-card-museum-passes-hotspots-connecticut",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://thequinnipiacpost.com/guides/free-library-card-museum-passes-hotspots-connecticut",
+      "sha256": "8b4811e42e425a7877adde0f81faf222960c23f3f359ec7d824c2d47aadf252d",
+      "domain_unchanged": true
+    }
+  ]
+}

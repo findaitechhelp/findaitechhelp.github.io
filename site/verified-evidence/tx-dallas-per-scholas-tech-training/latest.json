@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-dallas-per-scholas-tech-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "3780dd6ef5df3fa11f7c992c71ef14cb0887947f2d4d984f3ac77925900d38e2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/dallas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/dallas/",
+      "sha256": "4a2744737f80181a4c43a4a3e8326dd923c167dafa7ca35261bf72fb0a318fc6",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://dallasinnovates.com/dallas-fort-worth-learning-leaders-find-ways-to-enhance-education-for-the-long-haul/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://dallasinnovates.com/dallas-fort-worth-learning-leaders-find-ways-to-enhance-education-for-the-long-haul/",
+      "sha256": "d576bbd04f7b16790afa1b86f35defc3e31fc030e821cef4569422b0eb23879e",
+      "domain_unchanged": true
+    }
+  ]
+}

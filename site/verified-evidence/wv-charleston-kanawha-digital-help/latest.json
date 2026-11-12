@@ -1,0 +1,26 @@
+{
+  "record_id": "wv-charleston-kanawha-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "4e21d25d3f4e3575bf5fe7eb7b516f5e32cf99d7ef6bd2b7965e872acbc7aa6a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.kcpls.org/idea-lab",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kcpls.org/idea-lab",
+      "sha256": "97235aad51aa3ecaed101ff67878146ebc195ab031548bf09bd67467c14bd574",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wsaz.com/2026/04/28/idea-lab-kanawha-county-public-library/?outputType=amp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wsaz.com/2026/04/28/idea-lab-kanawha-county-public-library/?outputType=amp",
+      "sha256": "c6ed85098596a1990cfb7cd123d8deccf4641ca8c43b81a275698db8adf24fa3",
+      "domain_unchanged": true
+    }
+  ]
+}

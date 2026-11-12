@@ -1,0 +1,26 @@
+{
+  "record_id": "nm-albuquerque-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "c608dd7473e9b4477abd3e4a27128039130494c3b9d6a98d608fa7fc14bc665a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://abqlibrary.org/adultlearning/classes",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://abqlibrary.org/adultlearning/classes",
+      "sha256": "ce2a91c715db2b4df310e36cbcb5654d230f65200bb452b7f580a1cf3716c9af",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kunm.org/local-news/2025-02-09/new-mexico-ban-book-bans-buck-national-trend",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kunm.org/local-news/2025-02-09/new-mexico-ban-book-bans-buck-national-trend",
+      "sha256": "5ec5c3d840f4782fdb5b644273f568287d1fa8da24e05a2d843797c99e03adc5",
+      "domain_unchanged": true
+    }
+  ]
+}

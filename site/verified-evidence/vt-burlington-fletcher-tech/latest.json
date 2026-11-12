@@ -1,0 +1,26 @@
+{
+  "record_id": "vt-burlington-fletcher-tech",
+  "checked": "2026-11-12",
+  "sources_sha256": "f4cb4aca355272b792bdd419bfe1f5ac07b91c881fac119133e2322387468f00",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://fletcherfree.org/TechCenter",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://fletcherfree.org/TechCenter",
+      "sha256": "7e8a4640c9cda6d85b44e946ccaf821a059a26203362f8964a686b2c00faae23",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.sevendaysvt.com/arts-culture/public-libraries-adapt-to-the-21st-century-and-uphold-democracy-29690688/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.sevendaysvt.com/arts-culture/public-libraries-adapt-to-the-21st-century-and-uphold-democracy-29690688/",
+      "sha256": "18c4ce39609a5d77be95333e516640eed6ad4b04c71c8ab37d2c79037d55386b",
+      "domain_unchanged": true
+    }
+  ]
+}

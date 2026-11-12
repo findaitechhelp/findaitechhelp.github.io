@@ -1,0 +1,26 @@
+{
+  "record_id": "ny-rochester-literacy-rochester-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "853848258e68f3fe39bff1179b5a4c7c591b439e4fade953c44b9e8d51d52748",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://digital.literacyrochester.org/about-digital/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://digital.literacyrochester.org/about-digital/",
+      "sha256": "766f85ed905f764f63215a1016a79171cb5d25ceaf304c278083a4e501780728",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wxxinews.org/education/2019-02-19/digital-literacy-program-working-on-job-prep-and-battling-the-digital-divide",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wxxinews.org/education/2019-02-19/digital-literacy-program-working-on-job-prep-and-battling-the-digital-divide",
+      "sha256": "dba63c048b85cf6b7a87868ea48b1abfa0dd03b427615a162c13a1a7c18343ea",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "fl-jacksonville-jacksonville-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "63d2f452fd148574cd7daf0bfcd350b0c431ba35fbc1618071d331a38b6beead",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://jaxpubliclibrary.libnet.info/event/17678712",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://jaxpubliclibrary.libnet.info/event/17678712",
+      "sha256": "f72c9daa04480c24e1dc8e37a51ba18328951fa9d0e2bd509f46eee91ec4e014",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.jaxdailyrecord.com/news/2014/apr/18/learn-use-computer-and-latest-software-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.jaxdailyrecord.com/news/2014/apr/18/learn-use-computer-and-latest-software-library/",
+      "sha256": "25f254ea104eafffe4c4c60ae503099cd8a9bba7c4e8cbfd9477332afc6bed51",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ok-oklahoma-city-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "7653294dba9fa651e09725b659ca95fcb1bd5a41bae30e160b6bd101662c132b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.metrolibrary.org/locations/downtown",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.metrolibrary.org/locations/downtown",
+      "sha256": "9914835eb755c84b705207219d4fe22f2904529ecf4de90879008a0f9fb61eb6",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://freepressokc.com/downtown-library-a-diverse-busy-community-hub-for-okc/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://freepressokc.com/downtown-library-a-diverse-busy-community-hub-for-okc/",
+      "sha256": "e61c7580db323b01ab11163b461d3471cffd90c0b18cc6a75c8c5f654e71d55c",
+      "domain_unchanged": true
+    }
+  ]
+}

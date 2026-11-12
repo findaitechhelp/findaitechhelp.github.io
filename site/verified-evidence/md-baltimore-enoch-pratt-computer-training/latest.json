@@ -1,0 +1,26 @@
+{
+  "record_id": "md-baltimore-enoch-pratt-computer-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "61836bd8c0936702561edbc5d9fac8fba411587ca4b3fe0a888f2e66a1a85f1d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.prattlibrary.org/services/computer-training",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.prattlibrary.org/services/computer-training",
+      "sha256": "e85570f6877e5d14f0225ab477a8ca55065811c7cb2810ecf6e946771ccea673",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cbsnews.com/baltimore/news/best-places-for-computer-classes-in-baltimore/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cbsnews.com/baltimore/news/best-places-for-computer-classes-in-baltimore/",
+      "sha256": "05e8a7efa55a4a6bca7f5179b4c8a269b24e73a811ae83b7b1e0750cb9c7df50",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "la-baton-rouge-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "05befc9fc7e0f15e6479612350f155e6e7eb38a36dafcb967c4d0fb0fb52a58a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://ebrpl.libguides.com/computereducation",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ebrpl.libguides.com/computereducation",
+      "sha256": "270bd495caa1f2d208686395d01d81822f407c72cb5690ce3a8c07be712c3e32",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wrkf.org/wrkf-news/2026-01-06/ebrmilage",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wrkf.org/wrkf-news/2026-01-06/ebrmilage",
+      "sha256": "778e88197b4e83b306fa7870d85c5fe14d0a5fead62ae3706b50b78d679788fe",
+      "domain_unchanged": true
+    }
+  ]
+}

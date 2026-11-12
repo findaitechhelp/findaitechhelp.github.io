@@ -1,0 +1,26 @@
+{
+  "record_id": "az-phoenix-phoenix-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "494ddc1194865aff63cba1031cc9a5dd7c142262b78be09563e0a6faad3bd4fd",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://calendar.phoenixpubliclibrary.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://calendar.phoenixpubliclibrary.org/",
+      "sha256": "58620e5b345f33c8092f21a774f9dc0883e70c8c6e3e9f6d523be8aaafa49ec5",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kjzz.org/kjzz-news/2026-06-22/community-picks-prickly-pear-as-new-name-for-former-cesar-chavez-library-in-phoenix",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kjzz.org/kjzz-news/2026-06-22/community-picks-prickly-pear-as-new-name-for-former-cesar-chavez-library-in-phoenix",
+      "sha256": "7df468e9ff71ce90dcfbea4d07c1fdbb93801e231dbcdd63d451cdfacd7f4c0a",
+      "domain_unchanged": true
+    }
+  ]
+}

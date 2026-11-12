@@ -1,0 +1,26 @@
+{
+  "record_id": "ny-albany-albany-public-library-tech-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "d56bf6af9a16da388da4f5a1f97c0d27a35d284b3f377af7423b6149b016d24a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://albany.librarycalendar.com/event/tech-help-61301",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://albany.librarycalendar.com/event/tech-help-61301",
+      "sha256": "5663cc59675f52e1dd111699c7991ae2a4be235e7e608a8a1a37babea398c53f",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.timesunion.com/local/article/New-director-s-resume-reads-like-adventure-tale-5925176.php",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.timesunion.com/local/article/New-director-s-resume-reads-like-adventure-tale-5925176.php",
+      "sha256": "66a58ed32540ff28501b11ac95406eadb7ac47d9284179865595bb1cac476a67",
+      "domain_unchanged": true
+    }
+  ]
+}

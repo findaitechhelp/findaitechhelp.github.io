@@ -1,0 +1,26 @@
+{
+  "record_id": "ks-wichita-wichita-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "ab7a75b8b8361729e75f439eeb9ea9963dbc18933ba2e288d9f541b0575717dd",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://wichitalibrary.org/Services/Pages/Book-A-Librarian.aspx",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://wichitalibrary.org/Services/Pages/Book-A-Librarian.aspx",
+      "sha256": "3e3c313d8b782ac0a3c2817f4431786ba9f5f0603638c0718503b421c4d7cfaf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kansasbigs.org/our-stories/posts/community-resource-spotlight-wichita-public-library",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kansasbigs.org/our-stories/posts/community-resource-spotlight-wichita-public-library",
+      "sha256": "977c817d18280cf91526f5a279567e212ffd5ed8368f46db752d4319806e10c0",
+      "domain_unchanged": true
+    }
+  ]
+}

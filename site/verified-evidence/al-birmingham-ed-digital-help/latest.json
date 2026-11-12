@@ -1,0 +1,26 @@
+{
+  "record_id": "al-birmingham-ed-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "7758daff19bd1b341ae7ee48dcddc3762fca1b9011ada882cc19ef4b68540306",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.edfarm.org/programs/workforce",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.edfarm.org/programs/workforce",
+      "sha256": "b095b14eef3b1a9881429b32b862f3741adb68662899c1be86cdd3f7676da413",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.alreporter.com/2025/10/15/apple-alabama-power-launch-16-million-digital-education-initiative/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.alreporter.com/2025/10/15/apple-alabama-power-launch-16-million-digital-education-initiative",
+      "sha256": "44a73e992306faefd20628a5c0b546d6972e06d8a5f265dbde4a25ed006b29a1",
+      "domain_unchanged": true
+    }
+  ]
+}

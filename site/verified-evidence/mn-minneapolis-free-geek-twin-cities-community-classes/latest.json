@@ -1,0 +1,26 @@
+{
+  "record_id": "mn-minneapolis-free-geek-twin-cities-community-classes",
+  "checked": "2026-11-12",
+  "sources_sha256": "c2cc583e638ba7a199faaf18e9775a82332cb9120f62fea933c966fcb684b3f5",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://freegeektwincities.squarespace.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://freegeektwincities.squarespace.com/",
+      "sha256": "7fd5e7b4a46578337f73ecf0ca7a4e7fc33a2fa22c56987622f9fb8f1c537df1",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.fox9.com/video/fmc-ms1rxdqy2yrv9b5b.amp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.fox9.com/video/fmc-ms1rxdqy2yrv9b5b.amp",
+      "sha256": "4cd43253a089acf8cc1a765dc106f3638e8d9cf12dd3032a169a83806342b854",
+      "domain_unchanged": true
+    }
+  ]
+}

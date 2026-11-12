@@ -1,0 +1,26 @@
+{
+  "record_id": "nc-charlotte-center-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "2b748c2c76e4f7134163dee15368c66b46578be801e72cbb3c5ecd4333e7939f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://thecenterfordigitalequity.org/events/list/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://thecenterfordigitalequity.org/events/list/",
+      "sha256": "fdeff197efde79757d2cb7bc5a2d81df192cbee85277cdb06648a34a6f6380ce",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wfae.org/race-equity/2026-08-11/charlotte-reentry-program-meant-to-help-people-returning-from-incarceration-shuts-down-after-a-year?_amp=true",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wfae.org/race-equity/2026-08-11/charlotte-reentry-program-meant-to-help-people-returning-from-incarceration-shuts-down-after-a-year?_amp=true",
+      "sha256": "6277940a280e6f31c1734aa079284a4e1c9ca041b15f766d9ec585b79924b408",
+      "domain_unchanged": true
+    }
+  ]
+}

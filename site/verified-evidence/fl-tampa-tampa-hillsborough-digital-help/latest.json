@@ -1,0 +1,26 @@
+{
+  "record_id": "fl-tampa-tampa-hillsborough-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "4fc74a49bd5c20daa9d82db49582125a6d8f4eb926adeb67767ded3366e25318",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://tbl.hcplc.org/services/hive",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://tbl.hcplc.org/services/hive",
+      "sha256": "a1d0cbe6e225d7825c49d13086cca1b54d97ac6b3f746a45f1342bc15e205d7b",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://americanlibrariesmagazine.org/2014/02/26/making-room-for-informal-learning/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://americanlibrariesmagazine.org/2014/02/26/making-room-for-informal-learning/",
+      "sha256": "8292afb0a722284d6b2b2c12b960b72562375795f46967cbe9a4fe6b9b3f489a",
+      "domain_unchanged": true
+    }
+  ]
+}

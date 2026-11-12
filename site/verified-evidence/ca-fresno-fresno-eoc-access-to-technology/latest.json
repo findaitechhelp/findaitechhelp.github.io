@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-fresno-fresno-eoc-access-to-technology",
+  "checked": "2026-11-12",
+  "sources_sha256": "b3b5937455cef147b8fa484c2842d250f44c7b3c0bc3c3d7c39a382b034479df",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://fresnoeoc.org/access-to-technology/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://fresnoeoc.org/access-to-technology/",
+      "sha256": "cc1fae6bfea56258d0b1b2765221faaa9d969c3f763b86868067e903685c3d14",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://abc30.com/amp/post/fresno-eoc-unveils-unique-energy-project-create-sustainable/15086133/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://abc30.com/amp/post/fresno-eoc-unveils-unique-energy-project-create-sustainable/15086133/",
+      "sha256": "6a85f44dff60bb412951dc5786e90a183b4a274ff598b0af5f108948bf070297",
+      "domain_unchanged": true
+    }
+  ]
+}

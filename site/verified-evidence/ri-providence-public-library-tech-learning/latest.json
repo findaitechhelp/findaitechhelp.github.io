@@ -1,0 +1,26 @@
+{
+  "record_id": "ri-providence-public-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "5c091ec4517a6726541d681fe882558f1b0fcaf78eef215a373601042e26e30d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://risnapet.org/product/digital-literacy-3/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://risnapet.org/product/digital-literacy-3/",
+      "sha256": "3513e11b3af69f4a857118b49dea4d7af6d2410cdaac297b9cca7f3335369f80",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://pbn.com/banknewport-foundation-awards-10k-to-providence-public-library/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://pbn.com/banknewport-foundation-awards-10k-to-providence-public-library/",
+      "sha256": "fb00cb4eab6544d3bcdf0365252fce7b1af66e5a36565da096e86c6f03c29435",
+      "domain_unchanged": true
+    }
+  ]
+}

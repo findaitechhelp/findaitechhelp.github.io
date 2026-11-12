@@ -1,0 +1,26 @@
+{
+  "record_id": "ga-atlanta-per-scholas-tech-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "a3d656004806640aeb5fb7aa1435c365f60874f75c1990d3b7b9bb43e0c5f4bb",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/atlanta/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/atlanta/",
+      "sha256": "1d44668cdd335b0e633f7aaa8ceec2895e0138889148fbbfb016343b51549e4e",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ajc.com/herstory/2026/11/her-local-nonprofit-trains-job-seekers-to-find-careers-in-tech/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ajc.com/herstory/2026/11/her-local-nonprofit-trains-job-seekers-to-find-careers-in-tech/",
+      "sha256": "0a107094255bce08b30fd53a63bf35e1e5fdc7ba83c32be7a6fb141565ff78a7",
+      "domain_unchanged": true
+    }
+  ]
+}

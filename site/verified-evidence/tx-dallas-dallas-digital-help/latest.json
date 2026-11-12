@@ -1,0 +1,26 @@
+{
+  "record_id": "tx-dallas-dallas-digital-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "61ec55037c2eb4f0f09e4122831ed233dd2f733da404ee92ae5743b0b16cb4c4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.dallaslibrary.org/services/job-tech-help",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.dallaslibrary.org/services/job-tech-help",
+      "sha256": "f56be6c31001cfd4daf8d8b1cc0b4c5eef28ad643300e9b1c6afb5b2f091ca40",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://dallascityhomes.org/blog/dallas-public-library",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://dallascityhomes.org/blog/dallas-public-library",
+      "sha256": "331debebedc55bb58912d4255c6639e79f97e137618750940200bbd82c84e07f",
+      "domain_unchanged": true
+    }
+  ]
+}

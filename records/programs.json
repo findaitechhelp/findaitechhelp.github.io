@@ -377,5 +377,1102 @@
     "approved_by": "dan",
     "approved_on": "2026-11-12",
     "approval_fingerprint": "9c2c7a22161ccb614a56dff5ff1253aa41dc40775d0a59d34d51d55754e11471"
+  },
+  {
+    "id": "ct-hartford-hartford-public-library-everyday-tech",
+    "state_id": "ct",
+    "location_slug": "hartford",
+    "location_label": "Hartford, Connecticut",
+    "name": "Hartford Public Library Technology Learning",
+    "url": "https://hplct.libnet.info/event/17463660",
+    "description": "Library computer and device-skills instruction. Contact the library for current classes and registration.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://hplct.libnet.info/event/17463660",
+        "quote": "Join Everyday Tech for one-on-one assistance with a librarian",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://latinonewsnetwork.com/ctln/2022/07/05/ct-public-library-initiative-seeks-to-close-local-digital-divide/",
+        "quote": "The East Hartford, Hamden, and Hartford locations",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "0c2acea3f4c36772484bf7f4f87642bdc4691f78a1a57ec559d210fbcae037ca"
+  },
+  {
+    "id": "ct-bridgeport-bridgeport-public-library-digital-navigators",
+    "state_id": "ct",
+    "location_slug": "bridgeport",
+    "location_label": "Bridgeport, Connecticut",
+    "name": "Bridgeport Public Library Digital Navigators",
+    "url": "https://bportlibrary.libcal.com/event/16595689",
+    "description": "Adult computer and internet-skills classes with individual support. Confirm the current schedule.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://bportlibrary.libcal.com/event/16595689",
+        "quote": "Discover digital literacy with our free adult computer classes.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://thequinnipiacpost.com/guides/free-library-card-museum-passes-hotspots-connecticut",
+        "quote": "Its Digital Navigators work one on one with people at every location",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bc706e4e939fe7962c0e0020321c1bcc5fb51e2aae4b7d18ee1346646ae4e783"
+  },
+  {
+    "id": "il-chicago-chicago-public-library-digital-navigators",
+    "state_id": "il",
+    "location_slug": "chicago",
+    "location_label": "Chicago, Illinois",
+    "name": "Chicago Public Library Digital Navigators",
+    "url": "https://www.chipublib.org/news/digital-navigators/",
+    "description": "One-to-one assistance with computer basics, email, internet use and digital documents.",
+    "cost": "Check library",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://www.chipublib.org/news/digital-navigators/",
+        "quote": "Digital Navigators offer patrons one-on-one sessions",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://experts.illinois.edu/en/publications/the-cybernavigators-of-chicago-public-library-and-theinformatics-/",
+        "quote": "helping staff called CyberNavigators",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "87132a0048e3924486c242c617ef90f65505c972f60a0822dbdca1adec6abd3a"
+  },
+  {
+    "id": "in-indianapolis-per-scholas-indianapolis",
+    "state_id": "in",
+    "location_slug": "indianapolis",
+    "location_label": "Indianapolis, Indiana",
+    "name": "Per Scholas Indianapolis",
+    "url": "https://www.perscholas.org/locations/indianapolis/",
+    "description": "Career-focused technology training; eligibility, prerequisites and schedules must be checked with admissions.",
+    "cost": "No tuition; eligibility requirements apply",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/indianapolis/",
+        "quote": "no-cost",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+        "quote": "its free remote and in-person IT training classes",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b127e8fa69d8eb767cded70ccbb2e23d81b5ace5f6194e2bf97df3154ab26c2d"
+  },
+  {
+    "id": "ia-des-moines-des-moines-library-tech-central",
+    "state_id": "ia",
+    "location_slug": "des-moines",
+    "location_label": "Des Moines, Iowa",
+    "name": "Des Moines Library Tech Central",
+    "url": "https://www.dmpl.org/tech-central",
+    "description": "Library technology and maker-lab resources; check the current equipment, orientation and reservation requirements.",
+    "cost": "Check library",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://www.dmpl.org/tech-central",
+        "quote": "Tech Central",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://librarylandproject.org/stories-blog/2021/11/1/midwest-tour-the-des-moines-central-library-des-moines-iowa",
+        "quote": "The library’s Tech Central Innovation and Maker Lab",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e40573a67f4dcc0cf81172b3b15264bc3aa3e5a35d9f670ef0adc993de6aa2d0"
+  },
+  {
+    "id": "md-baltimore-enoch-pratt-computer-training",
+    "state_id": "md",
+    "location_slug": "baltimore",
+    "location_label": "Baltimore, Maryland",
+    "name": "Enoch Pratt Computer Training",
+    "url": "https://www.prattlibrary.org/services/computer-training",
+    "description": "Free library classes covering basic computing and common office applications.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://www.prattlibrary.org/services/computer-training",
+        "quote": "Free Pratt Library computer classes teach personal computer basics",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.cbsnews.com/baltimore/news/best-places-for-computer-classes-in-baltimore/",
+        "quote": "all hosting computer centers and free computer classes",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "37109cba19c48eee9169ce5c05b62e201988e2505bb953d9ce48e4bca7caf6ae"
+  },
+  {
+    "id": "ma-boston-boston-public-library-computer-classes",
+    "state_id": "ma",
+    "location_slug": "boston",
+    "location_label": "Boston, Massachusetts",
+    "name": "Boston Public Library Computer Classes",
+    "url": "https://www.bpl.org/computer-classes/",
+    "description": "Library technology classes and assistance, including resources for older adults. Check branch availability.",
+    "cost": "Check library",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://www.bpl.org/computer-classes/",
+        "quote": "Computer & Technology Classes",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://bshcinfo.org/tech-help-in-person-and-online-classes/",
+        "quote": "The Boston Public Library network offers in-person tech help, computer classes, and online resources",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8bd73758cf983568e6bfdfe49fe3ef12eefd2b7665ff58e4b80a3e0303e2677c"
+  },
+  {
+    "id": "mi-detroit-human-i-t-digital-empowerment-center",
+    "state_id": "mi",
+    "location_slug": "detroit",
+    "location_label": "Detroit, Michigan",
+    "name": "Human-I-T Digital Empowerment Center",
+    "url": "https://www.human-i-t.org/7-mile/",
+    "description": "Community digital-skills and beginner AI classes at the Detroit center; confirm current registration and topics.",
+    "cost": "Free classes; devices and other services may cost extra",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "AI and digital skills learning",
+    "sources": [
+      {
+        "url": "https://www.human-i-t.org/7-mile/",
+        "quote": "Free digital skills classes.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.cbsnews.com/amp/detroit/news/new-retail-store-in-detroit-aims-to-bridge-digital-divide/",
+        "quote": "digital skills training to even technical support",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "85fd56bdfecf598657df5b130d8106eaed8e1d312e7dd23a88927d0911f2d3e0"
+  },
+  {
+    "id": "wi-madison-danenet-digital-skills-and-help-clinics",
+    "state_id": "wi",
+    "location_slug": "madison",
+    "location_label": "Madison, Wisconsin",
+    "name": "DANEnet Digital Skills and Help Clinics",
+    "url": "https://www.danenet.org/upcoming-classes/",
+    "description": "Free digital-skills classes and individual computer-help clinics in the Madison area; check current sessions.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://www.danenet.org/upcoming-classes/",
+        "quote": "free Digital Skills Classes or Computer Help Clinics",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://news.wisc.edu/your-quick-guide-to-volunteering-this-summer/",
+        "quote": "helping teach digital literacy classes for adults",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "762376c76e38e8cbb8584e40cbc06159637549c56e763b0c281b21c82903e619"
+  },
+  {
+    "id": "de-wilmington-tech-impact-itworks-wilmington",
+    "state_id": "de",
+    "location_slug": "wilmington",
+    "location_label": "Wilmington, Delaware",
+    "name": "Tech Impact ITWorks Wilmington",
+    "url": "https://techimpact.org/itworks",
+    "description": "IT career training for eligible young adults in Wilmington. Check age, education and full-time participation requirements.",
+    "cost": "Free for accepted eligible applicants",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://techimpact.org/itworks",
+        "quote": "ITWorks is free to qualifying prospects",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.delawarepublic.org/science-health-tech/2024-12-06/tech-impact-celebrates-1-000th-graduate-from-its-wilmington-itworks-program",
+        "quote": "ITWorks is a free 16-week training program",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "d20e96bf7ffd4076579edd136a2025cbf191500ac7fcd9584d68646375bb0dc4"
+  },
+  {
+    "id": "nh-manchester-nh-sbdc-southern-region-business-advising",
+    "state_id": "nh",
+    "location_slug": "manchester",
+    "location_label": "Manchester, New Hampshire",
+    "name": "NH SBDC Southern Region Business Advising",
+    "url": "https://www.nhsbdc.org/about-sbdc/locations",
+    "description": "General small-business advising through the Southern Region office at UNH Manchester; this is not an AI training listing.",
+    "cost": "No-charge advising; confirm any course fees",
+    "format": "varies",
+    "kind": "sbdc",
+    "audience": [
+      "business"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "General small-business advising",
+    "sources": [
+      {
+        "url": "https://www.nhsbdc.org/about-sbdc/locations",
+        "quote": "Southern Regional Office UNH Manchester",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.nhbr.com/elizabeth-gray-2024-outstanding-women-in-business-recipient/",
+        "quote": "confidential business advising and education programs",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      },
+      {
+        "url": "https://www.nhsbdc.org/about-sbdc",
+        "quote": "confidential advising at no charge to enterprises across New Hampshire",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4f335c94ac29dee251471a6b99cb9875142c60f8f69072ff5f5f8deb03cde732"
+  },
+  {
+    "id": "ny-rochester-literacy-rochester-digital-help",
+    "state_id": "ny",
+    "location_slug": "rochester",
+    "location_label": "Rochester, New York",
+    "name": "Literacy Rochester Digital Help",
+    "url": "https://digital.literacyrochester.org/about-digital/",
+    "description": "Individual digital-literacy support for adults learning computer skills and completing everyday technology tasks.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://digital.literacyrochester.org/about-digital/",
+        "quote": "Digital Literacy is a free, one-to-one, drop-in service",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.wxxinews.org/education/2019-02-19/digital-literacy-program-working-on-job-prep-and-battling-the-digital-divide",
+        "quote": "It’s designed to help people with basic computer skills",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f29bc54d25f9c44dbc7ef1274073e8160e1beef94e7ac939b1fe664e53604f02"
+  },
+  {
+    "id": "oh-cleveland-cleveland-public-library-computer-learning",
+    "state_id": "oh",
+    "location_slug": "cleveland",
+    "location_label": "Cleveland, Ohio",
+    "name": "Cleveland Public Library Computer Learning",
+    "url": "https://cpl.org/eventsclasses/computerclassesassistance/",
+    "description": "Library computer learning and technology assistance; check current classes, location and registration.",
+    "cost": "Check library",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://cpl.org/eventsclasses/computerclassesassistance/",
+        "quote": "Computer",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://thelandcle.org/stories/more-than-a-card-why-cleveland-public-library-still-matters-in-the-digital-age/",
+        "quote": "The classes are especially valuable for our seniors to help them avoid being scammed.",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "96c37ef512f418edd4130f0dba39fec2a89ee9a04880d2875cf1137c1de26238"
+  },
+  {
+    "id": "oh-columbus-connectus-digital-skills-hub",
+    "state_id": "oh",
+    "location_slug": "columbus",
+    "location_label": "Columbus, Ohio",
+    "name": "ConnectUS Digital Skills Hub",
+    "url": "https://www.connectcentralohio.com/digital-skills-hub/",
+    "description": "Digital skills courses. Check the provider for current availability, requirements and registration.",
+    "cost": "Free for eligible Franklin County residents",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Digital skills courses",
+    "sources": [
+      {
+        "url": "https://www.connectcentralohio.com/digital-skills-hub/",
+        "quote": "No-cost digital skills courses for Franklin County residents",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://spectrumnews1.com/oh/columbus/news/2025/06/25/digital-skills-hub-",
+        "quote": "The ConnectUs Digital Skills Hub program is taught by several community partners",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e008dab42110d6d9ec2b0ccca366feb6ea6d31878461d6eebfd7112e22c2e076"
+  },
+  {
+    "id": "oh-cincinnati-per-scholas-greater-cincinnati",
+    "state_id": "oh",
+    "location_slug": "cincinnati",
+    "location_label": "Cincinnati, Ohio",
+    "name": "Per Scholas Greater Cincinnati",
+    "url": "https://www.perscholas.org/locations/greater-cincinnati/",
+    "description": "Technology career training. Check the provider for current availability, requirements and registration.",
+    "cost": "No tuition for accepted eligible learners; personal expenses may apply",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Technology career training",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/greater-cincinnati/",
+        "quote": "learners build in-demand skills through rigorous, no-cost training",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://nkytribune.com/2025/04/per-scholas-to-offer-free-tech-training-as-it-moves-a-satellite-campus-into-covington/",
+        "quote": "Per Scholas Greater Cincinnati campus launched in July 2015",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8369f0ddf93a9a45ec389a5dea521d1d7b5546e606effa5eb9b028211ae4fda5"
+  },
+  {
+    "id": "ny-albany-albany-public-library-tech-help",
+    "state_id": "ny",
+    "location_slug": "albany",
+    "location_label": "Albany, New York",
+    "name": "Albany Public Library Tech Help",
+    "url": "https://albany.librarycalendar.com/event/tech-help-61301",
+    "description": "Individual technology help. Check the provider for current availability, requirements and registration.",
+    "cost": "Check with library",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Individual technology help",
+    "sources": [
+      {
+        "url": "https://albany.librarycalendar.com/event/tech-help-61301",
+        "quote": "This is a one-on-one help session.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.timesunion.com/local/article/New-director-s-resume-reads-like-adventure-tale-5925176.php",
+        "quote": "He ran the computer lab and taught computer classes.",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "0d10e965e74806f1dbc00761e6ce99c2736a36c75fdd681fe3b435bb411441a4"
+  },
+  {
+    "id": "mo-st-louis-launchcode-software-development",
+    "state_id": "mo",
+    "location_slug": "st-louis",
+    "location_label": "St. Louis, Missouri",
+    "name": "LaunchCode Software Development",
+    "url": "https://www.launchcode.org/course-catalog/software-development",
+    "description": "Software development training. Check the provider for current availability, requirements and registration.",
+    "cost": "Free for accepted applicants",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Software development training",
+    "sources": [
+      {
+        "url": "https://www.launchcode.org/course-catalog/software-development",
+        "quote": "Currently, virtual classes are available to students in the St. Louis, Kansas City, and Philadelphia areas.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.stlmag.com/news/continuing-education-st-louis/",
+        "quote": "it offers coding courses for free to successful applicants",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1be1df1f723f778486fecf074f45790f6a8e35b27996d91d1e6f4b85bc62cdc5"
+  },
+  {
+    "id": "nj-newark-per-scholas-newark",
+    "state_id": "nj",
+    "location_slug": "newark",
+    "location_label": "Newark, New Jersey",
+    "name": "Per Scholas Newark",
+    "url": "https://www.perscholas.org/locations/newark/",
+    "description": "Technology career training. Check the provider for current availability, requirements and registration.",
+    "cost": "No tuition for accepted eligible learners; personal expenses may apply",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Technology career training",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/newark/",
+        "quote": "learners build in-demand skills through rigorous, no-cost training",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://njtechweekly.com/opening-of-per-scholas-tech-training-campus-is-latest-tech-win-for-newark/",
+        "quote": "grand opening of Per Scholas’ Newark tech training campus",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7db22b6f9f4a06be0c52018dcb7e83f7fed2e6c30584267cf5504d822601e28c"
+  },
+  {
+    "id": "ri-cranston-cranston-public-library-c-lab",
+    "state_id": "ri",
+    "location_slug": "cranston",
+    "location_label": "Cranston, Rhode Island",
+    "name": "Cranston Public Library C-Lab",
+    "url": "https://www.cranstonlibrary.org/c-lab/",
+    "description": "Computer classes and individual technology help. Check the provider for current availability, requirements and registration.",
+    "cost": "Free computer classes; other services may differ",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer classes and individual technology help",
+    "sources": [
+      {
+        "url": "https://www.cranstonlibrary.org/c-lab/",
+        "quote": "All classes are free and open to the public.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.rhodeislandlibraryreport.org/news-blog/all-access-accelerates-libraries-role-in-adult-ed-jobs-preparation",
+        "quote": "Cranston developed one-on-one computer instruction",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3fda9c96b9bb15c07d61baab74a8d65560dcd7dd0c3d65f1d31fe6ecf860a5ed"
+  },
+  {
+    "id": "wi-milwaukee-everyone-on-milwaukee-digital-skills",
+    "state_id": "wi",
+    "location_slug": "milwaukee",
+    "location_label": "Milwaukee, Wisconsin",
+    "name": "Everyone On Milwaukee Digital Skills",
+    "url": "https://www.everyoneon.org/milwaukee",
+    "description": "Digital skills instruction. Check the provider for current availability, requirements and registration.",
+    "cost": "Check current registration; reported lab classes free",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Digital skills instruction",
+    "sources": [
+      {
+        "url": "https://www.everyoneon.org/milwaukee",
+        "quote": "Explore Digital Skills Classes in Milwaukee",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.cbs58.com/news/milwaukee-launches-a-digital-literacy-class-on-the-north-side-in-hopes-to-unlock-social-and-economical-opportunities-for-low-income-communities",
+        "quote": "an opportunity to learn to do so for free",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "a8c4cb1183ce07acd4daa99f695a5ed5f4138a2d9ae7fcd98601907981d81878"
+  },
+  {
+    "id": "mn-minneapolis-free-geek-twin-cities-community-classes",
+    "state_id": "mn",
+    "location_slug": "minneapolis",
+    "location_label": "Minneapolis, Minnesota",
+    "name": "Free Geek Twin Cities Community Classes",
+    "url": "https://freegeektwincities.squarespace.com/",
+    "description": "Computer skills and technology classes. Check the provider for current availability, requirements and registration.",
+    "cost": "Free community classes; equipment purchases separate",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology classes",
+    "sources": [
+      {
+        "url": "https://freegeektwincities.squarespace.com/",
+        "quote": "Join us for our FREE community classes.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.fox9.com/video/fmc-ms1rxdqy2yrv9b5b.amp",
+        "quote": "also offer a free fix-it clinic",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "17de7de3480499401759bbbc35c3365cd13f1982056f24b2fe84171c548f204a"
+  },
+  {
+    "id": "ny-new-york-city-per-scholas",
+    "state_id": "ny",
+    "location_slug": "new-york-city",
+    "location_label": "New York City, New York",
+    "name": "Per Scholas New York City",
+    "url": "https://www.perscholas.org/locations/new-york/",
+    "description": "No-tuition technology career training for accepted eligible New York City learners, with AI-related courses among current offerings. Check prerequisites and available cohorts.",
+    "cost": "No tuition for accepted eligible learners; personal expenses may apply",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Technology and AI career training",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/new-york/",
+        "quote": "learners build in-demand skills through rigorous, no-cost training",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.cbsnews.com/news/want-to-be-middle-class-consider-a-mid-tech-job/",
+        "quote": "a Bronx nonprofit that trains high school graduates",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "106c6fac26581e69adfca5c1ca3db2b55f5a2292c01e2aac9c5304fc59052a20"
+  },
+  {
+    "id": "pa-pittsburgh-literacy-digital",
+    "state_id": "pa",
+    "location_label": "Pittsburgh, Pennsylvania",
+    "location_slug": "pittsburgh",
+    "name": "Literacy Pittsburgh Digital Skills",
+    "url": "https://www.literacypittsburgh.org/allegheny-computer-classes/",
+    "description": "Computer and online-safety classes offered in person around Pittsburgh and online; check the current schedule and enrollment requirements.",
+    "cost": "Check provider",
+    "format": "hybrid",
+    "ai_specific": false,
+    "kind": "other",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://www.literacypittsburgh.org/allegheny-computer-classes/",
+        "quote": "In-Person and Virtual options are available.",
+        "domain_class": "official",
+        "independent": false,
+        "fetched": "2026-11-12",
+        "source_relationship": "provider-published"
+      },
+      {
+        "url": "https://www.publicsource.org/pittsburgh-ai-skills-misinformation-scam-concern/",
+        "quote": "workshop offered by Literacy Pittsburgh.",
+        "domain_class": "news",
+        "independent": true,
+        "fetched": "2026-11-12",
+        "source_relationship": "independent editorial reporting"
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3b1a190526d983d2ce74351af7ba5b19dd8e6fec6f63e9aa73168bb6a19059f2"
+  },
+  {
+    "id": "vt-burlington-fletcher-tech",
+    "state_id": "vt",
+    "location_label": "Burlington, Vermont",
+    "location_slug": "burlington",
+    "name": "Fletcher Free Library Tech Center",
+    "url": "https://fletcherfree.org/TechCenter",
+    "description": "Free technology support and workshops at Burlington library branches; everyday device and computer guidance, rather than hardware repair.",
+    "cost": "Free tech support and workshops",
+    "format": "in-person",
+    "ai_specific": false,
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://fletcherfree.org/TechCenter",
+        "quote": "Free tech support and technology workshops",
+        "domain_class": "official",
+        "independent": false,
+        "fetched": "2026-11-12",
+        "source_relationship": "provider-published"
+      },
+      {
+        "url": "https://www.sevendaysvt.com/arts-culture/public-libraries-adapt-to-the-21st-century-and-uphold-democracy-29690688/",
+        "quote": "Inside the more hospitable Fletcher Free Library",
+        "domain_class": "news",
+        "independent": true,
+        "fetched": "2026-11-12",
+        "source_relationship": "independent editorial reporting"
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c51d0dd78ae64c875401fdad018768e577b2a5bc9aad0e08c3fde620ff596f47"
+  },
+  {
+    "id": "me-portland-public-library-tech",
+    "state_id": "me",
+    "location_label": "Portland, Maine",
+    "location_slug": "portland",
+    "name": "Portland Public Library Computers and Technology",
+    "url": "https://www.portlandlibrary.org/computers-library-internet-access/",
+    "description": "Public computers, Wi-Fi and staff guidance in finding available technology tools. Computer use requires a library card or guest pass; confirm current access terms.",
+    "cost": "Free Wi-Fi; confirm other service costs",
+    "format": "in-person",
+    "ai_specific": false,
+    "kind": "library",
+    "service_label": "Digital skills and technology help",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://www.portlandlibrary.org/computers-library-internet-access/",
+        "quote": "Staff can assist you in finding a computer with the tools you need.",
+        "domain_class": "official",
+        "independent": false,
+        "fetched": "2026-11-12",
+        "source_relationship": "provider-published"
+      },
+      {
+        "url": "https://www.pressherald.com/2025/10/17/100000-donation-will-help-digitize-portland-librarys-center-for-city-history",
+        "quote": "The Portland Public Library has received a $100,000 gift for the Portland Room",
+        "domain_class": "news",
+        "independent": true,
+        "fetched": "2026-11-12",
+        "source_relationship": "independent editorial reporting"
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9cfd90a163289d25569bf3a6634c164d6a2e6cb4069ebeaf8963f210e39469fe"
+  },
+  {
+    "id": "mi-grand-rapids-grand-rapids-public-library-computer-help",
+    "state_id": "mi",
+    "location_slug": "grand-rapids",
+    "location_label": "Grand Rapids, Michigan",
+    "name": "Grand Rapids Public Library Computer Help",
+    "url": "https://www.grpl.org/computers/",
+    "description": "Computer classes and individual technology help. Check the provider for current availability, requirements and registration.",
+    "cost": "Free",
+    "format": "varies",
+    "kind": "library",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer classes and individual technology help",
+    "sources": [
+      {
+        "url": "https://www.grpl.org/computers/",
+        "quote": "The Grand Rapids Public Library offers free computer training for all levels",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://www.wgvunews.org/the-shelley-irwin-show/2026-09-30/the-grand-rapids-public-library-partners-with-global-experts-to-reimagine-its-main-library",
+        "quote": "We talk to Jennifer Vander Heide about the details.",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_relationship": "WGVU original public-radio interview hosted by Shelley Irwin; independently published editorial interview, corroborates library identity only."
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "360fea1edda4201b7545f9f29ec6ac57964cddebac65ce5e7a8f6b45ef2a9594"
+  },
+  {
+    "id": "pa-philadelphia-tech-impact-itworks-philadelphia",
+    "state_id": "pa",
+    "location_slug": "philadelphia",
+    "location_label": "Philadelphia, Pennsylvania",
+    "name": "Tech Impact ITWorks Philadelphia",
+    "url": "https://techimpact.org/itworks",
+    "description": "IT career training for eligible Philadelphia-area young adults. Check current age, education and attendance requirements.",
+    "cost": "Free for accepted eligible applicants",
+    "format": "varies",
+    "kind": "other",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "service_label": "Computer skills and technology help",
+    "sources": [
+      {
+        "url": "https://techimpact.org/itworks",
+        "quote": "ITWorks is free to qualifying prospects",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "independent": false
+      },
+      {
+        "url": "https://technical.ly/?p=190461",
+        "quote": "This program focuses on 18- to 26-year-olds",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "6e56bbb8764529de94819c5d296cc144711d541b6cc5e4ab886cb50d6d4e9614"
   }
 ]

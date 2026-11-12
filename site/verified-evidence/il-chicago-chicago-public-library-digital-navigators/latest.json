@@ -1,0 +1,26 @@
+{
+  "record_id": "il-chicago-chicago-public-library-digital-navigators",
+  "checked": "2026-11-12",
+  "sources_sha256": "abec75206777324a689d23bf028541d7f256fe3cda49ef7519bfe4a5fca7025b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.chipublib.org/news/digital-navigators/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.chipublib.org/news/digital-navigators/",
+      "sha256": "25738b654692d27c3020d7609878029e279f140faf64b788b74a324be09e2688",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://experts.illinois.edu/en/publications/the-cybernavigators-of-chicago-public-library-and-theinformatics-/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://experts.illinois.edu/en/publications/the-cybernavigators-of-chicago-public-library-and-theinformatics-/",
+      "sha256": "2fa50e885941d12429ca6c78beea80a573dd6c71bbfaf3ce0e3091fc002d5f5b",
+      "domain_unchanged": true
+    }
+  ]
+}

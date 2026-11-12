@@ -1,0 +1,26 @@
+{
+  "record_id": "mi-detroit-human-i-t-digital-empowerment-center",
+  "checked": "2026-11-12",
+  "sources_sha256": "d8bd1fcdc18d01668ebdd9bcb199e2d6b8a1a1ff5a474cf15fa759ec8f8c2ab8",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.human-i-t.org/7-mile/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.human-i-t.org/7-mile/",
+      "sha256": "580d872c7fd8ccc2d9891c5017ce84daf372fa7980fb52def7e5fe24079da38c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cbsnews.com/amp/detroit/news/new-retail-store-in-detroit-aims-to-bridge-digital-divide/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cbsnews.com/detroit/news/new-retail-store-in-detroit-aims-to-bridge-digital-divide/",
+      "sha256": "bb42c7c935bb3932c2c7e28689ca7319b62b2d879d9de7a3b1c7f400a5f73289",
+      "domain_unchanged": true
+    }
+  ]
+}

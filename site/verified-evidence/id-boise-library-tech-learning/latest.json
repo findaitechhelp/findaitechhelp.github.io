@@ -1,0 +1,26 @@
+{
+  "record_id": "id-boise-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "d1df1a24e5103fdce06cfd265e73b286a7f2a82ac5fecbbff6bec23fb5d8b237",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://boisepubliclibrary.org/digital-resources/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://boisepubliclibrary.org/digital-resources/",
+      "sha256": "04208057182201218a6b2eccf872b0e04e215e5bae7d75b8d1ff7a26e6285656",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.aol.com/articles/downtown-boise-library-project-supposed-100000000.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.aol.com/articles/downtown-boise-library-project-supposed-100000000.html",
+      "sha256": "5a979b93588dabb505fba7e8d3f401dac7a8905b16158e4986afec4454ada17a",
+      "domain_unchanged": true
+    }
+  ]
+}

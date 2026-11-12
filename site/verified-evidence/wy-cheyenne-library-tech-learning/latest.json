@@ -1,0 +1,26 @@
+{
+  "record_id": "wy-cheyenne-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "0755ee49b62a9eaef457668477cfc1df025ff5bca6e3aa597a7956f026989281",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://lclsonline.org/computers-and-technology/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://lclsonline.org/computers-and-technology/",
+      "sha256": "3c86db605167fff562fa6c3ae494c49d873efab61214e3869b9c6a76de366666",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.infodocket.com/2025/01/10/wyoming-laramie-county-library-system-targeted-by-ransomware-attack/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.infodocket.com/2025/01/10/wyoming-laramie-county-library-system-targeted-by-ransomware-attack/",
+      "sha256": "8f98b07760ecd4ef072dcd4c5a6b89b1b58fcbd546078cb0f026d494099a1e66",
+      "domain_unchanged": true
+    }
+  ]
+}

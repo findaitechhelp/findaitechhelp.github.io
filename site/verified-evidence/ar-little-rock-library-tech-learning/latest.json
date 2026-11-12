@@ -1,0 +1,26 @@
+{
+  "record_id": "ar-little-rock-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "3fffcc6de10c3ca840ef02d246507e765f1dade5ba9bd9fa7d367da2b29442bf",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://cals.org/tech-help/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://cals.org/tech-help/",
+      "sha256": "c764ebf370c1cb44f6584da2e2e7e7094fb40fc7c04b8eaf3988f2c7c206df52",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ualrpublicradio.org/local-regional-news/2025-07-29/cals-sets-september-deadline-for-main-library-reopening",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ualrpublicradio.org/local-regional-news/2025-07-29/cals-sets-september-deadline-for-main-library-reopening",
+      "sha256": "b3870056e276cd0f7185d98483bb71d6a35c063e166c5339a2465447f458085f",
+      "domain_unchanged": true
+    }
+  ]
+}

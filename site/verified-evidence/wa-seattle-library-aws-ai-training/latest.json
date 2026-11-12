@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-seattle-library-aws-ai-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "2f4cf1f5d75066dcce9c9fa8d6606f08805baf090c112f899ff8a31d0e3f3a79",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.spl.org/programs-and-services/civics-and-social-services/job-resources/aws-career-training-programs",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.spl.org/programs-and-services/civics-and-social-services/job-resources/aws-career-training-programs",
+      "sha256": "a44e20a21d2219f473da601f626fdeec11a8326c012361868eb07fb3cc957b6c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kuow.org/books/2024-06-13/seattle-library-patrons-rejoice-quietly-digital-books-are-back-26c3",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kuow.org/books/2024-06-13/seattle-library-patrons-rejoice-quietly-digital-books-are-back-26c3",
+      "sha256": "975a93099eaedafe4083acd4bfcaf0d9cda21b10ae2dcb7eda0096813df9604c",
+      "domain_unchanged": true
+    }
+  ]
+}

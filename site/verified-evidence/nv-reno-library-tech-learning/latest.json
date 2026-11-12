@@ -1,0 +1,26 @@
+{
+  "record_id": "nv-reno-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "8c17811e5903085f3ce03d92b72605bc3807814119ddbe9b73be31a8983ca848",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.washoecountylibrary.us/services/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.washoecountylibrary.us/services/",
+      "sha256": "a463515194f6b42f370d8478dd720dbbebbb0c9eb34bffb12f101d8cb35d903f",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kunr.org/local-stories/2026-01-28/downtown-reno-library-to-close-sundays",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kunr.org/local-stories/2026-01-28/downtown-reno-library-to-close-sundays",
+      "sha256": "6b2f69eeb9832fe15d2ad9711abfb507da67cc283234af723e645c2e91c1db12",
+      "domain_unchanged": true
+    }
+  ]
+}

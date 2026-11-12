@@ -1,0 +1,26 @@
+{
+  "record_id": "oh-cleveland-cleveland-public-library-computer-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "46ac68127c2dd73a5aed98de584a7772cc2dec714a09b6d90649a03cec0b26ab",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://cpl.org/eventsclasses/computerclassesassistance/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://cpl.org/service/computers-technology/",
+      "sha256": "b2f608ee3e76f80b21011af5b0dee65e52ce8777576c3e4ff96aed51c8d70314",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://thelandcle.org/stories/more-than-a-card-why-cleveland-public-library-still-matters-in-the-digital-age/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://thelandcle.org/stories/more-than-a-card-why-cleveland-public-library-still-matters-in-the-digital-age/",
+      "sha256": "b557fc724307c97ae24c7f80187e0a4ef14a0820cefdef4e59290e0154b3b670",
+      "domain_unchanged": true
+    }
+  ]
+}

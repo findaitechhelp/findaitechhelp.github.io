@@ -1,0 +1,26 @@
+{
+  "record_id": "ne-lincoln-community-tech-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "47f2b4402099f28e0ba96ca31ff1da10f785516badcf0db6b82243eb766b3846",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lincolnlibraries.org/technology-and-printing/tech-help/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lincolnlibraries.org/technology-and-printing/tech-help/",
+      "sha256": "24834f25d24888dadaf8d2b93b64385f65d65d68c1c3bbb5568e707280a04a4b",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/free-court-database-access-expands-to-all-lincoln-libraries/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://nebraskapublicmedia.org/en/news/news-articles/free-court-database-access-expands-to-all-lincoln-libraries/",
+      "sha256": "04da3aa8198eb27fedb3912ab44847c78a613c6aad7578f6991c4cb57182ff4a",
+      "domain_unchanged": true
+    }
+  ]
+}

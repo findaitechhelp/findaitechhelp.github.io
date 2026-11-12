@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-los-angeles-los-angeles-public-library-cybernauts",
+  "checked": "2026-11-12",
+  "sources_sha256": "f8d98de5a5ec6b59f0a204255e412140e94005f6f79b7532cfcaf4b81dc942cc",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lapl.org/index.php/events/beginning-computer-classes-adults",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lapl.org/events/beginning-computer-classes-adults",
+      "sha256": "86b722a928d9e2f6ba44effadd527fd0c98d567392adbb9d0d562ef9485bebb8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://laist.com/news/oldest-la-public-library-building-still-serving-vermont-square",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://laist.com/news/oldest-la-public-library-building-still-serving-vermont-square",
+      "sha256": "443b9d1d0b37357602414d9057bb3b2bdf59b5e0c023a0d1a412253b9451a9aa",
+      "domain_unchanged": true
+    }
+  ]
+}

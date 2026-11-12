@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-long-beach-community-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "70b1555463ebef2b22908a8b07f4c17d45dd679760e999b9b50dcc51191c4a31",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://longbeach.gov/library/learn/computers-printing/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://longbeach.gov/library/learn/computers-printing/",
+      "sha256": "0f189e7fcc28626c9fdfb3c09ae225a7710cb981acfa16a211526c63c8c110bb",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://lbpost.com/news/wi-fi-e-books-and-other-digital-library-services-are-back-after-november-cyberattack-long-beach-says/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://lbpost.com/news/wi-fi-e-books-and-other-digital-library-services-are-back-after-november-cyberattack-long-beach-says/",
+      "sha256": "1d8b4e8dce4b418ca2c0f4a07147ae099e384b11024d6db4abac052531174864",
+      "domain_unchanged": true
+    }
+  ]
+}

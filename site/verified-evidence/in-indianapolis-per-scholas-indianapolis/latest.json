@@ -1,0 +1,26 @@
+{
+  "record_id": "in-indianapolis-per-scholas-indianapolis",
+  "checked": "2026-11-12",
+  "sources_sha256": "e51a8c14e02dfe67d02d7b9ad2c1afc279b1f275ab69a43d632c4537536600fe",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/indianapolis/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/indianapolis/",
+      "sha256": "eb32a65188862b5eb33a9033027ed72160ddf19794c5e005a169309375408151",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "sha256": "590c94095211fe5985b4eb93f1ad5aa7777f873e47c8464360b3bd3f4f0c81d6",
+      "domain_unchanged": true
+    }
+  ]
+}

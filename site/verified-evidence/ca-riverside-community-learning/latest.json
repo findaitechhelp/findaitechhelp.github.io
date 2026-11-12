@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-riverside-community-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "2a047c4bd45378a1cc1ada1cdaa352cc2a7a1cd6448f93319fe5f5d423125a4f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://riversidecalibrary.libcal.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://riversidecalibrary.libcal.com/",
+      "sha256": "723a5ae2a55cd2d9d061f56a0ea89ea4723cb2103a12df0b5b8ab070152431e9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kvcrnews.org/local-news/2021-04-05/riversides-new-main-library-accepting-time-capsule-items",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kvcrnews.org/local-news/2021-04-05/riversides-new-main-library-accepting-time-capsule-items",
+      "sha256": "6bf5889233e0bbc757d3faf14be6f9b067c8500704290f3359106e592098683f",
+      "domain_unchanged": true
+    }
+  ]
+}

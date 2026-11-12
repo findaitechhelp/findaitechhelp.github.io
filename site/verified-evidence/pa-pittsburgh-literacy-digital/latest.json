@@ -1,0 +1,26 @@
+{
+  "record_id": "pa-pittsburgh-literacy-digital",
+  "checked": "2026-11-12",
+  "sources_sha256": "771c30b19432bfea260f9395f2f124dc781ef5685119819930c80c650d963c1b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.literacypittsburgh.org/allegheny-computer-classes/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.literacypittsburgh.org/allegheny-computer-classes/",
+      "sha256": "3de199e4083ac5b70ec3d38de879c4b440987043881aea0a5f4d792304d0c843",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.publicsource.org/pittsburgh-ai-skills-misinformation-scam-concern/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.publicsource.org/pittsburgh-ai-skills-misinformation-scam-concern/",
+      "sha256": "843be1c04efe4849361c25b43ad443783cad02c3885aa90d924f5aa661df5223",
+      "domain_unchanged": true
+    }
+  ]
+}

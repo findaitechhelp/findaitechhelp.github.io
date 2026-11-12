@@ -1,0 +1,26 @@
+{
+  "record_id": "oh-cincinnati-per-scholas-greater-cincinnati",
+  "checked": "2026-11-12",
+  "sources_sha256": "eff75f6ed9a474fd45b2579894b329d81d2925d696fba2ea70525beeb0003068",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/greater-cincinnati/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/greater-cincinnati/",
+      "sha256": "9cce06e7fac17a2f13e6d30ee67e064ed908c8eaefb13b41eed97f1ad4f05769",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://nkytribune.com/2025/04/per-scholas-to-offer-free-tech-training-as-it-moves-a-satellite-campus-into-covington/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://nkytribune.com/2025/04/per-scholas-to-offer-free-tech-training-as-it-moves-a-satellite-campus-into-covington/",
+      "sha256": "8f273dfb69dd38d3b54a7634ca7420c94db8ad1631463f982049f672db319e4e",
+      "domain_unchanged": true
+    }
+  ]
+}

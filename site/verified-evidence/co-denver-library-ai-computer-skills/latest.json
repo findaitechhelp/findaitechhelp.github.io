@@ -1,0 +1,26 @@
+{
+  "record_id": "co-denver-library-ai-computer-skills",
+  "checked": "2026-11-12",
+  "sources_sha256": "d5b7f39d71d88dba614f11d614b83bcc2415947dfdacfb96e1cfccd7220f70cc",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.denverlibrary.org/computer-skills-center",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.denverlibrary.org/computer-skills-center",
+      "sha256": "43f6e9b3e7495df9546a4775acfc189941402e82ec1536b1176efdb5c866382d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.benton.org/blog/denver-public-library-people-skills-are-most-important-quality-when-choosing-digital-navigators",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.benton.org/blog/denver-public-library-people-skills-are-most-important-quality-when-choosing-digital-navigators",
+      "sha256": "91bb336b3cf9c0129bf6820858dc79e60d189ca62441d860570a8e4864ab58d0",
+      "domain_unchanged": true
+    }
+  ]
+}

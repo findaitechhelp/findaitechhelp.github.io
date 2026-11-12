@@ -1,0 +1,26 @@
+{
+  "record_id": "mt-missoula-community-tech-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "0eb62d7ee198932201c65b49acfccd725534c419c2873b44bb8ceefc7cb1a44e",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.missoulapubliclibrary.org/home/services/computers-wifi/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.missoulapubliclibrary.org/home/services/computers-wifi/",
+      "sha256": "71d082328bb072e16071ac50bee0bc5f26badc2a462d1f1fd861f5b64f781d41",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.mtpr.org/show/front-row-center/2022-07-29/this-is-everyones-awardmissoula-public-library-wins-best-public-library-of-2022",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.mtpr.org/show/front-row-center/2022-07-29/this-is-everyones-awardmissoula-public-library-wins-best-public-library-of-2022",
+      "sha256": "ab8733c9d222e917180f23106e361962c89a8b027ed908cd297329d2535da235",
+      "domain_unchanged": true
+    }
+  ]
+}

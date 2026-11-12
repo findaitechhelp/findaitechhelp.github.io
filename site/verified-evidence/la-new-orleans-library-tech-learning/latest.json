@@ -1,0 +1,26 @@
+{
+  "record_id": "la-new-orleans-library-tech-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "3b194fba5809837a3dd27c09d5caaa79115c7bd545635d6eab59b8137b5cf6ed",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://nolalibrary.org/learn/adult-literacy/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://nolalibrary.org/learn/adult-literacy/",
+      "sha256": "e18122efdfb1a6dc94b0f1a6bb9b0be0c6af857919a44e3ea733f2b1c3828a50",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wwno.org/news/2021-11-09/ahead-of-december-vote-new-orleans-library-head-says-tax-renewal-is-needed-to-maintain-budget",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wwno.org/news/2021-11-09/ahead-of-december-vote-new-orleans-library-head-says-tax-renewal-is-needed-to-maintain-budget",
+      "sha256": "3881d691cf91f3fa0975399ca69b3a883f4af563d4022c0733f01ada587e6373",
+      "domain_unchanged": true
+    }
+  ]
+}

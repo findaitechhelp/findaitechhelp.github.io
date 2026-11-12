@@ -1,0 +1,26 @@
+{
+  "record_id": "ut-salt-lake-city-salt-lake-city-public-library",
+  "checked": "2026-11-12",
+  "sources_sha256": "95aecaff5096bc860147db54e6e31db29c6ea6f429f2d3635c75ab752cb71811",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://services.slcpl.org/digitallibrary",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://services.slcpl.org/digitallibrary",
+      "sha256": "b015512a053a5f2e0c8765556e14a4f723c4933765236068ae2a0c8413decddf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ksl.com/article/51641413/salt-lake-city-public-library-employees-raise-concerns-over-staffing-workplace-culture",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ksl.com/article/51641413/salt-lake-city-public-library-employees-raise-concerns-over-staffing-workplace-culture",
+      "sha256": "e0d1197873a4775c3225c221b6ef933b83056b4cf2ba51ff96a1cbfc60317b0e",
+      "domain_unchanged": true
+    }
+  ]
+}

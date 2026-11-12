@@ -1,0 +1,26 @@
+{
+  "record_id": "az-mesa-public-technology-learning",
+  "checked": "2026-11-12",
+  "sources_sha256": "49be28b3f7cd5af48e9d0ac6bac74f90537c14822a7dac27dd073bbb1a6a32ba",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.mesalibrary.org/how-do-i/get-help-with-downloadables",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.mesalibrary.org/how-do-i/get-help-with-downloadables",
+      "sha256": "3a4aaddb2dc6b4a320205274f4cca8e65c5925a36be0289bea394c89256eae7a",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kjzz.org/business/2025-01-21/mesa-public-library-to-hold-free-business-workshops",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kjzz.org/business/2025-01-21/mesa-public-library-to-hold-free-business-workshops",
+      "sha256": "a6f7f700f4c4a579d9ff28a9ffcd41a3c5d041aee8f0104508a14a5388d6938d",
+      "domain_unchanged": true
+    }
+  ]
+}

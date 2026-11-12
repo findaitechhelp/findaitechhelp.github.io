@@ -1,0 +1,26 @@
+{
+  "record_id": "mo-st-louis-launchcode-software-development",
+  "checked": "2026-11-12",
+  "sources_sha256": "a6fb39fedd6ae76f554079ec5ff497b1ea4c8f6f56d56421dab27d5b2ab92d0b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.launchcode.org/course-catalog/software-development",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.launchcode.org/course-catalog/software-development",
+      "sha256": "2ffa81798d3c32d6e33f7f9e6d66380236c3277218b1f8a8c6129c93e6426685",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.stlmag.com/news/continuing-education-st-louis/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.stlmag.com/news/continuing-education-st-louis/",
+      "sha256": "e825bbdd43ea6b4a02399cba0093dcbc18495c178461d0a4c83ef7e31e2eee72",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "wi-milwaukee-everyone-on-milwaukee-digital-skills",
+  "checked": "2026-11-12",
+  "sources_sha256": "6109fcbfc2fe4ced9e321061f03beaa392271111a2aa55296b988de1e7690da7",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.everyoneon.org/milwaukee",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.everyoneon.org/milwaukee",
+      "sha256": "955661928b8e23699c4f2e821b072c765334ee533957ea7eb316fc0984820376",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cbs58.com/news/milwaukee-launches-a-digital-literacy-class-on-the-north-side-in-hopes-to-unlock-social-and-economical-opportunities-for-low-income-communities",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cbs58.com/news/milwaukee-launches-a-digital-literacy-class-on-the-north-side-in-hopes-to-unlock-social-and-economical-opportunities-for-low-income-communities",
+      "sha256": "02349089ef0410820f7ddaca4480d26ebe36c211d6a01511ec09adeb3a14c49c",
+      "domain_unchanged": true
+    }
+  ]
+}
