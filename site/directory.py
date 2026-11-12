@@ -18,7 +18,7 @@ def locality(state,record):
     if record.get('metro_id') in METROS:
         info=METROS[record['metro_id']];return record['metro_id'],info[1],info[2]
     if record.get('location_slug') and record.get('location_label'):
-        return state+'-'+record['location_slug'],record['location_label'],'/locations/?state='+state+'#location-results'
+        return state+'-'+record['location_slug'],record['location_label'],'/locations/?state='+state+'&city='+state+'-'+record['location_slug']+'#location-results'
     return '',LOCATIONS[state],''
 
 def coverage_report(records):

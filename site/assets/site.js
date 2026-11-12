@@ -62,6 +62,8 @@
     const rows = Array.from(document.querySelectorAll('[data-local-state]'));
     const cities = Array.from(document.querySelectorAll('[data-city]'));
     const names = new Map(Array.from(stateSelect.options).map(o => [o.value, o.textContent.split(' · ')[0]]));
+    const citySelect = document.getElementById('explore-city');
+    const mapLinks = Array.from(map.querySelectorAll('a[data-map-state],a[data-city-marker]'));
     const nationwide = Number(explorer.dataset.nationwide);
     const searchField = document.getElementById('directory-search');
     const kindField = document.getElementById('directory-kind');
@@ -86,6 +88,11 @@
       selectedState = names.has(state) ? state : '';
       selectedCity = cities.some(c => c.dataset.city === city && c.dataset.cityState === selectedState) ? city : '';
       stateSelect.value = selectedState;
+      for (const option of citySelect.options) {
+        const unavailable = !!(selectedState && option.value && option.dataset.optionState !== selectedState);
+        option.hidden = unavailable; option.disabled = unavailable;
+      }
+      citySelect.value = selectedCity;
       if (resetLimit) shownLimit = batchSize;
       const query = fold(searchField.value.trim());
       const type = kindField.value;
@@ -124,6 +131,8 @@
         point.toggleAttribute('hidden', !!(selectedState && point.dataset.markerState !== selectedState));
         point.classList.toggle('selected', point.dataset.cityMarker === selectedCity);
       }
+      const selectedMapLink = mapLinks.find(link => selectedCity ? link.dataset.cityMarker === selectedCity : selectedState ? link.dataset.mapState === selectedState : false) || mapLinks.find(link => link.dataset.mapState === selectedState) || mapLinks[0];
+      for (const link of mapLinks) link.setAttribute('tabindex', link === selectedMapLink ? '0' : '-1');
       if (updateUrl) {
         const url = new URL(window.location.href);
         if (selectedState) url.searchParams.set('state', selectedState); else url.searchParams.delete('state');
@@ -132,6 +141,27 @@
       }
     };
     stateSelect.addEventListener('change', () => choose(stateSelect.value));
+    citySelect.addEventListener('change', () => {
+      const city = cities.find(link => link.dataset.city === citySelect.value);
+      choose(city ? city.dataset.cityState : selectedState, city ? city.dataset.city : '');
+    });
+    map.addEventListener('keydown', event => {
+      if (!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key)) return;
+      const targets = mapLinks.filter(link => !link.hasAttribute('hidden'));
+      if (!targets.length) return;
+      event.preventDefault();
+      const index = targets.indexOf(document.activeElement);
+      const direction = ['ArrowLeft','ArrowUp'].includes(event.key) ? -1 : 1;
+      const next = event.key === 'Home' ? 0 : event.key === 'End' ? targets.length-1 : (index+direction+targets.length)%targets.length;
+      for (const link of mapLinks) link.setAttribute('tabindex','-1');
+      const target = targets[next];
+      if (target.dataset.mapState) fitState(target.dataset.mapState);
+      else {
+        const x=Number(target.dataset.markerX),y=Number(target.dataset.markerY);
+        box=[x-70,y-50,140,100]; draw();
+      }
+      target.setAttribute('tabindex','0'); target.focus();
+    });
     searchField.addEventListener('input', () => choose(selectedState, selectedCity));
     kindField.addEventListener('change', () => choose(selectedState, selectedCity));
     document.getElementById('directory-clear').addEventListener('click', () => {

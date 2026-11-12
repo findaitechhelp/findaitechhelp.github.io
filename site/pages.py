@@ -98,8 +98,9 @@ def location_explorer(records):
         if key:
             areas.setdefault(key,{'state':st,'name':label,'url':url,'count':0})['count']+=1
     cities=''.join(render('city-option',metro=esc(key),state=data['state'],label=esc(data['name']),url=esc(data['url']),count=data['count']) for key,data in sorted(areas.items(),key=lambda item:item[1]['name'].casefold()))
+    city_options=''.join(render('city-select-option',metro=esc(key),state=data['state'],label=esc(data['name']+' · '+str(data['count'])+' listings')) for key,data in sorted(areas.items(),key=lambda item:item[1]['name'].casefold()))
     national=[row for row in records['programs'] if not row.get('state_id') and not row.get('metro_id') and row.get('format') in ['online','self-paced','live-online']]
-    return render('explorer',states=options,map=map_content(counts,areas),covered_states=sum(counts.get(st,0)>0 for st in STATES),city_count=len(areas),local_records=rows,cities=cities,local_count=len(local),national_count=len(national),national_records=cards_for_records(national) if national else paragraph('No nationwide programs currently pass the publication checks.'))
+    return render('explorer',states=options,map=map_content(counts,areas),covered_states=sum(counts.get(st,0)>0 for st in STATES),city_count=len(areas),city_options=city_options,local_records=rows,cities=cities,local_count=len(local),national_count=len(national),national_records=cards_for_records(national) if national else paragraph('No nationwide programs currently pass the publication checks.'))
 
 def event_cards(events):
     return ''.join(card(e['name'],e['start']+' · '+e.get('cost','Confirm cost with organizer'),e['url'],'Upcoming class','View organizer details') for e in sorted(events,key=lambda x:x['start']))

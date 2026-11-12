@@ -34,7 +34,7 @@ def city_points(areas):
     for key,area in areas.items():
         state=area['state'];name=area['name'].split(',')[0]
         canonical=normalized_name(name)
-        canonical={'newyorkcity':'newyork','saintpaul':'stpaul','washingtondc':'washington'}.get(canonical,canonical)
+        canonical={'newyorkcity':'newyork','saintpaul':'stpaul','washingtondc':'washington','boise':'boisecity','lexington':'lexingtonfayette'}.get(canonical,canonical)
         center=data.get(state+'|'+canonical)
         if center:
             x,y=project_city(center[0],center[1],state)
