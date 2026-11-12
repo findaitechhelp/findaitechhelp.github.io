@@ -1,0 +1,30 @@
+{
+  "record_id": "ky-louisville-community-ai-literacy",
+  "checked": "2026-11-12",
+  "sources_sha256": "a9d81d381fe35432cdce19c049a3a96ea660a8ece52c955e597fa58484cad1b0",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://louisville.edu/servicecenters/digital-transformation-center/professional-workforce-programs/digital-literacy",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://louisville.edu/servicecenters/digital-transformation-center/professional-workforce-programs/digital-literacy",
+      "sha256": "582d2b99d36b33be2c9e94009f65f9b730f8f3428804156ba6aa8313c14aa46f",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\33868c5b4ada10115239.html"
+    },
+    {
+      "url": "https://spectrumnews1.com/ca/la/news/2026/09/23/seniors-learn-artificial-intelligence",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumnews1.com/ca/la/news/2026/09/23/seniors-learn-artificial-intelligence",
+      "sha256": "94a0a9c1a3413d5e9cb1ce8efc60dcccef75599ea18e4d5e37c1ff6fcfa83696",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\22723a9b27c4c641e2f5.html"
+    }
+  ]
+}

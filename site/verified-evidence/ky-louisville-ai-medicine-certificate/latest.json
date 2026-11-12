@@ -1,0 +1,30 @@
+{
+  "record_id": "ky-louisville-ai-medicine-certificate",
+  "checked": "2026-11-12",
+  "sources_sha256": "58a9769332879844ea5c0d6ed0058f79e04000dbf4c39acc756c74b19282397f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://catalog.louisville.edu/graduate/programs-study/graduate-certificate-artifical-intelligence-medicine/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://catalog.louisville.edu/graduate/programs-study/graduate-certificate-artifical-intelligence-medicine/",
+      "sha256": "f3e4f08254ce660d67af3b2c35b2a7e1c55b5d6d986db47612aa93192d8d54bd",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\2e4c81c1c8d49ff12775.html"
+    },
+    {
+      "url": "https://spectrumnews1.com/ky/louisville/news/2026/08/21/university-ai-forward",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumnews1.com/ky/louisville/news/2026/08/21/university-ai-forward",
+      "sha256": "a16fe18b039860eee8d68a112b8573c7d2cdeca1fe40a18914f3101b0d52fdaf",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\79c609d9e101e7347d0a.html"
+    }
+  ]
+}

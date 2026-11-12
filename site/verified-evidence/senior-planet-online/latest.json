@@ -1,0 +1,26 @@
+{
+  "record_id": "senior-planet-online",
+  "checked": "2026-11-12",
+  "sources_sha256": "28f2728c9f02e7cf560cd2174e1f28f40759fc4a9d8a2b09b91eed268d40b989",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://oats.org/senior-planet-from-aarp/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://oats.org/senior-planet-from-aarp/",
+      "sha256": "0f7f2c603edab3b0bddae2147db09cd21a30caccd99ac4e2b39519a09156f654",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kiplinger.com/retirement/happy-retirement/best-free-or-cheap-online-classes-for-seniors-and-retirees",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kiplinger.com/retirement/happy-retirement/best-free-or-cheap-online-classes-for-seniors-and-retirees",
+      "sha256": "9ab321f2d1d7cc54ec1797c8d8979da76a78972e2b798fda70898bcfe879ebd4",
+      "domain_unchanged": true
+    }
+  ]
+}

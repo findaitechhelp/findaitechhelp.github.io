@@ -1,0 +1,26 @@
+{
+  "record_id": "ia-cedar-rapids-kirkwood-ai-classes",
+  "checked": "2026-11-12",
+  "sources_sha256": "d28b480f6f4686c783c08fe86d326a9cc4a702baef6f2375ccec76484f1d42b4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://kirkwood.edu/programs/continuing-education/artificial-intelligence-classes",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://kirkwood.edu/programs/continuing-education/artificial-intelligence-classes",
+      "sha256": "73817e114a14614f608e0904dad9da1d161c79deef575b39414f132e3d3938df",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kcrg.com/2026/11/03/election-results-voters-across-nearly-20-counties-will-decide-an-88m-kirkwood-community-college-bond/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kcrg.com/2026/11/03/election-results-voters-across-nearly-20-counties-will-decide-an-88m-kirkwood-community-college-bond/",
+      "sha256": "2d79b6c8d976cdb0fce6a2a310b36e79fd7aa140a7b1c50a44b580eca0d5f2dc",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "record_id": "va-charlottesville-computer-cave",
+  "checked": "2026-11-12",
+  "sources_sha256": "22faaf9fe83b8f56fdf1657277b4a0aabeb29d33079e320df533ec3501cb76be",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://computercave.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://computercave.com/",
+      "sha256": "59804af0785c611532a0206f90116ab15fdffd7373af72703d4d3786a632cf2a",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\16dd1de0aba500cbd4c7.html"
+    },
+    {
+      "url": "https://www.wtvr.com/news/local-news/computer-cave-expansion-april-16-2024",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wtvr.com/news/local-news/computer-cave-expansion-april-16-2024",
+      "sha256": "e20a78e47ce1247f11a076f9d759eefbf914b4a602dfafd95ef2a2d11f1752ac",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\975d543dcb9a42ad863e.html"
+    },
+    {
+      "url": "https://shop.computercave.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://shop.computercave.com/",
+      "sha256": "c2b99a149bfd48d409f218561b2d50ae65012f9693075d8277eeba5bf5957273",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\84447b447d1a11d01084.html"
+    }
+  ]
+}

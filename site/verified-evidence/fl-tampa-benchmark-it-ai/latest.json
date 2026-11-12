@@ -1,0 +1,30 @@
+{
+  "record_id": "fl-tampa-benchmark-it-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "d0f97f5e52d9501233df44f23dd6e2a6b23c8170e6cb6bc1550ca2ae83917507",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://itsbenchmark.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://itsbenchmark.com/",
+      "sha256": "b2604c74b3d9c549425224385bb09a143bf5da0fa08d514d4fb692ecff7a62b9",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\738b8cd84f1ba6a0f226.html"
+    },
+    {
+      "url": "https://tampabayreporter.com/holistic-it-services-provider-relocates-from-atlanta-to-tampa/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://tampabayreporter.com/holistic-it-services-provider-relocates-from-atlanta-to-tampa/",
+      "sha256": "b30a10e6b816b4980a6d42e8d79b644b434603e114c3afe24055cfc19ec4baee",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\061f879b6b128989a75f.html"
+    }
+  ]
+}

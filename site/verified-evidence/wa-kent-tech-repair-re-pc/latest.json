@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-kent-tech-repair-re-pc",
+  "checked": "2026-11-12",
+  "sources_sha256": "451677d44e0e781797943c9b502b4b4dca1bfee2de84392391f37aaf45422cdc",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.repc.com/repair.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.repc.com/repair.html",
+      "sha256": "171380693cf9241a72dd72d530dd54e55e3ce768edc56cfe890d39b9f118fdd4",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.geekwire.com/2011/geek-week-kelly-franznick-blink-founder-ceo/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.geekwire.com/2011/geek-week-kelly-franznick-blink-founder-ceo/",
+      "sha256": "d0a64425a1872a86792c2a418be9ac992991cf02c13aebda432eda59d23ecb9a",
+      "domain_unchanged": true
+    }
+  ]
+}

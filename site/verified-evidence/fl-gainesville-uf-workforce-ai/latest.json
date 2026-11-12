@@ -1,0 +1,30 @@
+{
+  "record_id": "fl-gainesville-uf-workforce-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "4a2620943ca7b41fbcaec1b4bb278aec4cab5166e2ab047437881d3a5a81e542",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://pwd.aa.ufl.edu/ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://pwd.aa.ufl.edu/ai/",
+      "sha256": "a66f37794c6e8f381d24b74215069726f9c1b3cb68bedf26caab253346eb5822",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\f4dd3e8fce0ef34d3edd.html"
+    },
+    {
+      "url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+      "sha256": "e0a493f807c332b08857e710a8632f2a2b5a38db89bec12ad515936971e542d3",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\441ce5d94e91dae669c3.html"
+    }
+  ]
+}

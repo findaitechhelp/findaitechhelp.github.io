@@ -1,0 +1,26 @@
+{
+  "record_id": "la-baton-rouge-lsu-free-ai-literacy-essentials",
+  "checked": "2026-11-12",
+  "sources_sha256": "072cb71191f78864749ac3226b3774f10aa534cfa037274796b7c7ae70a463ab",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lsu.edu/mediacenter/news/2026/08/13-ai-literacy-online.php",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lsu.edu/mediacenter/news/2026/08/13-ai-literacy-online.php",
+      "sha256": "8347009466c0971406e4cfc261198558af0f1477b5d08fb552a02ecdec932b53",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wbrz.com/news/lsu-launches-free-ai-literacy-course-open-to-public-on-aug-26/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wbrz.com/news/lsu-launches-free-ai-literacy-course-open-to-public-on-aug-26/",
+      "sha256": "ba5d1bbbeb10338733dc92bfd4d0f88d894e8747ed3181450cdc5f75d1f3836c",
+      "domain_unchanged": true
+    }
+  ]
+}

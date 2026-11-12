@@ -1,0 +1,26 @@
+{
+  "record_id": "me-portland-mti-merc-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "57bf7a9ce76a281d74b3a9c868c71c606b9fd85944a5bb9e101d92ddc33c6060",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.mainetechnology.org/explore-funding-programs/maine-entrepreneurial-resource-corps-merc/merc-ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.mainetechnology.org/explore-funding-programs/maine-entrepreneurial-resource-corps-merc/merc-ai/",
+      "sha256": "2cc0d199a1908830bdec92700d9b764dee328eb68d9ff4a0b5bfc2d8b87e7d15",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.mainepublic.org/show/maine-calling/2025-10-21/maines-tech-future",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.mainepublic.org/show/maine-calling/2025-10-21/maines-tech-future",
+      "sha256": "e71b70e584c14cfdaa2a4b5893eb1651f8e1db731a7cc46f2ed1190caca5d131",
+      "domain_unchanged": true
+    }
+  ]
+}

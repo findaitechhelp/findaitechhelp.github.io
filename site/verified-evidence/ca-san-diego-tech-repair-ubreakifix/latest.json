@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-diego-tech-repair-ubreakifix",
+  "checked": "2026-11-12",
+  "sources_sha256": "75c4974e36459eba17940eda644fd6311c87650c51b71da6aa3881e0ff09ba05",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.ubreakifix.com/locations/sandiego",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ubreakifix.com/locations/sandiego",
+      "sha256": "68077da30b1b95823073cc06a4e9fea95087a2923832b3ad01d15ac1d336b3f4",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+      "sha256": "cd0709a4785d8e481ded7a22b7184767af25908a1dfcfb5803d068ccd38d2936",
+      "domain_unchanged": true
+    }
+  ]
+}

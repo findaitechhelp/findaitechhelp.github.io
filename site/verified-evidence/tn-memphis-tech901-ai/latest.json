@@ -1,0 +1,52 @@
+{
+  "record_id": "tn-memphis-tech901-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "759f37876dbfe352767495e55b3ff3f25cd5792d8bc8bd34a34d5eb965669805",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.tech901.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tech901.org/",
+      "sha256": "ac2710da2bcae626c19c8676ce65bec175decb5a1c4fb29de12f0be07eb98db2",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\5304e5838b2bb7d893fc.html"
+    },
+    {
+      "url": "https://dailymemphian.com/subscriber/article/51874/memphis-tech901-trains-for-information-technology-jobs",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://dailymemphian.com/subscriber/article/51874/memphis-tech901-trains-for-information-technology-jobs",
+      "sha256": "44aa53fcf1fe44b7ebea3e4784500c6d83991a2f2bff6efcab8ec7fc660da84c",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\9581feecf5a2d35b2cfa.html"
+    },
+    {
+      "url": "https://www.tech901.org/courses",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tech901.org/courses",
+      "sha256": "5c0378319ae0b995354081f09eeec9359490d2e78931cbc216c05a10f3016630",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\1c0a4905423f19efbd54.html"
+    },
+    {
+      "url": "https://www.tech901.org/admissions/course-prices",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.tech901.org/admissions/course-prices",
+      "sha256": "70fc6aaad4a61775dc385051d66005ed11efc59484a634c773fae25c6ac3d506",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\fab71d03f763ac3eb889.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-santa-monica-santa-monica-college-online-ai-career-courses",
+  "checked": "2026-11-12",
+  "sources_sha256": "f952ca2de4a89da0b4535f1b3390e3f9f24bbaee684f1bd77419e990ed88796e",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://careertraining.smc.edu/artificial-intelligence-ai-programs/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://careertraining.smc.edu/artificial-intelligence-ai-programs/",
+      "sha256": "60312fe7718cf3bf5e063df37bd9cbe18dae82893d290bba1dbd16aed4a04801",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://laist.com/news/education/santa-monica-college-accreditation-financial-struggles",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://laist.com/news/education/santa-monica-college-accreditation-financial-struggles",
+      "sha256": "2a24501ba9f7f4c3fb44991def38d1d52aa5e1e7e54b11cbcf073b72f50ea7d5",
+      "domain_unchanged": true
+    }
+  ]
+}

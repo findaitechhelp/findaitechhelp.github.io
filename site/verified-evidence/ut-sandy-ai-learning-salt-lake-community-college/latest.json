@@ -1,0 +1,26 @@
+{
+  "record_id": "ut-sandy-ai-learning-salt-lake-community-college",
+  "checked": "2026-11-12",
+  "sources_sha256": "cf2b1e568011c1eca23cefb5488dbd94fe59aabaac486abc18e46eae878032cf",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://careertraining.slcc.edu/artificial-intelligence-ai-programs/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://careertraining.slcc.edu/artificial-intelligence-ai-programs/",
+      "sha256": "b998d82e232d300dd7ca1e76822238ef8470de4c9927c62092664239d4b46626",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ksl.com/article/news/utah/science-and-tech/new-study-says-utah-is-third-most-prepared-state-for-ai-revolution/51350141",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ksl.com/article/news/utah/science-and-tech/new-study-says-utah-is-third-most-prepared-state-for-ai-revolution/51350141",
+      "sha256": "c2f19a1a0bbea0e5bc3511c380ea88d9c52ff0ae7a5e835c614eabfb3601a899",
+      "domain_unchanged": true
+    }
+  ]
+}

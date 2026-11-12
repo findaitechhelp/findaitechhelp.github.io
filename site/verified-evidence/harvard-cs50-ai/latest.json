@@ -1,0 +1,26 @@
+{
+  "record_id": "harvard-cs50-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "4ddd326d3a6d3a821e6e2b511df688ad65a4e4b3c62f1444be21a8c64215a685",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://cs50.harvard.edu/ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://cs50.harvard.edu/ai/",
+      "sha256": "e694621fc9943a8d66fd6b5d2afb5a11dfc84d204f3064af7ddfb23b7d26336d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.computerworld.com/article/4049928/top-ai-certifications-that-will-get-you-hired-and-promoted.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.computerworld.com/article/4049928/top-ai-certifications-that-will-get-you-hired-and-promoted.html",
+      "sha256": "ee1f771c8808a3e9ce8402766233d98870c82f5e321841fd662d342543cd819c",
+      "domain_unchanged": true
+    }
+  ]
+}

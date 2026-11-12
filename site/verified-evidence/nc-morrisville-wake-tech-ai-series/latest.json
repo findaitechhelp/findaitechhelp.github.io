@@ -1,0 +1,30 @@
+{
+  "record_id": "nc-morrisville-wake-tech-ai-series",
+  "checked": "2026-11-12",
+  "sources_sha256": "4e9b6185c10383aff260b32ca3b95dbe21eb0132ef9ecb1a91c5736b79d1521b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.waketech.edu/post/wt-news-story/996786",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.waketech.edu/post/wt-news-story/996786",
+      "sha256": "3221d5e4a6d632346cb408356f5b850db290f826c3f19d9ceaabe383e325e89b",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\96ce98e6f82f79f78a6c.html"
+    },
+    {
+      "url": "https://abc11.com/post/wake-tech-weaving-ai-classroom-students-search-jobs/19845534/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://abc11.com/post/wake-tech-weaving-ai-classroom-students-search-jobs/19845534/",
+      "sha256": "bf62847619c322e1a7621b740433e8472df3ea1ef8aa193273b10feb67a9a3ec",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\81c5377b67e8541535ac.html"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-diego-ai-learning-league-amazing-programmers",
+  "checked": "2026-11-12",
+  "sources_sha256": "3d4ec04f45503d251331ed7d38c1c3a1d6f5f00958fb9abca0b5ca13758a2c71",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.jointheleague.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.jointheleague.org/",
+      "sha256": "68a3e74d5609bc1c317abc760ec28b1d5a69a64d6c271267a7e39de0177951ec",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kpbs.org/news/education/2024/06/07/jacobs-high-tech-high-students-coding-their-way-to-college-and-future-careers",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kpbs.org/news/education/2024/06/07/jacobs-high-tech-high-students-coding-their-way-to-college-and-future-careers",
+      "sha256": "ad510b9b731f51a98c6fb277f6535fd67b0b7b0d773ea3b642409f435bee05fc",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "hi-honolulu-ai-learning-university-hawaii",
+  "checked": "2026-11-12",
+  "sources_sha256": "a9ac0f4efdeb85c5344849c0ef2ebf4bb19ecc13d18c77ad38b22a8587344097",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.hawaii.edu/news/2026/03/30/new-ai-course/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hawaii.edu/news/2026/03/30/new-ai-course/",
+      "sha256": "c92a1463ff4e14b6b0ee993ea2182211d996c18c2ede370f9ed5bb92a6de74bf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2026/09/07/uh-debuts-free-ai-hawaii-program-teach-ethical-practical-ai-skills/?outputType=amp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hawaiinewsnow.com/2026/09/07/uh-debuts-free-ai-hawaii-program-teach-ethical-practical-ai-skills/?outputType=amp",
+      "sha256": "22aebae3c90d7dff48cb1f6410bc84d15ac5a9349967635ace4a56e9dbed0f43",
+      "domain_unchanged": true
+    }
+  ]
+}

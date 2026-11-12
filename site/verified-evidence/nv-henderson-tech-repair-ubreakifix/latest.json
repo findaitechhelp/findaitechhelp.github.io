@@ -1,0 +1,26 @@
+{
+  "record_id": "nv-henderson-tech-repair-ubreakifix",
+  "checked": "2026-11-12",
+  "sources_sha256": "b4b21e54f4a8ab2834f2c87eb194ae3a8882fb00cb13760be3ec33dfe7ea7fea",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.ubreakifix.com/locations/lasvegas/computer-repair",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ubreakifix.com/locations/lasvegas/computer-repair",
+      "sha256": "c004fec20fe607c2a0632d14c4d4b608f3d70a43f013b9a65caec05c93d46007",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+      "sha256": "cd0709a4785d8e481ded7a22b7184767af25908a1dfcfb5803d068ccd38d2936",
+      "domain_unchanged": true
+    }
+  ]
+}

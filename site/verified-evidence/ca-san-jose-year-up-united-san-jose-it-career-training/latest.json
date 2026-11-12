@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-jose-year-up-united-san-jose-it-career-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "33c5b17478ab5b9ef70299258c34b0bb2896066427bf3d95b810e2103381f923",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.yearup.org/job-training-programs/bay-area/it-support-0",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.yearup.org/job-training-programs/bay-area/it-support-0",
+      "sha256": "3c3a393f3e247c84df96d8456087d3d0aba37ab29225220e7eaf6a4f6bc887c5",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.geekwire.com/2014/year-up/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.geekwire.com/2014/year-up/",
+      "sha256": "aea55adf240f5c6800333221a54da89a549d9c023c5cbe9d2fb7369310517984",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-los-angeles-ai-learning-per-scholas-los-angeles",
+  "checked": "2026-11-12",
+  "sources_sha256": "975857b8542abd47b3b6ad1e2e7b30656fcb8b5016d64441fad4fdb942490bf5",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/los-angeles/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/los-angeles/",
+      "sha256": "5399ca9a98e0aa2431760e244a30f9c055b912ee5ad045ad49434f85bb581f17",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "sha256": "590c94095211fe5985b4eb93f1ad5aa7777f873e47c8464360b3bd3f4f0c81d6",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "ak-anchorage-ai-learning-alaska-sbdc-ai-resource-program",
+  "checked": "2026-11-12",
+  "sources_sha256": "ec5b5c12322753b96e0201d41dfe67cd1c174af60b306368b64f4323dc8ad9d1",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://aksbdc.org/services/ai-resource-center/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://aksbdc.org/services/ai-resource-center/",
+      "sha256": "3439efcbfbd1097f9bd964fc21e23367dfef7655c7c7ff66add84437601da15c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://alaskapublic.org/programs/alaska-economic-report/2025-01-16/heres-how-the-tiktok-ban-could-impact-small-businesses-in-alaska",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://alaskapublic.org/programs/alaska-economic-report/2025-01-16/heres-how-the-tiktok-ban-could-impact-small-businesses-in-alaska",
+      "sha256": "e4392a2a69ce44f606ddebf35537b37d281f79253cb111807778dbf38dc312bf",
+      "domain_unchanged": true
+    }
+  ]
+}

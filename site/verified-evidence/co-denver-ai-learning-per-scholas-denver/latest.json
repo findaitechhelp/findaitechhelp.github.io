@@ -1,0 +1,26 @@
+{
+  "record_id": "co-denver-ai-learning-per-scholas-denver",
+  "checked": "2026-11-12",
+  "sources_sha256": "dc4323e2753622dd1a5a353bfd977193db62f69fb98c0cb22d127dde6d3d8560",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/denver/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/denver/",
+      "sha256": "1a641ca00245d51bd8fac63d83fb07cdb36e6127943ea09fdd54bd765c928517",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "sha256": "590c94095211fe5985b4eb93f1ad5aa7777f873e47c8464360b3bd3f4f0c81d6",
+      "domain_unchanged": true
+    }
+  ]
+}

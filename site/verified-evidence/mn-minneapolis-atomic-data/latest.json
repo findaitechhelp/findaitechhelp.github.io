@@ -1,0 +1,26 @@
+{
+  "record_id": "mn-minneapolis-atomic-data",
+  "checked": "2026-11-12",
+  "sources_sha256": "c2a16078d18cdee7a910d18ad80a8c1f87df18cf1ec5a5fcf28fd45e49f4fefc",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.atomicdata.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.atomicdata.com/",
+      "sha256": "47f95d36d2d1b1e454c434654adef5316c5bfa5e2bc9f8fa941f0389cc65ade1",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/data-center/231500571/data-centers-in-transition-controlling-power-cooling-costs",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/data-center/231500571/data-centers-in-transition-controlling-power-cooling-costs",
+      "sha256": "cf94bee8c07829373af8d43daebb930fac3ea8cd6e3ee9c932a4188c520f7d09",
+      "domain_unchanged": true
+    }
+  ]
+}

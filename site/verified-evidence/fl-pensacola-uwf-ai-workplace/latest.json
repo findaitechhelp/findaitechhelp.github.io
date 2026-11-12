@@ -1,0 +1,30 @@
+{
+  "record_id": "fl-pensacola-uwf-ai-workplace",
+  "checked": "2026-11-12",
+  "sources_sha256": "ee2fc3831f68ad993d153d2b4cf23dc3e5c7bbe64fae190193dcfe7bac5c8d4d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://uwf.edu/continuinged/about-us/blog/area-workforce-trends-for-2026.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://uwf.edu/continuinged/about-us/blog/area-workforce-trends-for-2026.html",
+      "sha256": "d87048386d6d4c15ef82a1b01eabd6f777e3b1c22b0412fc8b1640d7e24006f4",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\4260d853eca1092db45d.html"
+    },
+    {
+      "url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+      "sha256": "e0a493f807c332b08857e710a8632f2a2b5a38db89bec12ad515936971e542d3",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\441ce5d94e91dae669c3.html"
+    }
+  ]
+}

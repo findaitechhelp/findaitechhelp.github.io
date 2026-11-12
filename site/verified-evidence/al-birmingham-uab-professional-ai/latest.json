@@ -1,0 +1,30 @@
+{
+  "record_id": "al-birmingham-uab-professional-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "7ac98f608661a1de503b017d31cbd6d6aea343f4eb8962b067ae30a67c47c417",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.uab.edu/business/home/programs/professional-education/career-advancement-courses/artificial-intelligence",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.uab.edu/business/home/programs/professional-education/career-advancement-courses/artificial-intelligence",
+      "sha256": "e2851d9c56ca6e5af8d731ab1eb3ad99ea94c0bc1eefa75c7fcd6ea26691d61f",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\d0860a7632c792155b18.html"
+    },
+    {
+      "url": "https://www.wbrc.com/2026/03/05/middle-east-conflict-unfolds-experts-warn-ai-driven-misinformation-flooding-social-media/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wbrc.com/2026/03/05/middle-east-conflict-unfolds-experts-warn-ai-driven-misinformation-flooding-social-media/",
+      "sha256": "6dbb9392a56ffff7e9c395dede3c7215f1bccdac72e8eee459d6b6ad7f11efa2",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\0d6095f1acc19385cefa.html"
+    }
+  ]
+}

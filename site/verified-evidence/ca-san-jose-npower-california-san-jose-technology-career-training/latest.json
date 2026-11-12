@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-jose-npower-california-san-jose-technology-career-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "d75de9ae39b6415d89cb079629ce429c71b8789c5621d7316335ec6518e245de",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.npower.org/locations/california/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.npower.org/locations/california/",
+      "sha256": "2c51513da2ec1e63dd2d0142f9a89e4ee2489fc3421a387da525ef59bf81c6de",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://abc7news.com/post/great-resignation-career-training-job/11309668/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://abc7news.com/post/great-resignation-career-training-job/11309668/",
+      "sha256": "387b9661bafbc41b6c31d964109b3ee4d8492d19e366e14ad11d32cca8ead37a",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "az-phoenix-year-up-united-phoenix-it-career-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "8787fac56ec7e0aa01ebf51bdf81722e90446f9843146bbc10eed684812a471a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.yearup.org/locations/phoenix-az",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.yearup.org/locations/phoenix-az",
+      "sha256": "b6d6a0348890659b61aa8a0bd0f389fd558aed1540e7c920f11dede3470ce142",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.geekwire.com/2014/year-up/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.geekwire.com/2014/year-up/",
+      "sha256": "aea55adf240f5c6800333221a54da89a549d9c023c5cbe9d2fb7369310517984",
+      "domain_unchanged": true
+    }
+  ]
+}

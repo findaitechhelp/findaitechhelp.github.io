@@ -1,0 +1,26 @@
+{
+  "record_id": "nj-cranbury-integris",
+  "checked": "2026-11-12",
+  "sources_sha256": "3b11a8c3b99fc3039c4db3e77e51e32812e06e8a35442fb97b33cfb408b76241",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://integrisit.com/locations/cranbury-nj/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://integrisit.com/locations/cranbury-nj/",
+      "sha256": "020c9093eb271e749d8ee472b27905922fa78952737430af5d5b6a37af76c65a",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/channel-news/2025/new-integris-ceo-aims-to-build-a-billion-dollar-msp-over-the-next-five-years",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/channel-news/2025/new-integris-ceo-aims-to-build-a-billion-dollar-msp-over-the-next-five-years",
+      "sha256": "0ea6019bc350239708b6c39b9d60b70a3f3f7cfff6adcfdca7ce200408bcb68a",
+      "domain_unchanged": true
+    }
+  ]
+}

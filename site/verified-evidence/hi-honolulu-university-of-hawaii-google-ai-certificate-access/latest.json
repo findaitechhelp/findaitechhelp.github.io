@@ -1,0 +1,26 @@
+{
+  "record_id": "hi-honolulu-university-of-hawaii-google-ai-certificate-access",
+  "checked": "2026-11-12",
+  "sources_sha256": "b6028f2188d8038aa9e38be1755a9cdd931666270b154bbc95f407cd4054bc18",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.hawaii.edu/its/coursera/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hawaii.edu/its/coursera/",
+      "sha256": "a69604096b3baaef7ce845a6db6881214edf2b83ffcf380deb0000c7cc91373c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.hawaiinewsnow.com/2026/09/07/uh-debuts-free-ai-hawaii-program-teach-ethical-practical-ai-skills/?outputType=amp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hawaiinewsnow.com/2026/09/07/uh-debuts-free-ai-hawaii-program-teach-ethical-practical-ai-skills/?outputType=amp",
+      "sha256": "22aebae3c90d7dff48cb1f6410bc84d15ac5a9349967635ace4a56e9dbed0f43",
+      "domain_unchanged": true
+    }
+  ]
+}

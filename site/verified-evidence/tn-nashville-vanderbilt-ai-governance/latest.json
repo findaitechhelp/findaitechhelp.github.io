@@ -1,0 +1,30 @@
+{
+  "record_id": "tn-nashville-vanderbilt-ai-governance",
+  "checked": "2026-11-12",
+  "sources_sha256": "0eda0fcfe2ff0214273a8c4fc7122dbc2b661e43fea89879d067742abdbc73a9",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://law.vanderbilt.edu/vanderbilt-ai-law-lab-ai-governance-certificate-program-for-executives/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://law.vanderbilt.edu/vanderbilt-ai-law-lab-ai-governance-certificate-program-for-executives/",
+      "sha256": "38ed47599ad700dcdd699a6286f0297c61c15540558ef842b2794db50223a659",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\48939c0714bc4cce18af.html"
+    },
+    {
+      "url": "https://wpln.org/post/if-ai-in-music-sounds-like-sci-fi-this-nashville-law-professor-is-the-expert-to-explain-the-latest/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://wpln.org/post/if-ai-in-music-sounds-like-sci-fi-this-nashville-law-professor-is-the-expert-to-explain-the-latest/",
+      "sha256": "db9df65e1842897a0f7ec4167c643be4c1137451a2676d324972a2fc8de751b9",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\0d6e3af79e5898c63aac.html"
+    }
+  ]
+}

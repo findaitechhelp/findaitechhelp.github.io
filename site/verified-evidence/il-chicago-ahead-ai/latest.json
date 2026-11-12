@@ -1,0 +1,35 @@
+{
+  "record_id": "il-chicago-ahead-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "2f929307b892bd5f25bfbe56adfe9d1f4a10b5b9de02cfec88c2c13696016931",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.ahead.com/news/ahead-expands-partnership-with-servicenow-to-accelerate-enterprise-ai-value/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ahead.com/news/ahead-expands-partnership-with-servicenow-to-accelerate-enterprise-ai-value/",
+      "sha256": "6ae919189956460f5453f2255fa103cd3984afbe002b7ed06cb1d6b951f24593",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ahead.com/workshops-briefings/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ahead.com/workshops-briefings/",
+      "sha256": "b165e4a0835fa1e8a622d38144bf5d8b78712c455d922626d0a5c83d8cf0613f",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/ai/2025/how-ahead-is-harnessing-advanced-ai-with-the-help-of-dell-technologies",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/ai/2025/how-ahead-is-harnessing-advanced-ai-with-the-help-of-dell-technologies",
+      "sha256": "1eebddb377b3ce207f6abb3fb0a84e19d54dc948980c51e28d3a81474e002fef",
+      "domain_unchanged": true
+    }
+  ]
+}

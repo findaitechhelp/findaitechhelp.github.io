@@ -1,0 +1,30 @@
+{
+  "record_id": "va-front-royal-royal-oak-computers",
+  "checked": "2026-11-12",
+  "sources_sha256": "1c849b7070b9cb30768ef97ab5a936b24164992067e1fae1491465c1b5a813b2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.royaloakcomputers.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.royaloakcomputers.com/",
+      "sha256": "9f769912a584d3ef58688b9ead407cd0ba228141355ff5ebf5ee832d5fd0cb8f",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\53d0c94d980e323cd8c5.html"
+    },
+    {
+      "url": "https://royalexaminer.com/royal-oak-computers-moving-after-35-years-in-downtown-front-royal/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://royalexaminer.com/royal-oak-computers-moving-after-35-years-in-downtown-front-royal/",
+      "sha256": "b602c03d45afe0084c04cebcd6f17b7221daf803ce20e22f3a8079eec445fef3",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\f8f075f5f17d0af7a575.html"
+    }
+  ]
+}

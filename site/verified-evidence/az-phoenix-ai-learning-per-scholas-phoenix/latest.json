@@ -1,0 +1,26 @@
+{
+  "record_id": "az-phoenix-ai-learning-per-scholas-phoenix",
+  "checked": "2026-11-12",
+  "sources_sha256": "006a83a022836770b0a82daa343449690402a60efec0877924b23484ae728597",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/phoenix/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/phoenix/",
+      "sha256": "882d6649152b9377d44c057b7727ba99ef9f764178627b39abd12553c6cc293e",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "sha256": "590c94095211fe5985b4eb93f1ad5aa7777f873e47c8464360b3bd3f4f0c81d6",
+      "domain_unchanged": true
+    }
+  ]
+}

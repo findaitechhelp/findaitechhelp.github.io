@@ -1,0 +1,30 @@
+{
+  "record_id": "wv-educator-ai-digital-science",
+  "checked": "2026-11-12",
+  "sources_sha256": "ab8907607e4e36f1c02a72b467164fa3378601b8c8902efd48ff44ad070bd85d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://wvde.us/articles/wv-superintendent-schools-launches-first-ai-digital-science-framework-nation",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://wvde.us/articles/wv-superintendent-schools-launches-first-ai-digital-science-framework-nation",
+      "sha256": "6baece745c1376103e0786c7dc5e5c51877eaf086f44fa1024bc2aa06b32650d",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\26923237b2a24b81fcc0.html"
+    },
+    {
+      "url": "https://www.wvnews.com/news/wvnews/west-virginia-schools-preparing-statewide-artificial-intelligence-training-initiative/article_070fa3aa-fecd-4fc9-a414-8ea512b29bee.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wvnews.com/news/wvnews/west-virginia-schools-preparing-statewide-artificial-intelligence-training-initiative/article_070fa3aa-fecd-4fc9-a414-8ea512b29bee.html",
+      "sha256": "88ed5a1002f247e62cb78b68b8885423552833a0771b1bd99a9e381a567b142d",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\abca058a20e9dcda60c4.html"
+    }
+  ]
+}

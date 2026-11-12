@@ -1,0 +1,30 @@
+{
+  "record_id": "fl-plant-city-blue-thumb",
+  "checked": "2026-11-12",
+  "sources_sha256": "07b72be783b1561175a891e6c8a2ecb48dccd8354ff8ff185a2c828678c9c701",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.bluethumbpc.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://bluethumbpc.com/",
+      "sha256": "649222451a1ea40a39f757eea38a3aa74f666a5eb203ab35e41710564d669127",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\84a4f1efd2dfb2a5ca54.html"
+    },
+    {
+      "url": "https://www.plantcityobserver.com/blue-thumb-computer-repair-reopens-under-new-ownership/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.plantcityobserver.com/blue-thumb-computer-repair-reopens-under-new-ownership/",
+      "sha256": "fc50f0aa9487531ad4389f16a8812c7f13b258825b586e084b5e12517df30eef",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\7efa5049b35a38687df7.html"
+    }
+  ]
+}

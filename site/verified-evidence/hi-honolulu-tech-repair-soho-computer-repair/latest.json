@@ -1,0 +1,26 @@
+{
+  "record_id": "hi-honolulu-tech-repair-soho-computer-repair",
+  "checked": "2026-11-12",
+  "sources_sha256": "538606a17b5cff35bbcf859c069894a73de0cdbd0609c6541aab851c9aa76508",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.sohorepair.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.sohorepair.com/",
+      "sha256": "dfed8fc6308fd18e6d8adfb79a30cb44193c705cac655bb81b6b3ffba5bcc308",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.hawaiitribune-herald.com/2014/11/14/hawaii-news/ransomware-hits-honolulu-business-computers/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hawaiitribune-herald.com/2014/11/14/hawaii-news/ransomware-hits-honolulu-business-computers/",
+      "sha256": "712629efea6f3268397e1b133e3727407215f144e07b38996bc4aa6a7e65f054",
+      "domain_unchanged": true
+    }
+  ]
+}

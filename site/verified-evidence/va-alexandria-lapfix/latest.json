@@ -1,0 +1,30 @@
+{
+  "record_id": "va-alexandria-lapfix",
+  "checked": "2026-11-12",
+  "sources_sha256": "7d9b26c6623c791e6372e5c0fa291b34552dde053159cd02d212114ead6ca6b0",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lapfix.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lapfix.com/",
+      "sha256": "edec543f6d61a04008982b73d2a9ce9de58575061c521f5c7ffcddd692111f60",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\51f72e6d225eaf1f3cee.html"
+    },
+    {
+      "url": "https://www.alxnow.com/2020/08/19/west-end-computer-repair-shop-lapfix-experiencing-business-spike-during-pandemic/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.alxnow.com/2020/08/19/west-end-computer-repair-shop-lapfix-experiencing-business-spike-during-pandemic/",
+      "sha256": "2028e25031802cc9dcf0519b5eaf9c910db9cbf108867aa8d291f3882a89e543",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\c906258fffa6ab154414.html"
+    }
+  ]
+}

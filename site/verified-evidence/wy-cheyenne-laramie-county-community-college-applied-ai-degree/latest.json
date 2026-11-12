@@ -1,0 +1,26 @@
+{
+  "record_id": "wy-cheyenne-laramie-county-community-college-applied-ai-degree",
+  "checked": "2026-11-12",
+  "sources_sha256": "4da3b3b51d758a3ab923cbba94fde2414f13c725f1b1154be005b6158c7400cb",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.lccc.wy.edu/pathways/sciTechEngMath/artificialIntelligenceProgram/index.aspx",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.lccc.wy.edu/pathways/sciTechEngMath/artificialIntelligenceProgram/index.aspx",
+      "sha256": "1be40e27b1ad9806c40bae95ecb769c3f7a4acf8758fe59c530bf9d2978b4241",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wyomingpublicmedia.org/education/2026-09-23/laramie-county-community-college-board-approves-name-change",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wyomingpublicmedia.org/education/2026-09-23/laramie-county-community-college-board-approves-name-change",
+      "sha256": "e1a4ee2c99abf8892d1bb1004c702eb483e90d11619a88d9ac7c061ed017f95e",
+      "domain_unchanged": true
+    }
+  ]
+}

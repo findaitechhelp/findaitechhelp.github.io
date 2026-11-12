@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-spokane-ai-learning-spokane-colleges",
+  "checked": "2026-11-12",
+  "sources_sha256": "1c62d8e01f3c395aa9be2ce0241af70dfbe650e3f7463ac068f1e870ddf683d8",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://shared.spokane.edu/Content-Items/News-Articles/2025/Spokane-Colleges-Launches-Credit%2C-Non-Credit-AI-Pr",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://shared.spokane.edu/Content-Items/News-Articles/2025/Spokane-Colleges-Launches-Credit%2C-Non-Credit-AI-Pr",
+      "sha256": "b37b7bf0a9aa3a6d85dd3e8b844fcb82998e13913c4fe7956fe74ce143530753",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.spokanejournal.com/articles/17979-sfcc-launches-ai-programs",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.spokanejournal.com/articles/17979-sfcc-launches-ai-programs",
+      "sha256": "84a8bc0666e414f81eddeed94d846bb700346d4eff010d0b244989567d1e5a0a",
+      "domain_unchanged": true
+    }
+  ]
+}

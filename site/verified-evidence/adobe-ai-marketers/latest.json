@@ -1,0 +1,35 @@
+{
+  "record_id": "adobe-ai-marketers",
+  "checked": "2026-11-12",
+  "sources_sha256": "7c1b9494c5d5d32831afccfeb5341431926be1996bd9827c0f101692fb1789d3",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://experienceleague.adobe.com/en/courses/ai-essentials-for-marketers-mindset-use-cases-and-workflows",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://experienceleague.adobe.com/en/courses/ai-essentials-for-marketers-mindset-use-cases-and-workflows",
+      "sha256": "02714410a0ee360d4058a5c279da4c10abbd269bfd4dd09475d044e6eecfe28c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://news.adobe.com/news/2026/06/adobe-linkedin-launch-global-ai-skills-initiative",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://news.adobe.com/news/2026/06/adobe-linkedin-launch-global-ai-skills-initiative",
+      "sha256": "757e774718de93eae4932513c0f43e0444b991665f255f495aff7fc4c38241e2",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.techradar.com/pro/were-helping-make-ai-skills-accessible-to-every-marketer-adobe-and-linkedin-team-up-to-spread-ai-knowledge",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.techradar.com/pro/were-helping-make-ai-skills-accessible-to-every-marketer-adobe-and-linkedin-team-up-to-spread-ai-knowledge",
+      "sha256": "506b49787d4df345d2450a4a8f3e7666e92fe2e637b1df3de87148f37688b7e5",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "record_id": "va-arlington-computer-core-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "f704338f1078c31d89b4aa44c2ef664e16c9907be311b4923ba8fc02fb06977d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.computercore.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.computercore.org/",
+      "sha256": "c4588626f62661a86f8e734dceae5d959d8f686c5f2cb1c3ef2c8891522c39a9",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\b9eb49d4d4d36d0367e1.html"
+    },
+    {
+      "url": "https://technical.ly/professional-development/byte-back-closing-digital-literacy-nonprofit-dc/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://technical.ly/professional-development/byte-back-closing-digital-literacy-nonprofit-dc/",
+      "sha256": "584b60b795c4346ff90777e0ad2ccca3751e269b0c7ef3bc9bda6e9411701d85",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\71559dbe4e3fff040c46.html"
+    }
+  ]
+}

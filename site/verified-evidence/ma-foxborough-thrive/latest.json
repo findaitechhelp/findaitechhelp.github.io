@@ -1,0 +1,26 @@
+{
+  "record_id": "ma-foxborough-thrive",
+  "checked": "2026-11-12",
+  "sources_sha256": "ff42f4ad07d89d28cd8f4e94856a0c38d2664311f1eea93ce2aae77ce4c724f6",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://thrivenextgen.com/locations/foxborough-ma/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://thrivenextgen.com/locations/foxborough-ma/",
+      "sha256": "c2938eba0988e43d0f6322b662888902cf95a6ec320920ec7fa89ea6ab51f2e6",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/channel-news/2025/thrive-ceo-on-ai-cybersecurity-and-future-of-managed-services",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/channel-news/2025/thrive-ceo-on-ai-cybersecurity-and-future-of-managed-services",
+      "sha256": "418e3503a794cb37ede94c9e3e238e9fe2fc13a5ee462445fee3f917df4b503e",
+      "domain_unchanged": true
+    }
+  ]
+}

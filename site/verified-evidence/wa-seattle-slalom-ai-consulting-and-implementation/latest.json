@@ -1,0 +1,35 @@
+{
+  "record_id": "wa-seattle-slalom-ai-consulting-and-implementation",
+  "checked": "2026-11-12",
+  "sources_sha256": "62428798e068066148782479b85ba8ba0fee1d70d99a312ac0974f658daf4228",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.slalom.com/us/en/services/artificial-intelligence",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.slalom.com/us/en/services/artificial-intelligence",
+      "sha256": "3a91a680803d0811dc815e953afba77209f6bf253405624557a770d5a21ac28e",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.geekwire.com/2025/openai-to-provide-chatgpt-to-federal-agencies-for-1-and-seattles-slalom-will-assist-worker-training/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.geekwire.com/2025/openai-to-provide-chatgpt-to-federal-agencies-for-1-and-seattles-slalom-will-assist-worker-training/",
+      "sha256": "5c87344cad6e28582f1dbc1e92c9dc1f6d6678ab98d6c59c0d41f5152c604f88",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.slalom.com/us/en/who-we-are/locations/seattle.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.slalom.com/us/en/who-we-are/locations/seattle.html",
+      "sha256": "72881989d4b2ea08d20fbe428374d167e40b2c4ac61840624bd099fb961c087c",
+      "domain_unchanged": true
+    }
+  ]
+}

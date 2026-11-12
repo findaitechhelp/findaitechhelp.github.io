@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-seattle-ai-learning-per-scholas-seattle",
+  "checked": "2026-11-12",
+  "sources_sha256": "61da734a29ea884b8a723260a3288b7c9f6dddb98eb00cb1827ff264e5aa174b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.perscholas.org/locations/seattle/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.perscholas.org/locations/seattle/",
+      "sha256": "36313064e445282f0ce669578d6b764d14fc8d8598437cc7459a3a91fac85678",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+      "sha256": "590c94095211fe5985b4eb93f1ad5aa7777f873e47c8464360b3bd3f4f0c81d6",
+      "domain_unchanged": true
+    }
+  ]
+}

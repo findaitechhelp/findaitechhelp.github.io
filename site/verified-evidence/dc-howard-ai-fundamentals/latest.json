@@ -1,0 +1,30 @@
+{
+  "record_id": "dc-howard-ai-fundamentals",
+  "checked": "2026-11-12",
+  "sources_sha256": "25bb0811435c988f6564d4dccc963f55bb06bef9670002d6ea016523d7730b1f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://howard.edu/ai/fundamentals-certificate",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://howard.edu/ai/fundamentals-certificate",
+      "sha256": "5de4c6e62bd8ca51753d2b23cf8cc9f58887a189bb68608ab041fa4f6e401801",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\2c9f316a36708d6785e0.html"
+    },
+    {
+      "url": "https://wtop.com/education/2026/08/new-web-story-howard-university-expands-ai-education-opportunities-for-students/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://wtop.com/dc/2026/08/new-web-story-howard-university-expands-ai-education-opportunities-for-students/",
+      "sha256": "8dbe4d2daa9d899e39959f021e87ea7a23ac0f523bfc01801afc2f621b24d05d",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\4e8282bdb222b41fcc2a.html"
+    }
+  ]
+}

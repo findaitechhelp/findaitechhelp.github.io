@@ -1,0 +1,30 @@
+{
+  "record_id": "nc-raleigh-npower-tech-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "e47e08491cddc9b702d8f6565306b0f8d8c5cc3f6008dbdb76f6baabbe7bfde5",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.npower.org/locations/north-carolina/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.npower.org/locations/north-carolina/",
+      "sha256": "6b699b1c2d0e6763bd6fa7fb9ab892fe5512c033004afc63b6fff446d29a9591",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\32ff90ab554242b73aff.html"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/nc/triangle-sandhills/news/2023/07/27/national-nonprofit-launches-free-tech-training",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumlocalnews.com/nc/triangle-sandhills/news/2023/07/27/national-nonprofit-launches-free-tech-training",
+      "sha256": "984a89d61d3472efaaf7de9751e860c237731c9dd0660c171bd3784c93ebf2bf",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\2086fd09c465f5f1c9c4.html"
+    }
+  ]
+}

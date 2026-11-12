@@ -1,0 +1,26 @@
+{
+  "record_id": "ny-new-york-city-aft-ai-academy",
+  "checked": "2026-11-12",
+  "sources_sha256": "c1613a0a3524899bb02ff0e913f1fe8119bcaa306747fc2e4f7aba1144221bb1",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://aiinstruction.aft.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://aiinstruction.aft.org/",
+      "sha256": "d12b86e00d4bf9784a98da749f5bedc2003fc6032bfc36118996a0cbb8a7a0f9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://time.com/7301335/ai-education-microsoft-openai-anthropic/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://time.com/7301335/ai-education-microsoft-openai-anthropic/",
+      "sha256": "a238fdc9181473947e8f47147f6d3666967fa20eaf625630293f7f041446c78d",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "record_id": "google-ai-essentials",
+  "checked": "2026-11-12",
+  "sources_sha256": "26d30f823ee1c7e3924dd11c2c4a9b581d96a5a39c0e63d4a84b2159dc17c001",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://grow.google/ai-essentials/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://grow.google/ai-essentials/",
+      "sha256": "892b5ec44015e679ea942424511558cb0184c140467d3044a0fc087f7ab66db8",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.computerworld.com/article/4049928/top-ai-certifications-that-will-get-you-hired-and-promoted.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.computerworld.com/article/4049928/top-ai-certifications-that-will-get-you-hired-and-promoted.html",
+      "sha256": "ee1f771c8808a3e9ce8402766233d98870c82f5e321841fd662d342543cd819c",
+      "domain_unchanged": true
+    }
+  ]
+}

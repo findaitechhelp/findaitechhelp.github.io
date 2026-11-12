@@ -1,0 +1,26 @@
+{
+  "record_id": "pa-media-dccc-corporate-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "53e14cb4b4650743143a6562c34ae5362ac1728bc7f422ec9c88ce75d7247c1d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.dccc.edu/corporate-college/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.dccc.edu/corporate-college/",
+      "sha256": "7c60062b4067877533f508f752a768a56a6c43d03ff63fa707eefe0195a866e9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://whyy.org/articles/delaware-county-community-college-teaching-program/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://whyy.org/articles/delaware-county-community-college-teaching-program/",
+      "sha256": "5f486922cf488be3cd58b6809b4ce6a2879306846ea16e116e6ce9c7a1931add",
+      "domain_unchanged": true
+    }
+  ]
+}

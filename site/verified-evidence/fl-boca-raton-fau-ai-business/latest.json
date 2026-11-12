@@ -1,0 +1,30 @@
+{
+  "record_id": "fl-boca-raton-fau-ai-business",
+  "checked": "2026-11-12",
+  "sources_sha256": "44db39038a2fdedc1ebd37b807b33e229bd4f6d485f808a54e907f8c18fa6826",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.fau.edu/business/programs/executive-education/data-analytics/artificial-intelligence-in-business/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.fau.edu/business/programs/executive-education/data-analytics/artificial-intelligence-in-business/",
+      "sha256": "9d0511d5f6d636be3c155990aa5923968ebe3696eaa680cf662e2e905b989490",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\683aebfdc9d7021dd0dd.html"
+    },
+    {
+      "url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+      "sha256": "e0a493f807c332b08857e710a8632f2a2b5a38db89bec12ad515936971e542d3",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\441ce5d94e91dae669c3.html"
+    }
+  ]
+}

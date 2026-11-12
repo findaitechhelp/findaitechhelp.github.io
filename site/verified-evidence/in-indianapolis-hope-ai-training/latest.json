@@ -1,0 +1,26 @@
+{
+  "record_id": "in-indianapolis-hope-ai-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "77bd8292f86916d86ec568b21b8d122837aff74f29ac853613e907dceb502f9f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.hopetrainingacademy.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.hopetrainingacademy.org/",
+      "sha256": "94270ee23d99f5a6932ecf6535f991b3a6bc519faba0aadeae7bb6dace7adf6d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://youarecurrent.com/2025/08/19/eye-on-the-future-career-and-technical-education-program-launches-in-westfield/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://youarecurrent.com/2025/08/19/eye-on-the-future-career-and-technical-education-program-launches-in-westfield/",
+      "sha256": "69207ab7e9f8935c8226da4622ccf1d28c9d8c93e745367c46bd53d8bed96772",
+      "domain_unchanged": true
+    }
+  ]
+}

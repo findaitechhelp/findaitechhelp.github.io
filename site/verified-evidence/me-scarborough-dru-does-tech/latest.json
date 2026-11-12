@@ -1,0 +1,26 @@
+{
+  "record_id": "me-scarborough-dru-does-tech",
+  "checked": "2026-11-12",
+  "sources_sha256": "75897aa80e3c7814deb67884c556c9e7ea53a617e774e609bdb92868ff1586d4",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.drudoestech.com/about.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.drudoestech.com/about.html",
+      "sha256": "3904f0cfcc9f211fd87b70c60a74bb9cbe027a0730762aa88f21aae0ab90d5b4",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://scarboroughliving.net/2026/06/01/dru-does-tech/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://scarboroughliving.net/2026/06/01/dru-does-tech/",
+      "sha256": "f60da543090f362c470f0f321a20861010c22f66155f4d9adfddb60447e68990",
+      "domain_unchanged": true
+    }
+  ]
+}

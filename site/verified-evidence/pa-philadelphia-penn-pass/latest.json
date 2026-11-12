@@ -1,0 +1,26 @@
+{
+  "record_id": "pa-philadelphia-penn-pass",
+  "checked": "2026-11-12",
+  "sources_sha256": "1922265fcd1dfb8ecbb1a9ce7411e4bb01ff06fbea3d71ab5c896f2278f8afe5",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts",
+      "sha256": "2a7be97256459265bad42ef316a3874343c71825f37ea81c170407fe85c9c479",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://whyy.org/articles/university-of-pennsylvania-ai-training-teachers/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://whyy.org/articles/university-of-pennsylvania-ai-training-teachers/",
+      "sha256": "04c4ecbc7d6823e9d67336c727267385c75f24ffb4e1832e30c797ec22fdd087",
+      "domain_unchanged": true
+    }
+  ]
+}

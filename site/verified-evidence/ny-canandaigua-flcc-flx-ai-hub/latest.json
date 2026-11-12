@@ -1,0 +1,26 @@
+{
+  "record_id": "ny-canandaigua-flcc-flx-ai-hub",
+  "checked": "2026-11-12",
+  "sources_sha256": "cdff0823de5d122e9677dd1e4c5b4d1dff2a25a6ca26dd3ac060672d54468cfc",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.flcc.edu/news/2026/flx-ai-hub-programming-looks-wide-digs-deep/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.flcc.edu/news/2026/flx-ai-hub-programming-looks-wide-digs-deep/",
+      "sha256": "58aca2708ea9b7222c03d06a8be917e273ecd4f0733fcb689bdf0599bd1831a3",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wxxinews.org/local-news/2024-03-04/flcc-aims-to-produce-more-nurses-with-a-new-lpn-program",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wxxinews.org/local-news/2024-03-04/flcc-aims-to-produce-more-nurses-with-a-new-lpn-program",
+      "sha256": "10500ed129f122a709e1620e7443864a43724ee17705147cea7f3aa1073f5832",
+      "domain_unchanged": true
+    }
+  ]
+}

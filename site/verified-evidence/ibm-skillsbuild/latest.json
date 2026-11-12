@@ -1,0 +1,26 @@
+{
+  "record_id": "ibm-skillsbuild",
+  "checked": "2026-11-12",
+  "sources_sha256": "f171d5c7f08422ac771b1939d22211a038c58b579534c7a84fbe9f753e6453bf",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://skillsbuild.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://skillsbuild.org/",
+      "sha256": "a97a01f85ac18d472a674900855e1f4cae37fa135ff0f21279fe47ddeef70e77",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.straitstimes.com/tech/ibm-to-give-free-ai-training-for-targeted-2-million-people-by-2026",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.straitstimes.com/tech/ibm-to-give-free-ai-training-for-targeted-2-million-people-by-2026",
+      "sha256": "cb88bc45eac01811d13c9adc3196f57c4f251bfe2e0ad6006e6b3f10bef2e7a0",
+      "domain_unchanged": true
+    }
+  ]
+}

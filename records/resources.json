@@ -3504,5 +3504,1102 @@
     "approved_by": "dan",
     "approved_on": "2026-11-12",
     "approval_fingerprint": "4474555f6f1026df64529345a19ffbaeeb06e9c2455cfae3f68e889c6ee344aa"
+  },
+  {
+    "id": "wa-seattle-ai-learning-per-scholas-seattle",
+    "name": "Per Scholas Seattle - AI-enabled IT Career Training",
+    "url": "https://www.perscholas.org/locations/seattle/",
+    "state_id": "wa",
+    "location_slug": "seattle",
+    "location_label": "Seattle, WA",
+    "description": "No-tuition technology career training with AI-enabled coursework. Admission, income, residency and course prerequisites apply; check current program requirements.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "No tuition for eligible admitted learners",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/seattle/",
+        "quote": "NextGen IT Support (AI-Powered)",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+        "quote": "Per Scholas",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5aa3584318b60bf205b4067fb4c94d8247f3717563f7dae3484516227c003907"
+  },
+  {
+    "id": "co-denver-ai-learning-per-scholas-denver",
+    "name": "Per Scholas Denver - AI-enabled IT Career Training",
+    "url": "https://www.perscholas.org/locations/denver/",
+    "state_id": "co",
+    "location_slug": "denver",
+    "location_label": "Denver, CO",
+    "description": "No-tuition technology career training with AI-enabled coursework. Admission, income, residency and course prerequisites apply; check current program requirements.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "No tuition for eligible admitted learners",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/denver/",
+        "quote": "AI-Enabled IT Support",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+        "quote": "Per Scholas",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bb3f2a6ca6fca1f4bfca1ed8a6be16b24afdabf4da1381f34db09f46ca2bc6e2"
+  },
+  {
+    "id": "az-phoenix-ai-learning-per-scholas-phoenix",
+    "name": "Per Scholas Phoenix - AI-enabled IT Career Training",
+    "url": "https://www.perscholas.org/locations/phoenix/",
+    "state_id": "az",
+    "location_slug": "phoenix",
+    "location_label": "Phoenix, AZ",
+    "description": "No-tuition technology career training with AI-enabled coursework. Admission, income, residency and course prerequisites apply; check current program requirements.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "No tuition for eligible admitted learners",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/phoenix/",
+        "quote": "AI-Enabled Healthcare IT Technician",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+        "quote": "Per Scholas",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2dccbe48ae10338e2162d73378a8e08985b99a31da93eb794e6de046977ad46c"
+  },
+  {
+    "id": "ca-los-angeles-ai-learning-per-scholas-los-angeles",
+    "name": "Per Scholas Los Angeles - AI-enabled IT Career Training",
+    "url": "https://www.perscholas.org/locations/los-angeles/",
+    "state_id": "ca",
+    "location_slug": "los-angeles",
+    "location_label": "Los Angeles, CA",
+    "description": "No-tuition technology career training with AI-enabled coursework. Admission, income, residency and course prerequisites apply; check current program requirements.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "No tuition for eligible admitted learners",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.perscholas.org/locations/los-angeles/",
+        "quote": "AI-Enabled IT Support",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://mirrorindy.org/indianapolis-public-library-tech-classes-it-careers-2025-per-scholas/",
+        "quote": "Per Scholas",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f9b42f9112be9324863ab7457ab66919c8a121b821f0a7d1b16a27a6a1293d03"
+  },
+  {
+    "id": "ak-anchorage-ai-learning-alaska-sbdc-ai-resource-program",
+    "name": "Alaska SBDC AI Resource Program",
+    "url": "https://aksbdc.org/services/ai-resource-center/",
+    "state_id": "ak",
+    "location_slug": "anchorage",
+    "location_label": "Anchorage, AK",
+    "description": "AI tools, workshops and business-advisor guidance for Alaska small businesses. One-on-one business advising is no-cost; confirm individual training fees.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "No-cost business advising; confirm workshop fees",
+    "format": "varies",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://aksbdc.org/services/ai-resource-center/",
+        "quote": "Training on tools for small business",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://alaskapublic.org/programs/alaska-economic-report/2025-01-16/heres-how-the-tiktok-ban-could-impact-small-businesses-in-alaska",
+        "quote": "Alaska Small Business Development Center in Anchorage",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f37fa8baf5bd3690d2035132374d03e2393d41a780ad4f2148f1fd213b24d11e"
+  },
+  {
+    "id": "or-portland-ai-learning-portland-community-college",
+    "name": "Portland Community College - AI Certificate",
+    "url": "https://careertraining.pcc.edu/training-programs/ai-certificate-prerequisites/",
+    "state_id": "or",
+    "location_slug": "portland",
+    "location_label": "Portland, OR",
+    "description": "Online AI certificate curriculum covers workplace tools and practical business uses. Confirm tuition, computer requirements and separately required AI-tool subscriptions.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Paid training; confirm current tuition and required subscriptions",
+    "format": "online",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://careertraining.pcc.edu/training-programs/ai-certificate-prerequisites/",
+        "quote": "Generative AI with ChatGPT",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.opb.org/article/2026/05/15/portland-community-college-president-resigns-tenure-strike/",
+        "quote": "Portland Community College",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b40369b932665a0d27c44a580a025fb9a09f397a243894fd2c3325fd6c9260d7"
+  },
+  {
+    "id": "ut-sandy-ai-learning-salt-lake-community-college",
+    "name": "Salt Lake Community College - Online AI Career Courses",
+    "url": "https://careertraining.slcc.edu/artificial-intelligence-ai-programs/",
+    "state_id": "ut",
+    "location_slug": "sandy",
+    "location_label": "Sandy, UT",
+    "description": "Online career courses cover AI tools, workplace productivity and AI-assisted coding. Confirm tuition and enrollment requirements; this is not drop-in technical support.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Paid courses; confirm current tuition",
+    "format": "online",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://careertraining.slcc.edu/artificial-intelligence-ai-programs/",
+        "quote": "AI Coding for Non-Coders",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.ksl.com/article/news/utah/science-and-tech/new-study-says-utah-is-third-most-prepared-state-for-ai-revolution/51350141",
+        "quote": "Salt Lake Community College",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "d90bde02385405330c5ff42f634bf0d11dbf37f793ad643827addf03961ed98b"
+  },
+  {
+    "id": "hi-honolulu-ai-learning-university-hawaii",
+    "name": "University of Hawaii - Artificial Intelligence for Hawaii",
+    "url": "https://www.hawaii.edu/news/2026/03/30/new-ai-course/",
+    "state_id": "hi",
+    "location_slug": "honolulu",
+    "location_label": "Honolulu, HI",
+    "description": "Free online AI-learning program for the UH community and communities across Hawaii. Covers practical and responsible use; consult the course page for current access.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Free online AI course",
+    "format": "self-paced",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://www.hawaii.edu/news/2026/03/30/new-ai-course/",
+        "quote": "a free interactive 12-chapter program",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.hawaiinewsnow.com/2026/09/07/uh-debuts-free-ai-hawaii-program-teach-ethical-practical-ai-skills/?outputType=amp",
+        "quote": "AI for Hawaii",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "ea55f3b0faf12679879aace7a3d468aafde855f721656a1279f66aec2b93322f"
+  },
+  {
+    "id": "ca-san-diego-ai-learning-league-amazing-programmers",
+    "name": "LEAGUE of Amazing Programmers - Youth AI and Coding",
+    "url": "https://www.jointheleague.org/",
+    "state_id": "ca",
+    "location_slug": "san-diego",
+    "location_label": "San Diego, CA",
+    "description": "Youth classes teach programming, robotics and AI. Free community workshops and paid weekly classes have different formats and eligibility; check the current program.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Free community workshops; confirm weekly class fees and scholarships",
+    "format": "hybrid",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.jointheleague.org/",
+        "quote": "Weekly groups classes in programming, robotics and AI",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.kpbs.org/news/education/2024/06/07/jacobs-high-tech-high-students-coding-their-way-to-college-and-future-careers",
+        "quote": "The League of Amazing Programmers",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "ea765289fdd2729bea31408e55ccf78a7ef0e80fbea66f791261e899f85226d0"
+  },
+  {
+    "id": "ca-san-diego-ai-learning-san-diego-continuing-education",
+    "name": "San Diego Continuing Education - Online AI Career Courses",
+    "url": "https://trainwitheti.sdcce.edu/artificial-intelligence-ai-programs/",
+    "state_id": "ca",
+    "location_slug": "san-diego",
+    "location_label": "San Diego, CA",
+    "description": "Online AI certificate and workplace-tool courses through the college foundation training catalog. These career courses have separate enrollment and pricing; confirm current fees.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Confirm paid career-course tuition; do not assume tuition-free",
+    "format": "online",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://trainwitheti.sdcce.edu/artificial-intelligence-ai-programs/",
+        "quote": "AI Coding for Non-Coders",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.kpbs.org/news/quality-of-life/2025/11/20/79th-district-apprenticeship-fair-offers-career-opportunities",
+        "quote": "San Diego College of Continuing Education",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "efebf4ade6fcbac84359d09fa1b8a949a5a30d19e1913897a9d98dfe5d871135"
+  },
+  {
+    "id": "wa-spokane-ai-learning-spokane-colleges",
+    "name": "Spokane Colleges - AI Career and Community Training",
+    "url": "https://shared.spokane.edu/Content-Items/News-Articles/2025/Spokane-Colleges-Launches-Credit%2C-Non-Credit-AI-Pr",
+    "state_id": "wa",
+    "location_slug": "spokane",
+    "location_label": "Spokane, WA",
+    "description": "AI certificate and community training options through Spokane Colleges. Ask the college about current credit and noncredit offerings, prerequisites and fees.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Confirm current course tuition and enrollment",
+    "format": "varies",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and practical learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://shared.spokane.edu/Content-Items/News-Articles/2025/Spokane-Colleges-Launches-Credit%2C-Non-Credit-AI-Pr",
+        "quote": "AI Training for the Community",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.spokanejournal.com/articles/17979-sfcc-launches-ai-programs",
+        "quote": "Spokane Falls Community College",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "121a1b59d432218f63a04e2fb9550804e0e07d233bf1244439a492d13e20dcb5"
+  },
+  {
+    "id": "ca-santa-monica-santa-monica-college-online-ai-career-courses",
+    "name": "Santa Monica College - Online AI Career Courses",
+    "url": "https://careertraining.smc.edu/artificial-intelligence-ai-programs/",
+    "state_id": "ca",
+    "location_slug": "santa-monica",
+    "location_label": "Santa Monica, CA",
+    "description": "Online career courses cover practical AI tools, workplace productivity and AI-assisted coding. Confirm current tuition, technology requirements and course availability.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Paid courses; confirm current tuition",
+    "format": "online",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://careertraining.smc.edu/artificial-intelligence-ai-programs/",
+        "quote": "AI Coding for Non-Coders",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://laist.com/news/education/santa-monica-college-accreditation-financial-struggles",
+        "quote": "Santa Monica College",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "693c6b17adb964618c370d79d13caa4180010de91dc0108700703b6b15717474"
+  },
+  {
+    "id": "ca-san-jose-npower-california-san-jose-technology-career-training",
+    "name": "NPower California - San Jose Technology Career Training",
+    "url": "https://www.npower.org/locations/california/",
+    "state_id": "ca",
+    "location_slug": "san-jose",
+    "location_label": "San Jose, CA",
+    "description": "Tuition-free technology career training for eligible young adults and members of the military community. Contact this California office about current programs and admission requirements.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition-free for eligible admitted learners",
+    "format": "online",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.npower.org/locations/california/",
+        "quote": "tuition-free technology training",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://abc7news.com/post/great-resignation-career-training-job/11309668/",
+        "quote": "NPower California",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3abfda0a9329b0ee64114b781ee54fc4d23a4fba9a92bcc9f3571935cecbf029"
+  },
+  {
+    "id": "wa-seattle-year-up-united-seattle-it-career-training",
+    "name": "Year Up United - Seattle IT Career Training",
+    "url": "https://www.yearup.org/locations/seattle-wa",
+    "state_id": "wa",
+    "location_slug": "seattle",
+    "location_label": "Seattle, WA",
+    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition-free opportunities for eligible admitted learners",
+    "format": "hybrid",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.yearup.org/locations/seattle-wa",
+        "quote": "IT Support",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.geekwire.com/2014/year-up/",
+        "quote": "Year Up Puget Sound",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e3224d183466b100fc18ebc748c43f6db843e1f48fa037906a977e2c11090091"
+  },
+  {
+    "id": "az-phoenix-year-up-united-phoenix-it-career-training",
+    "name": "Year Up United - Phoenix IT Career Training",
+    "url": "https://www.yearup.org/locations/phoenix-az",
+    "state_id": "az",
+    "location_slug": "phoenix",
+    "location_label": "Phoenix, AZ",
+    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition-free opportunities for eligible admitted learners",
+    "format": "hybrid",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.yearup.org/locations/phoenix-az",
+        "quote": "IT Support",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.geekwire.com/2014/year-up/",
+        "quote": "Year Up Puget Sound",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9f0cdb78461283f5fbb2a3feaa38f24fa5d634a2f3aec61604d40da6903c0b99"
+  },
+  {
+    "id": "ca-oakland-year-up-united-oakland-it-career-training",
+    "name": "Year Up United - Oakland IT Career Training",
+    "url": "https://www.yearup.org/locations/bay-area-ca",
+    "state_id": "ca",
+    "location_slug": "oakland",
+    "location_label": "Oakland, CA",
+    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition-free opportunities for eligible admitted learners",
+    "format": "hybrid",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.yearup.org/locations/bay-area-ca",
+        "quote": "IT Support",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.geekwire.com/2014/year-up/",
+        "quote": "Year Up Puget Sound",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f45c6068799eb244af888fd7d5828e39021293c63fa509f0c7ccc58fb38c835e"
+  },
+  {
+    "id": "ca-san-jose-year-up-united-san-jose-it-career-training",
+    "name": "Year Up United - San Jose IT Career Training",
+    "url": "https://www.yearup.org/job-training-programs/bay-area/it-support-0",
+    "state_id": "ca",
+    "location_slug": "san-jose",
+    "location_label": "San Jose, CA",
+    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition-free opportunities for eligible admitted learners",
+    "format": "hybrid",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.yearup.org/job-training-programs/bay-area/it-support-0",
+        "quote": "Computer Architecture & Systems Fundamentals",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.geekwire.com/2014/year-up/",
+        "quote": "Year Up Puget Sound",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bbc854d6006bf89693200475d548fd4f5a2f44f0e59039e058f13ee352f23661"
+  },
+  {
+    "id": "or-portland-free-geek-digital-navigation-and-skills",
+    "name": "Free Geek - Digital Navigation and Skills",
+    "url": "https://www.freegeek.org/digitalequity",
+    "state_id": "or",
+    "location_slug": "portland",
+    "location_label": "Portland, OR",
+    "description": "Digital-navigation support and foundational computer, internet and keyboard skills. Check current appointments and eligibility; do not assume a free computer is immediately available.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Confirm current service costs and eligibility",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.freegeek.org/digitalequity",
+        "quote": "coaching in essential digital skills",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.opb.org/article/2022/03/17/portlands-ongoing-response-to-the-digital-divide/",
+        "quote": "Free Geek",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2a002725ddb0e1193597c6c7aa233900dd4663e0fa7150072dca3ff1a7e82a72"
+  },
+  {
+    "id": "ca-pasadena-repair-cafe-pasadena-volunteer-computer-help",
+    "name": "Repair Cafe Pasadena - Volunteer Computer Help",
+    "url": "https://repair-cafe-pasadena.mailerpage.io/faqs",
+    "state_id": "ca",
+    "location_slug": "pasadena",
+    "location_label": "Pasadena, CA",
+    "description": "Volunteer-run events include electronic repair and computer software help when suitable volunteers are present. Locations vary; bring required parts and check the current event details.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Free volunteer help; replacement parts not supplied",
+    "format": "in-person",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer skills and technology career learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://repair-cafe-pasadena.mailerpage.io/faqs",
+        "quote": "Computer help - see one of our geeks",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://laist.com/news/entertainment/25-fabulous-events-in-southern-california-this-weekend-sep05-2019",
+        "quote": "Repair Caf",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3a2545e352d5d62b735586c35faf412ef27582cad688f5996381272c987258ca"
+  },
+  {
+    "id": "la-baton-rouge-lsu-free-ai-literacy-essentials",
+    "name": "LSU - Free AI Literacy Essentials",
+    "url": "https://www.lsu.edu/mediacenter/news/2026/08/13-ai-literacy-online.php",
+    "state_id": "la",
+    "location_slug": "baton-rouge",
+    "location_label": "Baton Rouge, LA",
+    "description": "Free online introductory AI course covers responsible use, information verification and practical skills for work and everyday life. Consult LSU for current registration access.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Free online course",
+    "format": "self-paced",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://www.lsu.edu/mediacenter/news/2026/08/13-ai-literacy-online.php",
+        "quote": "now available to the public, free of charge",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.wbrz.com/news/lsu-launches-free-ai-literacy-course-open-to-public-on-aug-26/",
+        "quote": "AI Literacy Essentials",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1f961f19a6f07ede37eb84004eba576470a81095bfec8e9fb3ead987c0acef36"
+  },
+  {
+    "id": "ar-little-rock-arkansas-grow-with-google-ai-skills-scholarships",
+    "name": "Arkansas Grow with Google - AI Skills Scholarships",
+    "url": "https://commerce.arkansas.gov/arkansas-grow-with-google/",
+    "state_id": "ar",
+    "location_slug": "little-rock",
+    "location_label": "Little Rock, AR",
+    "description": "Arkansas residents can apply for no-cost access to Google AI and digital-career courses. Confirm scholarship approval and eligible courses before enrolling; this is statewide online learning.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "No-cost eligible courses after scholarship approval",
+    "format": "self-paced",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI learning",
+    "kind": "other",
+    "sources": [
+      {
+        "url": "https://commerce.arkansas.gov/arkansas-grow-with-google/",
+        "quote": "Google AI Essentials",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.ricebelt.net/ready-for-a-new-career-free-google-ai-training-now-available-for-the-rice-belt-region/",
+        "quote": "Any resident of Arkansas who is 18 or older",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "a24425ca3ea6c11cbfb502e7259d1bbc8da1ca918a71db9d1c8a32c9fa3affc8"
+  },
+  {
+    "id": "nd-bismarck-bismarck-state-college-ai-and-machine-learning-specialist-certificate",
+    "name": "Bismarck State College - AI and Machine Learning Specialist Certificate",
+    "url": "https://bismarckstate.edu/academics/programs/ArtificialIntelligenceMachineLearningSpecialist/",
+    "state_id": "nd",
+    "location_slug": "bismarck",
+    "location_label": "Bismarck, ND",
+    "description": "AI and machine-learning certificate includes programming, statistics and applied AI. Intended for learners with prior emerging-technology study or a strong technical background; confirm admission and tuition.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition and fees apply; confirm current costs",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://bismarckstate.edu/academics/programs/ArtificialIntelligenceMachineLearningSpecialist/",
+        "quote": "Artificial Intelligence & Machine Learning Specialist Certificate",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.kfyrtv.com/2026/09/29/tech-industry-leaders-warn-about-artificial-intelligence-local-professor-talks-ai/",
+        "quote": "Bismarck State College",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3e72df404d2727b5b9a129ce3d12f299cb3ee28f48af59320d9b0a80a47069b8"
+  },
+  {
+    "id": "sd-madison-dakota-state-university-ai-graduate-certificate",
+    "name": "Dakota State University - AI Graduate Certificate",
+    "url": "https://dsu.edu/programs/artificial-intelligence-graduate-certificate.html",
+    "state_id": "sd",
+    "location_slug": "madison",
+    "location_label": "Madison, SD",
+    "description": "Graduate-level AI certificate covers developing, evaluating and implementing AI solutions. Online study is available; graduate admission and program requirements apply.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition and fees apply; confirm current graduate costs",
+    "format": "online",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://dsu.edu/programs/artificial-intelligence-graduate-certificate.html",
+        "quote": "Artificial Intelligence Graduate Certificate",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.dakotanewsnow.com/2024/08/02/dsu-students-sweden-present-ai-cyber-research-findings/",
+        "quote": "Dakota State University",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5cd9f75643ab634af9f556b66ea43fb6a14ad71cabefed7c4cd8fce457e26ede"
+  },
+  {
+    "id": "wy-cheyenne-laramie-county-community-college-applied-ai-degree",
+    "name": "Laramie County Community College - Applied AI Degree",
+    "url": "https://www.lccc.wy.edu/pathways/sciTechEngMath/artificialIntelligenceProgram/index.aspx",
+    "state_id": "wy",
+    "location_slug": "cheyenne",
+    "location_label": "Cheyenne, WY",
+    "description": "Applied associate-degree study covers AI, machine learning, programming and ethical issues. Enrollment, tuition and prerequisites apply; contact the college for current delivery options.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Tuition and fees apply; confirm current costs",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://www.lccc.wy.edu/pathways/sciTechEngMath/artificialIntelligenceProgram/index.aspx",
+        "quote": "students will be introduced to artificial intelligence (AI) and machine learning",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.wyomingpublicmedia.org/education/2026-09-23/laramie-county-community-college-board-approves-name-change",
+        "quote": "Cheyenne-based school",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9c8fe61c2d53e6f7373e0ad789689b4e06c50b67580c47341ebced766cf560f6"
+  },
+  {
+    "id": "hi-honolulu-university-of-hawaii-google-ai-certificate-access",
+    "name": "University of Hawaii - Google AI Certificate Access",
+    "url": "https://www.hawaii.edu/its/coursera/",
+    "state_id": "hi",
+    "location_slug": "honolulu",
+    "location_label": "Honolulu, HI",
+    "description": "Current UH students, faculty and staff can access listed Google AI and technology certificates online at no cost. Institutional enrollment is required; optional paid subscriptions are not included.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Free eligible certificates for current UH students, faculty and staff",
+    "format": "self-paced",
+    "audience": [
+      "individual"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI training and learning",
+    "kind": "college",
+    "sources": [
+      {
+        "url": "https://www.hawaii.edu/its/coursera/",
+        "quote": "provided to all current students, faculty and staff at no cost",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.hawaiinewsnow.com/2026/09/07/uh-debuts-free-ai-hawaii-program-teach-ethical-practical-ai-skills/?outputType=amp",
+        "quote": "AI for Hawaii",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9d9a44fcc8b8c005eb652b588b058b4ce12797965f3a8dc39411f10cf21b7efd"
   }
 ]

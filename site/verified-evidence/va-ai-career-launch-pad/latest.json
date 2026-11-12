@@ -1,0 +1,30 @@
+{
+  "record_id": "va-ai-career-launch-pad",
+  "checked": "2026-11-12",
+  "sources_sha256": "76fb5ade2a63ad8bde39d6c132bf1d68f9e7b94507978f92566b3d4e7feef88f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://virginiaworks.gov/new-virginia-works-report-explores-the-commonwealths-workforce-in-an-ai-driven-economy/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://virginiaworks.gov/new-virginia-works-report-explores-the-commonwealths-workforce-in-an-ai-driven-economy/",
+      "sha256": "6c886b528a00be9a8a374b9f703951bd0a54df0be4086b0bf7406a3aea589aa6",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\30e41923f690d29fd8fb.html"
+    },
+    {
+      "url": "https://www.nga.org/projects/ai-and-the-future-of-work/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.nga.org/projects/ai-and-the-future-of-work/",
+      "sha256": "05c76b906ea8b3a5d7ec7a42f6d44e7129a04c915fe9567d2025c2ab3fb7a42f",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\e4ae13c55e326c112af3.html"
+    }
+  ]
+}

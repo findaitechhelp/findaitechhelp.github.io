@@ -1,0 +1,30 @@
+{
+  "record_id": "ky-bowling-green-wku-ai-analytics",
+  "checked": "2026-11-12",
+  "sources_sha256": "543e60d2c145a5b461e372d32e722b81c035d589146f26981cd9252f7df9ae0f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.wku.edu/online/ug-certs/aia/index.php",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wku.edu/online/ug-certs/aia/index.php",
+      "sha256": "e0799c4bad1a148658956bcb2c7f54eae3487a1cac4aac5ca9028f972b5ee5fe",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\408d7c2deafb1f97c0cc.html"
+    },
+    {
+      "url": "https://www.wbko.com/2024/09/25/artificial-intelligence-rise-among-consumers/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wbko.com/2024/09/25/artificial-intelligence-rise-among-consumers/",
+      "sha256": "580b09bf39fd301075c8f57f0ea821efd77db36fe8df2019a5132f8593d13b19",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\ce46ccfb89cc429fd062.html"
+    }
+  ]
+}

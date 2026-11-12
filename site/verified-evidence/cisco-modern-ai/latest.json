@@ -1,0 +1,35 @@
+{
+  "record_id": "cisco-modern-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "35069aba09f4abb39c88390909aa8dda74e848b8ebfa6163a422beb83c2288f5",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.netacad.com/courses/introduction-to-modern-ai",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.netacad.com/courses/introduction-to-modern-ai",
+      "sha256": "1a0b448cd86ff2402fd292f59647b7e8b0b888f20516b6879900e4b6c62c1017",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://blogs.cisco.com/learning/ai-training-for-network-engineers",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://blogs.cisco.com/learning/ai-training-for-network-engineers",
+      "sha256": "e377ff2053b20bac97c96c31415dada81ba3f4f5d133eb8d290c5bb8d43f87d9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.itpro.com/business/business-strategy/cisco-promises-ai-training-for-a-million-americans",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.itpro.com/business/business-strategy/cisco-promises-ai-training-for-a-million-americans",
+      "sha256": "802940bff176d27ef66bba4fbbfb1e90ed0d99439eae2656670a0546bbc24920",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "record_id": "il-chicago-ntiva-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "ff1745f3af615738a7a96289fe82d7f80b3bfff6ea279d760f767ea05ad60781",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.ntiva.com/digital-transformation-services/ai-consulting-services",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ntiva.com/digital-transformation-services/ai-consulting-services",
+      "sha256": "8ee837fecd2d259e8da8db193cb0b04c27c30f4e7bb16a124ac5c273cc00b2b9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ntiva.com/it-support-illinois",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ntiva.com/it-support-illinois",
+      "sha256": "0beaccc8c3357553024590621da9e29716a765acc1a3b0adedae3fa7eb386f79",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/channel-programs/ntiva-grows-geography-talent-with-latest-acquisition",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/channel-programs/ntiva-grows-geography-talent-with-latest-acquisition",
+      "sha256": "6fb415e8e214ee1be22c8fa0c87de23efd9f83a3e7b37a386dfe09276650e009",
+      "domain_unchanged": true
+    }
+  ]
+}

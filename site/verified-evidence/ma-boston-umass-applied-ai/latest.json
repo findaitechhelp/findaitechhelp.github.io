@@ -1,0 +1,26 @@
+{
+  "record_id": "ma-boston-umass-applied-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "e6fa794a8542d7095703b1a4522fc137539e532faeecc2e62418a9bcdff2cb6a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://ai.umb.edu/events/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ai.umb.edu/events/",
+      "sha256": "d92cc6b2b521c11dc48462e64cea4fb1901ae5f456615102d11525ec28657aca",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wbur.org/news/2026/03/26/boston-public-schools-ai-literacy",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wbur.org/news/2026/03/26/boston-public-schools-ai-literacy",
+      "sha256": "b5d45425cdbc96e4a180068fa1db7bd423b2b850555b1a8b6d8a1ef5fd8af1c9",
+      "domain_unchanged": true
+    }
+  ]
+}

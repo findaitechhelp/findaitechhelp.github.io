@@ -94,5 +94,1333 @@
     "approved_on": "2026-11-12",
     "approval_fingerprint": "2bc22005149ddd203e96be712de243a2b65ae46212c22a25fb589dc98eebdec2",
     "pause_reason": "Latest independent direct source fetch returned HTTP 403 on 2026-11-12; no retry or restriction bypass."
+  },
+  {
+    "id": "wa-seattle-tech-repair-ubreakifix",
+    "name": "uBreakiFix by Asurion - Seattle",
+    "url": "https://www.ubreakifix.com/locations/seattle/computer-repair",
+    "state_id": "wa",
+    "location_slug": "seattle",
+    "location_label": "Seattle, WA",
+    "description": "Computer and laptop repair, device setup and related support at this branch. Request a quote for your device and issue; no repair outcome or turnaround is guaranteed.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Request a current repair quote",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer repair and device support",
+    "category": "computer-repair",
+    "sources": [
+      {
+        "url": "https://www.ubreakifix.com/locations/seattle/computer-repair",
+        "quote": "4730 University Way Northeast",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+        "quote": "uBreakiFix",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8b4fe10f8fa4634b0bf1302eba02949dcfd7592043434ea2d705c47a9675f679"
+  },
+  {
+    "id": "ca-san-diego-tech-repair-ubreakifix",
+    "name": "uBreakiFix by Asurion - San Diego",
+    "url": "https://www.ubreakifix.com/locations/sandiego",
+    "state_id": "ca",
+    "location_slug": "san-diego",
+    "location_label": "San Diego, CA",
+    "description": "Computer and laptop repair, device setup and related support at this branch. Request a quote for your device and issue; no repair outcome or turnaround is guaranteed.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Request a current repair quote",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer repair and device support",
+    "category": "computer-repair",
+    "sources": [
+      {
+        "url": "https://www.ubreakifix.com/locations/sandiego",
+        "quote": "3619 Midway Dr",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+        "quote": "uBreakiFix",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fa65dcb340e899f29b7603cd7ee471605814ac6ff484d722211202353e9ef5e3"
+  },
+  {
+    "id": "nm-albuquerque-tech-repair-ubreakifix",
+    "name": "uBreakiFix by Asurion - Albuquerque",
+    "url": "https://www.ubreakifix.com/locations/albuquerquenortheast",
+    "state_id": "nm",
+    "location_slug": "albuquerque",
+    "location_label": "Albuquerque, NM",
+    "description": "Computer and laptop repair, device setup and related support at this branch. Request a quote for your device and issue; no repair outcome or turnaround is guaranteed.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Request a current repair quote",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer repair and device support",
+    "category": "computer-repair",
+    "sources": [
+      {
+        "url": "https://www.ubreakifix.com/locations/albuquerquenortheast",
+        "quote": "6400 Holly Avenue Northeast",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+        "quote": "uBreakiFix",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9949b1df04bc815cc437917c1168f0f75c7f9479c5ba58e40f1e9fc1cda6d34f"
+  },
+  {
+    "id": "nv-henderson-tech-repair-ubreakifix",
+    "name": "uBreakiFix by Asurion - Henderson",
+    "url": "https://www.ubreakifix.com/locations/lasvegas/computer-repair",
+    "state_id": "nv",
+    "location_slug": "henderson",
+    "location_label": "Henderson, NV",
+    "description": "Computer and laptop repair, device setup and related support at this branch. Request a quote for your device and issue; no repair outcome or turnaround is guaranteed.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Request a current repair quote",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer repair and device support",
+    "category": "computer-repair",
+    "sources": [
+      {
+        "url": "https://www.ubreakifix.com/locations/lasvegas/computer-repair",
+        "quote": "695 N Stephanie St",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://resource-recycling.com/e-scrap/2019/09/12/another-insurance-company-acquires-a-repair-business/",
+        "quote": "uBreakiFix",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e75bd887778c1110898d00ee1ef0690e1a5c6f00eca9bd872e78d69482069c60"
+  },
+  {
+    "id": "hi-honolulu-tech-repair-soho-computer-repair",
+    "name": "SOHO Computer Repair",
+    "url": "https://www.sohorepair.com/",
+    "state_id": "hi",
+    "location_slug": "honolulu",
+    "location_label": "Honolulu, HI",
+    "description": "Computer repair for PCs, Macs and Surface devices, with data-recovery services. Confirm diagnostics, repair pricing and current service availability.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Confirm diagnostic and repair fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer repair and device support",
+    "category": "computer-repair",
+    "sources": [
+      {
+        "url": "https://www.sohorepair.com/",
+        "quote": "LAPTOP & DESKTOP REPAIR",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.hawaiitribune-herald.com/2014/11/14/hawaii-news/ransomware-hits-honolulu-business-computers/",
+        "quote": "SOHO Computer Repair",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "5cfd212f1d95e26a4270fc041fb35b93aeb2a2fd3973185b820de617d5b7ee79"
+  },
+  {
+    "id": "wa-kent-tech-repair-re-pc",
+    "name": "RE-PC - Computer Repair",
+    "url": "https://www.repc.com/repair.html",
+    "state_id": "wa",
+    "location_slug": "kent",
+    "location_label": "Kent, WA",
+    "description": "Desktop and laptop PC and Mac repair at the Kent location. Contact the repair desk for current diagnostic fees and supported problems.",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Confirm current diagnostic and labor fees",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "Computer repair and device support",
+    "category": "computer-repair",
+    "sources": [
+      {
+        "url": "https://www.repc.com/repair.html",
+        "quote": "We only do repairs at our Kent location.",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.geekwire.com/2011/geek-week-kelly-franznick-blink-founder-ceo/",
+        "quote": "Re-PC",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2bfd69e899a11f8f8a67468d9b652eafb1c543105f3e255dfeaf51a2ab1f94ae"
+  },
+  {
+    "id": "wa-seattle-slalom-ai-consulting-and-implementation",
+    "name": "Slalom - AI Consulting and Implementation",
+    "url": "https://www.slalom.com/us/en/services/artificial-intelligence",
+    "state_id": "wa",
+    "location_slug": "seattle",
+    "location_label": "Seattle, WA",
+    "description": "Business AI strategy, implementation and adoption services from a Seattle-based consultancy. Discuss project scope and request a quote; enterprise-oriented services may not suit small personal tasks.",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "cost": "Request a project quote",
+    "format": "varies",
+    "audience": [
+      "business"
+    ],
+    "availability": "current",
+    "paid_relationship": "none",
+    "service_label": "AI consulting and setup",
+    "category": "ai-consulting",
+    "sources": [
+      {
+        "url": "https://www.slalom.com/us/en/services/artificial-intelligence",
+        "quote": "we design AI solutions",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Provider-published current offering"
+      },
+      {
+        "url": "https://www.geekwire.com/2025/openai-to-provide-chatgpt-to-federal-agencies-for-1-and-seattles-slalom-will-assist-worker-training/",
+        "quote": "Seattle-based business and technology consulting firm",
+        "fetched": "2026-11-12",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent source corroborates identity or program; see limitations."
+      },
+      {
+        "url": "https://www.slalom.com/us/en/who-we-are/locations/seattle.html",
+        "quote": "Seattle, Washington 98104",
+        "fetched": "2026-11-12",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Official current Seattle office page confirms actual city."
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "de796e5c0380453173dab112252ebeaac48b6210da185455a148757d4d828047"
+  },
+  {
+    "id": "ma-boston-byte-shop",
+    "state_id": "ma",
+    "location_slug": "boston",
+    "location_label": "Boston, Massachusetts",
+    "name": "The BYTE Shop",
+    "url": "https://byteshop.io/",
+    "description": "Jamaica Plain shop repairs Mac and PC computers and provides data recovery and small-business IT consulting.",
+    "cost": "Check provider",
+    "format": "in-person",
+    "ai_specific": false,
+    "audience": [
+      "individual",
+      "home-senior",
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://byteshop.io/",
+        "quote": "Mac and PC Laptop/Desktop computer hardware and software repair and support",
+        "source_owner": "The BYTE Shop",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wbur.org/news/2025/04/28/the-byte-shop-jp-old-computers-repair-museum",
+        "quote": "The computer repair shop doubles as a museum to the home computer.",
+        "source_owner": "WBUR",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "IT support and computer repair",
+    "category": "computer-repair",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7631b9d313b116f6dfa8bda84fcaff8f734d8a6e3d9ca434f5776d98994635b0"
+  },
+  {
+    "id": "me-scarborough-dru-does-tech",
+    "state_id": "me",
+    "location_slug": "scarborough",
+    "location_label": "Scarborough, Maine",
+    "name": "Dru Does Tech",
+    "url": "https://www.drudoestech.com/about.html",
+    "description": "Mobile tech support, repair and individual tutoring serving older adults, homes and businesses in Cumberland County.",
+    "cost": "Check provider",
+    "format": "on-site",
+    "ai_specific": false,
+    "audience": [
+      "individual",
+      "home-senior",
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.drudoestech.com/about.html",
+        "quote": "We are local to Maine and serve Cumberland County and Saco/Biddeford.",
+        "source_owner": "Dru Does Tech",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://scarboroughliving.net/2026/06/01/dru-does-tech/",
+        "quote": "He runs a mobile tech support business",
+        "source_owner": "Scarborough Living",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "IT support and computer repair",
+    "category": "it-support",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "23fbaa8e4c6ac792a694970465d68ffececb4a0bf078da09bf089407dc9aa21f"
+  },
+  {
+    "id": "ma-foxborough-thrive",
+    "state_id": "ma",
+    "location_slug": "foxborough",
+    "location_label": "Foxborough, Massachusetts",
+    "name": "Thrive",
+    "url": "https://thrivenextgen.com/locations/foxborough-ma/",
+    "description": "Business managed technology support with cybersecurity, collaboration and cloud services from a Foxborough office.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": false,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://thrivenextgen.com/locations/foxborough-ma/",
+        "quote": "Thrive delivers managed cybersecurity, collaboration and cloud services to Foxborough, Boston, and surrounding areas",
+        "source_owner": "Thrive",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/channel-news/2025/thrive-ceo-on-ai-cybersecurity-and-future-of-managed-services",
+        "quote": "Foxborough, Mass.-based company",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "IT support and computer repair",
+    "category": "it-support",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "42af14b456b5083721330a8911e80038a31c29c32b8f15461de86003ba117530"
+  },
+  {
+    "id": "nj-cranbury-integris",
+    "state_id": "nj",
+    "location_slug": "cranbury",
+    "location_label": "Cranbury, New Jersey",
+    "name": "Integris Cranbury",
+    "url": "https://integrisit.com/locations/cranbury-nj/",
+    "description": "Managed and co-managed IT, service desk, cybersecurity and cloud support for small and midsize businesses.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": false,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://integrisit.com/locations/cranbury-nj/",
+        "quote": "We deliver fully managed and co-managed IT services",
+        "source_owner": "Integris",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/channel-news/2025/new-integris-ceo-aims-to-build-a-billion-dollar-msp-over-the-next-five-years",
+        "quote": "Cranbury Twp., New Jersey-based MSP",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "IT support and computer repair",
+    "category": "it-support",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f9a27e4588c65f63118d82abeb8c677ed9e30deaedffbae4b9dc78743b3ad2fc"
+  },
+  {
+    "id": "wi-madison-applied-tech",
+    "state_id": "wi",
+    "location_slug": "madison",
+    "location_label": "Madison, Wisconsin",
+    "name": "Applied Tech Madison",
+    "url": "https://www.appliedtech.us/locations/madison-managed-it-support-services/",
+    "description": "Madison-area managed and co-managed business IT support with security, infrastructure and technology planning.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": false,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.appliedtech.us/locations/madison-managed-it-support-services/",
+        "quote": "Applied Tech offers IT support and managed IT services to small and medium-sized businesses.",
+        "source_owner": "Applied Tech",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/managed-services/applied-tech-platte-river-networks-merge-to-meet-increased-customer-demands",
+        "quote": "headquarters in Madison, Wis.",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "IT support and computer repair",
+    "category": "it-support",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bc244f1da8c1c5528612f0ba91df6dc258498e9bc4953c122106808fbf96c62b"
+  },
+  {
+    "id": "mn-minneapolis-atomic-data",
+    "state_id": "mn",
+    "location_slug": "minneapolis",
+    "location_label": "Minneapolis, Minnesota",
+    "name": "Atomic Data",
+    "url": "https://www.atomicdata.com/",
+    "description": "Business IT infrastructure, implementation, maintenance, support and monitoring from a Minneapolis provider.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": false,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.atomicdata.com/",
+        "quote": "We set up what you need and provide as much or as little maintenance as you want.",
+        "source_owner": "Atomic Data",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/data-center/231500571/data-centers-in-transition-controlling-power-cooling-costs",
+        "quote": "Atomic Data, a Minneapolis provider of data center services",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "IT support and computer repair",
+    "category": "it-support",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f74b6d6072a7cecefb2b7296999419faa37662c6c2e659d13aa3908ca64bac66"
+  },
+  {
+    "id": "oh-cleveland-skillspout",
+    "state_id": "oh",
+    "location_slug": "cleveland",
+    "location_label": "Cleveland, Ohio",
+    "name": "SkillSpout",
+    "url": "https://www.skillspout.com/",
+    "description": "Role-specific AI training, implementation and advisory services for business teams and nonprofits.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.skillspout.com/",
+        "quote": "We also train on Claude, ChatGPT and Gemini",
+        "source_owner": "SkillSpout",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://spectrumnews1.com/oh/columbus/news/2026/05/28/new-program-teaches-small-businesses-to-master-ai-",
+        "quote": "The program offers personalized training tailored to each organization’s specific needs and roles.",
+        "source_owner": "Spectrum News 1",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-training",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e999d552430dccd5e7f433a135166f119f00072f6bab99a320edbce6d02d31c1"
+  },
+  {
+    "id": "nh-merrimack-connection-copilot",
+    "state_id": "nh",
+    "location_slug": "merrimack",
+    "location_label": "Merrimack, New Hampshire",
+    "name": "Connection AI and Copilot Services",
+    "url": "https://ir.connection.com/news-releases/news-release-details/connection-helps-organizations-turn-microsoft-copilot-measurable",
+    "description": "Business AI services include Microsoft365 Copilot adoption, integration, training and support.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://ir.connection.com/news-releases/news-release-details/connection-helps-organizations-turn-microsoft-copilot-measurable",
+        "quote": "securely adopt Microsoft 365 Copilot",
+        "source_owner": "Connection",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/channel-news/2026/connection-s-new-president-coo-matt-zafirovski-on-growth-ai-move-from-tusker",
+        "quote": "Merrimack, N.H.-based Connection",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-consulting",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "225c330ea86cb1bdbec8ec66a5295a4a51d44469dde464f771c31d24234a4f45"
+  },
+  {
+    "id": "ny-new-york-city-presidio-ai",
+    "state_id": "ny",
+    "location_slug": "new-york-city",
+    "location_label": "New York City, New York",
+    "name": "Presidio Lighthouse AI Consulting",
+    "url": "https://www.presidio.com/how-we-ai/ai-consulting/",
+    "description": "Business AI consulting for strategy, governance, architecture, implementation and adoption.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.presidio.com/how-we-ai/ai-consulting/",
+        "quote": "Presidio Lighthouse is Presidio’s dedicated AI consulting group",
+        "source_owner": "Presidio",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.presidio.com/who-we-are/office-locations/",
+        "quote": "New York, NY 10119",
+        "source_owner": "Presidio",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/security/2026/how-presidio-is-betting-on-a-hybrid-world-to-reduce-ai-token-cost-chris-cagnazzi",
+        "quote": "New York-based Presidio",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-consulting",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "1d9e165c532a981cb185ed32f70abda821234f7732be886b01796e85bf64c7ee"
+  },
+  {
+    "id": "il-chicago-ahead-ai",
+    "state_id": "il",
+    "location_slug": "chicago",
+    "location_label": "Chicago, Illinois",
+    "name": "AHEAD AI Services",
+    "url": "https://www.ahead.com/news/ahead-expands-partnership-with-servicenow-to-accelerate-enterprise-ai-value/",
+    "description": "Enterprise consulting and implementation to put AI into business workflows, including ServiceNow AI adoption.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.ahead.com/news/ahead-expands-partnership-with-servicenow-to-accelerate-enterprise-ai-value/",
+        "quote": "consulting, implementation",
+        "source_owner": "AHEAD",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ahead.com/workshops-briefings/",
+        "quote": "Chicago 444 W Lake St.",
+        "source_owner": "AHEAD",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/ai/2025/how-ahead-is-harnessing-advanced-ai-with-the-help-of-dell-technologies",
+        "quote": "Chicago-based solution provider Ahead",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-consulting",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "26481ceca182137b752dbe7c8f754204c0e33bdc8ea77bd1983d0e777d0a316b"
+  },
+  {
+    "id": "il-chicago-ntiva-ai",
+    "state_id": "il",
+    "location_slug": "chicago",
+    "location_label": "Chicago, Illinois",
+    "name": "Ntiva AI Consulting",
+    "url": "https://www.ntiva.com/digital-transformation-services/ai-consulting-services",
+    "description": "Business AI strategy, custom solution design, implementation and integration, with Chicago-area IT support.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.ntiva.com/digital-transformation-services/ai-consulting-services",
+        "quote": "Implementation and Integration",
+        "source_owner": "Ntiva",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ntiva.com/it-support-illinois",
+        "quote": "Managed IT Support in Chicago and Across Illinois",
+        "source_owner": "Ntiva",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/channel-programs/ntiva-grows-geography-talent-with-latest-acquisition",
+        "quote": "Managed IT service provider Ntiva",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-consulting",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "13eac401dc533fe21716bb330e413f5cf9ed66f465a8c890f3d90c2c16999bb0"
+  },
+  {
+    "id": "in-indianapolis-pragmatico-ai",
+    "state_id": "in",
+    "location_slug": "indianapolis",
+    "location_label": "Indianapolis, Indiana",
+    "name": "Pragmatico",
+    "url": "https://www.pragmatico.ai/",
+    "description": "AI adoption training and organizational change programs for mid-market business leaders and teams.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.pragmatico.ai/",
+        "quote": "Get Your Team To Adopt And Use AI",
+        "source_owner": "Pragmatico",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.pragmatico.ai/press/pragmatico-more-than-doubles-client-roster-delivers-seven-figure-client-roi",
+        "quote": "INDIANAPOLIS",
+        "source_owner": "Pragmatico",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ibj.com/articles/indianapolis-entrepreneurs-launch-ai-training-firm-pragmatico",
+        "quote": "Pragmatico offers hands-on workshops",
+        "source_owner": "Indianapolis Business Journal",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-training",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bc31e6040108b2ca800b439e9dfdf47a6f067d644ae77dbab82f12e5d346158a"
+  },
+  {
+    "id": "in-indianapolis-stellar-ai",
+    "state_id": "in",
+    "location_slug": "indianapolis",
+    "location_label": "Indianapolis, Indiana",
+    "name": "Stellar AI Services",
+    "url": "https://www.getstellar.ai/products-services/",
+    "description": "Business generative AI assessment, implementation and integration into existing applications and workflows.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.getstellar.ai/products-services/",
+        "quote": "evaluate how genAI and LLMs can better power your business",
+        "source_owner": "Stellar",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.getstellar.ai/privacy/",
+        "quote": "1401 N Meridian Street Indianapolis",
+        "source_owner": "Stellar",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.consulting.us/news/9587/ai-consultancy-stellar-launches-in-indianapolis",
+        "quote": "Stellar, an artificial intelligence consulting firm, has launched in Indianapolis.",
+        "source_owner": "Consulting.us",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent trade publication editorial report corroborates consultancy identity and city",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-consulting",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "77acd4850aba690bf81af05484dd328151b45dd447bb9e2e4c6619c48d1241f1"
+  },
+  {
+    "id": "mn-minneapolis-phdata-ai",
+    "state_id": "mn",
+    "location_slug": "minneapolis",
+    "location_label": "Minneapolis, Minnesota",
+    "name": "phData AI and Data Services",
+    "url": "https://www.phdata.io/contact-us/",
+    "description": "Enterprise AI and machine learning services, generative AI application development and AI workflow implementation.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.phdata.io/contact-us/",
+        "quote": "Expert guidance to build and scale enterprise applications powered by Large Language Models.",
+        "source_owner": "phData",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.crn.com/news/ai/2025/snowflake-channel-chief-niederman-partner-opportunity-has-never-been-better",
+        "quote": "phData",
+        "source_owner": "CRN",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original CRN interview with Snowflake executive discussing phData; platform partner commentary, not an endorsement or independent quality audit",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "category": "ai-consulting",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8095276ccc9c8b81abc6e58e03755a410812cf2eb057eec2b802a6d99f13a91c"
+  },
+  {
+    "id": "va-richmond-computer-cave",
+    "name": "Computer Cave — Richmond",
+    "url": "https://computercave.com/",
+    "description": "Local shop offers laptop, desktop and other device repairs. Ask about diagnostics, parts availability, data handling and a written estimate.",
+    "cost": "Paid repairs; request an estimate before authorizing work",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "state_id": "va",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://computercave.com/",
+        "quote": "professional device repair services across Richmond, Charlottesville, and Fredericksburg.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Computer Cave — Richmond",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wtvr.com/news/local-news/computer-cave-expansion-april-16-2024",
+        "quote": "Computer Cave, which repairs and sells computers and other electronics",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://shop.computercave.com/",
+        "quote": "Richmond 11 S 15th St, Richmond Virginia 23219",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Official current individual store listing and street address",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "richmond",
+    "location_label": "Richmond, Virginia",
+    "category": "computer-repair",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8bfeb3b73d3eb691000507520cf6f12fbec46b10b3b186aae63f5eccfd2c9308"
+  },
+  {
+    "id": "va-charlottesville-computer-cave",
+    "name": "Computer Cave — Charlottesville",
+    "url": "https://computercave.com/",
+    "description": "Local shop offers laptop, desktop and other device repairs. Ask about diagnostics, parts availability, data handling and a written estimate.",
+    "cost": "Paid repairs; request an estimate before authorizing work",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "state_id": "va",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://computercave.com/",
+        "quote": "professional device repair services across Richmond, Charlottesville, and Fredericksburg.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Computer Cave — Charlottesville",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wtvr.com/news/local-news/computer-cave-expansion-april-16-2024",
+        "quote": "Computer Cave, which repairs and sells computers and other electronics",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://shop.computercave.com/",
+        "quote": "Charlottesville 1931b Arlington Blvd, Charlottesville Virginia 22903",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Official current individual store listing and street address",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "charlottesville",
+    "location_label": "Charlottesville, Virginia",
+    "category": "computer-repair",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e57f466154d5a852d0ce192eca2b9515d157c32e287b96982baaed1d2fcfd41e"
+  },
+  {
+    "id": "va-alexandria-lapfix",
+    "name": "LapFix computer repair",
+    "url": "https://www.lapfix.com/",
+    "description": "Alexandria service center repairs Mac and Windows computers and offers data-recovery evaluation. Ask about diagnostics, handling of files and a written estimate.",
+    "cost": "Paid services; confirm diagnostics, repair and recovery charges",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "state_id": "va",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.lapfix.com/",
+        "quote": "from our service center in Alexandria, Virginia.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "LapFix computer repair",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.alxnow.com/2020/08/19/west-end-computer-repair-shop-lapfix-experiencing-business-spike-during-pandemic/",
+        "quote": "owner and staff of LapFix",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "alexandria",
+    "location_label": "Alexandria, Virginia",
+    "category": "computer-repair",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "a5c31b0e1958aff39fbd6a508098ff3bef06e21bff25ffac682a65e1bf53e877"
+  },
+  {
+    "id": "va-front-royal-royal-oak-computers",
+    "name": "Royal Oak Computers",
+    "url": "https://www.royaloakcomputers.com/",
+    "description": "Front Royal provider offers computer repair, managed IT and data-backup services. Confirm the appropriate service and request current pricing.",
+    "cost": "Paid services; request a written quote",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "va",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.royaloakcomputers.com/",
+        "quote": "From hardware repair to 24/7 managed services",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Royal Oak Computers",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://royalexaminer.com/royal-oak-computers-moving-after-35-years-in-downtown-front-royal/",
+        "quote": "Royal Oak Computers is relocating",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "front-royal",
+    "location_label": "Front Royal, Virginia",
+    "category": "computer-repair",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "27e9b818f10148852ea3f7d057fc6ecdb1b12ecb89bbf761f7d54526d087b5c8"
+  },
+  {
+    "id": "fl-plant-city-blue-thumb",
+    "name": "Blue Thumb computer repair",
+    "url": "https://www.bluethumbpc.com/",
+    "description": "Plant City shop offers PC and Mac repair, malware removal and data recovery. Contact the shop to confirm appointments and a written estimate.",
+    "cost": "Paid services; confirm diagnostics and repair charges",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "state_id": "fl",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.bluethumbpc.com/",
+        "quote": "PC & Mac Repair",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Blue Thumb computer repair",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.plantcityobserver.com/blue-thumb-computer-repair-reopens-under-new-ownership/",
+        "quote": "The shop offers onsite PC and Mac computer repairs",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "plant-city",
+    "location_label": "Plant City, Florida",
+    "category": "computer-repair",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7c745856c96716ba5e7a41541e31f809f7a8535768d957772bac165f0d60199f"
+  },
+  {
+    "id": "tx-richardson-the-tech-guys",
+    "name": "The Tech Guys computer repair",
+    "url": "https://ttechguys.net/about-2/",
+    "description": "Richardson shop repairs and upgrades computers, laptops and consoles. Ask about diagnostics, parts and a written estimate before work begins.",
+    "cost": "Paid repairs; confirm diagnostic and repair fees directly",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "business",
+      "home-senior"
+    ],
+    "state_id": "tx",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://ttechguys.net/about-2/",
+        "quote": "We are experts in repair and upgrading of Computers, Laptops, and Consoles",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "The Tech Guys computer repair",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://voyagedallas.com/interview/check-out-seth-riveras-story/",
+        "quote": "At The Tech Guys (my business)",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "richardson",
+    "location_label": "Richardson, Texas",
+    "category": "computer-repair",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2721eb5ffa69ff9efa3077233e33a53b120fed558f4c05513ce91f57148d7dc6"
+  },
+  {
+    "id": "fl-tampa-benchmark-it-ai",
+    "name": "Benchmark Technology IT and AI advisory",
+    "url": "https://itsbenchmark.com/",
+    "description": "Business provider offers managed IT, cybersecurity and responsible AI workflow planning. Discuss service scope, access controls and quoted project or ongoing fees.",
+    "cost": "Paid business services; request scope and pricing",
+    "format": "varies",
+    "audience": [
+      "business"
+    ],
+    "state_id": "fl",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://itsbenchmark.com/",
+        "quote": "AI readiness & governance",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Benchmark Technology IT and AI advisory",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://tampabayreporter.com/holistic-it-services-provider-relocates-from-atlanta-to-tampa/",
+        "quote": "Benchmark Technologies Corporation",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "tampa",
+    "location_label": "Tampa, Florida",
+    "category": "ai-consulting",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fd0f1f0292e4ce9054f346684ae88b71034b8bc25c087ebe88a720afc4c08bdf"
   }
 ]

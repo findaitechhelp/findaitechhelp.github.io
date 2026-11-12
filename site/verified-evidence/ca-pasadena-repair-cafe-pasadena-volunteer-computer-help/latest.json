@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-pasadena-repair-cafe-pasadena-volunteer-computer-help",
+  "checked": "2026-11-12",
+  "sources_sha256": "7838474828c6df4ed21b01991449d1b2fc4c9245ab783548fcf4898d39df7f4f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://repair-cafe-pasadena.mailerpage.io/faqs",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://repair-cafe-pasadena.mailerpage.io/faqs",
+      "sha256": "48034b64762ec70d21abf160402b2a91f5fe17085f39c196743a67461d885459",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://laist.com/news/entertainment/25-fabulous-events-in-southern-california-this-weekend-sep05-2019",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://laist.com/news/entertainment/25-fabulous-events-in-southern-california-this-weekend-sep05-2019",
+      "sha256": "2e4de40aefc3606c01db16527d6976b93ba2420d74e1b866eddd209077608584",
+      "domain_unchanged": true
+    }
+  ]
+}

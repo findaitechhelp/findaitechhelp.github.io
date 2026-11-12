@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-diego-ai-learning-san-diego-continuing-education",
+  "checked": "2026-11-12",
+  "sources_sha256": "a9ea9f77f7011dbcc0570005362a31042669ebcc87a9930b1d34d049879500b9",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://trainwitheti.sdcce.edu/artificial-intelligence-ai-programs/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://trainwitheti.sdcce.edu/artificial-intelligence-ai-programs/",
+      "sha256": "576354a1544c3fe4c7b86a7f8c12f3b59bb5fc0c6a55481612a99687757936da",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kpbs.org/news/quality-of-life/2025/11/20/79th-district-apprenticeship-fair-offers-career-opportunities",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kpbs.org/news/quality-of-life/2025/11/20/79th-district-apprenticeship-fair-offers-career-opportunities",
+      "sha256": "c2d54caf009ad217d4b7386e141db65ce1c3378488feb969fee8fe3a97405523",
+      "domain_unchanged": true
+    }
+  ]
+}

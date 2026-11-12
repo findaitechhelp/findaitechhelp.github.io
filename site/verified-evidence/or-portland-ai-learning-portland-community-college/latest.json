@@ -1,0 +1,26 @@
+{
+  "record_id": "or-portland-ai-learning-portland-community-college",
+  "checked": "2026-11-12",
+  "sources_sha256": "8b42c8571d11ca5a74b9d2bd7d647fe58750f22a347ff385d9306b83a54361fc",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://careertraining.pcc.edu/training-programs/ai-certificate-prerequisites/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://careertraining.pcc.edu/training-programs/ai-certificate-prerequisites/",
+      "sha256": "9bbc2a1421d0a585959f1319904ac62e669d65be3761283810c2887ef202e935",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.opb.org/article/2026/05/15/portland-community-college-president-resigns-tenure-strike/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.opb.org/article/2026/05/15/portland-community-college-president-resigns-tenure-strike/",
+      "sha256": "f23b6831e40d8bcd9aeeb90e9e86cd9cf1273d53376e0a73ccc8f23c69fa7a32",
+      "domain_unchanged": true
+    }
+  ]
+}

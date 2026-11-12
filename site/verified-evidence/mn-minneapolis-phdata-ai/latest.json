@@ -1,0 +1,26 @@
+{
+  "record_id": "mn-minneapolis-phdata-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "eefa1944a6b6a3efba839326ebbe8eef38f0c70ffeb7bf436ce110017a421e59",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.phdata.io/contact-us/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.phdata.io/contact-us/",
+      "sha256": "3c219230583da4d343e85bcbd40cd0f916bfa588fac84ce53753bd27b13bf194",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/ai/2025/snowflake-channel-chief-niederman-partner-opportunity-has-never-been-better",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/ai/2025/snowflake-channel-chief-niederman-partner-opportunity-has-never-been-better",
+      "sha256": "329729e6d9a0abf13abdac9ba0879b3037bb24806634c27992473ef49acf0dcd",
+      "domain_unchanged": true
+    }
+  ]
+}

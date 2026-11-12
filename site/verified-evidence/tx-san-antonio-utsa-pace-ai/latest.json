@@ -1,0 +1,30 @@
+{
+  "record_id": "tx-san-antonio-utsa-pace-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "15c9733c1f4cc027d2b6a76e35343dc7107b5aac60acd5c74d5e653e3d79a6ef",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.utsa.edu/pace/artificial-intelligence-certificates.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.utsa.edu/pace/artificial-intelligence-certificates.html",
+      "sha256": "5790cc528a6ea9cf11a503cefb170f81593771162fe4addae116f3d696664f92",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\77b4c93fd96904098730.html"
+    },
+    {
+      "url": "https://www.ksat.com/news/local/2026/02/24/first-public-ai-hub-launches-at-ut-san-antonio/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ksat.com/news/local/2026/02/24/first-public-ai-hub-launches-at-ut-san-antonio/",
+      "sha256": "1cdf012cac2ae158013fb12a978ac148bd60c3f244e56a3b9f3c7a2afc9b16df",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\5c98dc47223f0f35d05d.html"
+    }
+  ]
+}

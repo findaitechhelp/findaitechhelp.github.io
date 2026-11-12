@@ -1,0 +1,30 @@
+{
+  "record_id": "ms-main-ai-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "949c5bcdc242249b4e4e28067b0a5e5505e4ec49ca63802e07a8dff20f581bc2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://mainms.org/courses/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://mainms.org/courses/",
+      "sha256": "a97fbde6b4f741a1e28eacd348c11f63f64aab70b080a03a5fdd64222b6da9b4",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\ebc78994c4e72d250b6a.html"
+    },
+    {
+      "url": "https://www.wlox.com/2026/07/31/free-ai-training-available-mississippians-through-statewide-initiative/?outputType=amp",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wlox.com/2026/07/31/free-ai-training-available-mississippians-through-statewide-initiative/?outputType=amp",
+      "sha256": "b188d82a1dc7fbcb46872e18c38bdf78b5bc3a5f39171db10844f261c3b35ae6",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\015db09e3f4f67a168c3.html"
+    }
+  ]
+}

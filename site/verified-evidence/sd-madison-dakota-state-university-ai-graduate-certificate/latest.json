@@ -1,0 +1,26 @@
+{
+  "record_id": "sd-madison-dakota-state-university-ai-graduate-certificate",
+  "checked": "2026-11-12",
+  "sources_sha256": "7db2e2f9e5729d32550eb477d649c3e34d07e853754e3511894deb903e126e2d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://dsu.edu/programs/artificial-intelligence-graduate-certificate.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://dsu.edu/programs/artificial-intelligence-graduate-certificate.html",
+      "sha256": "694535241aa058ba7b867749ee54756dd6afcf6c61f0c9a2d22244f4c489cf56",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.dakotanewsnow.com/2024/08/02/dsu-students-sweden-present-ai-cyber-research-findings/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.dakotanewsnow.com/2024/08/02/dsu-students-sweden-present-ai-cyber-research-findings/",
+      "sha256": "f9caf1d7283fb129aea9e12ea6024ba5567e5624e60408cd3ac4cd470986ec42",
+      "domain_unchanged": true
+    }
+  ]
+}

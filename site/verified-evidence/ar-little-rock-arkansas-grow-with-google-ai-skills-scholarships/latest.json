@@ -1,0 +1,26 @@
+{
+  "record_id": "ar-little-rock-arkansas-grow-with-google-ai-skills-scholarships",
+  "checked": "2026-11-12",
+  "sources_sha256": "6a585a7d6f79de14ccfe73b3c1f508a5f510c923cba0e16a23533d38400ea6b2",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://commerce.arkansas.gov/arkansas-grow-with-google/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://commerce.arkansas.gov/arkansas-grow-with-google/",
+      "sha256": "63ef30861e35336ec6a3e934b1b68d5bf67187490cd6131634d295890ded3a48",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ricebelt.net/ready-for-a-new-career-free-google-ai-training-now-available-for-the-rice-belt-region/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ricebelt.net/ready-for-a-new-career-free-google-ai-training-now-available-for-the-rice-belt-region/",
+      "sha256": "84bc1555292a8c8b6b93c71f43bf25f101d6c500e5bd283a29879a63b76b255b",
+      "domain_unchanged": true
+    }
+  ]
+}

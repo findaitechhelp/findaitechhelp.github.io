@@ -1,0 +1,26 @@
+{
+  "record_id": "nh-merrimack-connection-copilot",
+  "checked": "2026-11-12",
+  "sources_sha256": "47302fd993f57be0b98092066f40008fda01acf5b6812c9042de32abf308d928",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://ir.connection.com/news-releases/news-release-details/connection-helps-organizations-turn-microsoft-copilot-measurable",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ir.connection.com/news-releases/news-release-details/connection-helps-organizations-turn-microsoft-copilot-measurable",
+      "sha256": "fbaf71cc47f8728a8a38aadd2b7742765661dca7d880101aacabdc801afe4620",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/channel-news/2026/connection-s-new-president-coo-matt-zafirovski-on-growth-ai-move-from-tusker",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/channel-news/2026/connection-s-new-president-coo-matt-zafirovski-on-growth-ai-move-from-tusker",
+      "sha256": "df138c54473056f5d9f31f2e7f2741d2e695dacb9a0dc28c0e5d4468812c28a4",
+      "domain_unchanged": true
+    }
+  ]
+}

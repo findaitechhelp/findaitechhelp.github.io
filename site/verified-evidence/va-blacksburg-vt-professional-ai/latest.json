@@ -1,0 +1,30 @@
+{
+  "record_id": "va-blacksburg-vt-professional-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "219622a0cccd44d2b4f257a56fe6eee091edb4143316a4daf457de5c5aa4df7a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://register.cpe.vt.edu/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://register.cpe.vt.edu/",
+      "sha256": "b0f0041da33b25b4a73447329084e4c93367a4674b90ac6cdaa26c60f79d39ba",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\94ee7e487d6ed6629d84.html"
+    },
+    {
+      "url": "https://cardinalnews.org/2026/06/17/tech-briefs-virginia-tech-adds-an-artificial-intelligence-minor-to-its-curriculum/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://cardinalnews.org/2026/06/17/tech-briefs-virginia-tech-adds-an-artificial-intelligence-minor-to-its-curriculum/",
+      "sha256": "c9507c9bb5e47a4e23cb70c497a5ce4857e304d7c1ebe5c606a7a05d4ec84cce",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\63755e35ed5d496b7b0c.html"
+    }
+  ]
+}

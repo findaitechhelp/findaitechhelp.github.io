@@ -1,0 +1,26 @@
+{
+  "record_id": "ct-new-britain-charter-oak-ai-academy",
+  "checked": "2026-11-12",
+  "sources_sha256": "2181e2848cce1ec605b6e2e3253786e8325db08cdb7a96fb34f9638aee89840d",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.charteroak.edu/ai-academy/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.charteroak.edu/ai-academy/",
+      "sha256": "955f553dea57a0212995aef797c080224634d132f6e0f1c1a8fec11f3eac0a87",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://ctmirror.org/2025/01/14/ct-ai-academy-lamont-lawmakers-regulation/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ctmirror.org/2025/01/14/ct-ai-academy-lamont-lawmakers-regulation/",
+      "sha256": "9410b8668920aecb9799cc02d668144cfb5e0718e483cd32591130bfaa25c386",
+      "domain_unchanged": true
+    }
+  ]
+}

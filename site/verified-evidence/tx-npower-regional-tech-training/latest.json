@@ -1,0 +1,30 @@
+{
+  "record_id": "tx-npower-regional-tech-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "ed111c7974377fd08d70a7f55fb14b2681dd16ee27b6bbe14f21611dd58ce72c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.npower.org/locations/Texas/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.npower.org/locations/Texas/",
+      "sha256": "568c5da41e19d58fba071161a200ab0a411df5ff69db75bcb0b566cf2111f32c",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\effc76e524668e96f0ea.html"
+    },
+    {
+      "url": "https://www.ksat.com/news/local/2023/02/08/free-tech-career-training-program-for-veterans-spouses-coming-to-san-antonio/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ksat.com/news/local/2023/02/08/free-tech-career-training-program-for-veterans-spouses-coming-to-san-antonio/",
+      "sha256": "8e318c1d68fc527c8e2000b00f6714cee0cfc5d5a078730c4a56274ecfcb561d",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\e1ede36f2bc0e679a30a.html"
+    }
+  ]
+}

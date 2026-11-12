@@ -1,0 +1,26 @@
+{
+  "record_id": "nd-bismarck-bismarck-state-college-ai-and-machine-learning-specialist-certificate",
+  "checked": "2026-11-12",
+  "sources_sha256": "5a4194866a4876b7563496529f9bf39917137b8e1aeedf9465b5ef835ed09ee8",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://bismarckstate.edu/academics/programs/ArtificialIntelligenceMachineLearningSpecialist/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://bismarckstate.edu/academics/programs/ArtificialIntelligenceMachineLearningSpecialist/",
+      "sha256": "0f7858f0d2d3c355b1bbb8dde2d2651520b2855ee73489b36970a03a5363adfb",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.kfyrtv.com/2026/09/29/tech-industry-leaders-warn-about-artificial-intelligence-local-professor-talks-ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.kfyrtv.com/2026/09/29/tech-industry-leaders-warn-about-artificial-intelligence-local-professor-talks-ai/",
+      "sha256": "1969baabab1da431a6f82cb404b8dda8780ced38f2a780ecf2f10c590af4d46a",
+      "domain_unchanged": true
+    }
+  ]
+}

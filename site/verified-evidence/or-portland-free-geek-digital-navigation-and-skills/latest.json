@@ -1,0 +1,26 @@
+{
+  "record_id": "or-portland-free-geek-digital-navigation-and-skills",
+  "checked": "2026-11-12",
+  "sources_sha256": "b0b022fb8137eb45f100edf82299ad12aabe78e4ffde56867072162283e04500",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.freegeek.org/digitalequity",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.freegeek.org/digitalequity",
+      "sha256": "0bbb1843bad4abcf6b42e2e2ededc74fd31a9b1bf647478317e15b9b0f3dfed9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.opb.org/article/2022/03/17/portlands-ongoing-response-to-the-digital-divide/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.opb.org/article/2022/03/17/portlands-ongoing-response-to-the-digital-divide/",
+      "sha256": "9cada496aa3586d133563ea8dcc3f791f1d45a1614d169cba84ceb85904a353b",
+      "domain_unchanged": true
+    }
+  ]
+}

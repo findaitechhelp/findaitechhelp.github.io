@@ -1,0 +1,26 @@
+{
+  "record_id": "wa-seattle-year-up-united-seattle-it-career-training",
+  "checked": "2026-11-12",
+  "sources_sha256": "40ac170bce43625effb009fe4a83ea901501f09a886c4b4dbf79b8ebe79d817a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.yearup.org/locations/seattle-wa",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.yearup.org/locations/seattle-wa",
+      "sha256": "900b61f4106300efda2a961d547207c843b59f529f179289d43086845bb494de",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.geekwire.com/2014/year-up/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.geekwire.com/2014/year-up/",
+      "sha256": "aea55adf240f5c6800333221a54da89a549d9c023c5cbe9d2fb7369310517984",
+      "domain_unchanged": true
+    }
+  ]
+}

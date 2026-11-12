@@ -1,0 +1,26 @@
+{
+  "record_id": "wi-madison-applied-tech",
+  "checked": "2026-11-12",
+  "sources_sha256": "93aedc45e69a421844edfb680a40262145d694b3fbf0e08e9d06b21c7708e755",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.appliedtech.us/locations/madison-managed-it-support-services/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.appliedtech.us/locations/madison-managed-it-support-services/",
+      "sha256": "1e41924a822c848563295b2b854ee3f4e872d1e87bd29cb6723f7d4916d1032d",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/managed-services/applied-tech-platte-river-networks-merge-to-meet-increased-customer-demands",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/managed-services/applied-tech-platte-river-networks-merge-to-meet-increased-customer-demands",
+      "sha256": "c7185402fed744185542867cff1de63e6e82f7784afe1f6151752039e9b3ffa5",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1474,5 +1474,1724 @@
     "approved_by": "dan",
     "approved_on": "2026-11-12",
     "approval_fingerprint": "6e56bbb8764529de94819c5d296cc144711d541b6cc5e4ab886cb50d6d4e9614"
+  },
+  {
+    "id": "ct-new-britain-charter-oak-ai-academy",
+    "state_id": "ct",
+    "location_slug": "new-britain",
+    "location_label": "New Britain, Connecticut",
+    "name": "Connecticut AI Academy at Charter Oak",
+    "url": "https://www.charteroak.edu/ai-academy/",
+    "description": "Online AI literacy and fluency courses with optional live support for Connecticut adults.",
+    "cost": "Free for Connecticut residents age 18+",
+    "format": "self-paced",
+    "ai_specific": true,
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.charteroak.edu/ai-academy/",
+        "quote": "Cost: Free for Connecticut residents (age 18+)",
+        "source_owner": "Charter Oak State College",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://ctmirror.org/2025/01/14/ct-ai-academy-lamont-lawmakers-regulation/",
+        "quote": "the opening of the Connecticut Online AI Academy.",
+        "source_owner": "CT Mirror",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f3e8acc8edefe9f0d1a2834e2366d499b86b5ee1049f34325070a4b39e8fc5f1"
+  },
+  {
+    "id": "il-glen-ellyn-cod-ai-literacy",
+    "state_id": "il",
+    "location_slug": "glen-ellyn",
+    "location_label": "Glen Ellyn, Illinois",
+    "name": "College of DuPage AI Literacy Program",
+    "url": "https://www.cod.edu/academics/academic-opportunities/artificial-intelligence.html",
+    "description": "Free self-paced AI literacy credentials developed with Intel for students and community learners.",
+    "cost": "Free",
+    "format": "self-paced",
+    "ai_specific": true,
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.cod.edu/academics/academic-opportunities/artificial-intelligence.html",
+        "quote": "Earn Free AI Credentials",
+        "source_owner": "College of DuPage",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.choosedupage.com/news/ai-is-changing-the-workforce-critical-thinking-still-matters-most/",
+        "quote": "College of DuPage is also advancing its efforts",
+        "source_owner": "Choose DuPage",
+        "domain_class": "chamber",
+        "independent": true,
+        "source_relationship": "External county economic-development original roundtable account; institution/AI pathway corroboration, not specific literacy course audit",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c7299746b5fafac261314f3ea332b56e0b475a51125ab461933322ed44d503bb"
+  },
+  {
+    "id": "pa-philadelphia-penn-pass",
+    "state_id": "pa",
+    "location_slug": "philadelphia",
+    "location_label": "Philadelphia, Pennsylvania",
+    "name": "Penn GSE Pioneering AI in School Systems",
+    "url": "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts",
+    "description": "District-based professional development on responsible AI for educators, school leaders and administrators.",
+    "cost": "Free for participating selected districts",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "individual"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts",
+        "quote": "at no cost to participating districts",
+        "source_owner": "Penn GSE",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://whyy.org/articles/university-of-pennsylvania-ai-training-teachers/",
+        "quote": "Pioneering AI in School Systems",
+        "source_owner": "WHYY",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "996f796fa1b7d68e24c2d302bfa4f72ad38ac46f7a35fc75dfaf52138c1bca44"
+  },
+  {
+    "id": "ma-boston-umass-applied-ai",
+    "state_id": "ma",
+    "location_slug": "boston",
+    "location_label": "Boston, Massachusetts",
+    "name": "UMass Boston Applied AI Microcredential",
+    "url": "https://ai.umb.edu/events/",
+    "description": "Free hands-on agentic AI modules, workshops and collaborative projects for student learners across academic backgrounds.",
+    "cost": "Free for eligible student participants",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "individual"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://ai.umb.edu/events/",
+        "quote": "free, hands-on learning experience open to students from all academic backgrounds, including students outside UMass Boston.",
+        "source_owner": "UMass Boston",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wbur.org/news/2026/03/26/boston-public-schools-ai-literacy",
+        "quote": "his AI Institute at UMass Boston",
+        "source_owner": "WBUR",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "26f6a0ce628506e5bd866e00d2e3ec54c57025cc5367d1f5fc8cdd8c3cae94ea"
+  },
+  {
+    "id": "ny-new-york-city-aft-ai-academy",
+    "state_id": "ny",
+    "location_slug": "new-york-city",
+    "location_label": "New York City, New York",
+    "name": "National Academy for AI Instruction",
+    "url": "https://aiinstruction.aft.org/",
+    "description": "Union-led educator AI courses, events and curriculum resources based in New York City.",
+    "cost": "Free for AFT members",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "individual"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://aiinstruction.aft.org/",
+        "quote": "free AI training and curriculum for all 1.8 million members of the AFT, starting with K-12.",
+        "source_owner": "American Federation of Teachers",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://time.com/7301335/ai-education-microsoft-openai-anthropic/",
+        "quote": "Their training hub will open in New York City this fall",
+        "source_owner": "TIME",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "other",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "fd5ea4dad39abfd200fcfa2da4c0476a733d660a05b107a218e2526412379c88"
+  },
+  {
+    "id": "in-indianapolis-hope-ai-training",
+    "state_id": "in",
+    "location_slug": "indianapolis",
+    "location_label": "Indianapolis, Indiana",
+    "name": "Hope Training Academy AI and IT Training",
+    "url": "https://www.hopetrainingacademy.org/",
+    "description": "Nonprofit offers hands-on AI, cybersecurity and IT instruction through Indianapolis classes and online learning.",
+    "cost": "Free for those who qualify; confirm eligibility",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "individual"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.hopetrainingacademy.org/",
+        "quote": "Hands-on tech & AI training and registered apprenticeships in Indianapolis, Indiana",
+        "source_owner": "Hope Training Academy",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://youarecurrent.com/2025/08/19/eye-on-the-future-career-and-technical-education-program-launches-in-westfield/",
+        "quote": "The couple launched Hope Training Academy in 2018 to provide formal STEM education",
+        "source_owner": "Current Publishing",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "other",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7bfcb0075dfe09059609669e5e3f5f5f415ae6745c6321d1a790f74a4f0b3162"
+  },
+  {
+    "id": "pa-media-dccc-corporate-ai",
+    "state_id": "pa",
+    "location_slug": "media",
+    "location_label": "Media, Pennsylvania",
+    "name": "Delaware County Community College Corporate AI Training",
+    "url": "https://www.dccc.edu/corporate-college/",
+    "description": "Customizable practical AI, prompting and ethical-use training for small and midsize organizations.",
+    "cost": "Check provider",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.dccc.edu/corporate-college/",
+        "quote": "Artificial Intelligence (AI): From Basics to Ethical Practice Duration (6 hours)",
+        "source_owner": "Delaware County Community College",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://whyy.org/articles/delaware-county-community-college-teaching-program/",
+        "quote": "Delaware County Community College, or DCCC",
+        "source_owner": "WHYY",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "07bd5bc52fe909a14c32dab4623c9118b3fc7cc12d846143241a689e567a3b13"
+  },
+  {
+    "id": "me-portland-mti-merc-ai",
+    "state_id": "me",
+    "location_slug": "portland",
+    "location_label": "Portland, Maine",
+    "name": "Maine Technology Institute MERC AI",
+    "url": "https://www.mainetechnology.org/explore-funding-programs/maine-entrepreneurial-resource-corps-merc/merc-ai/",
+    "description": "Eligible Maine small businesses can apply for free, time-limited access to curated Coursera generative AI courses.",
+    "cost": "Free for eligible approved businesses",
+    "format": "self-paced",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.mainetechnology.org/explore-funding-programs/maine-entrepreneurial-resource-corps-merc/merc-ai/",
+        "quote": "Eligible businesses can apply for up to three licenses , each providing four months of full access",
+        "source_owner": "Maine Technology Institute",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.mainepublic.org/show/maine-calling/2025-10-21/maines-tech-future",
+        "quote": "Maine Technology Institute",
+        "source_owner": "Maine Public",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent public radio original panel corroborates institution identity only",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "other",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "6f41a6fa5428fef3e5f3fb06416c3cfcb1ab38884ae34ee6eb8115270092030a"
+  },
+  {
+    "id": "ri-smithfield-bryant-applied-ai-academy",
+    "state_id": "ri",
+    "location_slug": "smithfield",
+    "location_label": "Smithfield, Rhode Island",
+    "name": "Bryant Applied AI Academy for Rhode Island Businesses",
+    "url": "https://www.bryant.edu/discover-bryant/centers-and-institutes/john-h-chafee-center-international-business/applied-ai-academy-rhode-island-businesses",
+    "description": "Applications for applied AI training and consulting for selected Rhode Island small businesses; first cohort planned for spring 2027.",
+    "cost": "Free for selected Rhode Island small businesses",
+    "format": "not-specified",
+    "ai_specific": true,
+    "audience": [
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.bryant.edu/discover-bryant/centers-and-institutes/john-h-chafee-center-international-business/applied-ai-academy-rhode-island-businesses",
+        "quote": "AI training and consulting at no cost",
+        "source_owner": "Bryant University",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.yahoo.com/news/videos/senator-reed-bryant-university-team-204040840.html",
+        "quote": "Bryant will start accepting applications for the training program next month",
+        "source_owner": "WPRI Providence via Yahoo",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Original local television news report syndicated by Yahoo",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b42fc87e798281926f90a502d63b9b3b1bcb43467ba4e17a50a5662401023bad"
+  },
+  {
+    "id": "ia-cedar-rapids-kirkwood-ai-classes",
+    "state_id": "ia",
+    "location_slug": "cedar-rapids",
+    "location_label": "Cedar Rapids, Iowa",
+    "name": "Kirkwood Community College AI Classes",
+    "url": "https://kirkwood.edu/programs/continuing-education/artificial-intelligence-classes",
+    "description": "Public continuing education offers beginner and practical AI classes for everyday life and work.",
+    "cost": "Paid; classes listed from $29, with other courses $39 to $249",
+    "format": "in-person",
+    "ai_specific": true,
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://kirkwood.edu/programs/continuing-education/artificial-intelligence-classes",
+        "quote": "Through entry-level and intermediate classes open to the public",
+        "source_owner": "Kirkwood Community College",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.kcrg.com/2026/11/03/election-results-voters-across-nearly-20-counties-will-decide-an-88m-kirkwood-community-college-bond/",
+        "quote": "Kirkwood Community College’s campus",
+        "source_owner": "KCRG",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "independent original reporting; corroborates organization identity and described service, not an endorsement",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": false,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "55b295ae6e96c7d6e5da15cccd30f59a6970850e1ba5ebf9ebe6b5439f673610"
+  },
+  {
+    "id": "ny-canandaigua-flcc-flx-ai-hub",
+    "state_id": "ny",
+    "location_slug": "canandaigua",
+    "location_label": "Canandaigua, New York",
+    "name": "Finger Lakes Community College FLX AI Hub",
+    "url": "https://www.flcc.edu/news/2026/flx-ai-hub-programming-looks-wide-digs-deep/",
+    "description": "Community AI webinars and hands-on workshops for businesses, governments and adult learners.",
+    "cost": "Free monthly webinars; check workshop fees",
+    "format": "varies",
+    "ai_specific": true,
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "status": "approved",
+    "sources": [
+      {
+        "url": "https://www.flcc.edu/news/2026/flx-ai-hub-programming-looks-wide-digs-deep/",
+        "quote": "The College holds a free lunchtime webinar on the second Tuesday of the month",
+        "source_owner": "Finger Lakes Community College",
+        "domain_class": "gov-edu",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wxxinews.org/local-news/2024-03-04/flcc-aims-to-produce-more-nurses-with-a-new-lpn-program",
+        "quote": "Finger Lakes Community College in Canandaigua",
+        "source_owner": "WXXI",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates college identity and city, not this AI program",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "service_label": "AI skills and practical applications",
+    "kind": "college",
+    "free_option": true,
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c2e4f9e57a3fa1b22a9f31b34dd08e805545564bcb1a1f9d4ea14df81af8b467"
+  },
+  {
+    "id": "tx-san-antonio-utsa-pace-ai",
+    "name": "UT San Antonio PaCE AI certificates",
+    "url": "https://www.utsa.edu/pace/artificial-intelligence-certificates.html",
+    "description": "Online self-paced AI certificates for professionals, including introductory and business applications. Confirm course choices and enrollment terms.",
+    "cost": "Courses advertised at $49; confirm selected course total",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "tx",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.utsa.edu/pace/artificial-intelligence-certificates.html",
+        "quote": "Enroll for only $49!",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "UT San Antonio PaCE AI certificates",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ksat.com/news/local/2026/02/24/first-public-ai-hub-launches-at-ut-san-antonio/",
+        "quote": "University of Texas at San Antonio",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "san-antonio",
+    "location_label": "San Antonio, Texas",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "0f032907f5adfc3c63d76c5aa61254617249e91afb5906fb04f40110a06c3e3c"
+  },
+  {
+    "id": "fl-boca-raton-fau-ai-business",
+    "name": "Florida Atlantic AI in Business certificate",
+    "url": "https://www.fau.edu/business/programs/executive-education/data-analytics/artificial-intelligence-in-business/",
+    "description": "Professional AI certificate covering AI tools and business applications. Intended for experienced professionals; confirm delivery, registration and prerequisites.",
+    "cost": "Confirm current tuition and enrollment terms",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "fl",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.fau.edu/business/programs/executive-education/data-analytics/artificial-intelligence-in-business/",
+        "quote": "This AI certificate program is designed to introduce participants to the concepts of AI",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Florida Atlantic AI in Business certificate",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+        "quote": "Florida Atlantic University",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "boca-raton",
+    "location_label": "Boca Raton, Florida",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "c703f683fd974d7fa5c0ef2723df636e5cc82d0d03ab978b28754b9a64fd021c"
+  },
+  {
+    "id": "fl-gainesville-uf-workforce-ai",
+    "name": "University of Florida workforce AI training",
+    "url": "https://pwd.aa.ufl.edu/ai/",
+    "description": "Self-paced AI courses and customizable organization training range from beginner fundamentals to Python and deep learning. Confirm course fees and delivery.",
+    "cost": "Confirm current course or customized-training fees",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "fl",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://pwd.aa.ufl.edu/ai/",
+        "quote": "Our AI courses can be customized to fit your organization",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "University of Florida workforce AI training",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+        "quote": "University of Florida",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "gainesville",
+    "location_label": "Gainesville, Florida",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7e474b68ada3c55ce7a95b71468cdd83aae522601d32505cdee0e786c1717699"
+  },
+  {
+    "id": "ms-main-ai-training",
+    "name": "Mississippi Artificial Intelligence Network courses",
+    "url": "https://mainms.org/courses/",
+    "description": "Online self-paced AI courses for Mississippi participants, with business, educator and technical options. Seats, licenses and credential requirements apply.",
+    "cost": "Free for Mississippi participants; confirm current eligibility and credential terms",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "ms",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://mainms.org/courses/",
+        "quote": "17 online, self-paced courses, free for Mississippi participants.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Mississippi Artificial Intelligence Network courses",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wlox.com/2026/07/31/free-ai-training-available-mississippians-through-statewide-initiative/?outputType=amp",
+        "quote": "The Mississippi Artificial Intelligence Network (MAIN) is offering no-cost training",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "kind": "college",
+    "service_label": "AI learning",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "a68eb6749846bfafb596bc6b44c8cffb1e43ec0b2f83c46e2fb97899b4be5ede"
+  },
+  {
+    "id": "nc-morrisville-wake-tech-ai-series",
+    "name": "Wake Tech AI for Everyone series",
+    "url": "https://www.waketech.edu/post/wt-news-story/996786",
+    "description": "Community AI series at Wake Tech RTP Campus covers everyday use, careers and business. The remaining listed November session is in person; confirm dates and registration.",
+    "cost": "Free; advance registration encouraged",
+    "format": "hybrid",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "nc",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.waketech.edu/post/wt-news-story/996786",
+        "quote": "Each session is free and open to the public",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Wake Tech AI for Everyone series",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://abc11.com/post/wake-tech-weaving-ai-classroom-students-search-jobs/19845534/",
+        "quote": "Wake Technical Community College",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "morrisville",
+    "location_label": "Morrisville / RTP Campus, North Carolina",
+    "kind": "college",
+    "service_label": "AI learning",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "f91ae45195378e70171880cea30f49fef181d401bc21e857940c780e9c34d02a"
+  },
+  {
+    "id": "fl-pensacola-uwf-ai-workplace",
+    "name": "University of West Florida AI in the Workplace",
+    "url": "https://uwf.edu/continuinged/about-us/blog/area-workforce-trends-for-2026.html",
+    "description": "Online undergraduate and graduate AI in the Workplace certificates support working professionals. Confirm academic admission, curriculum and tuition.",
+    "cost": "Confirm tuition, fees and admission requirements",
+    "format": "online",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "fl",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://uwf.edu/continuinged/about-us/blog/area-workforce-trends-for-2026.html",
+        "quote": "AI in the Workplace UG Certificate",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "University of West Florida AI in the Workplace",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wlrn.org/education/2026-03-27/university-leaders-grapple-with-the-upside-and-downside-of-ai",
+        "quote": "University of West Florida",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "pensacola",
+    "location_label": "Pensacola, Florida",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "681acda50a16ac4b08f9538a0d2450b9ec619a6ec131e4144201242adf7812e5"
+  },
+  {
+    "id": "dc-howard-ai-fundamentals",
+    "name": "Howard Fundamentals of AI certificate",
+    "url": "https://howard.edu/ai/fundamentals-certificate",
+    "description": "Undergraduate certificate for Howard students covers AI tools, responsible use and discipline applications. Some required courses require junior or senior standing.",
+    "cost": "Confirm university tuition and student eligibility",
+    "format": "varies",
+    "audience": [
+      "individual"
+    ],
+    "state_id": "dc",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://howard.edu/ai/fundamentals-certificate",
+        "quote": "university-wide certificate equipping undergraduate learners",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Howard Fundamentals of AI certificate",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://wtop.com/education/2026/08/new-web-story-howard-university-expands-ai-education-opportunities-for-students/",
+        "quote": "Howard University",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "washington",
+    "location_label": "Washington, DC",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "6d07ee23a3de171f861418a040ae6f82ca36ade735b5a74b5e0f055aee71d813"
+  },
+  {
+    "id": "al-birmingham-uab-professional-ai",
+    "name": "UAB Collat professional AI courses",
+    "url": "https://www.uab.edu/business/home/programs/professional-education/career-advancement-courses/artificial-intelligence",
+    "description": "Online professional courses cover AI prompting, automation and data analysis. Compare course requirements, enrollment windows and fees.",
+    "cost": "Paid courses; confirm current tuition and available discounts",
+    "format": "online",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "al",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.uab.edu/business/home/programs/professional-education/career-advancement-courses/artificial-intelligence",
+        "quote": "AI Essentials Certificate Course",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "UAB Collat professional AI courses",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wbrc.com/2026/03/05/middle-east-conflict-unfolds-experts-warn-ai-driven-misinformation-flooding-social-media/",
+        "quote": "University of Alabama at Birmingham",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "birmingham",
+    "location_label": "Birmingham, Alabama",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "296f1aa5c1271366615f3b17859002310004beec26fc6b593a3c26829ba0e0c0"
+  },
+  {
+    "id": "ga-kennesaw-cpe-ai",
+    "name": "Kennesaw State professional AI certificates",
+    "url": "https://cpe.kennesaw.edu/course-category/professional/artificial-intelligence-ai/",
+    "description": "Professional certificate catalog includes AI essentials, automation, marketing, sales and data analysis. Ask about next cohorts and online requirements.",
+    "cost": "Paid certificates; confirm current course tuition",
+    "format": "online",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "ga",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://cpe.kennesaw.edu/course-category/professional/artificial-intelligence-ai/",
+        "quote": "AI Essentials Certificate",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Kennesaw State professional AI certificates",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wsbtv.com/news/local/cobb-county/new-ai-degree-ksu-aims-power-georgias-tech-workforce/GPSG6OLHQBHPVN7M7QU6Z5NKMU/",
+        "quote": "Kennesaw State University",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "kennesaw",
+    "location_label": "Kennesaw, Georgia",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7252811ddc48d1b91ce35af8de091e693f0879bc226fb7149b0feacde719f3b1"
+  },
+  {
+    "id": "ky-louisville-ai-medicine-certificate",
+    "name": "University of Louisville AI in Medicine certificate",
+    "url": "https://catalog.louisville.edu/graduate/programs-study/graduate-certificate-artifical-intelligence-medicine/",
+    "description": "Online graduate certificate teaches computational and machine-learning approaches to medical problems. Academic admissions and course prerequisites apply.",
+    "cost": "Confirm graduate tuition, fees and admissions",
+    "format": "online",
+    "audience": [
+      "individual"
+    ],
+    "state_id": "ky",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://catalog.louisville.edu/graduate/programs-study/graduate-certificate-artifical-intelligence-medicine/",
+        "quote": "This program can be completed 100% online",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "University of Louisville AI in Medicine certificate",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://spectrumnews1.com/ky/louisville/news/2026/08/21/university-ai-forward",
+        "quote": "University of Louisville",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "louisville",
+    "location_label": "Louisville, Kentucky",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "cfe2da6e7fefe8ea349618daa74a0634240c3fc8788754a5e28375a269b63393"
+  },
+  {
+    "id": "va-blacksburg-vt-professional-ai",
+    "name": "Virginia Tech professional AI training",
+    "url": "https://register.cpe.vt.edu/",
+    "description": "Continuing education lists applied agentic AI and AI-powered cybersecurity certificates. Confirm course partners, online delivery, costs and current intakes.",
+    "cost": "Paid professional programs; confirm total tuition",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "va",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://register.cpe.vt.edu/",
+        "quote": "Applied Agentic AI Certificate Program",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Virginia Tech professional AI training",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://cardinalnews.org/2026/06/17/tech-briefs-virginia-tech-adds-an-artificial-intelligence-minor-to-its-curriculum/",
+        "quote": "Virginia Tech",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "blacksburg",
+    "location_label": "Blacksburg, Virginia",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "69874ba31ee2faeae2fd200f5d27c5dbcb45541e32832907f9eda7c51545fd50"
+  },
+  {
+    "id": "wv-educator-ai-digital-science",
+    "name": "West Virginia educator AI and digital science training",
+    "url": "https://wvde.us/articles/wv-superintendent-schools-launches-first-ai-digital-science-framework-nation",
+    "description": "Statewide AI and digital-science professional learning supports West Virginia educators and school personnel. Ask the education department about current training access.",
+    "cost": "Partner training is at no additional cost to West Virginia educators; confirm eligibility",
+    "format": "varies",
+    "audience": [
+      "teachers"
+    ],
+    "state_id": "wv",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://wvde.us/articles/wv-superintendent-schools-launches-first-ai-digital-science-framework-nation",
+        "quote": "in-person and virtual training",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "West Virginia educator AI and digital science training",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wvnews.com/news/wvnews/west-virginia-schools-preparing-statewide-artificial-intelligence-training-initiative/article_070fa3aa-fecd-4fc9-a414-8ea512b29bee.html",
+        "quote": "West Virginia public schools",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "96e488fbc9fdfa98189e37cc050bc7230b19a022b9f0dd041e3694cc618690a2"
+  },
+  {
+    "id": "tn-memphis-tech901-ai",
+    "name": "Tech901 AI and technology certifications",
+    "url": "https://www.tech901.org/",
+    "description": "Instructor-led AI and IT certification pathways serve Mid-South adults. Prerequisite certifications, admissions assessment and in-person activities may apply.",
+    "cost": "Student fees and scholarships apply; confirm course price and eligibility",
+    "format": "hybrid",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "tn",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.tech901.org/",
+        "quote": "AI FUNDAMENTALS",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Tech901 AI and technology certifications",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://dailymemphian.com/subscriber/article/51874/memphis-tech901-trains-for-information-technology-jobs",
+        "quote": "Tech901 is a Memphis-based nonprofit",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.tech901.org/courses",
+        "quote": "PCEP",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Official prerequisite and delivery details",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.tech901.org/admissions/course-prices",
+        "quote": "Student Price",
+        "domain_class": "official",
+        "independent": false,
+        "source_relationship": "Official current prices; scholarships are conditional on eligibility",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "memphis",
+    "location_label": "Memphis, Tennessee",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7afb822939694af323d970d91f0c412db4e7408ed8b04f3953965bd5b5235381"
+  },
+  {
+    "id": "va-arlington-computer-core-ai",
+    "name": "Computer CORE digital skills and AI learning",
+    "url": "https://www.computercore.org/",
+    "description": "Free online adult classes include workplace digital tools and AI; digital navigators also provide in-person help in Arlington. Confirm learner eligibility and the current schedule.",
+    "cost": "Free regular classes; confirm eligibility and any separate workshop fees",
+    "format": "hybrid",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "va",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.computercore.org/",
+        "quote": "training in Microsoft 365, Google Workspace, digital marketing, AI",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Computer CORE digital skills and AI learning",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://technical.ly/professional-development/byte-back-closing-digital-literacy-nonprofit-dc/",
+        "quote": "Computer CORE",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "arlington",
+    "location_label": "Arlington / Northern Virginia, Virginia",
+    "kind": "college",
+    "service_label": "AI learning",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "e3a95932e439fc0eba37b31749ee6285eb6ba9faa0471d54d250d012263560bf"
+  },
+  {
+    "id": "ga-decatur-agnes-scott-ai-symposium",
+    "name": "Agnes Scott Living Well with AI symposium",
+    "url": "https://www.agnesscott.edu/psychology-ai-symposium/",
+    "description": "Public 2026–27 lecture series explores responsible AI, human agency and wellbeing. Confirm upcoming sessions, registration and in-person or virtual access.",
+    "cost": "Free public sessions; confirm registration requirements",
+    "format": "varies",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "ga",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.agnesscott.edu/psychology-ai-symposium/",
+        "quote": "Kirk Philosophy Lecture Series for 2026-27",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Agnes Scott Living Well with AI symposium",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://roughdraftatlanta.com/2026/09/06/agnes-scott-ai-symposium/",
+        "quote": "Sessions are free and open to the public.",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "decatur",
+    "location_label": "Decatur, Georgia",
+    "kind": "college",
+    "service_label": "AI learning",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9cd382473fafb047559be7bb97358ef5346bc05ba8ea55d347164d79a5a56ed4"
+  },
+  {
+    "id": "tn-nashville-vanderbilt-ai-governance",
+    "name": "Vanderbilt AI governance executive certificate",
+    "url": "https://law.vanderbilt.edu/vanderbilt-ai-law-lab-ai-governance-certificate-program-for-executives/",
+    "description": "Executive certificate in AI governance and ethics is intended for organizational leaders and legal professionals. Confirm upcoming Nashville delivery, admission and fees.",
+    "cost": "Confirm executive-program tuition and registration terms",
+    "format": "in-person",
+    "audience": [
+      "business"
+    ],
+    "state_id": "tn",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://law.vanderbilt.edu/vanderbilt-ai-law-lab-ai-governance-certificate-program-for-executives/",
+        "quote": "AI Governance & Ethics Executive Certificate",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Vanderbilt AI governance executive certificate",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://wpln.org/post/if-ai-in-music-sounds-like-sci-fi-this-nashville-law-professor-is-the-expert-to-explain-the-latest/",
+        "quote": "Vanderbilt University",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "nashville",
+    "location_label": "Nashville, Tennessee",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "6e5b8b2c296f32b07298c6f370fde09ecc45d46c1ade04c93a28a9affd7b83c5"
+  },
+  {
+    "id": "ky-bowling-green-wku-ai-analytics",
+    "name": "Western Kentucky AI and Analytics certificate",
+    "url": "https://www.wku.edu/online/ug-certs/aia/index.php",
+    "description": "Online undergraduate certificate for WKU students introduces AI fundamentals, analytics and ethics. University enrollment and course requirements apply.",
+    "cost": "Confirm tuition, fees and university admission requirements",
+    "format": "online",
+    "audience": [
+      "individual"
+    ],
+    "state_id": "ky",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.wku.edu/online/ug-certs/aia/index.php",
+        "quote": "The 12-hour Artificial Intelligence and Analytics certificate",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Western Kentucky AI and Analytics certificate",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.wbko.com/2024/09/25/artificial-intelligence-rise-among-consumers/",
+        "quote": "Western Kentucky University",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "bowling-green",
+    "location_label": "Bowling Green, Kentucky",
+    "kind": "college",
+    "service_label": "AI learning",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4be215dbab0466f7c2080a887ebf14c8cc183348275fd251150e980a20c18f7d"
+  },
+  {
+    "id": "ky-louisville-community-ai-literacy",
+    "name": "UofL community AI literacy classes",
+    "url": "https://louisville.edu/servicecenters/digital-transformation-center/professional-workforce-programs/digital-literacy",
+    "description": "Community educators deliver practical AI-literacy classes for beginners and seniors across Jefferson County. Contact the center for current workshops.",
+    "cost": "Free workshops reported; confirm current class terms",
+    "format": "in-person",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "state_id": "ky",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://louisville.edu/servicecenters/digital-transformation-center/professional-workforce-programs/digital-literacy",
+        "quote": "Throughout 2026, two trainers continued delivering digital literacy training across Louisville Metro",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "UofL community AI literacy classes",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://spectrumnews1.com/ca/la/news/2026/09/23/seniors-learn-artificial-intelligence",
+        "quote": "free artificial intelligence workshops",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "louisville",
+    "location_label": "Louisville / Jefferson County, Kentucky",
+    "kind": "college",
+    "service_label": "AI learning",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "4c2310437a4ae0ece22174d1d0a1caace3a4f2a93582995c0f88d3a8051fc826"
+  },
+  {
+    "id": "va-ai-career-launch-pad",
+    "name": "Virginia Works AI career training",
+    "url": "https://virginiaworks.gov/new-virginia-works-report-explores-the-commonwealths-workforce-in-an-ai-driven-economy/",
+    "description": "State workforce resources connect Virginians with AI learning and professional certificates, including Google-supported training. Confirm eligibility and available scholarship places.",
+    "cost": "Free AI-related resources; confirm specific course and certificate costs",
+    "format": "online",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "state_id": "va",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://virginiaworks.gov/new-virginia-works-report-explores-the-commonwealths-workforce-in-an-ai-driven-economy/",
+        "quote": "Virginia Works offers free AI-related online training resources",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "Virginia Works AI career training",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.nga.org/projects/ai-and-the-future-of-work/",
+        "quote": "Virginia launched an AI Career Launch Pad",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "kind": "college",
+    "service_label": "AI learning",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2a7b523e1189e9fa89fca9b757b645e1688c1c7d74885f5af69d7b962d62fdc3"
+  },
+  {
+    "id": "nc-raleigh-npower-tech-training",
+    "name": "NPower North Carolina technology training",
+    "url": "https://www.npower.org/locations/north-carolina/",
+    "description": "Virtual-led technology training and certifications for eligible Triangle-area young adults and military-connected learners. Confirm age, residency and current intake.",
+    "cost": "Tuition-free for eligible accepted learners",
+    "format": "live-online",
+    "audience": [
+      "individual",
+      "veterans"
+    ],
+    "state_id": "nc",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.npower.org/locations/north-carolina/",
+        "quote": "NPower North Carolina provides tuition-free, virtual-led technology training",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "NPower North Carolina technology training",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://spectrumlocalnews.com/nc/triangle-sandhills/news/2023/07/27/national-nonprofit-launches-free-tech-training",
+        "quote": "NPower",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "location_slug": "raleigh",
+    "location_label": "Raleigh / Research Triangle, North Carolina",
+    "kind": "other",
+    "service_label": "Technology career training",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8586e5b53a49b0df8059f5f2c25b2935af90c548c43a6be3b604c9c7dddcb9f3"
+  },
+  {
+    "id": "tx-npower-regional-tech-training",
+    "name": "NPower Texas regional technology training",
+    "url": "https://www.npower.org/locations/Texas/",
+    "description": "Virtual-led technology career training serves eligible Dallas–Fort Worth, San Antonio and Houston/Harris County learners. Confirm age, residency and current cohort requirements.",
+    "cost": "Tuition-free for accepted eligible learners",
+    "format": "live-online",
+    "audience": [
+      "individual",
+      "veterans"
+    ],
+    "state_id": "tx",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://www.npower.org/locations/Texas/",
+        "quote": "We serve the Dallas-Fort Worth area, San Antonio and Harris County/Houston.",
+        "domain_class": "official",
+        "independent": false,
+        "source_owner": "NPower Texas — Dallas–Fort Worth",
+        "source_relationship": "Provider-published current service/course page; location in page content or institutional footer.",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.ksat.com/news/local/2023/02/08/free-tech-career-training-program-for-veterans-spouses-coming-to-san-antonio/",
+        "quote": "NPower Texas",
+        "domain_class": "news",
+        "independent": true,
+        "source_relationship": "Independent original reporting corroborates organization identity. Current course/service and costs are from official source; this is not a quality endorsement.",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "kind": "other",
+    "service_label": "Technology career training",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "76204daceb1a5b8c68848f894031a9589c9286997f07a813ef6e882fff067c29"
+  },
+  {
+    "id": "harvard-cs50-ai",
+    "name": "CS50: Introduction to AI with Python",
+    "url": "https://cs50.harvard.edu/ai/",
+    "description": "Project-based AI study covering search, machine learning and language models; requires CS50x or at least one year of Python experience.",
+    "kind": "online-course",
+    "cost": "Free OpenCourseWare; optional verified certificate has separate terms",
+    "format": "self-paced",
+    "audience": [
+      "individual"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://cs50.harvard.edu/ai/",
+        "quote": "Prerequisites CS50x or at least one year of experience with Python.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "Harvard University",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://www.computerworld.com/article/4049928/top-ai-certifications-that-will-get-you-hired-and-promoted.html",
+        "quote": "Introduction to Artificial Intelligence with Python",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "source_owner": "Computerworld",
+        "source_relationship": "independent editorial reporting; identity/content corroboration, not an endorsement or current-price evidence",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "19169114fa8c9466a74dfd6f3dfc11618c1303a865e2999090d8445601a1c85c"
+  },
+  {
+    "id": "google-ai-essentials",
+    "name": "Google AI Essentials",
+    "url": "https://grow.google/ai-essentials/",
+    "description": "Self-paced introductory training in using AI for everyday work, effective prompting and responsible use.",
+    "kind": "online-course",
+    "cost": "U.S./Canada: $49 USD/month after a 7-day free trial; subscription terms apply",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://grow.google/ai-essentials/",
+        "quote": "the subscription cost is $49 USD per month after an initial 7-day free trial period.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "Google",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://www.computerworld.com/article/4049928/top-ai-certifications-that-will-get-you-hired-and-promoted.html",
+        "quote": "Google AI Essentials (Google)",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "source_owner": "Computerworld",
+        "source_relationship": "independent editorial reporting; identity/content corroboration, not an endorsement or current-price evidence",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "44696cb486bfa546d5b2ef90f7a1ab9fc237e4db3584a39ba4f5104f4fa574b7"
+  },
+  {
+    "id": "adobe-ai-marketers",
+    "name": "Adobe AI Essentials for Marketers: Mindset and Workflows",
+    "url": "https://experienceleague.adobe.com/en/courses/ai-essentials-for-marketers-mindset-use-cases-and-workflows",
+    "description": "A one-hour course on identifying AI opportunities and redesigning repeatable marketing workflows.",
+    "kind": "online-course",
+    "cost": "Free learning content; Adobe product access may have separate costs",
+    "format": "self-paced",
+    "audience": [
+      "business",
+      "individual"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://experienceleague.adobe.com/en/courses/ai-essentials-for-marketers-mindset-use-cases-and-workflows",
+        "quote": "You’ll learn practical mental models and repeatable workflows that help you apply AI confidently",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "Adobe",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://news.adobe.com/news/2026/06/adobe-linkedin-launch-global-ai-skills-initiative",
+        "quote": "Courses will be available free of charge on LinkedIn Learning as well as expanded learning",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "Adobe",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://www.techradar.com/pro/were-helping-make-ai-skills-accessible-to-every-marketer-adobe-and-linkedin-team-up-to-spread-ai-knowledge",
+        "quote": "Adobe has teamed up with LinkedIn to launch its new AI Essentials for Marketers training initiative",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "source_owner": "TechRadar",
+        "source_relationship": "independent editorial reporting; identity/content corroboration, not an endorsement or current-price evidence",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "3b7c980b3379012b08892b4ffc174c81dbcd77d1c45a2c7f49a48983a19a3d76"
+  },
+  {
+    "id": "senior-planet-online",
+    "name": "Senior Planet: Free Online Technology Classes",
+    "url": "https://oats.org/senior-planet-from-aarp/",
+    "description": "Live Zoom technology classes for older adults, with supporting tutorials and learning materials.",
+    "kind": "senior",
+    "cost": "Free virtual classes",
+    "format": "live-online",
+    "audience": [
+      "home-senior",
+      "individual"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://oats.org/senior-planet-from-aarp/",
+        "quote": "SeniorPlanet.org offers a wide range of free virtual classes each week, taught live on Zoom",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "OATS from AARP",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://www.kiplinger.com/retirement/happy-retirement/best-free-or-cheap-online-classes-for-seniors-and-retirees",
+        "quote": "If you want a program specifically geared to older adults, check out AARP's Senior Planet",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "source_owner": "Kiplinger",
+        "source_relationship": "independent editorial reporting; identity/content corroboration, not an endorsement or current-price evidence",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "db2c6af65b030e3d1e31fe97df197b64098d1f152f11633ffe6eb0d7b30d93b9"
+  },
+  {
+    "id": "cisco-modern-ai",
+    "name": "Cisco Introduction to Modern AI",
+    "url": "https://www.netacad.com/courses/introduction-to-modern-ai",
+    "description": "Introductory learning on using AI in everyday life through Cisco Networking Academy.",
+    "kind": "online-course",
+    "cost": "Free course; registration may be required",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://www.netacad.com/courses/introduction-to-modern-ai",
+        "quote": "Introduction to Modern AI",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "Cisco Networking Academy",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://blogs.cisco.com/learning/ai-training-for-network-engineers",
+        "quote": "This Cisco Networking Academy free course shows you how to use AI in daily life.",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "Cisco",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://www.itpro.com/business/business-strategy/cisco-promises-ai-training-for-a-million-americans",
+        "quote": "Cisco has been running its Networking Academy for nearly 30 years",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "source_owner": "ITPro",
+        "source_relationship": "independent editorial reporting; identity/content corroboration, not an endorsement or current-price evidence",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "cdb43a9b080b43d5d3e54b400011b81a3306ffc3ab90219ef7a401134c55bc65"
+  },
+  {
+    "id": "ibm-skillsbuild",
+    "name": "IBM SkillsBuild",
+    "url": "https://skillsbuild.org/",
+    "description": "Free self-paced AI and technology learning for adults, students and people preparing for a career change.",
+    "kind": "online-course",
+    "cost": "Free learning; registration required for courses and credentials",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business",
+      "veterans"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://skillsbuild.org/",
+        "quote": "IBM SkillsBuild offers 100% free learning",
+        "domain_class": "official",
+        "fetched": "2026-11-12",
+        "source_owner": "IBM",
+        "source_relationship": "provider-owned",
+        "independent": false
+      },
+      {
+        "url": "https://www.straitstimes.com/tech/ibm-to-give-free-ai-training-for-targeted-2-million-people-by-2026",
+        "quote": "SkillsBuild, its free education programme launched in 2019",
+        "domain_class": "news",
+        "fetched": "2026-11-12",
+        "source_owner": "The Straits Times",
+        "source_relationship": "independent editorial reporting; identity/content corroboration, not an endorsement or current-price evidence",
+        "independent": true
+      }
+    ],
+    "paid_relationship": "none",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "8b212e80daa5ba9b3706b0120d99ee7f40810c2d61f25ba1e3bf421df3bda264"
   }
 ]

@@ -1,0 +1,35 @@
+{
+  "record_id": "in-indianapolis-stellar-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "1ea19b651c14bbd6a66e804cedfa10f9b23e924462b331dbee35674e2f6bf8ab",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.getstellar.ai/products-services/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.getstellar.ai/products-services/",
+      "sha256": "e9e21f50848d025731b3fb7ade8e1c45b6d841bbbd75a350d7455068fa8aafda",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.getstellar.ai/privacy/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.getstellar.ai/privacy/",
+      "sha256": "da933f1f0683320248f0f0368c14ee6eb4e7822c31566deb5427b8d355078367",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.consulting.us/news/9587/ai-consultancy-stellar-launches-in-indianapolis",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.consulting.us/news/9587/ai-consultancy-stellar-launches-in-indianapolis",
+      "sha256": "b226244d1df29dbef79efcc94bf0f27748879640ace8e77e38e14c20f882528b",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "record_id": "in-indianapolis-pragmatico-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "372425669e72b6eb1dc3304cb23b4134598a589f6abcf3b7b1499d604793f82c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.pragmatico.ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.pragmatico.ai/",
+      "sha256": "c4d8d686cb838a2e4f9c83d992bbdcd9d4f1c0f6bab0e43161709c1da354f4f3",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.pragmatico.ai/press/pragmatico-more-than-doubles-client-roster-delivers-seven-figure-client-roi",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.pragmatico.ai/press/pragmatico-more-than-doubles-client-roster-delivers-seven-figure-client-roi",
+      "sha256": "7588090c8db67b64f7191c4e028cfc98dae1dc77316c01b9ec3477bc54848ebf",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.ibj.com/articles/indianapolis-entrepreneurs-launch-ai-training-firm-pragmatico",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.ibj.com/articles/indianapolis-entrepreneurs-launch-ai-training-firm-pragmatico",
+      "sha256": "b7a34391b9606fd005dd21970eda336b715b4bf52e6feba832bbb45019ad0aa9",
+      "domain_unchanged": true
+    }
+  ]
+}

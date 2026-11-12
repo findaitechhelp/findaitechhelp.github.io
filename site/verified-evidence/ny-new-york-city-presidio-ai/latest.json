@@ -1,0 +1,35 @@
+{
+  "record_id": "ny-new-york-city-presidio-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "cd95cb0bc610fdafffe238bfd1dff4a46a6b04e45a7dc900b50eb19d79a9704f",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.presidio.com/how-we-ai/ai-consulting/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.presidio.com/how-we-ai/ai-consulting/",
+      "sha256": "29ac38b8c8c31eff320734ae6b5ac3282973b1cdeb71919025bd36bcddc1bbf0",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.presidio.com/who-we-are/office-locations/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.presidio.com/who-we-are/office-locations/",
+      "sha256": "58493873dd2e6dd49c09fca0d4470385b9b57529f84882669bf0097b0a94ad5f",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.crn.com/news/security/2026/how-presidio-is-betting-on-a-hybrid-world-to-reduce-ai-token-cost-chris-cagnazzi",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.crn.com/news/security/2026/how-presidio-is-betting-on-a-hybrid-world-to-reduce-ai-token-cost-chris-cagnazzi",
+      "sha256": "d45248a7bc8f714a5a202ee25ebf1dd71617e480eab0a8f1bfc3f2ccdddef5b1",
+      "domain_unchanged": true
+    }
+  ]
+}

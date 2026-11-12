@@ -1,0 +1,26 @@
+{
+  "record_id": "il-glen-ellyn-cod-ai-literacy",
+  "checked": "2026-11-12",
+  "sources_sha256": "ae864f979f20f37896b8014a1194cb9c3c2393b8d8a8fc53ad4fdd0aa8bac22c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.cod.edu/academics/academic-opportunities/artificial-intelligence.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cod.edu/academics/academic-opportunities/artificial-intelligence.html",
+      "sha256": "05fea258bd6a99bf2a89c24be56711acc16622703f0d245f4ae9085ff273f484",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.choosedupage.com/news/ai-is-changing-the-workforce-critical-thinking-still-matters-most/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.choosedupage.com/news/ai-is-changing-the-workforce-critical-thinking-still-matters-most/",
+      "sha256": "3849adff70653e32afa13ec8ce8a2b28f7047512df0232c60ba928bb87e17a1b",
+      "domain_unchanged": true
+    }
+  ]
+}

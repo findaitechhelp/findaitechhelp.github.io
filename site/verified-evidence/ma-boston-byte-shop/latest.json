@@ -1,0 +1,26 @@
+{
+  "record_id": "ma-boston-byte-shop",
+  "checked": "2026-11-12",
+  "sources_sha256": "04e355433639447ab4edb871794502d88c84af186bc42ed2f083883514cbf15b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://byteshop.io/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://byteshop.io/",
+      "sha256": "8042105d72f280a9af6c4c29554a605729b5692b9d99cef7dea11c70873f1d91",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wbur.org/news/2025/04/28/the-byte-shop-jp-old-computers-repair-museum",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wbur.org/news/2025/04/28/the-byte-shop-jp-old-computers-repair-museum",
+      "sha256": "5be630bf64fc41bf9aa21b423ff5965dda67788f13dee1d42f7c859e8aa1687d",
+      "domain_unchanged": true
+    }
+  ]
+}

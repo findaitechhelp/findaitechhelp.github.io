@@ -1,0 +1,30 @@
+{
+  "record_id": "ga-decatur-agnes-scott-ai-symposium",
+  "checked": "2026-11-12",
+  "sources_sha256": "7d7cc04e905a482bb495b159cb33da9ad896b05fd2e6921dca4074e674980637",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.agnesscott.edu/psychology-ai-symposium/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.agnesscott.edu/psychology-ai-symposium/",
+      "sha256": "dd358f1a33e6a8f19b47423420ac46bbabc2b1d979846b91c40ec5264a917305",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\e4fa305ae85783e958c4.html"
+    },
+    {
+      "url": "https://roughdraftatlanta.com/2026/09/06/agnes-scott-ai-symposium/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://roughdraftatlanta.com/2026/09/06/agnes-scott-ai-symposium/",
+      "sha256": "01c5ae0f73ab1d2b73ad0db99b8006c5e13c6c0e0aa353381a9d6598f71e44c3",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\9067729c2599a11b4d4c.html"
+    }
+  ]
+}

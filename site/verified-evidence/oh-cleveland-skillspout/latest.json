@@ -1,0 +1,26 @@
+{
+  "record_id": "oh-cleveland-skillspout",
+  "checked": "2026-11-12",
+  "sources_sha256": "a279d784591f54b540b44cf2c521b9dcaf0508b6cfcd16866de3a52d904013cf",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.skillspout.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://skillspout.com/",
+      "sha256": "6497b6e45c22b77a83d9e9fc96110fdbc8f50f23d6c667d83f436fc359b3f9c4",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://spectrumnews1.com/oh/columbus/news/2026/05/28/new-program-teaches-small-businesses-to-master-ai-",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumnews1.com/oh/columbus/news/2026/05/28/new-program-teaches-small-businesses-to-master-ai-",
+      "sha256": "f501477f4d3f8b3ab61b7f3559fa4e92f224fe4467fb145c88162a5399e81d47",
+      "domain_unchanged": true
+    }
+  ]
+}

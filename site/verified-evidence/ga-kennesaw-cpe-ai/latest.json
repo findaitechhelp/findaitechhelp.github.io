@@ -1,0 +1,30 @@
+{
+  "record_id": "ga-kennesaw-cpe-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "edcb10cdae3cf7c4f122d08e26d1af4b9ee75ae91bfd825c2ce0429773177b38",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://cpe.kennesaw.edu/course-category/professional/artificial-intelligence-ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://cpe.kennesaw.edu/course-category/professional/artificial-intelligence-ai/",
+      "sha256": "9ef7f3191ee022b3e979008cf159ae8c82d18b2ce3d219e8b77b0857aac40776",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\299e9fe7d01059c4f6cf.html"
+    },
+    {
+      "url": "https://www.wsbtv.com/news/local/cobb-county/new-ai-degree-ksu-aims-power-georgias-tech-workforce/GPSG6OLHQBHPVN7M7QU6Z5NKMU/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wsbtv.com/news/local/cobb-county/new-ai-degree-ksu-aims-power-georgias-tech-workforce/GPSG6OLHQBHPVN7M7QU6Z5NKMU/",
+      "sha256": "0e7ec8d10d9c0ab3499c24f72a1c95a85400981a67f8e55f14e3fa6914d9c4a1",
+      "domain_unchanged": true,
+      "quote_checked_against_saved_direct_response": true,
+      "saved_body_file": "R:\\Documents\\Claude\\Projects\\Ai_Training\\research\\DEPTH-SOUTH-SOURCES-20261112\\9e69f089b1e6e96771ad.html"
+    }
+  ]
+}
