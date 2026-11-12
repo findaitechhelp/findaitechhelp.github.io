@@ -4316,7 +4316,7 @@
     ],
     "availability": "current",
     "paid_relationship": "none",
-    "service_label": "Computer skills and technology career learning",
+    "service_label": "Volunteer computer and electronics repair help",
     "kind": "other",
     "sources": [
       {
@@ -4339,7 +4339,7 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "ca64fa39c46693ec323105b4893539d798e2528e808f1003a9fe1fe2835bb3d8",
+    "approval_fingerprint": "eae89a120068c04dc5b9e0a33e98317002b03e1dba2dfb0f647c320525c13b50",
     "category": "computer-repair"
   },
   {
