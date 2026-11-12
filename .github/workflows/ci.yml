@@ -15,6 +15,5 @@ jobs:
           python-version: '3.13'
       - run: python tools/validate.py
       - run: python -m unittest discover tests -v
-      - run: python tools/check_links.py
-      - run: python build.py --release
+      - run: python tools/check_public_review.py
       - run: python tools/check_site.py

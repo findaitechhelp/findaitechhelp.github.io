@@ -1,6 +1,8 @@
 {
   "legal_approved_by": null,
   "launch_approved_by": null,
-  "notes": "Only Dan approves legal text and public launch.",
-  "freshness_delivery_verified": false
+  "notes": "Dan authorized public review publishing in chat on 2026-11-12. Full search launch remains separate.",
+  "freshness_delivery_verified": false,
+  "public_review_approved_by": "dan",
+  "public_review_approved_on": "2026-11-12"
 }

@@ -1,0 +1,26 @@
+{
+  "record_id": "huggingface-ai-agents",
+  "checked": "2026-11-12",
+  "sources_sha256": "7a790e42153dc50bb6fb6581d19f42eb3eb7ac84d614ee010cf8ffee68b88a2c",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+      "sha256": "e3de89ecc983be8f96a32a2b1e8408a84b9cdcb6fb262f83604786145796cf5b",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://impactai.beehiiv.com/p/your-personal-agent-keeps-working-after-you-log-off-pcdn-ai-for-impact-newsletter-october-9-10-2026",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://impactai.beehiiv.com/p/your-personal-agent-keeps-working-after-you-log-off-pcdn-ai-for-impact-newsletter-october-9-10-2026",
+      "sha256": "e2dc344c58e1f7984f8b294812388fb34ee1b1215fb39d5d45db66588d2e9cd4",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Find AI Tech Help
 
-Local review implementation for FindAITechHelp.com, operated by VirtualEcommerce Inc.
+Public review implementation for FindAITechHelp.com, operated by VirtualEcommerce Inc.
 This repository is **not launch-ready**. Only Dan approves directory entries, legal text, and public launch.
 
 ## Preview on Windows
@@ -25,18 +25,18 @@ python tools/check_site.py
 node --check site/assets/site.js
 ```
 
-Normal builds are nonindexable review output. `python build.py --release` intentionally fails while launch blockers remain; no bypass flag exists. Same inputs and `--today` produce identical output. Existing output is swapped only after generation, and previous outputs are retained locally beside the target in `.build-history/`.
+Normal builds are nonindexable review output. `python build.py --release` intentionally fails while launch blockers remain; the public review mode remains noindex and omits unfinished legal drafts. Same inputs and `--today` produce identical output. Existing output is swapped only after generation, and previous outputs are retained locally beside the target in `.build-history/`.
 
 ## Structure
 
 - `site/build.py`, `site/pages.py`, `site/content.py`: orchestration and original editorial guidance.
 - `site/templates/`, `site/assets/`: HTML and local CSS/JavaScript/SVG assets.
 - `site/legal-original.json`: exact original draft privacy, terms, and disclosure bodies; no replacement legal text approved.
-- `records/`: publication-pipeline inputs. Currently empty, deliberately.
+- `records/`: publication-pipeline inputs. Six source-checked programs approved under Dan’s conditional authorization.
 - `tools/validate.py`, `tools/check_links.py`: provenance, approval binding, source checks and publication eligibility.
 - `tests/`: adversarial validation, evidence, deterministic build, link and isolation checks.
 - `tools/review_queue.py`: private queue from preserved legacy files and national research. Legacy inputs/research/queue are deliberately excluded from the public repository; run in the owning workspace.
-- `vercel.json`, `.github/workflows/ci.yml`: staged build configuration only; not deployed or connected to an active project.
+- `vercel.json`, `.github/workflows/ci.yml`: public review build configuration.
 
 ## Publication safeguards
 
@@ -44,6 +44,8 @@ A record needs source quotes from an official site and a genuinely independent n
 
 These are **build-time** checks. Before launch, scheduled source checking, rebuild delivery, and withdrawal of stale deployed output must be implemented and verified on the selected host. No production scheduler or withdrawal mechanism is currently connected. Release is blocked until that verification, legal approval, content coverage, and Dan's launch approval are recorded.
 
-Do not push internal planning, business/tax documents, unapproved candidate datasets, private source evidence, `.env`, or keys. The existing GitHub remote is public. Source publishing requires a separate review/approval; nothing was pushed during this build.
+Do not push internal planning, business/tax documents, unapproved candidate datasets, private source evidence, `.env`, or keys. The existing GitHub remote is public. Source publishing requires a separate review/approval; Dan authorized publication on November 12, 2026.
 
-Local Git hooks are installed through `core.hooksPath=.githooks`: pre-commit runs review checks; pre-push runs source checks and the release gate. Public approval remains a separate requirement.
+Local Git hooks are installed through `core.hooksPath=.githooks`: pre-commit runs review checks; pre-push checks the explicitly configured public review mode, or source checks and the strict release gate for a full launch. Public approval remains a separate requirement.
+
+Public review uses `python build.py --public-review`. Six sanitized source-verification receipts are bundled in `site/verified-evidence/`; failed local checks override them. Receipts expire after seven days on subsequent builds. There is no verified automatic withdrawal of already deployed pages yet.

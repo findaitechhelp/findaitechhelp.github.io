@@ -1,1 +1,252 @@
-[]
+[
+  {
+    "id": "elements-of-ai",
+    "name": "Elements of AI: Introduction to AI",
+    "url": "https://www.elementsofai.com/",
+    "kind": "online-course",
+    "cost": "Free",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "description": "An introductory AI course with practical exercises, designed for learners without programming experience.",
+    "ai_specific": true,
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://www.elementsofai.com/",
+        "domain_class": "official",
+        "quote": "An Introduction to AI is a free online course for everyone",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "University of Helsinki / MinnaLearn",
+        "source_relationship": "provider-owned"
+      },
+      {
+        "url": "https://www.aljazeera.com/news/2019/12/finland-offers-artificial-intelligence-christmas-gift-191217210740672.html",
+        "domain_class": "news",
+        "quote": "The course covers elementary AI concepts in a practical way",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_owner": "Al Jazeera / AFP",
+        "source_relationship": "independent news reporting; historical 2019 evidence supports identity/content, not current availability"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "d0edee7bd26e2b28b5d61895d284d6928d0cc5d6cf64802f1120e7faf513fe75"
+  },
+  {
+    "id": "cyber-seniors",
+    "name": "Cyber-Seniors: Free Tech Help",
+    "url": "https://cyberseniors.org/",
+    "kind": "senior",
+    "cost": "Free",
+    "format": "live-online",
+    "audience": [
+      "home-senior",
+      "individual"
+    ],
+    "description": "Free technology support and webinars for older adults; the provider calendar includes AI topics.",
+    "ai_specific": true,
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://cyberseniors.org/",
+        "domain_class": "official",
+        "quote": "technology support and training for older adults.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "Cyber-Seniors",
+        "source_relationship": "provider-owned"
+      },
+      {
+        "url": "https://aging.ca.gov/Programs_and_Services/Digital_Inclusion/FAQs/",
+        "domain_class": "gov-edu",
+        "quote": "Cyber-Seniors:1-844-217-3057",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_owner": "California Department of Aging",
+        "source_relationship": "independent agency FAQ referring residents to external support services"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "051cb7ab61cf66509e1d1e3703a4cbcf14c79a1996b86467a30a5b12abade56b"
+  },
+  {
+    "id": "anthropic-ai-fluency-nonprofits",
+    "name": "AI Fluency for Nonprofits",
+    "url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits",
+    "kind": "online-course",
+    "cost": "Free",
+    "format": "self-paced",
+    "audience": [
+      "nonprofits"
+    ],
+    "description": "AI collaboration training for nonprofit research, writing, data analysis, and organizational adoption.",
+    "ai_specific": true,
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits",
+        "domain_class": "official",
+        "quote": "Build practical AI collaboration skills for nonprofit work using the 4D Framework",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "Anthropic",
+        "source_relationship": "provider-owned"
+      },
+      {
+        "url": "https://blog.coursera.org/anthropic-launches-five-free-courses-on-coursera-to-help-build-ai-fluency/",
+        "domain_class": "official",
+        "quote": "AI Fluency for Nonprofits",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "Coursera",
+        "source_relationship": "course distribution platform; not independent"
+      },
+      {
+        "url": "https://www.cicf.org/resource/qa-using-ai-at-your-nonprofit-without-a-tech-team-or-a-lawyer/",
+        "domain_class": "official",
+        "quote": "AI Fluency for Nonprofits, a free course from Anthropic and GivingTuesday",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_owner": "Central Indiana Community Foundation",
+        "source_relationship": "independent original interview and recommendations, not course owner/platform"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "07c5797b9ee9649b2bce9fdc03ce5af9a3004ffe650738499ac0955dd9f7f7eb"
+  },
+  {
+    "id": "google-ai-professional",
+    "name": "Google AI Professional Certificate",
+    "url": "https://grow.google/ai-professional/",
+    "kind": "online-course",
+    "cost": "Check provider; limited-time scholarship options",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "description": "Hands-on AI learning for workplace planning, communication, analysis, and building reusable tools.",
+    "ai_specific": true,
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://grow.google/ai-professional/",
+        "domain_class": "official",
+        "quote": "Google AI Professional Certificate",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "Google",
+        "source_relationship": "provider-owned"
+      },
+      {
+        "url": "https://www.zdnet.fr/actualites/vous-pouvez-obtenir-gratuitement-le-certificat-professionnel-google-ai-et-je-vous-le-recommande-vivement-500568.htm",
+        "domain_class": "news",
+        "quote": "Le certificat professionnel Google en IA n’est techniquement pas gratuit.",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_owner": "ZDNET France (publication; corporate ownership not audited)",
+        "source_relationship": "independent first-person review, translated from ZDNET; August 2026"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "b152e20ad8d2bfcdd608650def7f7e7b6d41bdc32faa90426ee7dc3c85b22bce"
+  },
+  {
+    "id": "openai-academy",
+    "name": "OpenAI Academy",
+    "url": "https://academy.openai.com/",
+    "kind": "online-course",
+    "cost": "Free",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business",
+      "teachers",
+      "nonprofits"
+    ],
+    "description": "AI workshops, tutorials, and courses for practical workplace and everyday uses.",
+    "ai_specific": true,
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://academy.openai.com/",
+        "domain_class": "official",
+        "quote": "Unlock the opportunities of the AI era",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "OpenAI",
+        "source_relationship": "provider-owned"
+      },
+      {
+        "url": "https://www.cicf.org/resource/qa-using-ai-at-your-nonprofit-without-a-tech-team-or-a-lawyer/",
+        "domain_class": "official",
+        "quote": "OpenAI Academy, which has free workshops and tutorials.",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_owner": "Central Indiana Community Foundation",
+        "source_relationship": "independent original interview and recommendations, not course owner/platform"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "12d01db1b1cdcbd1924bd7903a2e85f3c01ad26d34c56daf42e42189846e15d5"
+  },
+  {
+    "id": "huggingface-ai-agents",
+    "name": "Hugging Face AI Agents Course",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "kind": "online-course",
+    "cost": "Free",
+    "format": "self-paced",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "description": "Hands-on course on understanding and building AI agents with open-source frameworks.",
+    "ai_specific": true,
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+        "domain_class": "official",
+        "quote": "This free course will take you on a journey",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "source_owner": "Hugging Face",
+        "source_relationship": "provider-published"
+      },
+      {
+        "url": "https://impactai.beehiiv.com/p/your-personal-agent-keeps-working-after-you-log-off-pcdn-ai-for-impact-newsletter-october-9-10-2026",
+        "domain_class": "news",
+        "quote": "AI Agents Course is free, certificate included",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "source_owner": "PCDN AI for Impact",
+        "source_relationship": "external authored editorial"
+      }
+    ],
+    "status": "approved",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "7cbd43ef3abcaf4aba2b268274a60514b1dd5e75ab96421c9565270f6fe07b2c"
+  }
+]

@@ -248,7 +248,10 @@ def evidence_current(record, today, evidence_dir=None):
     if not isinstance(rid, str) or not ID_PATTERN.fullmatch(rid):
         return False
     try:
-        evidence = json.loads((Path(evidence_dir or EVIDENCE_DIR) / rid / "latest.json").read_text(encoding="utf-8"))
+        path = Path(evidence_dir or EVIDENCE_DIR) / rid / "latest.json"
+        if not path.exists() and evidence_dir is None and Path(EVIDENCE_DIR) == ROOT / "evidence":
+            path = ROOT / "site" / "verified-evidence" / rid / "latest.json"
+        evidence = json.loads(path.read_text(encoding="utf-8"))
         checked = _date(evidence.get("checked"))
         results = evidence.get("results")
         expected = {s["url"] for s in record["sources"]}

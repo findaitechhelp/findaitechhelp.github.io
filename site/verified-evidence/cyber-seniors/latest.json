@@ -1,0 +1,26 @@
+{
+  "record_id": "cyber-seniors",
+  "checked": "2026-11-12",
+  "sources_sha256": "c6e168fcb406b86ba0f3e57dd984d560b9f734031c84a9bcabdbe6b7a5e0d2a1",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://cyberseniors.org/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://cyberseniors.org/",
+      "sha256": "4c76cbfe3d0fd913e9d13da0793eec8646af04a31db5a9e7c2b4585c3913f384",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://aging.ca.gov/Programs_and_Services/Digital_Inclusion/FAQs/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://aging.ca.gov/Programs_and_Services/Digital_Inclusion/FAQs/",
+      "sha256": "ba527424d0258a77d2df1c68644255952e4d8b336af35965b93dbd5c70e7d5de",
+      "domain_unchanged": true
+    }
+  ]
+}

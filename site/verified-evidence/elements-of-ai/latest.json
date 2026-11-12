@@ -1,0 +1,26 @@
+{
+  "record_id": "elements-of-ai",
+  "checked": "2026-11-12",
+  "sources_sha256": "84f436e689ce446fdc5e4bbd873cb51a2df00f497b5e2e497522cbf5cb8cd8ba",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://www.elementsofai.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.elementsofai.com/",
+      "sha256": "8299e3bac8fea865179bd345ed5271e33faa3ebbdf52bc72a2786b1b093f6244",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.aljazeera.com/news/2019/12/finland-offers-artificial-intelligence-christmas-gift-191217210740672.html",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.aljazeera.com/news/2019/12/18/finland-offers-artificial-intelligence-course-as-christmas-gift/?taid=5df98bc8c7182b00010cf97d&utm_campaign=trueAnthem%253A+Trending+Content&utm_medium=trueAnthem&utm_source=twitter",
+      "sha256": "22539d19ae5bb3e93dd8000d479e8c649cae44b8d67ab57d36638de78ac0bd8a",
+      "domain_unchanged": true
+    }
+  ]
+}

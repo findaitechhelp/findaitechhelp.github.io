@@ -1,0 +1,35 @@
+{
+  "record_id": "anthropic-ai-fluency-nonprofits",
+  "checked": "2026-11-12",
+  "sources_sha256": "163595bfbbcebc322e2499ee31d77fd8e6a285c400e99af6e15c2fd731e1ccca",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://academy.claude.com/courses/ai-fluency-for-nonprofits",
+      "sha256": "d195bc977972e1738bdc4e86d094703c80aa92ec9bed81874e212f42e6d3da44",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://blog.coursera.org/anthropic-launches-five-free-courses-on-coursera-to-help-build-ai-fluency/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://blog.coursera.org/anthropic-launches-five-free-courses-on-coursera-to-help-build-ai-fluency/",
+      "sha256": "c2de4fca04403243e3bd5443e2619ead4e69c5b2b58fea6b3f3bf069b528fd9c",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cicf.org/resource/qa-using-ai-at-your-nonprofit-without-a-tech-team-or-a-lawyer/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cicf.org/resource/qa-using-ai-at-your-nonprofit-without-a-tech-team-or-a-lawyer/",
+      "sha256": "d4fca868060e27c583300617264def831aa70331a95f5bdc8976cdf0db00b2f0",
+      "domain_unchanged": true
+    }
+  ]
+}

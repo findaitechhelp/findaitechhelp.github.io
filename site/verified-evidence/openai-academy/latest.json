@@ -1,0 +1,26 @@
+{
+  "record_id": "openai-academy",
+  "checked": "2026-11-12",
+  "sources_sha256": "b99ae3377ee055ca26971de4d955d05d6e398cbb9543c31c42a5524013d0725a",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://academy.openai.com/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://academy.openai.com/",
+      "sha256": "bdf765e62605cf3153e06059fb348d20f742c6d6d6a0786ba857daef0295ec87",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.cicf.org/resource/qa-using-ai-at-your-nonprofit-without-a-tech-team-or-a-lawyer/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.cicf.org/resource/qa-using-ai-at-your-nonprofit-without-a-tech-team-or-a-lawyer/",
+      "sha256": "9c3c9b06b8af9bbc1bcd602f6784d15f36f092591c47eada98139ec139a4aadb",
+      "domain_unchanged": true
+    }
+  ]
+}

@@ -18,7 +18,11 @@ class BuildTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.temp=tempfile.TemporaryDirectory();cls.output=Path(cls.temp.name)/'first'
-        cls.today=dt.date(2026,11,12);cls.report=builder.build(cls.today,output=cls.output)
+        cls.today=dt.date(2026,11,12)
+        cls.fixture_records=Path(cls.temp.name)/'records';cls.fixture_records.mkdir()
+        for kind in ['providers','programs','events','resources']:
+            (cls.fixture_records/(kind+'.json')).write_text('[]',encoding='utf-8')
+        cls.report=builder.build(cls.today,output=cls.output,records_dir=cls.fixture_records)
     @classmethod
     def tearDownClass(cls):cls.temp.cleanup()
     def test_links_metadata_headings_and_isolation(self):self.assertEqual(check_site(self.output),[])
@@ -35,10 +39,10 @@ class BuildTests(unittest.TestCase):
         for path,(_,body) in builder.original_legal().items():self.assertIn(body,(self.output/path.strip('/')/'index.html').read_text(encoding='utf-8'))
     def test_release_refuses_unapproved_and_preserves_output(self):
         before=(self.output/'index.html').read_bytes()
-        with self.assertRaisesRegex(ValueError,'RELEASE BLOCKED'):builder.build(self.today,release=True,output=self.output)
+        with self.assertRaisesRegex(ValueError,'RELEASE BLOCKED'):builder.build(self.today,records_dir=self.fixture_records,release=True,output=self.output)
         self.assertEqual(before,(self.output/'index.html').read_bytes())
     def test_deterministic_build(self):
-        second=Path(self.temp.name)/'second';builder.build(self.today,output=second)
+        second=Path(self.temp.name)/'second';builder.build(self.today,records_dir=self.fixture_records,output=second)
         first_hash={str(f.relative_to(self.output)):hashlib.sha256(f.read_bytes()).hexdigest() for f in self.output.rglob('*') if f.is_file()}
         second_hash={str(f.relative_to(second)):hashlib.sha256(f.read_bytes()).hexdigest() for f in second.rglob('*') if f.is_file()}
         self.assertEqual(first_hash,second_hash)
@@ -58,11 +62,11 @@ class BuildTests(unittest.TestCase):
             self.assertIn("Synthetic alias test",pages["/free-ai-training/"+slug+"/"]["body"])
 
     def test_unsafe_output_rejected(self):
-        with self.assertRaisesRegex(ValueError,'Unsafe output'):builder.build(self.today,output=ROOT/'records')
+        with self.assertRaisesRegex(ValueError,'Unsafe output'):builder.build(self.today,records_dir=self.fixture_records,output=ROOT/'records')
     def test_repeated_custom_output_build_keeps_history_on_same_drive(self):
         target=Path(self.temp.name)/'repeat'
-        builder.build(self.today,output=target)
-        builder.build(self.today,output=target)
+        builder.build(self.today,records_dir=self.fixture_records,output=target)
+        builder.build(self.today,records_dir=self.fixture_records,output=target)
         self.assertTrue((target/'index.html').is_file())
         self.assertTrue((target.parent/'.build-history'/target.name).is_dir())
     def test_all_audience_hubs_are_linked_from_online(self):

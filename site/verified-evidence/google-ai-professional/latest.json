@@ -1,0 +1,26 @@
+{
+  "record_id": "google-ai-professional",
+  "checked": "2026-11-12",
+  "sources_sha256": "b6100c4c3a1404219f470aaa85369c7dd7764f63d2b780f9a598a1b2d613ac50",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://grow.google/ai-professional/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://grow.google/ai-professional/",
+      "sha256": "ff106f4bbb2c9d8ae84327f33317c694213838a9a0358d032e5a569d2e0d850b",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.zdnet.fr/actualites/vous-pouvez-obtenir-gratuitement-le-certificat-professionnel-google-ai-et-je-vous-le-recommande-vivement-500568.htm",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.zdnet.fr/actualites/vous-pouvez-obtenir-gratuitement-le-certificat-professionnel-google-ai-et-je-vous-le-recommande-vivement-500568.htm",
+      "sha256": "f0a80d1f2ca4a2c2b5e0754ad1bff2b491fc69889bdeab7993e28de53cd911a5",
+      "domain_unchanged": true
+    }
+  ]
+}
