@@ -126,13 +126,44 @@
       box[1] += (direction === 'south' ? 1 : direction === 'north' ? -1 : 0) * box[3] * .2; draw();
     });
     const expand = document.getElementById('map-fullscreen');
-    expand.addEventListener('click', () => {
-      const expanded = explorer.classList.toggle('map-expanded');
+    const obscured = [];
+    let previousOverflow = '';
+    const setExpanded = expanded => {
+      explorer.classList.toggle('map-expanded', expanded);
       expand.setAttribute('aria-expanded', String(expanded));
       expand.textContent = expanded ? 'Close expanded map' : 'Expand map';
-    });
+      if (expanded) {
+        explorer.setAttribute('role', 'dialog');
+        explorer.setAttribute('aria-modal', 'true');
+        previousOverflow = document.body.style.overflow;
+        document.body.style.overflow = 'hidden';
+        for (let node = explorer; node.parentElement; node = node.parentElement) {
+          for (const sibling of node.parentElement.children) {
+            if (sibling !== node && sibling instanceof HTMLElement) {
+              obscured.push([sibling, sibling.inert]); sibling.inert = true;
+            }
+          }
+          if (node.parentElement === document.body) break;
+        }
+      } else {
+        explorer.removeAttribute('role'); explorer.removeAttribute('aria-modal');
+        for (const [element, wasInert] of obscured) element.inert = wasInert;
+        obscured.length = 0;
+        document.body.style.overflow = previousOverflow;
+      }
+      expand.focus();
+    };
+    expand.addEventListener('click', () => setExpanded(!explorer.classList.contains('map-expanded')));
     explorer.addEventListener('keydown', event => {
-      if (event.key === 'Escape' && explorer.classList.contains('map-expanded')) { expand.click(); expand.focus(); }
+      if (!explorer.classList.contains('map-expanded')) return;
+      if (event.key === 'Escape') { event.preventDefault(); setExpanded(false); }
+      if (event.key === 'Tab') {
+        const targets = Array.from(explorer.querySelectorAll('a[href],button,select,input,summary,[tabindex="0"]'))
+          .filter(element => !element.disabled && element.getClientRects().length > 0 && !element.closest('[hidden]'));
+        const first = targets[0], last = targets[targets.length-1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+      }
     });
     choose(params.get('state') || '', params.get('city') || '', false);
   }

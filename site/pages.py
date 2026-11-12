@@ -155,7 +155,7 @@ def make_pages(today,records,learning_review=False):
         state_records=[r for kind in ['providers','programs','resources'] for r in records[kind] if r.get('state_id')==st]
         state_ready=state_gate(state_records,state_id=st,intro=PLACE_INTROS[st],today=today)
         body=intro('AI & tech help in '+STATES[st],PLACE_INTROS[st],'State guide' if state_ready else 'State directory preview')+section('Choose a starting plan',plan_cards())+section('Local research',card(name,'Local directory research.','/'+st+'/'+city+'/','Directory preview'))
-        body+=section('Published statewide options',cards_for_records(state_records)) if state_records else paragraph('No statewide directory entries are published yet.')
+        body+=section('Published options in '+STATES[st],''.join(render('location-record',state=st,metro=esc(r.get('metro_id','')),location=esc(METROS[r['metro_id']][1] if r.get('metro_id') in METROS else r.get('location_label',STATES[st])),record=cards_for_records([r])) for r in state_records)) if state_records else paragraph('No local or statewide directory entries are published yet.')
         add('/'+st+'/','AI Classes & Training in '+STATES[st]+' — Preview','Starting plans and local directory research for '+STATES[st]+'.',body,'places',not state_ready)
     calendar=intro('Make room for something useful.','Check date, time zone, cost, eligibility, and device requirements with the organizer before signing up.','Upcoming classes')
     calendar+=event_cards(records['events']) if records['events'] else empty('No upcoming classes published yet','The class calendar is being prepared. You can choose a learning goal now.','/find/learn/','Build a learning plan')

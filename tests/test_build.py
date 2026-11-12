@@ -113,5 +113,11 @@ class BuildTests(unittest.TestCase):
         self.assertIn('class="map-state has-listings"',text)
         self.assertIn('0 programs are nationwide online options',text)
         self.assertIn('Synthetic geography fixture',text)
+        ny=dict(sample,state_id='ny',metro_id='ny-buffalo',id='synthetic-buffalo')
+        records['resources']=[ny]
+        ny_page=builder.make_pages(self.today,records)['/ny/']['body']
+        self.assertNotIn('Published statewide options',ny_page)
+        self.assertIn('Published options in New York',ny_page)
+        self.assertIn('Buffalo, New York',ny_page)
 
 if __name__=='__main__':unittest.main()
