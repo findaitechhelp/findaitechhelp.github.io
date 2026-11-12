@@ -32,8 +32,15 @@ def state_options(): return ''.join(render('option',value=k,label=esc(v)) for k,
 def guide_card(slug):
     g=GUIDES[slug]
     return card(g['title'],g['description'],'/guides/'+slug+'/',g['tag'],'Read the guide')
-def city_cards():
-    return ''.join(card(name,'Local directory research. No listings are published until review is complete.',path,'Directory preview','Explore the local page') for name,path in [('Buffalo, New York','/ny/buffalo/'),('Dallas, Texas','/tx/dallas/')])
+def city_cards(records=None):
+    records=records or {kind:[] for kind in ['providers','programs','resources']}
+    result=[]
+    for name,path,metro in [('Buffalo, New York','/ny/buffalo/','ny-buffalo'),('Dallas, Texas','/tx/dallas/','tx-dallas')]:
+        count=sum(row.get('metro_id')==metro for kind in ['providers','programs','resources'] for row in records[kind])
+        description=str(count)+' source-checked local listings. Confirm details directly.' if count else 'No local listings currently pass the publication checks. Nationwide online options are available through the map.'
+        result.append(card(name,description,path,'Local listings' if count else 'Directory preview','Explore the local page'))
+    return ''.join(result)
+
 def plan_cards(need=None):
     if need: return ''.join(card(label,note,'/find/'+need+'/'+key+'/','Choose your situation','Use this plan') for key,(label,note) in AUDIENCES.items())
     return ''.join(card(n['label'],n['summary'],'/find/'+key+'/','A practical starting point','Use this plan') for key,n in NEEDS.items())
@@ -126,7 +133,7 @@ def make_pages(today,records,learning_review=False):
     share_origin="https://findaitechhelp-preview.vercel.app" if learning_review else SITE
     pages={}
     def add(path,title,description,body,active='',noindex=False,schema=None): pages[path]=dict(title=title,description=description,body=body,active=active,noindex=noindex,schema=schema or [])
-    add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3]),location_explorer=location_explorer(records)),'find')
+    add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(records),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3]),location_explorer=location_explorer(records)),'find')
     add('/find/','Find my help — A practical AI & tech plan','Choose who needs help, what you want to do, and your state. Get a starting plan without signing up.',intro('Let’s find your next step.','A few choices. A clearer plan. No technical vocabulary required.')+render('finder',states=state_options(),plans=plan_cards()),'find',True)
     for need in NEEDS:
         add('/find/'+need+'/',NEEDS[need]['label']+' — Choose a starting plan',NEEDS[need]['summary'],build_plan(need,'individual',share_origin)+section('Choose another situation',plan_cards(need)),'find',True)
@@ -153,6 +160,7 @@ def make_pages(today,records,learning_review=False):
         providers=providers+[r for r in records['resources'] if r.get('metro_id')==metro]
         add('/'+st+'/'+city+'/','AI Classes & Training in '+name+': Free + Paid ('+str(today.year)+')','Local directory research and starting plans for AI classes and tech help in '+name+'.',place_body(name,providers,events,PLACE_INTROS[metro],city_ready),'places',not city_ready)
         state_records=[r for kind in ['providers','programs','resources'] for r in records[kind] if r.get('state_id')==st]
+        state_records.sort(key=lambda row:(not(row.get('free_option') is True or row.get('cost','').startswith('Free')),row['name'].casefold()))
         state_ready=state_gate(state_records,state_id=st,intro=PLACE_INTROS[st],today=today)
         body=intro('AI & tech help in '+STATES[st],PLACE_INTROS[st],'State guide' if state_ready else 'State directory preview')+section('Choose a starting plan',plan_cards())+section('Local research',card(name,'Local directory research.','/'+st+'/'+city+'/','Directory preview'))
         body+=section('Published options in '+STATES[st],''.join(render('location-record',state=st,metro=esc(r.get('metro_id','')),location=esc(METROS[r['metro_id']][1] if r.get('metro_id') in METROS else r.get('location_label',STATES[st])),record=cards_for_records([r])) for r in state_records)) if state_records else paragraph('No local or statewide directory entries are published yet.')
