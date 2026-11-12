@@ -63,7 +63,7 @@
     ],
     "category": "ai-training",
     "metro_id": "tx-dallas",
-    "status": "approved",
+    "status": "paused",
     "checked": "2026-11-12",
     "checker": "agent",
     "state_id": "tx",
@@ -92,6 +92,7 @@
     "ai_specific": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "2bc22005149ddd203e96be712de243a2b65ae46212c22a25fb589dc98eebdec2"
+    "approval_fingerprint": "2bc22005149ddd203e96be712de243a2b65ae46212c22a25fb589dc98eebdec2",
+    "pause_reason": "Latest independent direct source fetch returned HTTP 403 on 2026-11-12; no retry or restriction bypass."
   }
 ]

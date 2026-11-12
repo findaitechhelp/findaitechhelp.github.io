@@ -2,17 +2,18 @@
   "record_id": "tx-dallas-itecs",
   "checked": "2026-11-12",
   "sources_sha256": "84707186706a39824a7a678443cff84e2ee25190f5b6a6b3de106bb661514353",
-  "pass": true,
+  "pass": false,
   "results": [
     {
       "url": "https://itecs.ai/training",
-      "pass": true,
-      "status": 200,
-      "quote_found": true,
+      "pass": false,
+      "status": 403,
+      "quote_found": false,
       "final_url": "https://itecs.ai/training",
       "sha256": "da7b419a59bddfcd8fe186a476f9f707d0352c8ead4d07b2c9c81478d527821f",
       "domain_unchanged": true,
-      "checked": "2026-11-12"
+      "checked": "2026-11-12",
+      "error": "Latest independent direct fetch: HTTP 403 Forbidden; not retried"
     },
     {
       "url": "https://www.dmagazine.com/business-economy/2026/10/finalists-announced-d-ceos-innovation-awards-2027/",
