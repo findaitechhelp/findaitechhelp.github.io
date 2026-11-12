@@ -33,7 +33,9 @@ def city_points(areas):
     points={}
     for key,area in areas.items():
         state=area['state'];name=area['name'].split(',')[0]
-        center=data.get(state+'|'+normalized_name(name))
+        canonical=normalized_name(name)
+        canonical={'newyorkcity':'newyork','saintpaul':'stpaul','washingtondc':'washington'}.get(canonical,canonical)
+        center=data.get(state+'|'+canonical)
         if center:
             x,y=project_city(center[0],center[1],state)
             if -60<=x<=975 and 0<=y<=640:points[key]={'x':x,'y':y,'geoid':center[2]}

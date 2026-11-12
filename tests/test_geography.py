@@ -33,6 +33,10 @@ class GeographyTests(unittest.TestCase):
                 for index in polygon[0]:ring.extend(arcs[index] if index>=0 else reversed(arcs[~index]))
                 rings.append(ring)
             self.assertTrue(any(inside(point,ring) for ring in rings),city+' marker is outside its state')
+    def test_common_city_aliases_use_the_same_census_point(self):
+        points=city_points({'short':{'state':'ny','name':'New York, New York'},'long':{'state':'ny','name':'New York City, New York'}})
+        self.assertEqual(points['short'],points['long'])
+
     def test_unmatched_area_does_not_invent_a_point(self):
         self.assertEqual(city_points({'fiction':{'state':'ca','name':'No Such Synthetic City'}}),{})
 

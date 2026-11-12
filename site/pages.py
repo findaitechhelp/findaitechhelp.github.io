@@ -7,7 +7,7 @@ from urllib.parse import urlencode
 from content import STATES, NEEDS, AUDIENCES, GUIDES, QUESTIONS
 from tools.gates import city_gate, state_gate
 from geography import city_points
-LOCATIONS={**STATES,'dc':'District of Columbia'}
+from directory import LOCATIONS,METROS,local_rows,locality
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://findaitechhelp.com'
 UPDATED = '2026-11-12'
@@ -84,23 +84,13 @@ def map_content(counts=None,areas=None):
 def cards_for_records(records):
     if any(r.get('paid_relationship','none')!='none' for r in records):raise ValueError('Paid relationships require an approved separate placement; unsupported in this review build.')
     return ''.join(render('record',audience=esc(' '.join(r.get('audience',[]))),kind=esc(r.get('service_label',r.get('category',r.get('kind','Learning resource'))).replace('-',' ')),name=esc(r['name']),description=esc(r['description']),cost=esc(r.get('cost','Confirm with provider')),format=esc(r.get('format','Confirm with provider')),checked=esc(r['checked']),link=link('Visit '+r['name'],r['url'],' rel="noopener"'),sources=' · '.join(link('Official source' if source.get('domain_class') in ['official','gov-edu'] and not source.get('independent') else 'Independent source' if source.get('independent') else 'Supporting source',source['url'],' rel="noopener"') for source in r.get('sources',[]))) for r in sorted(records,key=lambda x:(not (x.get('free_option') is True or x.get('cost','').startswith('Free')),x['name'].casefold())))
-METROS={'ny-buffalo':('ny','Buffalo, New York','/ny/buffalo/'),'tx-dallas':('tx','Dallas, Texas','/tx/dallas/')}
 
 def location_explorer(records):
-    local=[]
-    for kind in ['providers','programs','resources']:
-        for row in records[kind]:
-            state=row.get('state_id') or METROS.get(row.get('metro_id'),('',))[0]
-            if state in LOCATIONS:local.append((state,row))
+    local=local_rows(records)
     counts={state:sum(st==state for st,row in local) for state in LOCATIONS}
     options=''.join(render('option',value=state,label=esc(name+' · '+str(counts[state])+' local/state listings')) for state,name in LOCATIONS.items())
     local.sort(key=lambda item:(not(item[1].get('free_option') is True or item[1].get('cost','').startswith('Free')),item[1]['name'].casefold()))
-    def area(st,row):
-        if row.get('metro_id') in METROS:
-            info=METROS[row['metro_id']];return row['metro_id'],info[1],info[2]
-        if row.get('location_slug') and row.get('location_label'):
-            return st+'-'+row['location_slug'],row['location_label'],'/locations/?state='+st+'#location-results'
-        return '',LOCATIONS[st],''
+    area=locality
     rows=''.join(render('location-record',state=st,metro=esc(area(st,row)[0]),location=esc(area(st,row)[1]),search=esc(' '.join([area(st,row)[1],row['name'],row['description'],row.get('service_label',''),row.get('kind',''),row.get('category','')])),ai='true' if row.get('ai_specific') else 'false',free='true' if row.get('free_option') or row.get('cost','').startswith('Free') else 'false',record=cards_for_records([row])) for st,row in local)
     areas={}
     for st,row in local:

@@ -121,7 +121,7 @@
         box = [x-70, y-50, 140, 100]; draw();
       }
       for (const point of markers) {
-        point.hidden = !!(selectedState && point.dataset.markerState !== selectedState);
+        point.toggleAttribute('hidden', !!(selectedState && point.dataset.markerState !== selectedState));
         point.classList.toggle('selected', point.dataset.cityMarker === selectedCity);
       }
       if (updateUrl) {

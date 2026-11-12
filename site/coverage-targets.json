@@ -1,0 +1,257 @@
+{
+  "source": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv",
+  "basis": "50 most populous incorporated places in Census Vintage 2025 estimates, SUMLEV162, ranked by POPESTIMATE2025",
+  "checked": "2026-11-12",
+  "cities": [
+    {
+      "state_id": "ny",
+      "name": "New York City",
+      "geoid": "3651000"
+    },
+    {
+      "state_id": "ca",
+      "name": "Los Angeles",
+      "geoid": "0644000"
+    },
+    {
+      "state_id": "il",
+      "name": "Chicago",
+      "geoid": "1714000"
+    },
+    {
+      "state_id": "tx",
+      "name": "Houston",
+      "geoid": "4835000"
+    },
+    {
+      "state_id": "az",
+      "name": "Phoenix",
+      "geoid": "0455000"
+    },
+    {
+      "state_id": "pa",
+      "name": "Philadelphia",
+      "geoid": "4260000"
+    },
+    {
+      "state_id": "tx",
+      "name": "San Antonio",
+      "geoid": "4865000"
+    },
+    {
+      "state_id": "ca",
+      "name": "San Diego",
+      "geoid": "0666000"
+    },
+    {
+      "state_id": "tx",
+      "name": "Dallas",
+      "geoid": "4819000"
+    },
+    {
+      "state_id": "tx",
+      "name": "Fort Worth",
+      "geoid": "4827000"
+    },
+    {
+      "state_id": "fl",
+      "name": "Jacksonville",
+      "geoid": "1235000"
+    },
+    {
+      "state_id": "tx",
+      "name": "Austin",
+      "geoid": "4805000"
+    },
+    {
+      "state_id": "ca",
+      "name": "San Jose",
+      "geoid": "0668000"
+    },
+    {
+      "state_id": "nc",
+      "name": "Charlotte",
+      "geoid": "3712000"
+    },
+    {
+      "state_id": "oh",
+      "name": "Columbus",
+      "geoid": "3918000"
+    },
+    {
+      "state_id": "in",
+      "name": "Indianapolis",
+      "geoid": "1836003"
+    },
+    {
+      "state_id": "ca",
+      "name": "San Francisco",
+      "geoid": "0667000"
+    },
+    {
+      "state_id": "wa",
+      "name": "Seattle",
+      "geoid": "5363000"
+    },
+    {
+      "state_id": "co",
+      "name": "Denver",
+      "geoid": "0820000"
+    },
+    {
+      "state_id": "tn",
+      "name": "Nashville",
+      "geoid": "4752006"
+    },
+    {
+      "state_id": "ok",
+      "name": "Oklahoma City",
+      "geoid": "4055000"
+    },
+    {
+      "state_id": "dc",
+      "name": "Washington",
+      "geoid": "1150000"
+    },
+    {
+      "state_id": "tx",
+      "name": "El Paso",
+      "geoid": "4824000"
+    },
+    {
+      "state_id": "nv",
+      "name": "Las Vegas",
+      "geoid": "3240000"
+    },
+    {
+      "state_id": "ma",
+      "name": "Boston",
+      "geoid": "2507000"
+    },
+    {
+      "state_id": "mi",
+      "name": "Detroit",
+      "geoid": "2622000"
+    },
+    {
+      "state_id": "ky",
+      "name": "Louisville",
+      "geoid": "2148006"
+    },
+    {
+      "state_id": "or",
+      "name": "Portland",
+      "geoid": "4159000"
+    },
+    {
+      "state_id": "tn",
+      "name": "Memphis",
+      "geoid": "4748000"
+    },
+    {
+      "state_id": "md",
+      "name": "Baltimore",
+      "geoid": "2404000"
+    },
+    {
+      "state_id": "wi",
+      "name": "Milwaukee",
+      "geoid": "5553000"
+    },
+    {
+      "state_id": "nm",
+      "name": "Albuquerque",
+      "geoid": "3502000"
+    },
+    {
+      "state_id": "ca",
+      "name": "Fresno",
+      "geoid": "0627000"
+    },
+    {
+      "state_id": "az",
+      "name": "Tucson",
+      "geoid": "0477000"
+    },
+    {
+      "state_id": "ca",
+      "name": "Sacramento",
+      "geoid": "0664000"
+    },
+    {
+      "state_id": "ga",
+      "name": "Atlanta",
+      "geoid": "1304000"
+    },
+    {
+      "state_id": "mo",
+      "name": "Kansas City",
+      "geoid": "2938000"
+    },
+    {
+      "state_id": "az",
+      "name": "Mesa",
+      "geoid": "0446000"
+    },
+    {
+      "state_id": "nc",
+      "name": "Raleigh",
+      "geoid": "3755000"
+    },
+    {
+      "state_id": "co",
+      "name": "Colorado Springs",
+      "geoid": "0816000"
+    },
+    {
+      "state_id": "fl",
+      "name": "Miami",
+      "geoid": "1245000"
+    },
+    {
+      "state_id": "ne",
+      "name": "Omaha",
+      "geoid": "3137000"
+    },
+    {
+      "state_id": "va",
+      "name": "Virginia Beach",
+      "geoid": "5182000"
+    },
+    {
+      "state_id": "ca",
+      "name": "Long Beach",
+      "geoid": "0643000"
+    },
+    {
+      "state_id": "ca",
+      "name": "Oakland",
+      "geoid": "0653000"
+    },
+    {
+      "state_id": "mn",
+      "name": "Minneapolis",
+      "geoid": "2743000"
+    },
+    {
+      "state_id": "ca",
+      "name": "Bakersfield",
+      "geoid": "0603526"
+    },
+    {
+      "state_id": "ok",
+      "name": "Tulsa",
+      "geoid": "4075000"
+    },
+    {
+      "state_id": "fl",
+      "name": "Tampa",
+      "geoid": "1271000"
+    },
+    {
+      "state_id": "co",
+      "name": "Aurora",
+      "geoid": "0804000"
+    }
+  ]
+}

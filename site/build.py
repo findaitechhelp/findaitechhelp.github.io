@@ -20,6 +20,7 @@ from tools.validate import validate_records,visible_records,load_and_validate
 from content import STATES,NEEDS,AUDIENCES,GUIDES,QUESTIONS
 from pages import make_pages, render, original_legal, esc, PLACE_INTROS
 from tools.gates import city_gate
+from directory import coverage_report
 SITE='https://findaitechhelp.com'
 UPDATED='2026-11-12'
 TEMPLATES=ROOT/'site'/'templates'
@@ -97,7 +98,7 @@ def build(today,release=False,output=None,records_dir=None,public_review=False):
         (staging/'llms.txt').write_text(('# Find AI Tech Help\n> Early public review; confirm listings directly. Search indexing is disabled.\n' if public_review else '# Find AI Tech Help\n> Local review build; directory coverage is not published.\n')+'\n'.join(SITE+p for p in indexable)+'\n',encoding='utf-8')
         (staging/'_headers').write_text('/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: DENY\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n/assets/*\n  Cache-Control: public, max-age=3600\n',encoding='utf-8')
         (staging/'_redirects').write_text('/buffalo-ny/ /ny/buffalo/ 301\n/dallas-tx/ /tx/dallas/ 301\n',encoding='utf-8')
-        report={'today':today.isoformat(),'mode':'public-review' if public_review else 'release' if release else 'local-review','pages':len(pages),'indexable':indexable,'visible_records':{k:len(v) for k,v in records.items()},'release_blockers':['Search launch remains disabled for this review.'] if public_review else blockers}
+        report={'today':today.isoformat(),'mode':'public-review' if public_review else 'release' if release else 'local-review','pages':len(pages),'indexable':indexable,'visible_records':{k:len(v) for k,v in records.items()},'coverage':coverage_report(records),'release_blockers':['Search launch remains disabled for this review.'] if public_review else blockers}
         (staging/'build-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
         previous=target.with_name(target.name+'.previous')
         if previous.exists():raise ValueError('Inspect existing output backup before rebuilding: '+str(previous))
