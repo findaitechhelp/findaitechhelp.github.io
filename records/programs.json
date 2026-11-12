@@ -536,7 +536,8 @@
     "paid_relationship": "none",
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "b127e8fa69d8eb767cded70ccbb2e23d81b5ace5f6194e2bf97df3154ab26c2d"
+    "approval_fingerprint": "c58751ab5d54351f1c90826f057201504232cc06419d471d8bb3698f3fd88478",
+    "free_option": true
   },
   {
     "id": "ia-des-moines-des-moines-library-tech-central",
@@ -983,7 +984,8 @@
     "paid_relationship": "none",
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "8369f0ddf93a9a45ec389a5dea521d1d7b5546e606effa5eb9b028211ae4fda5"
+    "approval_fingerprint": "24355251d6de87d92ad5e28e8c4c203453917bb06217f007d5477dff9dfb9dee",
+    "free_option": true
   },
   {
     "id": "ny-albany-albany-public-library-tech-help",
@@ -1103,7 +1105,8 @@
     "paid_relationship": "none",
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "7db22b6f9f4a06be0c52018dcb7e83f7fed2e6c30584267cf5504d822601e28c"
+    "approval_fingerprint": "8f4ed5628d17cc378278c22757f50f909d07fd3af3e2cd35b3a256faecd1c401",
+    "free_option": true
   },
   {
     "id": "ri-cranston-cranston-public-library-c-lab",
@@ -1263,7 +1266,8 @@
     "paid_relationship": "none",
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "106c6fac26581e69adfca5c1ca3db2b55f5a2292c01e2aac9c5304fc59052a20"
+    "approval_fingerprint": "929ec41a043b57f856f1ec8e3ece32ce6a879cacb6df8dbefa22ea551a97ad34",
+    "free_option": true
   },
   {
     "id": "pa-pittsburgh-literacy-digital",
@@ -1628,7 +1632,7 @@
     ],
     "checked": "2026-11-12",
     "checker": "agent",
-    "status": "approved",
+    "status": "paused",
     "sources": [
       {
         "url": "https://ai.umb.edu/events/",
@@ -1655,7 +1659,8 @@
     "paid_relationship": "none",
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "26f6a0ce628506e5bd866e00d2e3ec54c57025cc5367d1f5fc8cdd8c3cae94ea"
+    "approval_fingerprint": "26f6a0ce628506e5bd866e00d2e3ec54c57025cc5367d1f5fc8cdd8c3cae94ea",
+    "pause_reason": "Current late admission/microcredential eligibility is unconfirmed after required October cohort activities; hold until an actionable new-participant route is verified."
   },
   {
     "id": "ny-new-york-city-aft-ai-academy",
@@ -2166,7 +2171,7 @@
     ],
     "state_id": "nc",
     "ai_specific": true,
-    "status": "approved",
+    "status": "paused",
     "checked": "2026-11-12",
     "checker": "agent",
     "availability": "current",
@@ -2197,7 +2202,8 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "f91ae45195378e70171880cea30f49fef181d401bc21e857940c780e9c34d02a"
+    "approval_fingerprint": "f91ae45195378e70171880cea30f49fef181d401bc21e857940c780e9c34d02a",
+    "pause_reason": "Remaining November 17 one-off session requires date-based withdrawal; held until timed publication/withdrawal is verified."
   },
   {
     "id": "fl-pensacola-uwf-ai-workplace",
@@ -2666,7 +2672,7 @@
     "id": "tn-nashville-vanderbilt-ai-governance",
     "name": "Vanderbilt AI governance executive certificate",
     "url": "https://law.vanderbilt.edu/vanderbilt-ai-law-lab-ai-governance-certificate-program-for-executives/",
-    "description": "Executive certificate in AI governance and ethics is intended for organizational leaders and legal professionals. Confirm upcoming Nashville delivery, admission and fees.",
+    "description": "AI governance and ethics executive certificate for organizational leaders and legal professionals. The inaugural Nashville cohort is March 5–7, 2027; registration was open when checked.",
     "cost": "Confirm executive-program tuition and registration terms",
     "format": "in-person",
     "audience": [
@@ -2704,7 +2710,7 @@
     "service_label": "AI learning",
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "6e5b8b2c296f32b07298c6f370fde09ecc45d46c1ade04c93a28a9affd7b83c5"
+    "approval_fingerprint": "7d67882eaebb5577ac98164bdfae79e9f182bd045445c42f9ea3807cd6de9f44"
   },
   {
     "id": "ky-bowling-green-wku-ai-analytics",

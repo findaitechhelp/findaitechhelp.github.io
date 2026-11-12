@@ -4085,7 +4085,7 @@
     "state_id": "wa",
     "location_slug": "seattle",
     "location_label": "Seattle, WA",
-    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "description": "IT-support and related career training for eligible adults ages 18–29, with virtual and in-person components. Confirm current tracks and local admissions requirements.",
     "ai_specific": false,
     "status": "approved",
     "checked": "2026-11-12",
@@ -4120,7 +4120,7 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "e3224d183466b100fc18ebc748c43f6db843e1f48fa037906a977e2c11090091"
+    "approval_fingerprint": "6d91c804ecbd101ddc184cfae94ed12ef2948dae4533a5ae6459667ab1e7473a"
   },
   {
     "id": "az-phoenix-year-up-united-phoenix-it-career-training",
@@ -4129,7 +4129,7 @@
     "state_id": "az",
     "location_slug": "phoenix",
     "location_label": "Phoenix, AZ",
-    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "description": "IT-support and related career training for eligible adults ages 18–29, with virtual and in-person components. Confirm current tracks and local admissions requirements.",
     "ai_specific": false,
     "status": "approved",
     "checked": "2026-11-12",
@@ -4164,7 +4164,7 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "9f0cdb78461283f5fbb2a3feaa38f24fa5d634a2f3aec61604d40da6903c0b99"
+    "approval_fingerprint": "2cf3cd93abdc36ff650b3edeb6d21568b8b0837c056d006a5cc3ff947c35edff"
   },
   {
     "id": "ca-oakland-year-up-united-oakland-it-career-training",
@@ -4173,7 +4173,7 @@
     "state_id": "ca",
     "location_slug": "oakland",
     "location_label": "Oakland, CA",
-    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "description": "IT-support and related career training for eligible adults ages 18–29, with virtual and in-person components. Confirm current tracks and local admissions requirements.",
     "ai_specific": false,
     "status": "approved",
     "checked": "2026-11-12",
@@ -4208,7 +4208,7 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "f45c6068799eb244af888fd7d5828e39021293c63fa509f0c7ccc58fb38c835e"
+    "approval_fingerprint": "2ab7bdd7d00a9d3598e25f04dfff284dcf71a7a1059462aa91b5bc94144f4c82"
   },
   {
     "id": "ca-san-jose-year-up-united-san-jose-it-career-training",
@@ -4217,7 +4217,7 @@
     "state_id": "ca",
     "location_slug": "san-jose",
     "location_label": "San Jose, CA",
-    "description": "IT-support and related career training for eligible young adults, with virtual and in-person components. Contact admissions for current tracks, requirements and local participation details.",
+    "description": "IT support training for adults ages 18–29 with low-to-moderate income and no bachelor’s degree; U.S. work authorization, commuting distance and weekday availability are required.",
     "ai_specific": false,
     "status": "approved",
     "checked": "2026-11-12",
@@ -4252,7 +4252,7 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "bbc854d6006bf89693200475d548fd4f5a2f44f0e59039e058f13ee352f23661"
+    "approval_fingerprint": "a276d70dc622aff8c4c7f6f152f5c8e0fcfb1ccda278a2ff10780038be4b5bf2"
   },
   {
     "id": "or-portland-free-geek-digital-navigation-and-skills",
@@ -4339,7 +4339,8 @@
     "free_option": true,
     "approved_by": "dan",
     "approved_on": "2026-11-12",
-    "approval_fingerprint": "3a2545e352d5d62b735586c35faf412ef27582cad688f5996381272c987258ca"
+    "approval_fingerprint": "ca64fa39c46693ec323105b4893539d798e2528e808f1003a9fe1fe2835bb3d8",
+    "category": "computer-repair"
   },
   {
     "id": "la-baton-rouge-lsu-free-ai-literacy-essentials",
