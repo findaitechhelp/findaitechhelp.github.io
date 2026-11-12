@@ -6,6 +6,10 @@ from geography import normalized_name
 LOCATIONS={**STATES,'dc':'District of Columbia'}
 METROS={'ny-buffalo':('ny','Buffalo, New York','/ny/buffalo/'),'tx-dallas':('tx','Dallas, Texas','/tx/dallas/')}
 
+def service_categories(record):
+    """Explicit reviewed services; never infer offerings from marketing prose."""
+    return [record.get('category','learning')]+record.get('additional_categories',[])
+
 def local_rows(records):
     rows=[]
     for kind in ['providers','programs','resources']:

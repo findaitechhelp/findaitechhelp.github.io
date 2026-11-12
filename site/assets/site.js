@@ -96,14 +96,17 @@
       if (resetLimit) shownLimit = batchSize;
       const query = fold(searchField.value.trim());
       const type = kindField.value;
-      const matched = rows.filter(row =>
+      const matched = rows.filter(row => {
+        const services = row.dataset.service.split(' ');
+        return (
         (!selectedState || row.dataset.localState === selectedState) &&
         (!selectedCity || row.dataset.localMetro === selectedCity) &&
         (!query || fold(row.dataset.search).includes(query)) &&
         (!type || (type === 'ai' && row.dataset.ai === 'true') ||
           (type === 'general' && row.dataset.ai !== 'true') || (type === 'free' && row.dataset.free === 'true') ||
-          (type === 'learning' && ['learning', 'ai-training'].includes(row.dataset.service)) ||
-          type === row.dataset.service));
+          (type === 'learning' && services.some(service => ['learning', 'ai-training'].includes(service))) ||
+          services.includes(type)));
+      });
       const matchedSet = new Set(matched.slice(0, shownLimit));
       for (const row of rows) row.hidden = !matchedSet.has(row);
       const count = matched.length;

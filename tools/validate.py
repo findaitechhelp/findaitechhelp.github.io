@@ -193,6 +193,12 @@ def validate_records(records, today, kind="programs", metro_centers=None):
             errors.append(f"{label}: missing program kind")
         if "category" in record and (not isinstance(record["category"], str) or record["category"] not in CATEGORIES):
             errors.append(f"{label}: invalid category")
+        if "additional_categories" in record:
+            extras = record["additional_categories"]
+            if (not isinstance(extras, list) or not extras or
+                    any(not isinstance(value, str) or value not in CATEGORIES for value in extras) or
+                    len(set(extras)) != len(extras) or record.get("category") in extras):
+                errors.append(f"{label}: invalid additional_categories; use distinct known services beyond the primary category")
         if "availability" in record and (not isinstance(record["availability"], str) or record["availability"] not in {"current", "no_dates"}):
             errors.append(f"{label}: invalid availability")
         if "paid_relationship" in record and (not isinstance(record["paid_relationship"], str) or record["paid_relationship"] not in {"none", "affiliate", "referral", "sponsor", "own"}):

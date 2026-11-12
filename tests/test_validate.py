@@ -65,6 +65,20 @@ class ValidationTests(unittest.TestCase):
         self.assert_bad(lambda r: r.update(approved_by="agent"), "requires Dan")
         self.assert_bad(lambda r: r.update(approved_on="2026-11-13"), "requires Dan")
 
+    def test_additional_services_require_known_distinct_categories(self):
+        for extras in ['computer-repair', [], ['unknown'], [{}], ['it-support', 'it-support'], ['ai-training']]:
+            with self.subTest(extras=extras):
+                row = record(); row.update(category='ai-training', additional_categories=extras)
+                fixture_approval(row)
+                self.assertTrue(any('additional_categories' in error for error in v.validate_records([row], TODAY)))
+        row = record(); row.update(category='ai-training', additional_categories=['it-support', 'computer-repair'])
+        fixture_approval(row)
+        self.assertEqual([], v.validate_records([row], TODAY))
+
+    def test_service_changes_invalidate_existing_approval(self):
+        row = record(); row['additional_categories'] = ['it-support']
+        self.assertTrue(any('approval fingerprint' in error for error in v.validate_records([row], TODAY)))
+
     def test_stale_and_future_dates(self):
         self.assert_bad(lambda r: r.update(checked="2026-01-01"), "stale")
         self.assert_bad(lambda r: r.update(checked="2026-11-13"), "future checked")
