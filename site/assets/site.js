@@ -101,7 +101,9 @@
         (!selectedCity || row.dataset.localMetro === selectedCity) &&
         (!query || fold(row.dataset.search).includes(query)) &&
         (!type || (type === 'ai' && row.dataset.ai === 'true') ||
-          (type === 'general' && row.dataset.ai !== 'true') || (type === 'free' && row.dataset.free === 'true')));
+          (type === 'general' && row.dataset.ai !== 'true') || (type === 'free' && row.dataset.free === 'true') ||
+          (type === 'learning' && ['learning', 'ai-training'].includes(row.dataset.service)) ||
+          type === row.dataset.service));
       const matchedSet = new Set(matched.slice(0, shownLimit));
       for (const row of rows) row.hidden = !matchedSet.has(row);
       const count = matched.length;
