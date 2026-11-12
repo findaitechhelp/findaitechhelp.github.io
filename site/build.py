@@ -4,6 +4,7 @@ import argparse
 import ast
 import datetime as dt
 import html
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -24,6 +25,15 @@ from directory import coverage_report
 SITE='https://findaitechhelp.com'
 UPDATED='2026-11-12'
 TEMPLATES=ROOT/'site'/'templates'
+
+def asset_fingerprint(paths):
+    """Version shared UI assets consistently across Windows and Git line endings."""
+    digest=hashlib.sha256()
+    for path in paths:
+        content=path.read_bytes().replace(b'\r\n',b'\n')
+        digest.update(len(content).to_bytes(8,'big'))
+        digest.update(content)
+    return digest.hexdigest()[:16]
 
 def hosting_headers(release=False):
     """Cloudflare Pages static headers; review mode must remain nonindexable."""
@@ -66,6 +76,7 @@ def release_blockers(records,pages,today=None):
 
 def build(today,release=False,output=None,records_dir=None,public_review=False):
     if release and public_review:raise ValueError('Choose release or public review, not both.')
+    asset_version=asset_fingerprint([ROOT/'site'/'assets'/name for name in ['site.css','site.js','explorer.js']])
     records=load_records(today,records_dir);pages=make_pages(today,records,learning_review=public_review);blockers=release_blockers(records,pages,today=today)
     if release and blockers:raise ValueError('RELEASE BLOCKED:\n- '+'\n- '.join(blockers))
     if public_review:
@@ -93,7 +104,7 @@ def build(today,release=False,output=None,records_dir=None,public_review=False):
             schema=render('schema',json=json.dumps([org,webpage,breadcrumb]+page['schema'],ensure_ascii=False).replace('<','\\u003c'))
             active={f'active_{n}':' aria-current="page"' if page['active']==n else '' for n in ['find','online','places','guides']}
             noindex=not release or page['noindex']
-            document=render('base',title=esc(page['title']),description=esc(page['description']),canonical=esc(SITE+path),robots='noindex,follow' if noindex else 'index,follow',body=(render('notice',heading='Learning and testing preview',text='This noncommercial preview has no sales, affiliate links, ads, or payments. Listings show their source-check date; confirm details directly. Local directories are still being researched.',extra='') if public_review else '')+page['body'],schema=schema,year=today.year,og_image=SITE+'/assets/social-card.svg',og_type='article' if path.startswith('/guides/') and path!='/guides/' else 'website',money_link='' if public_review else render('link',url='/how-we-make-money/',label='How we make money',attributes=''),**active)
+            document=render('base',asset_version=asset_version,title=esc(page['title']),description=esc(page['description']),canonical=esc(SITE+path),robots='noindex,follow' if noindex else 'index,follow',body=(render('notice',heading='Learning and testing preview',text='This noncommercial preview has no sales, affiliate links, ads, or payments. Listings show their source-check date; confirm details directly. Local directories are still being researched.',extra='') if public_review else '')+page['body'],schema=schema,year=today.year,og_image=SITE+'/assets/social-card.svg',og_type='article' if path.startswith('/guides/') and path!='/guides/' else 'website',money_link='' if public_review else render('link',url='/how-we-make-money/',label='How we make money',attributes=''),**active)
             dest=staging/path.strip('/')/'index.html' if path.endswith('/') else staging/path.strip('/')
             dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(document,encoding='utf-8',newline='\n')
             if not noindex:indexable.append(path)
