@@ -86,6 +86,8 @@ class BuildTests(unittest.TestCase):
         about=(target/'about'/'index.html').read_text(encoding='utf-8')
         self.assertNotIn('Our own service',about)
         self.assertNotIn('Ask Dan about training',about)
+        plan=(target/'find'/'learn'/'individual'/'index.html').read_text(encoding='utf-8')
+        self.assertIn('https%3A%2F%2Ffindaitechhelp-preview.vercel.app%2Ffind%2Flearn%2Findividual%2F',plan)
         for route in ['privacy','terms','how-we-make-money']:self.assertFalse((target/route).exists())
         for file in target.rglob('*.html'):
             text=file.read_text(encoding='utf-8');self.assertIn('Learning and testing preview',text)

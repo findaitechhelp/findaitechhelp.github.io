@@ -38,11 +38,11 @@ def plan_cards(need=None):
     if need: return ''.join(card(label,note,'/find/'+need+'/'+key+'/','Choose your situation','Use this plan') for key,(label,note) in AUDIENCES.items())
     return ''.join(card(n['label'],n['summary'],'/find/'+key+'/','A practical starting point','Use this plan') for key,n in NEEDS.items())
 
-def build_plan(need,audience):
+def build_plan(need,audience,site_url=SITE):
     n=NEEDS[need]; label,note=AUDIENCES[audience]
     steps=''.join(render('step',number=f'{i:02}',heading=esc(h),text=esc(t)) for i,(h,t) in enumerate(n['steps'],1))
     links=guide_card(n['guide'])+card('Learning online','Compare remote and self-paced learning.','/online/','Anywhere')+card('Change your plan','Choose another situation or type of help.','/find/','Your next step')
-    email_body='\n\n'.join([n['heading'],label,note]+[str(i)+'. '+h+': '+t for i,(h,t) in enumerate(n['steps'],1)]+QUESTIONS+[SITE+'/find/'+need+'/'+audience+'/'])
+    email_body='\n\n'.join([n['heading'],label,note]+[str(i)+'. '+h+': '+t for i,(h,t) in enumerate(n['steps'],1)]+QUESTIONS+[site_url+'/find/'+need+'/'+audience+'/'])
     email=link('Email this plan to myself','mailto:?'+urlencode({'subject':'My AI and tech help starting plan','body':email_body}))
     return intro(n['heading'],note,label)+render('plan',need=need,audience=audience,heading=esc(n['label']),summary=esc(n['summary']),steps=steps,questions=listing(QUESTIONS),cost=esc(n['cost']),safety=esc(n['safety']),links=links,email_link=email)
 
@@ -95,13 +95,14 @@ def original_legal():
     return json.loads((ROOT/'site'/'legal-original.json').read_text(encoding='utf-8'))
 
 def make_pages(today,records,learning_review=False):
+    share_origin="https://findaitechhelp-preview.vercel.app" if learning_review else SITE
     pages={}
     def add(path,title,description,body,active='',noindex=False,schema=None): pages[path]=dict(title=title,description=description,body=body,active=active,noindex=noindex,schema=schema or [])
     add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3])),'find')
     add('/find/','Find my help — A practical AI & tech plan','Choose who needs help, what you want to do, and your state. Get a starting plan without signing up.',intro('Let’s find your next step.','A few choices. A clearer plan. No technical vocabulary required.')+render('finder',states=state_options(),plans=plan_cards()),'find',True)
     for need in NEEDS:
-        add('/find/'+need+'/',NEEDS[need]['label']+' — Choose a starting plan',NEEDS[need]['summary'],build_plan(need,'individual')+section('Choose another situation',plan_cards(need)),'find',True)
-        for audience in AUDIENCES: add('/find/'+need+'/'+audience+'/',NEEDS[need]['label']+' — '+AUDIENCES[audience][0],NEEDS[need]['summary'],build_plan(need,audience),'find',True)
+        add('/find/'+need+'/',NEEDS[need]['label']+' — Choose a starting plan',NEEDS[need]['summary'],build_plan(need,'individual',share_origin)+section('Choose another situation',plan_cards(need)),'find',True)
+        for audience in AUDIENCES: add('/find/'+need+'/'+audience+'/',NEEDS[need]['label']+' — '+AUDIENCES[audience][0],NEEDS[need]['summary'],build_plan(need,audience,share_origin),'find',True)
     locations=intro('Start where you are.','Local learning, online options, or a clearer plan. Choose the route that fits you.','Near you, or anywhere')+render('locations',states=state_options(),map=map_content(),cities=city_cards())
     add('/locations/','AI & tech help by location — Find AI Tech Help','Choose any U.S. state for a starting plan, or explore Buffalo and Dallas directory research.',locations,'places')
     add('/states/','Browse places — Find AI Tech Help','Choose a state for a starting plan or explore local directory research.',locations,'places',True)
