@@ -124,7 +124,8 @@ class BuildTests(unittest.TestCase):
 
     def test_learning_review_omits_sales_and_legal_drafts(self):
         target=Path(self.temp.name)/'learning-review'
-        report=builder.build(self.today,records_dir=self.fixture_records,output=target,public_review=True)
+        with patch.dict(os.environ,{},clear=True):
+            report=builder.build(self.today,records_dir=self.fixture_records,output=target,public_review=True)
         self.assertEqual(report['indexable'],[])
         self.assertEqual(check_site(target),[])
         about=(target/'about'/'index.html').read_text(encoding='utf-8')
