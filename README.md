@@ -32,7 +32,7 @@ Normal builds are nonindexable review output. `python build.py --release` intent
 - `site/build.py`, `site/pages.py`, `site/content.py`: orchestration and original editorial guidance.
 - `site/templates/`, `site/assets/`: HTML and local CSS/JavaScript/SVG assets.
 - `site/legal-original.json`: exact original draft privacy, terms, and disclosure bodies; no replacement legal text approved.
-- `records/`: publication-pipeline inputs. Six source-checked programs approved under Dan’s conditional authorization.
+- `records/`: publication-pipeline inputs. Source-checked local/state resources and nationwide programs approved under Dan’s conditional authorization.
 - `tools/validate.py`, `tools/check_links.py`: provenance, approval binding, source checks and publication eligibility.
 - `tests/`: adversarial validation, evidence, deterministic build, link and isolation checks.
 - `tools/review_queue.py`: private queue from preserved legacy files and national research. Legacy inputs/research/queue are deliberately excluded from the public repository; run in the owning workspace.
@@ -48,7 +48,10 @@ Do not push internal planning, business/tax documents, unapproved candidate data
 
 Local Git hooks are installed through `core.hooksPath=.githooks`: pre-commit runs review checks; pre-push checks the explicitly configured public review mode, or source checks and the strict release gate for a full launch. Public approval remains a separate requirement.
 
-Public review uses `python build.py --public-review`. Six sanitized source-verification receipts are bundled in `site/verified-evidence/`; failed local checks override them. Receipts expire after seven days on subsequent builds. There is no verified automatic withdrawal of already deployed pages yet.
+Public review uses `python build.py --public-review`. Sanitized source-verification receipts are bundled in `site/verified-evidence/`; failed local checks override them. Receipts expire after seven days on subsequent builds. There is no verified automatic withdrawal of already deployed pages yet.
 
 
 City-marker coordinates are representative geographic points from the [2026 U.S. Census Gazetteer](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html), not provider addresses. State outlines are US Atlas Census-derived geometry. The mathematical Albers projection matches the [US Atlas configuration](https://github.com/topojson/us-atlas) and [D3 geographic projection parameters](https://github.com/d3/d3-geo/tree/main/src/projection); no mapping dependency is installed.
+
+
+The national explorer supports state/city selection, Census city dots, topic search, AI/general/free filters, and progressive result pagination. All entries remain in static HTML for no-JavaScript access. `build-report.json` reports actual coverage against the 50 most populous incorporated places in Census Vintage2025 estimates; this measures geographic breadth, not depth of AI offerings or provider quality.
