@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+"""Local review commits must pass the data, test, build, and link checks."""
+import subprocess
+import sys
+
+for command in [
+    [sys.executable, 'tools/validate.py'],
+    [sys.executable, '-m', 'unittest', 'discover', 'tests'],
+    [sys.executable, 'build.py'],
+    [sys.executable, 'tools/check_site.py'],
+]:
+    result = subprocess.run(command)
+    if result.returncode:
+        raise SystemExit(result.returncode)

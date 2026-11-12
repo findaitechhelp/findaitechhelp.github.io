@@ -1,0 +1,14 @@
+{
+  "/privacy/": [
+    "Privacy policy",
+    "<h1>Privacy policy</h1>\n<p>[DRAFT — to be reviewed by a lawyer before the recommendation form goes live.]</p>\n<p>We use privacy-friendly Cloudflare Web Analytics (no cookies, no personal profiles). If you contact us or use the recommendation form, we collect only what you type (name, email, city, what you need). We use it to answer you and, only if you tick the consent box, to share your request with the specific provider(s) we name to you — which may include our own training service. We don't sell lists of emails. Ask us to delete your data any time: hello@findaitechhelp.com.</p>\n<h2 id=\"do-not-sell\">Do Not Sell or Share My Personal Information</h2><p>Email hello@findaitechhelp.com with the subject \"Do not sell\" and we will not share your request with any provider.</p>"
+  ],
+  "/terms/": [
+    "Terms of use",
+    "<h1>Terms of use</h1><p>[DRAFT — lawyer review pending.] Information is provided as-is for general guidance. We check listings carefully but businesses change; confirm details directly before you hire anyone. Listings are not endorsements. Paid links and sponsors are labelled.</p>"
+  ],
+  "/how-we-make-money/": [
+    "How we make money",
+    "<h1>How we make money</h1>\n<p>Listings are free and we never charge a business to be included or to change what we say about it.</p>\n<ul>\n<li><b>Paid links.</b> Some links to online services (for example freelancer marketplaces, courses or software) are affiliate links. If you buy, we may earn a commission at no extra cost to you. These are labelled \"Paid link\".</li>\n<li><b>Referral fees.</b> Some local providers pay us a referral fee if a business we introduce becomes their customer. Cards for those providers show \"We may be paid\".</li>\n<li><b>Sponsors.</b> In future, providers may pay for a clearly labelled \"Sponsored\" box. Sponsored boxes sit apart from the list and never change its order.</li>\n<li><b>Our own service.</b> Our founder also offers AI training in Western New York. It's shown in a separate \"Our own service\" box and is never ranked inside the independent list.</li>\n</ul>\n<p>We don't accept payment to change our descriptions, and we don't publish ratings.</p>"
+  ]
+}
