@@ -1,1 +1,97 @@
-[]
+[
+  {
+    "id": "arcovo-ai-buffalo",
+    "name": "Arcovo AI",
+    "url": "https://arcovo.ai/",
+    "description": "Offers AI agents for business workflows and partners with Buffalo Niagara Partnership.",
+    "cost": "Check provider",
+    "format": "varies",
+    "audience": [
+      "business"
+    ],
+    "category": "ai-consulting",
+    "metro_id": "ny-buffalo",
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "state_id": "ny",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://arcovo.ai/",
+        "quote": "AI agents for growing businesses",
+        "source_owner": "Arcovo AI",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "domain_class": "official",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://oswegocountybusiness.com/surviving-the-first-years-arcovo-ai/",
+        "quote": "a new business that helps customers integrate AI into their companies.",
+        "source_owner": "Oswego County Business Magazine",
+        "independent": true,
+        "source_relationship": "external original feature by Mary Beth Roach",
+        "domain_class": "news",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.thepartnership.org/ai/",
+        "quote": "The BNP partnered with Arcovo",
+        "source_owner": "Buffalo Niagara Partnership",
+        "independent": false,
+        "source_relationship": "local event and implementation partner",
+        "domain_class": "chamber",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "288483f2eee2c3488be0e17d6f3ed8ff9a5dad0fa5ce0cc46da549ed806130ba"
+  },
+  {
+    "id": "tx-dallas-itecs",
+    "name": "ITECS",
+    "url": "https://itecs.ai/training",
+    "description": "Offers AI workshops and guided builds for Dallas business teams.",
+    "cost": "Check provider",
+    "format": "not-specified",
+    "audience": [
+      "business"
+    ],
+    "category": "ai-training",
+    "metro_id": "tx-dallas",
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "state_id": "tx",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://itecs.ai/training",
+        "quote": "AI Training and Guided Agent Builds for Dallas Teams",
+        "source_owner": "ITECS",
+        "independent": false,
+        "source_relationship": "provider official training catalog",
+        "domain_class": "official",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://www.dmagazine.com/business-economy/2026/10/finalists-announced-d-ceos-innovation-awards-2027/",
+        "quote": "Brian Desmot, ITECS",
+        "source_owner": "D Magazine Partners",
+        "independent": true,
+        "source_relationship": "independent D CEO editorial finalist announcement; corroborates ITECS identity, not service quality",
+        "domain_class": "news",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "ai_specific": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "2bc22005149ddd203e96be712de243a2b65ae46212c22a25fb589dc98eebdec2"
+  }
+]

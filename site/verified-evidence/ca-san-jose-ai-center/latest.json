@@ -1,0 +1,26 @@
+{
+  "record_id": "ca-san-jose-ai-center",
+  "checked": "2026-11-12",
+  "sources_sha256": "37c0549a9813afc00edade27fc2451588e9ae9eb4179b2e8a9bfe1b11d74e906",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://sjlibrary.org/aicenter/aicenter",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://sjlibrary.org/aicenter/aicenter",
+      "sha256": "82167a2d55b5d0da3b582645035598613db46069cd1835719cfa842d252118d9",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://abc7news.com/post/city-san-jose-sjsu-open-public-ai-center-martin-luther-king-jr-library/18673039/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://abc7news.com/post/city-san-jose-sjsu-open-public-ai-center-martin-luther-king-jr-library/18673039/",
+      "sha256": "2a7285e666138de136949168cc6a14ce066bf35ca0a2f55d7ed1d1bd895bc631",
+      "domain_unchanged": true
+    }
+  ]
+}

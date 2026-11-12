@@ -1,0 +1,26 @@
+{
+  "record_id": "fl-orange-county-live-online-tech",
+  "checked": "2026-11-12",
+  "sources_sha256": "cf014b0af7aa29fb1de5eeb54212cab4963acf669684e5357ce842d680a0877b",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://ocls.org/live-online-classes/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://ocls.org/live-online-classes/",
+      "sha256": "807577bf44b81879915aff3b34994803d55b9dd6c9f99de0925e49c7e4bca1f6",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.clickorlando.com/news/local/2021/10/07/get-tech-savvy-with-these-5-free-classes-offered-by-the-orange-county-library-system/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.clickorlando.com/news/local/2021/10/07/get-tech-savvy-with-these-5-free-classes-offered-by-the-orange-county-library-system/",
+      "sha256": "9a8dae00327994dcf1be136e48098de213bcbf480f178c555f0544089eb9989a",
+      "domain_unchanged": true
+    }
+  ]
+}

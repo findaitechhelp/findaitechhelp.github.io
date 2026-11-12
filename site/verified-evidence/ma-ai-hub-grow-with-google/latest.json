@@ -1,0 +1,26 @@
+{
+  "record_id": "ma-ai-hub-grow-with-google",
+  "checked": "2026-11-12",
+  "sources_sha256": "1951f87b94c80b6b957ff22fe9ea77094ad6ab7aa51f884fffbce6a0d3496630",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://aihub.masstech.org/news/healey-driscoll-administration-and-massachusetts-ai-hub-announce-statewide-partnership-google",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://aihub.masstech.org/news/healey-driscoll-administration-and-massachusetts-ai-hub-announce-statewide-partnership-google",
+      "sha256": "8da10248ade457adc664204836b4f573f01a9a0e982aa557db2155796d772087",
+      "domain_unchanged": true
+    },
+    {
+      "url": "https://www.wbur.org/upnext/2026/03/03/artifical-intelligence-chatgpt-openai",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.wbur.org/upnext/2026/03/03/artifical-intelligence-chatgpt-openai",
+      "sha256": "727e710c2a4efa4c8a7b05e4cc166950d0a31ceddf67ad7767b83f8f879cc7dd",
+      "domain_unchanged": true
+    }
+  ]
+}

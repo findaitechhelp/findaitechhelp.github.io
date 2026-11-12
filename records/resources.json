@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "buffalo-state-sbdc",
+    "name": "Small Business Development Center at Buffalo State",
+    "url": "https://sbdc.buffalostate.edu/",
+    "description": "General small-business counseling and training at Buffalo State; current AI-specific classes are not confirmed.",
+    "cost": "Direct counseling is free; confirm training costs",
+    "format": "varies",
+    "audience": [
+      "business"
+    ],
+    "metro_id": "ny-buffalo",
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "state_id": "ny",
+    "availability": "current",
+    "paid_relationship": "none",
+    "sources": [
+      {
+        "url": "https://sbdc.buffalostate.edu/",
+        "quote": "There are no charges for direct counseling by the SBDC under this program.",
+        "source_owner": "SUNY Buffalo State",
+        "independent": false,
+        "source_relationship": "provider-published",
+        "domain_class": "gov-edu",
+        "fetched": "2026-11-12"
+      },
+      {
+        "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/01/15/small-business-development-centers-offer-services-to-help-new-and-existing-companies",
+        "quote": "SUNY Schools, including SUNY Canton, Oswego and Buffalo State.",
+        "source_owner": "Spectrum News",
+        "independent": true,
+        "source_relationship": "external original news reporting",
+        "domain_class": "news",
+        "fetched": "2026-11-12"
+      }
+    ],
+    "kind": "sbdc",
+    "service_label": "Small-business counseling",
+    "free_option": true,
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "bd9c97af15e98a11a1b92a9aa6c27ac2dc82866c1ed535c9e3374c900cc4221d"
+  }
+]

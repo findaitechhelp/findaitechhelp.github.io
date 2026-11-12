@@ -1,0 +1,38 @@
+{
+  "record_id": "arcovo-ai-buffalo",
+  "checked": "2026-11-12",
+  "sources_sha256": "8dc77519e5906d1c81cc40906d77dc09bb8dddd6a67f173d8083f6716e030afe",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://arcovo.ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://arcovo.ai/",
+      "sha256": "9ded70f854de1d35a0a6c9fbf35ce84d0010cd5182b3313ac3067b589efd90a5",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    },
+    {
+      "url": "https://oswegocountybusiness.com/surviving-the-first-years-arcovo-ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://oswegocountybusiness.com/surviving-the-first-years-arcovo-ai/",
+      "sha256": "0e93cc25ef8315d062d81dbd5267b08bad47a035812d7b751d9ced6ddc04f7af",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    },
+    {
+      "url": "https://www.thepartnership.org/ai/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.thepartnership.org/ai/",
+      "sha256": "fa7309aebb7379eca039f224112b0d378e1fc02ec63c24406a39fe8011c686bd",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    }
+  ]
+}

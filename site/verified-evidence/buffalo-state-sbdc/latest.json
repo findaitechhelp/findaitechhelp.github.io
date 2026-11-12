@@ -1,0 +1,28 @@
+{
+  "record_id": "buffalo-state-sbdc",
+  "checked": "2026-11-12",
+  "sources_sha256": "5b1500510876e35e8330248d8f5e307a28eb79a1a8947730b13854f135e8fcaa",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://sbdc.buffalostate.edu/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://sbdc.buffalostate.edu/",
+      "sha256": "989cfc426fbfdc491dcd84517609dcca59f98d39795237857a17f217a8b31898",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    },
+    {
+      "url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/01/15/small-business-development-centers-offer-services-to-help-new-and-existing-companies",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://spectrumlocalnews.com/nys/buffalo/news/2026/01/15/small-business-development-centers-offer-services-to-help-new-and-existing-companies",
+      "sha256": "c574ca145a4837c961c75fa1d8d166f0630a4802deac8f9bc4852bb43edbaf53",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    }
+  ]
+}

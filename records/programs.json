@@ -248,5 +248,134 @@
     "approved_by": "dan",
     "approved_on": "2026-11-12",
     "approval_fingerprint": "7cbd43ef3abcaf4aba2b268274a60514b1dd5e75ab96421c9565270f6fe07b2c"
+  },
+  {
+    "id": "ca-san-jose-ai-center",
+    "state_id": "ca",
+    "name": "San José AI Center for Civic and Social Good",
+    "url": "https://sjlibrary.org/aicenter/aicenter",
+    "description": "Library-based AI learning and hands-on workshops for San José residents, students and entrepreneurs. A valid SJPL library card or SJSU Tower Card is needed to use the center.",
+    "cost": "Free; library or university card required for center use",
+    "format": "in-person",
+    "kind": "library",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://sjlibrary.org/aicenter/aicenter",
+        "quote": "free AI training sessions are available to help you expand your skills.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "domain_class": "official",
+        "source_owner": "San José / SJSU King Library"
+      },
+      {
+        "url": "https://abc7news.com/post/city-san-jose-sjsu-open-public-ai-center-martin-luther-king-jr-library/18673039/",
+        "quote": "have launched an AI center to help the public learn about and use artificial intelligence.",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "domain_class": "news",
+        "source_owner": "ABC7 / KGO",
+        "source_relationship": "Original bylined local television reporting; no delivery role identified"
+      }
+    ],
+    "paid_relationship": "none",
+    "location_label": "San José, California",
+    "location_slug": "san-jose",
+    "service_label": "AI learning center",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9fc0a207ce9e20d180e4fc1a6ea8e49c6c7ad9792ea1e341ecf2256ef5722a64"
+  },
+  {
+    "id": "fl-orange-county-live-online-tech",
+    "state_id": "fl",
+    "name": "Orange County Library Live Online Technology Classes",
+    "url": "https://ocls.org/live-online-classes/",
+    "description": "Live online technology training covers spreadsheets, web design and other digital skills. Classes are free for eligible library cardholders; visitors pay a registration fee.",
+    "cost": "Free for district resident, fee and property-owner cardholders; visitors $10 nonrefundable registration fee",
+    "format": "live-online",
+    "kind": "library",
+    "audience": [
+      "individual",
+      "home-senior"
+    ],
+    "ai_specific": false,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://ocls.org/live-online-classes/",
+        "quote": "All live online classes are free to Orange County Library District resident cardholders, fee cardholders, and Orange County Property Owner cardholders.",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "domain_class": "official",
+        "source_owner": "Orange County Library System"
+      },
+      {
+        "url": "https://www.clickorlando.com/news/local/2021/10/07/get-tech-savvy-with-these-5-free-classes-offered-by-the-orange-county-library-system/",
+        "quote": "the Orange County Library System offers free courses",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "domain_class": "news",
+        "source_owner": "WKMG / ClickOrlando"
+      }
+    ],
+    "paid_relationship": "none",
+    "location_label": "Orange County, Florida",
+    "location_slug": "orange-county",
+    "service_label": "Technology classes",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "520b84e69a6a0cb7817657374542f8fc21e74b877497c34308eba78ebdfe965a"
+  },
+  {
+    "id": "ma-ai-hub-grow-with-google",
+    "state_id": "ma",
+    "name": "Massachusetts AI Hub Grow with Google",
+    "url": "https://aihub.masstech.org/news/healey-driscoll-administration-and-massachusetts-ai-hub-announce-statewide-partnership-google",
+    "description": "State-supported online AI training for Massachusetts residents through Grow with Google. Includes foundational training and career-oriented AI learning; review enrollment terms before signing up.",
+    "cost": "Free for Massachusetts residents",
+    "format": "self-paced",
+    "kind": "other",
+    "audience": [
+      "individual",
+      "business"
+    ],
+    "ai_specific": true,
+    "status": "approved",
+    "checked": "2026-11-12",
+    "checker": "agent",
+    "sources": [
+      {
+        "url": "https://aihub.masstech.org/news/healey-driscoll-administration-and-massachusetts-ai-hub-announce-statewide-partnership-google",
+        "quote": "all Massachusetts residents can enroll in free foundational AI training and resources",
+        "fetched": "2026-11-12",
+        "independent": false,
+        "domain_class": "official",
+        "source_owner": "Massachusetts AI Hub / MassTech"
+      },
+      {
+        "url": "https://www.wbur.org/upnext/2026/03/03/artifical-intelligence-chatgpt-openai",
+        "quote": "a partnership with Google to offer all state residents free AI training",
+        "fetched": "2026-11-12",
+        "independent": true,
+        "domain_class": "news",
+        "source_owner": "WBUR",
+        "source_relationship": "Independent public-radio reporting/interview; no program delivery role identified"
+      }
+    ],
+    "paid_relationship": "none",
+    "service_label": "AI training for residents",
+    "approved_by": "dan",
+    "approved_on": "2026-11-12",
+    "approval_fingerprint": "9c2c7a22161ccb614a56dff5ff1253aa41dc40775d0a59d34d51d55754e11471"
   }
 ]

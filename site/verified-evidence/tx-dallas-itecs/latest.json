@@ -1,0 +1,28 @@
+{
+  "record_id": "tx-dallas-itecs",
+  "checked": "2026-11-12",
+  "sources_sha256": "84707186706a39824a7a678443cff84e2ee25190f5b6a6b3de106bb661514353",
+  "pass": true,
+  "results": [
+    {
+      "url": "https://itecs.ai/training",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://itecs.ai/training",
+      "sha256": "da7b419a59bddfcd8fe186a476f9f707d0352c8ead4d07b2c9c81478d527821f",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    },
+    {
+      "url": "https://www.dmagazine.com/business-economy/2026/10/finalists-announced-d-ceos-innovation-awards-2027/",
+      "pass": true,
+      "status": 200,
+      "quote_found": true,
+      "final_url": "https://www.dmagazine.com/business-economy/2026/10/finalists-announced-d-ceos-innovation-awards-2027/",
+      "sha256": "65bf276c60abb0047235800354f5faa00a804c29f8aae9c544d91a170382c8dc",
+      "domain_unchanged": true,
+      "checked": "2026-11-12"
+    }
+  ]
+}
