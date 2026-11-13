@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#080f1c">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#16365f">
   <title>$title</title>
   <meta name="description" content="$description">
   <meta name="robots" content="$robots">
   <link rel="canonical" href="$canonical">
-  <link rel="icon" type="image/svg+xml" href="/assets/icon.svg">
+  <link rel="icon" type="image/svg+xml" href="/assets/icon.svg?v=$asset_version">
   <link rel="stylesheet" href="/assets/site.css?v=$asset_version">
   <script src="/assets/site.js?v=$asset_version" defer></script>
-  <script src="/assets/explorer.js?v=$asset_version" defer></script>
+  $map_assets
   <meta property="og:site_name" content="Find AI Tech Help">
   <meta property="og:type" content="$og_type">
   <meta property="og:title" content="$title">
@@ -23,12 +23,13 @@
   <meta name="twitter:card" content="summary_large_image">
   $schema
 </head>
-<body>
+<body class="site-shell">
+  <div class="depth-backdrop" aria-hidden="true"><span></span><span></span></div>
   <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="/" aria-label="Find AI Tech Help home">
-        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><rect x="1" y="1" width="46" height="46" rx="13" fill="#142a3d" stroke="#426379"/><path d="M24 9c-6.6 0-12 5.2-12 11.7C12 30 24 40 24 40s12-10 12-19.3C36 14.2 30.6 9 24 9Z" fill="none" stroke="#7ceddf" stroke-width="2"/><path d="m29 16-3 11-9 4 3-11Z" fill="#7ceddf"/><circle cx="23" cy="23" r="2.5" fill="#142a3d"/></svg>
+      <a class="brand" href="/" aria-label="Find AI Tech Help home"$active_home>
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="brand-gold"><stop stop-color="#c39b50"/><stop offset=".4" stop-color="#fff0b7"/><stop offset="1" stop-color="#bb8c3f"/></linearGradient></defs><g stroke="url(#brand-gold)" stroke-width="3" stroke-linecap="round"><path d="M24 6v36M6 24h36M11 11l26 26M11 37l26-26"/></g><circle cx="24" cy="24" r="5" fill="#16365f" stroke="#e9cf91" stroke-width="2"/></svg>
         <span><strong>Find AI Tech Help</strong><span class="brand-domain">FindAITechHelp.com</span></span>
       </a>
       <nav class="primary-nav" aria-label="Main navigation">
@@ -37,7 +38,7 @@
         <a href="/locations/"$active_places>Browse places</a>
         <a href="/guides/"$active_guides>Guides</a>
       </nav>
-      <a class="header-contact" href="/contact/">Ask a question <span aria-hidden="true">↗</span></a>
+      <button type="button" class="motion-toggle" id="motion-toggle" aria-pressed="false" hidden>Pause motion</button>
     </div>
   </header>
   <main id="main" class="wrap" tabindex="-1">

@@ -80,3 +80,44 @@
     button.addEventListener('click', () => window.print());
   }
 })();
+
+/* Site-wide ambient motion preference; no storage, tracking or geolocation. */
+(() => {
+  const button=document.getElementById('motion-toggle');
+  if(!button)return;
+  const reduced=matchMedia('(prefers-reduced-motion:reduce)');
+  let paused=false;
+  const sync=()=>{
+    document.body.classList.toggle('motion-paused',paused||reduced.matches||document.hidden);
+    button.setAttribute('aria-pressed',String(paused||reduced.matches));
+    button.disabled=reduced.matches;
+    button.textContent=reduced.matches?'Motion reduced':paused?'Resume motion':'Pause motion';
+  };
+  button.hidden=false;
+  button.addEventListener('click',()=>{paused=!paused;sync();});
+  reduced.addEventListener('change',sync);
+  document.addEventListener('visibilitychange',sync);
+  sync();
+  document.body.classList.add('motion-ready');
+})();
+/* Decorative pointer depth only; navigation never depends on it. */
+(()=>{
+  const fine=matchMedia('(hover:hover) and (pointer:fine)');
+  const reduced=matchMedia('(prefers-reduced-motion:reduce)');
+  let frame=0,active=null;
+  function clear(card){if(card){card.style.removeProperty('--depth-rx');card.style.removeProperty('--depth-ry');}}
+  document.addEventListener('pointermove',event=>{
+    if(!fine.matches||reduced.matches||document.body.classList.contains('motion-paused'))return;
+    const card=event.target.closest('.listing-card');
+    if(active!==card){clear(active);active=card;}
+    cancelAnimationFrame(frame);
+    if(!card)return;
+    const x=event.clientX,y=event.clientY;
+    frame=requestAnimationFrame(()=>{if(!card.isConnected)return;const box=card.getBoundingClientRect();const nx=Math.max(-1,Math.min(1,(x-box.left)/box.width*2-1));const ny=Math.max(-1,Math.min(1,(y-box.top)/box.height*2-1));card.style.setProperty('--depth-rx',(-ny*1.6).toFixed(2)+'deg');card.style.setProperty('--depth-ry',(nx*1.6).toFixed(2)+'deg');});
+  },{passive:true});
+  document.addEventListener('pointerout',event=>{const card=event.target.closest('.listing-card');if(card&&!card.contains(event.relatedTarget)){clear(card);if(active===card)active=null;}});
+  document.querySelector('#motion-toggle').addEventListener('click',()=>{cancelAnimationFrame(frame);clear(active);active=null;});
+  reduced.addEventListener('change',()=>{cancelAnimationFrame(frame);clear(active);active=null;});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden){cancelAnimationFrame(frame);clear(active);active=null;}});
+})();
+

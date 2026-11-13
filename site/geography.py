@@ -32,11 +32,13 @@ def city_points(areas):
     data=json.loads((Path(__file__).resolve().parents[1]/'data'/'place-centers.json').read_text(encoding='utf-8'))['places']
     points={}
     for key,area in areas.items():
-        state=area['state'];name=area['name'].split(',')[0]
+        # A reviewed label may name a city plus its broader metro area. Use the
+        # explicitly named primary city's existing Census point, never invent one.
+        state=area['state'];name=area['name'].split(',')[0].split(' / ')[0]
         canonical=normalized_name(name)
         canonical={'newyorkcity':'newyork','saintpaul':'stpaul','washingtondc':'washington','boise':'boisecity','lexington':'lexingtonfayette'}.get(canonical,canonical)
         center=data.get(state+'|'+canonical)
         if center:
             x,y=project_city(center[0],center[1],state)
-            if -60<=x<=975 and 0<=y<=640:points[key]={'x':x,'y':y,'geoid':center[2]}
+            if -60<=x<=975 and 0<=y<=640:points[key]={'x':x,'y':y,'geoid':center[2],'lat':center[0],'lon':center[1]}
     return points

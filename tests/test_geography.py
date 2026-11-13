@@ -40,4 +40,10 @@ class GeographyTests(unittest.TestCase):
     def test_unmatched_area_does_not_invent_a_point(self):
         self.assertEqual(city_points({'fiction':{'state':'ca','name':'No Such Synthetic City'}}),{})
 
+    def test_named_primary_city_in_metro_label_uses_existing_census_point(self):
+        for state,city,metro in [('ky','Louisville','Louisville / Jefferson County'),('nc','Raleigh','Raleigh / Research Triangle'),('va','Arlington','Arlington / Northern Virginia')]:
+            points=city_points({'city':{'state':state,'name':city},'metro':{'state':state,'name':metro}})
+            self.assertIn('city',points)
+            self.assertEqual(points['city'],points['metro'])
+
 if __name__=='__main__':unittest.main()

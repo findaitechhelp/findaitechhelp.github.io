@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 import argparse
 import json
 from pathlib import Path
+import re
 from urllib.parse import urlsplit, unquote
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -45,6 +46,14 @@ def check_site(directory):
             elif u.fragment and target in parsed and unquote(u.fragment) not in parsed[target].ids:errors.append(f'{f.relative_to(directory)}: missing anchor {href}')
     for banned in ['records','review','prototype','.git','.env','data']:
         if (directory/banned).exists():errors.append('Private/source directory exposed: '+banned)
+    # CSS assets are not visible to the HTML link parser (for example Leaflet icons).
+    for css in directory.rglob('*.css'):
+        source=re.sub(r'/\*.*?\*/','',css.read_text(encoding='utf-8'),flags=re.S)
+        for match in re.finditer(r'url\(\s*[\"\x27]?([^\)\"\x27]+)[\"\x27]?\s*\)',source):
+            href=match.group(1).strip();u=urlsplit(href)
+            if u.scheme or u.netloc or not u.path:continue
+            target=((directory/unquote(u.path).lstrip('/')) if u.path.startswith('/') else (css.parent/unquote(u.path))).resolve()
+            if not target.is_relative_to(directory) or not target.is_file():errors.append(f'{css.relative_to(directory)}: broken CSS asset {href}')
     return errors
 
 if __name__=='__main__':

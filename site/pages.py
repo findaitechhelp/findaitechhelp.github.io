@@ -10,6 +10,7 @@ from content import STATES, NEEDS, AUDIENCES, GUIDES, QUESTIONS
 from tools.gates import city_gate, state_gate
 from geography import city_points
 from directory import LOCATIONS,METROS,local_rows,locality,service_categories
+from listing import listing_facts
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://findaitechhelp.com'
 UPDATED = '2026-11-12'
@@ -118,12 +119,16 @@ def map_content(counts=None,areas=None):
             y=sum((ay+by)*(ax*by-bx*ay) for (ax,ay),(bx,by) in pairs)/(3*area)
             paths.append(render('map-path',d=''.join(ring(r) for poly in polygons for r in poly),state=state,name=esc(name),abbr=state.upper(),x=round(x,2),y=round(y,2),label=esc(name+' — '+str(counts.get(state,0))+' local/state listings'),coverage_class=' has-listings' if counts.get(state,0) else ''))
     points=city_points(areas)
-    markers=''.join(render('map-city',key=esc(key),state=areas[key]['state'],label=esc(areas[key]['name']),count=areas[key]['count'],x=point['x'],y=point['y']) for key,point in points.items())
+    markers=''.join(render('map-city',key=esc(key),state=areas[key]['state'],label=esc(areas[key]['name']),count=areas[key]['count'],x=point['x'],y=point['y'],lat=point['lat'],lon=point['lon']) for key,point in points.items())
     return render('map',paths=''.join(paths),markers=markers)
 
 def cards_for_records(records):
     if any(r.get('paid_relationship','none')!='none' for r in records):raise ValueError('Paid relationships require an approved separate placement; unsupported in this review build.')
-    return ''.join(render('record',audience=esc(' '.join(r.get('audience',[]))),kind=esc(r.get('service_label',r.get('category',r.get('kind','Learning resource'))).replace('-',' ')),name=esc(r['name']),description=esc(r['description']),cost=esc(r.get('cost','Confirm with provider')),format=esc(r.get('format','Confirm with provider')),checked=esc(r['checked']),link=link('Visit '+r['name'],r['url'],' rel="noopener"'),sources=' · '.join(link('Official source' if source.get('domain_class') in ['official','gov-edu'] and not source.get('independent') else 'Independent source' if source.get('independent') else 'Supporting source',source['url'],' rel="noopener"') for source in r.get('sources',[]))) for r in sorted(records,key=lambda x:(not (x.get('free_option') is True or x.get('cost','').startswith('Free')),x['name'].casefold())))
+    result=[]
+    for r in sorted(records,key=lambda x:(not (x.get('free_option') is True or x.get('cost','').startswith('Free')),x['name'].casefold())):
+        facts=listing_facts(r)
+        result.append(render('record',**{key:esc(value) for key,value in facts.items()},record_id=esc(r['id']),caution_hidden='' if facts['cost_caution'] else ' hidden',audience=esc(' '.join(r.get('audience',[]))),kind=esc(r.get('service_label',r.get('category',r.get('kind','Learning resource'))).replace('-',' ')),name=esc(r['name']),description=esc(r['description']),checked=esc(r['checked']),link=link('Visit website ↗',r['url'],' rel="noopener" aria-label="Visit '+esc(r['name'])+' website"'),sources=' · '.join(link('Official source' if source.get('domain_class') in ['official','gov-edu'] and not source.get('independent') else 'Independent source' if source.get('independent') else 'Supporting source',source['url'],' rel="noopener"') for source in r.get('sources',[]))))
+    return ''.join(result)
 
 def location_explorer(records):
     local=local_rows(records)
@@ -168,12 +173,12 @@ def make_pages(today,records,learning_review=False):
     share_origin=public_site_origin(learning_review)
     pages={}
     def add(path,title,description,body,active='',noindex=False,schema=None): pages[path]=dict(title=title,description=description,body=body,active=active,noindex=noindex,schema=schema or [])
-    add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(records),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3]),location_explorer=location_explorer(records)),'find')
+    add('/','Find AI Tech Help — Your next step with AI & technology','Practical starting plans for learning AI, planning a small project, and getting technology help. Free options first.',render('home',city_cards=city_cards(records),guide_cards=''.join(guide_card(k) for k in list(GUIDES)[:3]),location_explorer=location_explorer(records)),'')
     add('/find/','Find my help — A practical AI & tech plan','Choose who needs help, what you want to do, and your state. Get a starting plan without signing up.',intro('Let’s find your next step.','A few choices. A clearer plan. No technical vocabulary required.')+render('finder',states=state_options(),plans=plan_cards()),'find',True)
     for need in NEEDS:
         add('/find/'+need+'/',NEEDS[need]['label']+' — Choose a starting plan',NEEDS[need]['summary'],build_plan(need,'individual',share_origin)+section('Choose another situation',plan_cards(need)),'find',True)
         for audience in AUDIENCES: add('/find/'+need+'/'+audience+'/',NEEDS[need]['label']+' — '+AUDIENCES[audience][0],NEEDS[need]['summary'],build_plan(need,audience,share_origin),'find',True)
-    locations=intro('Find help. Move forward.','Browse AI classes, setup help and technology support across the U.S. Choose a location and the kind of help you need.','The location explorer')+location_explorer(records)
+    locations=location_explorer(records)
     add('/locations/','Explore U.S. AI & technology help by location','An interactive state map of source-checked local and statewide options, plus nationwide learning.',locations,'places')
     add('/states/','Browse places — Find AI Tech Help','Explore local and statewide listings and nationwide online learning.',locations,'places',True)
     programs=[r for r in records['programs'] if not r.get('state_id') and not r.get('metro_id') and r.get('format') in ['online','self-paced','live-online']]

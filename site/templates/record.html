@@ -1,1 +1,7 @@
-<article class="card provider" data-audience="$audience"><span class="tag">$kind</span><h3>$name</h3><p>$description</p><dl><dt>Cost</dt><dd>$cost</dd><dt>Format</dt><dd>$format</dd></dl><p class="muted">Info checked <time datetime="$checked">$checked</time> · Not a rating</p><p>$link</p><details class="source-links"><summary>Sources checked</summary><p>$sources</p></details></article>
+<article class="card provider listing-card" data-record-id="$record_id" data-audience="$audience">
+<div class="card-art" aria-hidden="true"><img src="/assets/art/learning-$art.svg?v=$art_version" alt="" width="600" height="180" loading="lazy" decoding="async"></div>
+<div class="card-meta"><span class="cost-badge $cost_kind">$cost_label</span><span class="cost-caution"$caution_hidden>$cost_caution</span></div>
+<h3>$name</h3><p class="listing-location">$location</p><div class="visual-facts"><span>$format_label</span><span>$audience_label</span></div>
+<details class="listing-details source-links"><summary>View details</summary><p>$description</p><dl><dt>Cost and conditions</dt><dd>$cost</dd><dt>Format</dt><dd>$format_label</dd><dt>For</dt><dd>$audience_label</dd><dt>Type of help</dt><dd>$kind</dd></dl><p class="muted">Info checked <time datetime="$checked">$checked</time> · Source checks are not ratings or endorsements. Confirm availability and total cost directly.</p><p class="source-label">Sources checked</p><p>$sources</p></details>
+<div class="listing-link">$link</div>
+</article>
