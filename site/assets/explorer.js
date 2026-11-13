@@ -51,8 +51,9 @@
     return {state,city,radius,type,query:(params.get('q')||'').slice(0,120)};
   };
   for (const link of explorer.querySelectorAll('[data-js-shortcut]')) link.hidden=false;
-  for (const id of ['map-controls','explore-state-control','directory-filters','map-gesture','selection-actions']) byId(id).hidden = false;
+  for (const id of ['map-controls','explore-state-control','directory-filters','map-fullscreen','selection-actions']) byId(id).hidden = false;
   map.classList.add('is-interactive');
+  let mapRows = [];
   let selectedState = '', selectedCity = '', shownLimit = 6;
   let box = [0,0,975,640];
   const constrain = () => {
@@ -91,10 +92,13 @@
     if(!entries[0].contentRect.width)return;
     viewport={width:entries[0].contentRect.width,height:entries[0].contentRect.height};lastUnit=0;draw();
   }).observe(map);
-  const fit = (state, city) => {
+  let fitFrame=0;
+  const cancelFit = () => {if(fitFrame)cancelAnimationFrame(fitFrame);fitFrame=0;};
+  const fit = (state, city, animate=true) => {
+    cancelFit();const start=[...box];
     const marker = markers.find(m => m.dataset.cityMarker===city);
     if (marker) {
-      box = [Number(marker.dataset.markerX)-100,Number(marker.dataset.markerY)-65.64,200,131.28];
+      box = [Number(marker.dataset.markerX)-40,Number(marker.dataset.markerY)-26.26,80,52.52];
     } else {
       const path = stateLinks.find(a => a.dataset.mapState===state)?.querySelector('path');
       if (!path) box = [0,0,975,640];
@@ -104,13 +108,64 @@
         box = [b.x+b.width/2-width/2,b.y+b.height/2-width*640/975/2,width,width*640/975];
       }
     }
-    draw();
+    const target=[...box];
+    if(!animate||matchMedia('(prefers-reduced-motion:reduce)').matches||document.body.classList.contains('motion-paused')){draw();return;}
+    const began=performance.now();box=start;
+    const step=now=>{const progress=Math.min(1,(now-began)/320),ease=1-Math.pow(1-progress,3);box=start.map((value,i)=>value+(target[i]-value)*ease);draw();if(progress<1)fitFrame=requestAnimationFrame(step);else fitFrame=0;};
+    fitFrame=requestAnimationFrame(step);
   };
   const tooltip = byId('map-tooltip');
-  const hideTooltip = () => { tooltip.hidden = true; };
+  let tooltipTimer=0,tooltipTrigger=null;
+  const clearTooltipRelation=()=>{if(tooltipTrigger)tooltipTrigger.removeAttribute('aria-describedby');tooltipTrigger=null;};
+  const hideTooltip = () => { clearTimeout(tooltipTimer);tooltip.hidden=true;clearTooltipRelation(); };
+  const scheduleHideTooltip = () => { clearTimeout(tooltipTimer);tooltipTimer=setTimeout(hideTooltip,160); };
+  const cityRows = key => mapRows.filter(row=>row.dataset.localMetro===key);
+  const costText = row => {
+    const badge=row.querySelector('.cost-badge')?.textContent||'Confirm cost';
+    const caution=row.querySelector('.cost-caution');
+    return badge+(caution&&!caution.hidden&&caution.textContent.trim()?' · '+caution.textContent.trim():'');
+  };
+  const serviceText = row => {
+    const types={'ai-consulting':'AI consulting','ai-training':'AI training','learning':'Classes','it-support':'IT support','computer-repair':'Computer repair'};
+    return row.dataset.service.split(' ').map(x=>types[x]).filter(Boolean).join(' / ');
+  };
+  const previewContent = (name,matching) => {
+    const content=document.createElement('div'),title=document.createElement('strong');title.textContent=name;content.append(title);
+    for(const row of matching.slice(0,3)){
+      const item=document.createElement('p'),label=document.createElement('span'),meta=document.createElement('small');
+      label.textContent=row.querySelector('h3').textContent;meta.textContent=costText(row)+' · '+serviceText(row);item.append(label,meta);content.append(item);
+    }
+    if(matching.length>3){const more=document.createElement('small');more.textContent='+'+(matching.length-3)+' more';content.append(more);}
+    if(!matching.length){const empty=document.createElement('p');empty.textContent='No matches for these filters';content.append(empty);}
+    return content;
+  };
   const showTooltip = link => {
-    tooltip.textContent = link.getAttribute('aria-label') + (link.dataset.cityMarker ? ' · Representative city point' : ' · Select to explore');
-    tooltip.hidden = false;
+    clearTimeout(tooltipTimer);clearTooltipRelation();tooltipTrigger=link;link.setAttribute('aria-describedby','map-tooltip');tooltip.replaceChildren();
+    if(link.dataset.cityMarker)tooltip.append(previewContent(link.dataset.cityName,cityRows(link.dataset.cityMarker)));
+    else tooltip.textContent=link.getAttribute('aria-label').replace(' matching local/state listings',' options');
+    tooltip.hidden=false;
+  };
+  tooltip.addEventListener('pointerenter',()=>clearTimeout(tooltipTimer));
+  tooltip.addEventListener('pointerleave',scheduleHideTooltip);
+  const showListing = row => {
+    const matching=choose(row.dataset.localState,row.dataset.localMetro,{move:false});
+    shownLimit=Math.max(6,matching.indexOf(row)+1);choose(selectedState,selectedCity,{resetLimit:false});
+    if(explorer.classList.contains('map-expanded'))setExpanded(false);
+    const details=row.querySelector('details');if(details)details.open=true;
+    const target=details?.querySelector('summary')||row.querySelector('h3');target.tabIndex=0;target.focus({preventScroll:true});
+    row.scrollIntoView({block:'center',behavior:'auto'});
+  };
+  const updateInspector = () => {
+    const inspector=byId('map-inspector'),list=byId('map-inspector-list');
+    inspector.hidden=!selectedCity;list.replaceChildren();if(!selectedCity)return;
+    byId('map-inspector-title').textContent=cities.find(c=>c.dataset.city===selectedCity)?.dataset.cityName||'Local help';
+    const matching=cityRows(selectedCity);
+    for(const row of matching){
+      const item=document.createElement('div'),button=document.createElement('button'),meta=document.createElement('small');
+      button.type='button';button.textContent=row.querySelector('h3').textContent;button.addEventListener('click',()=>showListing(row));
+      meta.textContent=costText(row)+' · '+serviceText(row);item.append(button,meta);list.append(item);
+    }
+    if(!matching.length){const empty=document.createElement('p');empty.textContent='No matches. Try All help below.';list.append(empty);}
   };
   const resetTouchMode = () => {
     touchEnabled=false;map.style.touchAction='pan-y pinch-zoom';roadWindow.style.touchAction='pan-y pinch-zoom';
@@ -130,39 +185,84 @@
     byId('road-map-note').textContent='The optional street map could not load. The regular map and all listings remain available. No automatic retry is made.';
     choose(selectedState,selectedCity,{move:true});
   };
-  const updateRoad = matched => {
+  let roadRadius=null,roadRadiusKey='',pendingFocusCity='';
+  const roadDots=new Map();
+  const focusSelectedCity=()=>{
+    if(!pendingFocusCity)return;
+    const element=roadDots.get(pendingFocusCity)?.getElement();
+    if(element){pendingFocusCity='';element.focus({preventScroll:true});}
+  };
+  const updateRoad = (context,{refit=false}={}) => {
     if(!roadActive||roadFailed)return;
     if(!window.L){roadFailure();return;}
     const center=centerByCity.get(selectedCity);
+    const animate=!matchMedia('(prefers-reduced-motion:reduce)').matches&&!document.body.classList.contains('motion-paused');
     if(!roadMap){
-      roadMap=L.map(roadWindow,{center:center?[center.lat,center.lon]:[38,-97],zoom:center?8:4,scrollWheelZoom:false,dragging:!matchMedia('(pointer:coarse)').matches,touchZoom:false,zoomAnimation:false,fadeAnimation:false,markerZoomAnimation:false});
+      roadMap=L.map(roadWindow,{center:center?[center.lat,center.lon]:[38,-97],zoom:center?11:4,scrollWheelZoom:false,dragging:!matchMedia('(pointer:coarse)').matches,touchZoom:false,zoomAnimation:animate,fadeAnimation:animate,markerZoomAnimation:true});
       tileLayer=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'});
       tileLayer.on('tileerror',roadFailure);tileLayer.addTo(roadMap);roadLayer=L.layerGroup().addTo(roadMap);
       roadWindow.style.touchAction='pan-y pinch-zoom';
+      roadMap.on('moveend',()=>updateRoad(mapRows));
     }
     else if(!roadMap.hasLayer(tileLayer))tileLayer.addTo(roadMap);
-    roadMap.invalidateSize();roadLayer.clearLayers();
-    const groups=new Map();for(const row of matched){const key=row.dataset.localMetro;if(centerByCity.has(key)){if(!groups.has(key))groups.set(key,[]);groups.get(key).push(row);}}
-    const bounds=[];
-    for(const [key,matching] of groups){
-      const point=centerByCity.get(key),marker=point.marker;bounds.push([point.lat,point.lon]);
-      const content=document.createElement('div'),heading=document.createElement('strong'),note=document.createElement('p'),button=document.createElement('button');
-      heading.textContent=marker.dataset.cityName;note.textContent=matching.length+' matching listings · '+matching.filter(row=>row.dataset.free==='true').length+' with a free option. Approximate city center.';
-      button.type='button';button.textContent='Explore this area';button.addEventListener('click',()=>choose(marker.dataset.markerState,key,{move:true}));content.append(heading,note,button);
-      const dot=L.circleMarker([point.lat,point.lon],{radius:8,weight:2,color:'#fff',fillColor:'#234e7f',fillOpacity:1}).bindPopup(content);
-      dot.on('add',()=>{const element=dot.getElement();if(!element)return;element.setAttribute('tabindex','0');element.setAttribute('role','button');element.setAttribute('aria-label',marker.dataset.cityName+', '+matching.length+' matching listings. Open details');element.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();dot.openPopup();button.focus();}});});dot.addTo(roadLayer);
+    roadMap.invalidateSize({pan:false});
+    const groups=new Map();for(const row of context){const key=row.dataset.localMetro;if(centerByCity.has(key)){if(!groups.has(key))groups.set(key,[]);groups.get(key).push(row);}}
+    const wanted=new Set();
+    for(const [city,matching]of groups){
+      const point=centerByCity.get(city),source=point.marker;
+      if(!roadMap.getBounds().pad(.05).contains([point.lat,point.lon]))continue;
+      wanted.add(city);
+      let dot=roadDots.get(city);
+      if(!dot){
+        const badge=document.createElement('span');badge.className='city-dot-count';badge.textContent=String(matching.length);
+        const icon=L.divIcon({className:'map-city-pin',html:badge,iconSize:[32,32],iconAnchor:[16,16]});
+        dot=L.marker([point.lat,point.lon],{icon,keyboard:false,autoPanOnFocus:false,title:source.dataset.cityName});
+        dot.bindTooltip(previewContent(source.dataset.cityName,matching),{direction:'top',interactive:true,className:'city-preview',opacity:1});
+        dot.on('click',event=>selectCity(source.dataset.markerState,city,{focusMap:event.originalEvent?.type==='keypress'||event.originalEvent?.detail===0}));
+        dot.on('add',()=>{const element=dot.getElement();element.setAttribute('role','button');element.tabIndex=0;element.addEventListener('focus',()=>dot.openTooltip());element.addEventListener('blur',()=>dot.closeTooltip());element.addEventListener('keydown',event=>{if(event.key===' '||event.key==='Enter'){event.preventDefault();event.stopPropagation();selectCity(source.dataset.markerState,city,{focusMap:true});}});});
+        roadDots.set(city,dot);dot.addTo(roadLayer);
+      }else dot.setTooltipContent(previewContent(source.dataset.cityName,matching));
+      const element=dot.getElement();
+      element.classList.toggle('has-free',matching.some(row=>row.dataset.free==='true'));
+      element.classList.toggle('is-selected',city===selectedCity);
+      element.querySelector('.city-dot-count').textContent=String(matching.length);
+      element.setAttribute('aria-label',source.dataset.cityName+', '+matching.length+' listings. Zoom to city');
+      element.title=source.dataset.cityName+', '+matching.length+' listings';
     }
-    const radius=Number(radiusSelect.value)||0;
-    if(center&&radius){const circle=L.circle([center.lat,center.lon],{radius:radius*1609.344,color:'#99712d',weight:2,fillOpacity:.06}).addTo(roadLayer);roadMap.fitBounds(circle.getBounds(),{padding:[20,20],maxZoom:10});}
-    else if(center)roadMap.setView([center.lat,center.lon],11);
-    else if(selectedState&&bounds.length)roadMap.fitBounds(bounds,{padding:[30,30],maxZoom:9});
-    else roadMap.setView([38,-97],4);
+    for(const [city,dot]of roadDots)if(!wanted.has(city)){if(dot.getElement()===document.activeElement)roadWindow.focus({preventScroll:true});dot.remove();roadDots.delete(city);}
+    const circleKey=selectedCity+'|'+radiusSelect.value;
+    if(circleKey!==roadRadiusKey){
+      if(roadRadius)roadRadius.remove();roadRadius=null;roadRadiusKey=circleKey;
+      if(center&&Number(radiusSelect.value))roadRadius=L.circle([center.lat,center.lon],{radius:Number(radiusSelect.value)*1609.344,color:'#99712d',weight:2,fillOpacity:.06,interactive:false}).addTo(roadLayer);
+    }
+    focusSelectedCity();
+    if(!refit)return;
+    const options={animate,duration:.45};
+    if(roadRadius)roadMap.fitBounds(roadRadius.getBounds(),{...options,padding:[20,20],maxZoom:10});
+    else if(center)roadMap.setView([center.lat,center.lon],11,options);
+    else {
+      const points=[...groups.keys()].filter(city=>!selectedState||centerByCity.get(city).marker.dataset.markerState===selectedState).map(city=>{const p=centerByCity.get(city);return[p.lat,p.lon];});
+      if(selectedState&&points.length)roadMap.fitBounds(points,{...options,padding:[30,30],maxZoom:9});else roadMap.setView([38,-97],4,options);
+    }
+  };
+  const selectCity = (state,city,{focusMap=false}={}) => {
+    const same=city===selectedCity;
+    if(focusMap)pendingFocusCity=city;
+    radiusSelect.value='0';
+    choose(state,city,{move:!same||!roadActive});
+    if(!centerByCity.has(city)||roadFailed){if(focusMap)citySelect.focus({preventScroll:true});pendingFocusCity='';return;}
+    if(!roadActive)setRoad(true);
+    else if(same&&roadMap){
+      const center=centerByCity.get(city);
+      roadMap.setView([center.lat,center.lon],Math.max(11,Math.min(14,roadMap.getZoom()+1)),{animate:!matchMedia('(prefers-reduced-motion:reduce)').matches&&!document.body.classList.contains('motion-paused')});
+    }
+    focusSelectedCity();
   };
   const setRoad = active => {
     if(active&&roadFailed)return;
     roadActive=active;roadWindow.hidden=!active;svgWindow.hidden=active;
     roadButton.setAttribute('aria-pressed',String(active));roadButton.textContent=active?'Show regular map':'Street map';roadButton.setAttribute('aria-label',active?'Show regular map':'Street map from OpenStreetMap');
-    if(!active)radiusSelect.value='0';
+    if(!active){radiusSelect.value='0';if(tileLayer)tileLayer.remove();}
     resetTouchMode();
     choose(selectedState,selectedCity,{move:true});
   };
@@ -208,9 +308,13 @@
           (type==='general' && row.dataset.ai!=='true') || (type==='free' && row.dataset.free==='true') ||
           (type==='learning' && services.some(s=>['learning','ai-training'].includes(s))) || services.includes(type));
     });
+    mapRows=rows.filter(row=>{
+      const services=row.dataset.service.split(' '),type=kind.value;
+      return (!query||fold(row.dataset.search).includes(query))&&(!type||(type==='ai'&&row.dataset.ai==='true')||(type==='general'&&row.dataset.ai!=='true')||(type==='free'&&row.dataset.free==='true')||(type==='learning'&&services.some(s=>['learning','ai-training'].includes(s)))||services.includes(type));
+    });
     const visible=new Set(matched.slice(0,shownLimit));
     const cityCounts=new Map(), stateCounts=new Map();
-    for (const row of matched) {
+    for (const row of mapRows) {
       cityCounts.set(row.dataset.localMetro,(cityCounts.get(row.dataset.localMetro)||0)+1);
       stateCounts.set(row.dataset.localState,(stateCounts.get(row.dataset.localState)||0)+1);
     }
@@ -239,7 +343,11 @@
     const name=cityLink ? cityLink.dataset.cityName : selectedState ? names.get(selectedState) : 'the United States';
     byId('location-heading').textContent=radius?'Within '+radius+' miles of '+name:'Published listings in '+name;
     byId('location-summary').textContent=matched.length+' local/state listings. Free options appear first. Confirm details directly with the organization.';
-    byId('map-status').textContent=name+': '+matched.length+' local/state listings + '+nationwide+' nationwide online programs.'+(matched.length?'':' No local matches. Change the filters or reset all filters.');
+    byId('map-status').textContent=name+': '+matched.length+' matching listings.';
+    byId('map-place-title').textContent=selectedCity?name.split(',')[0]:selectedState?names.get(selectedState):'Explore the U.S.';
+    byId('map-state-crumb').hidden=!selectedState;byId('map-state-back').textContent=selectedState?names.get(selectedState):'';
+    byId('map-city-crumb').hidden=!selectedCity;byId('map-city-crumb').textContent=selectedCity?' / '+name.split(',')[0]:'';
+    updateInspector();
     byId('location-empty').hidden=matched.length>0;
     byId('directory-pagination').hidden=!matched.length;
     byId('directory-more').hidden=matched.length<=shownLimit;
@@ -258,16 +366,19 @@
       const targetCity=link.dataset.cityMarker||link.dataset.city||'';
       link.setAttribute('href',nativeHref(targetState,targetCity));
     }
+    for(const option of stateSelect.options)if(option.value)option.textContent=names.get(option.value)+' · '+(stateCounts.get(option.value)||0);
+    for(const option of citySelect.options)if(option.value){const city=cities.find(c=>c.dataset.city===option.value);if(city)option.textContent=city.dataset.cityName+' · '+(cityCounts.get(option.value)||0);}
     if (changed || move) fit(selectedState,selectedCity);
     hideTooltip();
     const radiusNote=byId('radius-view-note');
     radiusNote.hidden=!radius||roadActive;
     radiusNote.textContent=radius?'Showing '+radius+'-mile city-center matches on the regular map. '+(roadFailed?'Street map is currently unavailable.':'Choose Street map to display the circle; no external map is loaded.') : '';
-    if(roadActive)updateRoad(matched);
+    if(roadActive)updateRoad(mapRows,{refit:changed||move});
     if(updateUrl)writeUrlState();
     return matched;
   };
-  stateSelect.addEventListener('change',()=>choose(stateSelect.value,'',{move:true}));
+  stateSelect.addEventListener('change',()=>{const state=stateSelect.value;if(roadActive)setRoad(false);choose(state,'',{move:true});});
+  byId('map-state-back').addEventListener('click',()=>{const state=selectedState;if(roadActive)setRoad(false);radiusSelect.value='0';choose(state,'',{move:true});});
   explorer.querySelector('[data-map-start]').addEventListener('click',event=>{event.preventDefault();stateSelect.focus();stateSelect.scrollIntoView({block:'center'});});
   roadButton.addEventListener('click',()=>setRoad(!roadActive));
   radiusSelect.addEventListener('change',()=>{
@@ -276,7 +387,7 @@
   });
   citySelect.addEventListener('change',()=>{
     const city=cities.find(c=>c.dataset.city===citySelect.value);
-    choose(city ? city.dataset.cityState : selectedState,city ? city.dataset.city : '',{move:true});
+    if(city)selectCity(city.dataset.cityState,city.dataset.city);else choose(selectedState,'',{move:true});
   });
   search.addEventListener('input',()=>choose(selectedState,selectedCity));
   kind.addEventListener('change',()=>choose(selectedState,selectedCity));
@@ -287,7 +398,7 @@
     search.value='';kind.value='';choose(selectedState,selectedCity);search.focus();
   });
   const reset=()=>{search.value='';kind.value='';radiusSelect.value='0';choose('','',{move:true});};
-  byId('map-reset').addEventListener('click',()=>{radiusSelect.value='0';choose('','',{move:true});});
+  byId('map-reset').addEventListener('click',()=>{if(roadActive)setRoad(false);radiusSelect.value='0';choose('','',{move:true});});
   byId('directory-reset').addEventListener('click',()=>{reset();stateSelect.focus();});
   byId('directory-more').addEventListener('click',()=>{
     const old=shownLimit;shownLimit+=6;
@@ -298,15 +409,18 @@
   for (const link of [...mapLinks,...cities]) link.addEventListener('click',event=>{
     if (suppressClick || event.defaultPrevented || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
-    choose(link.dataset.mapState || link.dataset.markerState || link.dataset.cityState,link.dataset.cityMarker || link.dataset.city || '',{move:true});
+    const city=link.dataset.cityMarker||link.dataset.city;
+    if(city)selectCity(link.dataset.markerState||link.dataset.cityState,city,{focusMap:event.detail===0});
+    else {if(roadActive)setRoad(false);choose(link.dataset.mapState,'',{move:true});}
   });
   for (const link of mapLinks) {
     link.addEventListener('pointerenter',()=>showTooltip(link));
-    link.addEventListener('pointerleave',hideTooltip);
+    link.addEventListener('pointerleave',scheduleHideTooltip);
     link.addEventListener('focus',()=>showTooltip(link));
     link.addEventListener('blur',hideTooltip);
   }
   map.addEventListener('keydown',event=>{
+    if(event.key==='Escape'){hideTooltip();return;}
     if (!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(event.key)) return;
     const targets=mapLinks.filter(link=>!link.hasAttribute('hidden'));
     event.preventDefault();
@@ -320,6 +434,7 @@
   });
   const point=(x,y)=>{const p=map.createSVGPoint();p.x=x;p.y=y;const world=p.matrixTransform(map.getScreenCTM().inverse());return {x:box[0]+(world.x-renderedBox[0])*box[2]/renderedBox[2],y:box[1]+(world.y-renderedBox[1])*box[3]/renderedBox[3]};};
   const zoom=(factor,x,y)=>{
+    cancelFit();
     const anchor=Number.isFinite(x)?point(x,y):{x:box[0]+box[2]/2,y:box[1]+box[3]/2};
     const width=Math.max(80,Math.min(975,box[2]*factor));
     const ratio=width/box[2];
@@ -350,6 +465,7 @@
   const pointers=new Map();let travel=0;
   map.addEventListener('pointerdown',event=>{
     if(event.button!==0 || (event.pointerType==='touch'&&!touchEnabled))return;
+    cancelFit();
     if(!pointers.size){suppressClick=false;travel=0;}
     pointers.set(event.pointerId,{x:event.clientX,y:event.clientY});
   });
@@ -413,6 +529,7 @@
     }
   });
   explorer.addEventListener('keydown',event=>{
+    if(event.key==='Escape'){hideTooltip();for(const dot of roadDots.values())dot.closeTooltip();}
     if(!explorer.classList.contains('map-expanded'))return;
     if(event.key==='Escape'){event.preventDefault();setExpanded(false);}
     if(event.key==='Tab'){
